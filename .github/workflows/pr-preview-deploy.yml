@@ -218,15 +218,53 @@ jobs:
         env:
           PR_NUMBER: ${{ steps.validate.outputs.number }}
           PREVIEW_DECISION: ${{ steps.validate.outputs.decision }}
+          PAGES_SHA: ${{ steps.publish.outputs.sha }}
         with:
           script: |
             const { owner, repo } = context.repo;
             const issue_number = Number(process.env.PR_NUMBER);
-            const previewUrl = `https://${owner.toLowerCase()}.github.io/${repo}/pr-preview/pr-${issue_number}/#/docs`;
+            const run = context.payload.workflow_run;
+            const repositoryUrl = `${context.serverUrl}/${owner}/${repo}`;
+            const pagesUrl = `https://${owner.toLowerCase()}.github.io/${repo}/`;
+            const previewPath = `pr-preview/pr-${issue_number}/`;
+            const deployRunUrl = `${repositoryUrl}/actions/runs/${context.runId}/attempts/${process.env.GITHUB_RUN_ATTEMPT}`;
+            const published = process.env.PREVIEW_DECISION === 'deploy';
+            const pagesSha = process.env.PAGES_SHA;
             const marker = '<!-- tohee-docs-pr-preview -->';
-            const body = process.env.PREVIEW_DECISION === 'deploy'
-              ? `${marker}\n**PR Preview**\n\n[Open documentation preview](${previewUrl})\n\nAutomatically updated when this PR changes.`
-              : `${marker}\n**PR Preview**\n\nPreview removed because the PR was closed.`;
+
+            const lines = [
+              marker,
+              `### PR Preview · #${issue_number}`,
+              '',
+              published
+                ? '**Published on GitHub Pages**'
+                : '**Preview unavailable** because this pull request was closed.',
+              '',
+              published
+                ? `[**Open PR preview**](${pagesUrl}${previewPath}#/docs) · [Open main preview](${pagesUrl}main/#/docs) · [Browse all previews](${pagesUrl})`
+                : `[Browse available previews](${pagesUrl})`,
+              '',
+              '| Detail | Value |',
+              '| --- | --- |',
+              `| Preview directory | \`${previewPath}\` |`,
+            ];
+            if (published) {
+              const builtAt = new Date(run.updated_at).toISOString().slice(0, 19).replace('T', ' ') + ' UTC';
+              lines.push(
+                `| Source commit | [\`${run.head_sha.slice(0, 7)}\`](${repositoryUrl}/pull/${issue_number}/commits/${run.head_sha}) |`,
+                `| Build completed | ${builtAt} |`,
+                `| Build and checks | [View build logs](${run.html_url}/attempts/${run.run_attempt}) |`,
+              );
+            }
+            if (pagesSha) {
+              lines.push(`| Pages commit | [\`${pagesSha.slice(0, 7)}\`](${repositoryUrl}/commit/${pagesSha}) |`);
+            }
+            lines.push(`| ${published ? 'Publication' : 'Cleanup'} | [View Actions logs](${deployRunUrl}) |`);
+            if (published) {
+              lines.push('', 'The preview URL stays the same when a new build is published. The source commit above identifies the version currently shown.');
+            }
+            const body = lines.join('\n');
+
             const comments = await github.paginate(github.rest.issues.listComments, {
               owner, repo, issue_number, per_page: 100
             });
