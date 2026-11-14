@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"pirate\">Pirate</h2>\n<p>Each round, the Pirate can use the kill button to select a target, then duel that target at the next meeting. If both players submit the same number, the Pirate scores one point and kills the target if they are still alive; different numbers give no point and kill neither player. If the target does not submit, they are killed if still alive, without giving the Pirate a point. If the Pirate does not submit, nothing is resolved. Using the button on a Nice Mini under 18 follows normal kill processing instead of starting a duel; attacking Pestilence triggers its retaliation.</p>\n<p>Use <code>/duel X</code> to choose a number, where <code>X</code> is <code>0</code>, <code>1</code>, or <code>2</code>. Win the host-configured number of duels to win the game.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Duel cooldown:</strong> Time before using the ability again.</li>\n<li><strong>Hide Pirate commands:</strong> When enabled, the mod attempts to hide <code>/duel</code> commands.</li>\n<li><strong>Successful duels required to win:</strong> Number of duels the Pirate must win.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "pirate",
+      "text": "Pirate",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

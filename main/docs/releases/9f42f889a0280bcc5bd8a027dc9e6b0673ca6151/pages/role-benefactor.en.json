@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The Benefactor marks each task they complete. When another player completes a marked task, that player receives a temporary shield. The shield protects only against direct kill attacks.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Benefactors in a match.</li>\n<li><strong>Tasks markable per round</strong>: Sets how many tasks the Benefactor can mark in one round.</li>\n<li><strong>Shield duration</strong>: Sets how long the shield lasts.</li>\n<li><strong>Shield breaks after one kill attempt</strong>: ON makes the shield break on the first contact; OFF prevents it from breaking on that first contact.</li>\n<li><strong>Override Benefactor tasks</strong>: ON allows a separate task setup; OFF gives the Benefactor the same task count as everyone else. The custom setup includes whether the role gets common tasks and the number of long and short tasks.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

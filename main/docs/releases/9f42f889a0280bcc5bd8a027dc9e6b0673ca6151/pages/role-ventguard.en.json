@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The Ventguard blocks a vent by entering it. Blocked vents cannot be entered, except by Crewmates when the corresponding setting allows it. If meeting resets are enabled, blocks are cleared after each meeting.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Ventguards in a match.</li>\n<li><strong>Maximum vent blocks</strong>: Sets how many times the Ventguard can block vents.</li>\n<li><strong>Block vent cooldown</strong>: Sets how long the Ventguard must wait before using the ability again.</li>\n<li><strong>Crewmates can use blocked vents</strong>: ON lets Crewmates enter blocked vents; OFF blocks Crewmates as well.</li>\n<li><strong>Reset blocked vents every meeting</strong>: ON clears all vent blocks after each meeting; OFF leaves them in place.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

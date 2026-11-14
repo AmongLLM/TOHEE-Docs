@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"效果\">效果</h2>\n<p>幸运加持有一定概率躲过击杀，具体概率由主持人设置。成功躲避时，击杀者会看到护盾动画，但幸运加持自身不会收到提示。</p>\n<h2 id=\"设置\">设置</h2>\n<ul>\n<li><strong>Max（最大数量）</strong>：本局中该附加身份可出现的数量上限。</li>\n<li><strong>Spawn Chance（生成概率）</strong>：玩家获得此附加身份的概率。</li>\n<li><strong>Eligibility（可分配阵营）</strong>：主持人可分别设置内鬼、船员、中立者是否可以获得此附加身份。</li>\n<li><strong>Probability of surviving a kill（击杀存活概率）</strong>：幸运加持躲过击杀的概率。</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "效果",
+      "text": "效果",
+      "level": 2
+    },
+    {
+      "id": "设置",
+      "text": "设置",
+      "level": 2
+    }
+  ]
+}

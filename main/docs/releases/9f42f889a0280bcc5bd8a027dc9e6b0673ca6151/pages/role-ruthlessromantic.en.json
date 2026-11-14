@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ruthless-romantic\">Ruthless Romantic</h2>\n<p>The Romantic becomes a Ruthless Romantic when their Neutral Killer partner dies. They also become Ruthless Romantic if a Crewmate or non-killing Neutral partner dies without a recorded killer; an Impostor partner instead changes the Romantic into a Refugee.</p>\n<p>The Ruthless Romantic is a separate Neutral team. After the Impostors are gone, they can win when the living Crew count is no greater than the remaining counted Neutral players and those Neutrals all belong to the same team. They do not have to be the last player alive. Their dead partner wins with them.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Kill cooldown:</strong> Time before killing again.</li>\n<li><strong>Can vent:</strong> Whether the Ruthless Romantic can use vents.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ruthless-romantic",
+      "text": "Ruthless Romantic",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

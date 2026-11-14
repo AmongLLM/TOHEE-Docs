@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"jinx\">Jinx</h2>\n<p>An eligible kill attempt against the Jinx consumes one limited jinx charge and is canceled. When the corresponding option is enabled, the attacker is also killed. Attacks from transformed Apocalypse roles bypass the counter. The Jinx does not need to be the last player alive: after all Impostors are gone, the standard neutral end check awards the win when all living counted neutrals share one count type and their total is at least the Crew count.</p>\n<h3 id=\"settings\">Settings</h3>\n<ul>\n<li><strong>Kill cooldown:</strong> Time before the Jinx can kill again.</li>\n<li><strong>Can vent:</strong> Whether the Jinx can use vents.</li>\n<li><strong>Impostor vision:</strong> Whether the Jinx has Impostor vision.</li>\n<li><strong>Jinx spell count:</strong> Number of jinxes available.</li>\n<li><strong>Kill attacker while ability remains:</strong> Whether the Jinx kills the attacker while ability uses remain.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "jinx",
+      "text": "Jinx",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 3
+    }
+  ]
+}

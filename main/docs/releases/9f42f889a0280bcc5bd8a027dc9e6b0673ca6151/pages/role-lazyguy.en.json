@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The Lazy Guy has one task and is unaffected by certain Impostor abilities, including Puppeteer or Warlock control and Anonymous&#39;s scapegoat effect. Being Witched is the exception. The Lazy Guy cannot receive add-ons.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Lazy Guys in a match.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

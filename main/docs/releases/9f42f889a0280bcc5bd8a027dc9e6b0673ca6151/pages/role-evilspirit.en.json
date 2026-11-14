@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"effect\">Effect</h2>\n<p>Spiritcaller can convert eligible targets into Evil Spirits. This identity is not randomly assigned. When an Evil Spirit dies, it becomes a Guardian Angel; using its protect ability can briefly freeze a target, prevent them from reporting bodies, or reduce their vision. If it protects Spiritcaller, it grants Spiritcaller temporary protection. Evil Spirits win when Spiritcaller wins.</p>\n<h2 id=\"related-settings\">Related settings</h2>\n<ul>\n<li><strong>Spiritcaller ability settings</strong>: Spiritcaller settings control the number of Evil Spirits, their ability cooldown, Spiritcaller protection duration, freeze duration, and the amount and duration of vision reduction.</li>\n<li><strong>Random assignment</strong>: Not assigned at random at game start; it is granted by the conversion ability described above.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "effect",
+      "text": "Effect",
+      "level": 2
+    },
+    {
+      "id": "related-settings",
+      "text": "Related settings",
+      "level": 2
+    }
+  ]
+}

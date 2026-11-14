@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"solsticer\">Solsticer</h2>\n<p>Ordinary kill attempts and votes cannot kill or exile the Solsticer; a Quizmaster kill bypasses this protection. The Solsticer wins by completing all tasks in a single round. Tasks reset after each meeting. An ordinary kill attempt teleports the Solsticer off the map until the meeting ends and resets the attacker&#39;s kill cooldown to 10 seconds. The Solsticer counts as no team during the game.</p>\n<p>When the remaining task count reaches the configured threshold, players are warned and killing roles receive an arrow pointing to the Solsticer. The host can also reveal the Solsticer&#39;s identity and let them see an attacker&#39;s name and role.</p>\n<h3 id=\"settings\">Settings</h3>\n<ul>\n<li><strong>Everyone knows who the Solsticer is:</strong> Whether the role is revealed.</li>\n<li><strong>Solsticer knows attacker:</strong> When enabled, the Solsticer sees the attacker&#39;s name and role.</li>\n<li><strong>Can vent:</strong> Whether the Solsticer can use vents.</li>\n<li><strong>Can guess:</strong> Whether the Solsticer can guess in Guesser Mode or as a Guesser addon.</li>\n<li><strong>Movement speed:</strong> Solsticer&#39;s movement speed.</li>\n<li><strong>Remaining tasks warning:</strong> Remaining task threshold for warnings and arrows.</li>\n<li><strong>Extra short tasks per player death:</strong> Number of short tasks added when a player dies.</li>\n<li><strong>Override tasks:</strong> When enabled, configure custom common, long, and short task counts.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "solsticer",
+      "text": "Solsticer",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 3
+    }
+  ]
+}

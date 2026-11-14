@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>Shapeshift to possess a teleportable non-Impostor and control them to carry out the Dollmaster’s actions. Possession swaps the Dollmaster and target’s positions and appearances. Shapeshifting again ends the possession and swaps them back. The possessed player cannot report bodies or call meetings independently; the Dollmaster can redirect those actions through the target. A meeting ends the possession. Possession cannot complete if either player is in a state that prevents teleportation, such as being dead, vented, or swallowed.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Kill Cooldown</strong>: Time before the Dollmaster can kill again.</li>\n<li><strong>Possession Cooldown</strong>: Time before possessing another player.</li>\n<li><strong>Possession Duration</strong>: How long possession lasts.</li>\n<li><strong>Can Kill as the Main Body</strong>: When enabled, the Dollmaster can kill without possessing a player; when disabled, it can kill only while possessing.</li>\n<li><strong>Target Dies After Possession</strong>: When enabled, the target dies when possession ends; otherwise the target survives.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

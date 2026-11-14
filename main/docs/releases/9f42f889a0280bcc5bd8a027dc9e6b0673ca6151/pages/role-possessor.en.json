@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>Use the protection ability to possess a non-Impostor target. Possession fails if another player is within the Alert Range of the target. While possessed, the target is slowed and the Possessor follows them. Another player entering the Alert Range ends possession immediately. When the duration ends, the target dies if no other player is within the Focus Range; otherwise the target survives. The Possessor cannot sabotage.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Possession Cooldown</strong>: Time before the ability can be used again.</li>\n<li><strong>Possession Duration</strong>: How long possession lasts.</li>\n<li><strong>Alert Range</strong>: Possession cannot start if anyone is in this range around the target; anyone entering it during possession ends the effect.</li>\n<li><strong>Focus Range</strong>: The target dies at the end of possession if no one else is within this range.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

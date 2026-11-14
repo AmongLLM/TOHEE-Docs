@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>When the Fortune Teller votes for a player during a meeting, they receive a clue about that player&#39;s role. After completing all tasks, voting for a player reveals the target&#39;s exact role.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Fortune Tellers in a match.</li>\n<li><strong>Maximum ability uses</strong>: Sets how many times the Fortune Teller can use the ability.</li>\n<li><strong>Show random active roles in hints</strong>: ON mixes the target&#39;s actual role with active roles in the hint, and prevents checking the same player multiple times; OFF does not.</li>\n<li><strong>Can know exact roles before tasks are complete</strong>: ON permits exact-role results before completing tasks; OFF requires task completion.</li>\n<li><strong>Know exact roles on task completion</strong>: ON allows exact-role results after completing tasks; OFF prevents exact-role results even after completion.</li>\n<li><strong>Ability uses gained per task</strong>: Sets the uses gained for each completed task, in 0.1 increments.</li>\n<li><strong>Override Fortune Teller tasks</strong>: ON permits a separate task count; OFF gives the role the same count as everyone else. The settings also include common-task availability and the number of long and short tasks.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

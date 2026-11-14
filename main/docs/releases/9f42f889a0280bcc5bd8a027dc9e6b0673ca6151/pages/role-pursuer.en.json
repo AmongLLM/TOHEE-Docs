@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"pursuer\">Pursuer</h2>\n<p>An alive Pursuer usually receives an additional win at the end of the game, except when the result is a Jester, Lovers, Terrorist, Executioner, Collector, Innocent, or Youtuber win. The kill button marks an eligible living player as a client. If that player later attempts to kill anyone, the attempt causes them to misfire and die. Pestilence and Serial Killer cannot be marked; using the ability on a Killing Machine consumes a use but does not mark it.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum number:</strong> Maximum number of Pursuers in a match.</li>\n<li><strong>Ability cooldown:</strong> Time before using the ability again.</li>\n<li><strong>Maximum uses:</strong> Maximum number of ability uses during the game.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "pursuer",
+      "text": "Pursuer",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

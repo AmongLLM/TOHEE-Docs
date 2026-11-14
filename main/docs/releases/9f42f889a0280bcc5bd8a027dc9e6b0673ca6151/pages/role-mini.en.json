@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The Mini has two variants, Nice Mini and Evil Mini. See <a href=\"/TOHEE-Docs/main/#/docs/role-evilmini\" rel=\"noopener noreferrer\">Evil Mini</a> and <a href=\"/TOHEE-Docs/main/#/docs/role-nicemini\" rel=\"noopener noreferrer\">Nice Mini</a> for those rules.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Time required to grow</strong>: Sets how many seconds it takes the Mini to fully grow up.</li>\n<li><strong>Everyone can see the Mini</strong>: When enabled, all players know who the Mini is.</li>\n<li><strong>Mini can be an Impostor</strong>: ON allows an Evil Mini; OFF prevents it. When enabled, settings include the chance of spawning as an Evil Mini and the Evil Mini&#39;s kill cooldown while under 18 and over 18.</li>\n<li><strong>Display age change in real time</strong>: ON displays the Mini&#39;s age continuously; OFF does not.</li>\n<li><strong>Count meeting time toward growth</strong>: ON lets the Mini grow during meetings; OFF pauses growth during meetings.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

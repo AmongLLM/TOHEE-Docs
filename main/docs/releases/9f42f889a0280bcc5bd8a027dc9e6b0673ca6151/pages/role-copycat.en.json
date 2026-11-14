@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The Copycat uses the kill button to copy a target&#39;s role, but only selected Crewmate roles are copyable. Some Impostor or Neutral roles can be copied as their Crewmate variants. The copied role usually resets to Copycat after a meeting. A setting can also copy team-changing add-ons such as Madmate, Charmed, Infected, Recruit, Contagious, or Soulless. The Copycat cannot guess roles.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Copycats in a match.</li>\n<li><strong>Copy cooldown</strong>: Sets how long the Copycat must wait before copying again.</li>\n<li><strong>Can copy Crewmate variants of Evil roles</strong>: ON allows selected Impostor roles to be copied as Crewmate variants; OFF does not.</li>\n<li><strong>Can copy team-changing add-ons</strong>: ON copies supported team-changing add-ons from the target; OFF leaves them behind.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

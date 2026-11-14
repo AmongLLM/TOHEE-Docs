@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The President has two meeting abilities. Type /finish to end the meeting immediately, or /reveal to reveal the President&#39;s identity. Only teams allowed by the host settings receive the reveal notice. The President is normally unguessable after revealing. Whoever kills the revealed President has their next kill cooldown reduced.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Presidents in a match.</li>\n<li><strong>Maximum meeting ends</strong>: Sets how many times the President can use /finish; /reveal is available once per game.</li>\n<li><strong>President can be guessed after revealing</strong>: ON allows guesses after the reveal; OFF prevents them.</li>\n<li><strong>Neutrals can see revealed President</strong>: ON lets Neutrals see the reveal; OFF hides it from them.</li>\n<li><strong>Madmates can see revealed President</strong>: ON lets Madmates see the reveal; OFF hides it from them.</li>\n<li><strong>Impostors can see revealed President</strong>: ON lets Impostors see the reveal; OFF hides it from them.</li>\n<li><strong>Hide President commands</strong>: ON hides the President&#39;s commands; OFF leaves them visible.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"hater\">Hater</h2>\n<p>The Hater has a 1-second kill cooldown and can kill Lovers and the recruited roles or addons allowed by the settings. Killing an invalid target makes the Hater suicide; when the misfire option is enabled, the target also dies. After any Hater makes a valid kill, all Hater players join the winning team at game end, whether alive or dead. The Hater cannot become a Lover.</p>\n<h3 id=\"settings\">Settings</h3>\n<ul>\n<li><strong>Kill target on misfire:</strong> When enabled, also kill the target on a misfire; otherwise, only the Hater dies.</li>\n<li><strong>Select converted roles Hater can kill:</strong> When enabled, choose Madmate, Charmed, Lovers, Jackal team, Egoist, Infected team, Virus team, and Admirer. When disabled, all eligible recruited or converted roles can be killed.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "hater",
+      "text": "Hater",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 3
+    }
+  ]
+}

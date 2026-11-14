@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"effect\">Effect</h2>\n<p>Cleanser can select a target during a meeting. After the meeting, all of that player&#39;s add-ons are removed and the Cleansed marker is applied. This marker is not randomly assigned. By default, a Cleansed player cannot receive new add-ons; Cleanser&#39;s <code>CleansedCanGetAddon</code> setting can allow them to receive add-ons afterward.</p>\n<h2 id=\"related-settings\">Related settings</h2>\n<ul>\n<li><strong>CleansedCanGetAddon</strong>: Cleanser setting that controls whether Cleansed players can receive new add-ons after being cleansed.</li>\n<li><strong>Random assignment</strong>: Not assigned at random at game start; it is granted by the conversion ability described above.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "effect",
+      "text": "Effect",
+      "level": 2
+    },
+    {
+      "id": "related-settings",
+      "text": "Related settings",
+      "level": 2
+    }
+  ]
+}

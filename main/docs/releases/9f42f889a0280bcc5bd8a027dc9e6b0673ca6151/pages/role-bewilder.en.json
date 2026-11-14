@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"effect\">Effect</h2>\n<p>The host sets the vision level for Bewilder, which can be lower or higher than other players&#39; vision. When Bewilder is killed, the killer receives Bewilder&#39;s vision if the related option is enabled. The team eligibility options control whether Impostors can receive this add-on.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number that can appear in one match.</li>\n<li><strong>Spawn Chance</strong>: Chance for a player to receive this add-on.</li>\n<li><strong>Eligibility</strong>: Separate settings control whether Impostors, Crewmates, Neutrals can receive this add-on.</li>\n<li><strong>BewilderVision</strong>: Vision level assigned to players with Bewilder.</li>\n<li><strong>KillerGetBewilderVision</strong>: Whether the killer receives Bewilder&#39;s vision after killing them.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "effect",
+      "text": "Effect",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

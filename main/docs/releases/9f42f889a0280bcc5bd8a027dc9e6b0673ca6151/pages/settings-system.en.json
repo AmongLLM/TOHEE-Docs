@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"purpose\">Purpose</h2>\n<p><strong>System Settings</strong> control room-wide or mod-wide behavior rather than base Among Us speed, task, or map settings. The exact set changes between releases. Read each option&#39;s description before changing it, especially settings that restrict joining, alter victory, or reduce protection.</p>\n<p>This group commonly covers:</p>\n<ul>\n<li><strong>Room access:</strong> Level or list restrictions and platform restrictions. Before enabling them, check that the allow-list and room rules will not remove friends by mistake.</li>\n<li><strong>Game protection and performance:</strong> Anti-Blackout protection, low-load options, and debug behavior. A testing-only option can make ordinary matches less reliable.</li>\n<li><strong>Results and information:</strong> Whether to display kill logs, previous roles, faction counts, or voting/ejection information.</li>\n<li><strong>Commands and display preferences:</strong> Access to some commands, name display, host labels, and console behavior.</li>\n<li><strong>Random assignment:</strong> Role-assignment algorithms affect how available roles are selected, not the abilities of an individual role.</li>\n</ul>\n<p>Some releases may include management or debug options. Do not disable current protections just because an old upstream page marked a setting as recommended. If you encounter a black screen or assignment problem, keep protections enabled and collect a log first.</p>\n<h2 id=\"testing-options\">Testing options</h2>\n<p>Current source includes global options such as <code>No Game End</code>, console display, Anti-Blackout buffer mode, and role-assignment algorithm. <code>No Game End</code> changes normal victory flow; disabling protections or changing debug behavior can leave a round in an unexpected state. Change these only when you understand the effect, and restore suitable values for normal rooms.</p>\n<p>Player-tag permissions, local lists, and Cloud player tags are separate features. A Cloud web tag does not automatically grant mod permissions in System Settings; see <a href=\"/TOHEE-Docs/main/#/docs/guide-tags\" rel=\"noopener noreferrer\">player tags</a>.</p>\n",
+  "headings": [
+    {
+      "id": "purpose",
+      "text": "Purpose",
+      "level": 2
+    },
+    {
+      "id": "testing-options",
+      "text": "Testing options",
+      "level": 2
+    }
+  ]
+}

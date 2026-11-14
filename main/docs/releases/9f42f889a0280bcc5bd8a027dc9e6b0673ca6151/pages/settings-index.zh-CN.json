@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"按菜单查找\">按菜单查找</h2>\n<ul>\n<li><a href=\"/TOHEE-Docs/main/#/docs/settings-game\" rel=\"noopener noreferrer\">游戏设置</a>：Among Us 基础规则，例如地图、会议、移动和任务。</li>\n<li><a href=\"/TOHEE-Docs/main/#/docs/settings-system\" rel=\"noopener noreferrer\">系统设置</a>：房间控制、保护、显示和其他全局模组行为。</li>\n<li><a href=\"/TOHEE-Docs/main/#/docs/settings-mod\" rel=\"noopener noreferrer\">模组设置</a>：模式、分配规则、地图、会议、任务和破坏设置。</li>\n<li><a href=\"/TOHEE-Docs/main/#/docs/settings-addons\" rel=\"noopener noreferrer\">附加职业设置</a>：附加职业的显示方式和分配数量。</li>\n<li><a href=\"/TOHEE-Docs/main/#/docs/settings-impostors\" rel=\"noopener noreferrer\">内鬼设置</a>：内鬼和 Madmate 的阵营信息与互动。</li>\n<li><a href=\"/TOHEE-Docs/main/#/docs/settings-neutrals\" rel=\"noopener noreferrer\">中立设置</a>：中立角色数量范围与共同胜利规则。</li>\n</ul>\n<p>当前 TOHEE 菜单将角色选项分到内鬼角色页（Impostor Roles）、船员角色页（Crewmate Roles）、中立角色页（Neutral Roles）等页面。角色名称下展开的项目是该角色专属选项，不属于通用角色说明。选择模式后，菜单会隐藏不适用的选项；详见<a href=\"/TOHEE-Docs/main/#/docs/guide-game-modes\" rel=\"noopener noreferrer\">游戏模式</a>。</p>\n<h2 id=\"上游设置页面说明\">上游设置页面说明</h2>\n<p>旧 TOHE 上游的八个 <code>options/Settings</code> 页面大多是角色目录 HTML，而不是八个独立设置页面。本目录仅整理有实际通用设置内容的部分；旧女巫阵营（Coven）页面列出的通用角色配额、通风和视野选项不在当前 TOHEE 设置标签中，船员页面也没有单独的通用设置段落。不要将旧页面里的角色名单或旧选项直接当作当前客户端行为。</p>\n<p>设置名称与范围会随模组版本变化。请以当前游戏中的设置菜单和当前发行说明为准；本文用于解释各组的用途，而非替代游戏内选项。</p>\n",
+  "headings": [
+    {
+      "id": "按菜单查找",
+      "text": "按菜单查找",
+      "level": 2
+    },
+    {
+      "id": "上游设置页面说明",
+      "text": "上游设置页面说明",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"pixie\">Pixie</h2>\n<p>Each round, the Pixie can use the kill button to mark up to the configured number of targets. Their names appear in color. When a marked target is voted out, the Pixie earns one point. If someone else is voted out while at least one marked target is still alive, the Pixie suicides only when the suicide option is enabled. Skipping the meeting, marking nobody, or having all marked targets already dead does not trigger this suicide. The target list normally clears after an ejection; once the Pixie has reached the required score, the list may remain uncleared.</p>\n<p>The Pixie wins with the winning team after reaching the host-configured score.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum number:</strong> Maximum number of Pixies in a match.</li>\n<li><strong>Points required to win:</strong> Score needed for victory.</li>\n<li><strong>Maximum targets per round:</strong> Number of players the Pixie can mark each round.</li>\n<li><strong>Mark cooldown:</strong> Time before marking another player.</li>\n<li><strong>Suicide if no target is voted out:</strong> Off by default. When enabled, the Pixie suicides only if someone is voted out, that player was not a marked target, and at least one marked target is still alive. Skipping the meeting does not trigger the suicide or reset the target list.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "pixie",
+      "text": "Pixie",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

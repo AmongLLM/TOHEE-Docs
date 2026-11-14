@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"effect\">Effect</h2>\n<p>Infectious can convert eligible Crewmates, Impostors, or Neutral Killers into Infected. Infected players share Infectious&#39;s team and win together; if Infectious is exiled, all living Infected players die. This identity is not independently assigned at random.</p>\n<h2 id=\"related-settings\">Related settings</h2>\n<ul>\n<li><strong>Infectious bite settings</strong>: Infectious settings control bite uses, who knows the infected players, ventilation and vision, and whether double-click killing is enabled.</li>\n<li><strong>Random assignment</strong>: Not assigned at random at game start; it is granted by the conversion ability described above.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "effect",
+      "text": "Effect",
+      "level": 2
+    },
+    {
+      "id": "related-settings",
+      "text": "Related settings",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"specter\">Specter</h2>\n<p>The Specter must complete all tasks and die to win with the winning team; the order does not matter. The Specter cannot win if still alive at the end of the game or if any tasks remain. When victory stealing is enabled, a Specter who has completed all tasks and died can steal the win and win alone.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum number:</strong> Maximum number of Specters in a match.</li>\n<li><strong>Can vent while alive:</strong> Whether the living Specter can use vents.</li>\n<li><strong>Snatches victory:</strong> When enabled, a dead Specter who completed all tasks may steal the win; otherwise, they win normally with the winning team.</li>\n<li><strong>Can guess in Guesser Mode:</strong> Whether the Specter can guess roles in Guesser Mode.</li>\n<li><strong>Override tasks:</strong> When enabled, configure whether the Specter has common tasks and the number of long and short tasks. When disabled, use the same tasks as other players.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "specter",
+      "text": "Specter",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "html": "<h2 id=\"选择模式\">选择模式</h2>\n<p>**模组设置（Mod Settings）**中的模式选择会改变一局游戏的规则和菜单内容。当前 TOHEE 提供标准模式（Standard）、自由混战（FFA）和躲猫猫（Hide &amp; Seek TOHE）。先选模式，再设置本模式显示的选项；详见<a href=\"/TOHEE-Docs/main/#/docs/guide-game-modes\" rel=\"noopener noreferrer\">游戏模式说明</a>。旧上游页面中的竞速模式（Speedrun）不在当前模式列表中。</p>\n<h2 id=\"标准模式-standard-设置\">标准模式（Standard）设置</h2>\n<p>标准模式可在角色页配置内鬼（Impostor）、船员（Crewmate）、中立（Neutral）角色及附加职业（Add-ons）。常见操作包括：</p>\n<ul>\n<li>设置角色最大数量和出现概率，控制角色是否有机会进入本局。</li>\n<li>查看各角色展开选项，配置冷却、技能次数、胜利条件和特殊限制。</li>\n<li>设置逐出信息、阵营剩余人数，以及地图、破坏和任务变化。</li>\n<li>检查附加职业的数量和可分配对象，避免同一玩家叠加过多相互冲突的效果。</li>\n</ul>\n<p>角色设置页只显示当前版本存在的角色。旧版 TOHE 上游的女巫阵营（Coven）及其通用控制不在当前 TOHEE 角色菜单中。</p>\n<h2 id=\"自由混战与躲猫猫\">自由混战与躲猫猫</h2>\n<p>自由混战设置包括对局时长、击杀冷却，以及可选的随机能力和变化。躲猫猫模式使用独立的追捕方数量和基础设置；标准模式的角色选项与部分通用选项会隐藏。切换模式后确认当前预设中需要的选项，避免把另一种模式的习惯配置误认为仍然生效。</p>\n<p>地图、基础速度、会议或任务设置属于<a href=\"/TOHEE-Docs/main/#/docs/settings-game\" rel=\"noopener noreferrer\">游戏设置</a>。房间保护和访问控制见<a href=\"/TOHEE-Docs/main/#/docs/settings-system\" rel=\"noopener noreferrer\">系统设置</a>。</p>\n",
+  "headings": [
+    {
+      "id": "选择模式",
+      "text": "选择模式",
+      "level": 2
+    },
+    {
+      "id": "标准模式-standard-设置",
+      "text": "标准模式（Standard）设置",
+      "level": 2
+    },
+    {
+      "id": "自由混战与躲猫猫",
+      "text": "自由混战与躲猫猫",
+      "level": 2
+    }
+  ]
+}

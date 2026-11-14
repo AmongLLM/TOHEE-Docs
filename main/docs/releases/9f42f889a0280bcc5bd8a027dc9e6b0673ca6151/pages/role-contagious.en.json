@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"effect\">Effect</h2>\n<p>When a body killed by Virus is reported, an eligible reporter becomes Contagious and wins with Virus. If <code>VirusKillInfectedPlayerAfterMeeting</code> is enabled, the reporter does not receive this identity and instead dies after the meeting. For win-count checks, Contagious can count as nobody, as Virus, or as its original team. This identity is not independently assigned at random.</p>\n<h2 id=\"related-settings\">Related settings</h2>\n<ul>\n<li><strong>VirusKillInfectedPlayerAfterMeeting</strong>: When enabled, an eligible reporter of a Virus victim dies after the meeting instead of becoming Contagious.</li>\n<li><strong>Virus_ContagiousCountMode</strong>: Set Contagious players to count as nobody, as Virus, or as their original team.</li>\n<li><strong>Random assignment</strong>: Not assigned at random at game start; it is granted by the conversion ability described above.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "effect",
+      "text": "Effect",
+      "level": 2
+    },
+    {
+      "id": "related-settings",
+      "text": "Related settings",
+      "level": 2
+    }
+  ]
+}

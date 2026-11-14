@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The Chameleon can vent to become temporarily invisible. They remain visible on their own screen, and venting again reveals them. Uses are limited and can be replenished by completing tasks.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Chameleons in a match.</li>\n<li><strong>Disguise cooldown</strong>: Sets how long the Chameleon must wait before disguising again.</li>\n<li><strong>Disguise duration</strong>: Sets how long each disguise can last.</li>\n<li><strong>Initial ability uses</strong>: Sets how many disguises the Chameleon starts with.</li>\n<li><strong>Ability uses gained per task</strong>: Sets the number of uses gained for each completed task, in 0.1 increments.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

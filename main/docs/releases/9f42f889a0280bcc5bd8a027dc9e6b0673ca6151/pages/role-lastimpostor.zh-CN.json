@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"效果\">效果</h2>\n<p>最后一名存活的内鬼会获得绝境者效果，其击杀冷却会缩短。</p>\n<h2 id=\"设置\">设置</h2>\n<ul>\n<li><strong>Kill Cooldown Reduction（击杀冷却缩短比例）</strong>：绝境者的击杀冷却缩短百分比。</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "效果",
+      "text": "效果",
+      "level": 2
+    },
+    {
+      "id": "设置",
+      "text": "设置",
+      "level": 2
+    }
+  ]
+}

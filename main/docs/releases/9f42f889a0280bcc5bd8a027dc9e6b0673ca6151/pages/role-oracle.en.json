@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>After voting for a player in a meeting, the Oracle learns whether the target is Crew, Impostor, or Neutral. The result can be incorrect. When the add-on option is enabled, the classification also considers the team&#39;s alignment of the target&#39;s add-ons; it does not simply report whether add-ons are present.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Oracles in a match.</li>\n<li><strong>Maximum uses</strong>: Sets how many times the Oracle can use the ability.</li>\n<li><strong>Chance of an incorrect result</strong>: Sets the chance that the Oracle receives an incorrect team result.</li>\n<li><strong>Ability uses gained per task</strong>: Sets the uses gained for each completed task, in 0.1 increments.</li>\n<li><strong>Classify using add-on alignment</strong>: ON includes the target&#39;s add-on team alignment when deciding Crew, Impostor, or Neutral; OFF classifies by the target&#39;s main role.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

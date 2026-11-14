@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"effect\">Effect</h2>\n<p>When a player finishes all existing tasks, they become Workhorse and receive more tasks if eligible and below the configured limit. By default only Crewmates can qualify; if that restriction is disabled, other roles can qualify if they have tasks and do not override their task data. Lazy Guy and Lazy are excluded. Snitch eligibility has its own setting.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Workhorse enabled</strong>: A zero-or-one selector enables or disables Workhorse assignment; there is no percentage spawn chance.</li>\n<li><strong>Maximum</strong>: Maximum number of players who can become Workhorse in one game.</li>\n<li><strong>AssignOnlyToCrewmate</strong>: Whether only Crewmates can become Workhorse.</li>\n<li><strong>WorkhorseNumLongTasks</strong>: Number of additional long tasks assigned when becoming Workhorse.</li>\n<li><strong>WorkhorseNumShortTasks</strong>: Number of additional short tasks assigned when becoming Workhorse.</li>\n<li><strong>SnitchCanBeWorkhorse</strong>: Whether Snitch can become Workhorse.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "effect",
+      "text": "Effect",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

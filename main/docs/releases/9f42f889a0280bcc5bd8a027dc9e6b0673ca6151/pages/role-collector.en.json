@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"collector\">Collector</h2>\n<p>During each meeting, the Collector votes for a player and collects the total number of votes that player received, including the Collector&#39;s vote if they voted for that player. The score accumulates across meetings. Reach the configured number while still alive to win.</p>\n<h3 id=\"settings\">Settings</h3>\n<ul>\n<li><strong>Maximum number:</strong> Maximum number of Collectors in a match.</li>\n<li><strong>Votes required:</strong> Number of votes the Collector must collect to win.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "collector",
+      "text": "Collector",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 3
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role-objective\">Role objective</h2>\n<p>The Crewmate&#39;s goal is to find and eject the Impostors. The Crew wins by getting rid of all killers or by finishing all tasks.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Count and spawn chance</strong>: Controlled by the TOHE role-spawn options.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role-objective",
+      "text": "Role objective",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

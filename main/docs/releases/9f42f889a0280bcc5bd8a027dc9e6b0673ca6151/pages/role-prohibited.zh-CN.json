@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"效果\">效果</h2>\n<p>持有受限者的玩家会遇到部分被封锁、无法使用的通风口。</p>\n<h2 id=\"设置\">设置</h2>\n<ul>\n<li><strong>Max（最大数量）</strong>：本局中该附加身份可出现的数量上限。</li>\n<li><strong>Spawn Chance（生成概率）</strong>：玩家获得此附加身份的概率。</li>\n<li><strong>Eligibility（可分配阵营）</strong>：主持人可分别设置内鬼、船员、中立者是否可以获得此附加身份。</li>\n<li><strong>Override Blocked Vents After Meeting（会议后重设被封锁通风口）</strong>：控制会议结束后是否重设被封锁的通风口。</li>\n<li><strong>Count Blocked Vents in The Skeld（The Skeld 被封锁通风口数量）</strong>：The Skeld 地图上封锁的通风口数量。</li>\n<li><strong>Count Blocked Vents in MIRA HQ（MIRA HQ 被封锁通风口数量）</strong>：MIRA HQ 地图上封锁的通风口数量。</li>\n<li><strong>Count Blocked Vents in Polus（Polus 被封锁通风口数量）</strong>：Polus 地图上封锁的通风口数量。</li>\n<li><strong>Count Blocked Vents in Dleks（Dleks 被封锁通风口数量）</strong>：Dleks 地图上封锁的通风口数量。</li>\n<li><strong>Count Blocked Vents in Airship（Airship 被封锁通风口数量）</strong>：Airship 地图上封锁的通风口数量。</li>\n<li><strong>Count Blocked Vents in The Fungle（The Fungle 被封锁通风口数量）</strong>：The Fungle 地图上封锁的通风口数量。</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "效果",
+      "text": "效果",
+      "level": 2
+    },
+    {
+      "id": "设置",
+      "text": "设置",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>Only one Monarch can spawn in a match. The Monarch can knight players to give them an extra vote. A player who already has multiple votes cannot be knighted; the golden name is visible only to the Monarch. While any knighted player exists, the Monarch cannot be guessed or killed.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Knight cooldown</strong>: Sets how long the Monarch must wait before knighting another player.</li>\n<li><strong>Maximum knights</strong>: Sets how many players the Monarch can knight.</li>\n<li><strong>Hide additional votes for knighted players</strong>: Controls whether a knight&#39;s extra vote is hidden.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

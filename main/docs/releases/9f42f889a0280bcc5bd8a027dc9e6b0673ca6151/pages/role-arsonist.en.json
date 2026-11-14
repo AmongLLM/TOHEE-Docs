@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"arsonist\">Arsonist</h2>\n<p>The Arsonist uses the kill button to start dousing a player and must stay near them until the timer finishes; moving out of range cancels the douse. A triangle (△) beside a name means they are being doused; a filled triangle (▲) means they are fully doused.</p>\n<p>After dousing all other living players, the Arsonist can vent to ignite them and win alone. When “Can ignite anytime” is enabled, reaching the minimum doused count lets the Arsonist ignite all living doused players; if other players remain alive, that ignition does not win.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum number:</strong> Maximum number of Arsonists in a match.</li>\n<li><strong>Douse duration:</strong> Time the Arsonist must stay near a player to douse them.</li>\n<li><strong>Cooldown:</strong> Time before dousing another player.</li>\n<li><strong>Can ignite anytime:</strong> When enabled, the Arsonist can ignite all living doused players after reaching the minimum; the maximum limits how many players can be doused. When disabled, all other living players must be doused before the Arsonist can ignite and win.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "arsonist",
+      "text": "Arsonist",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

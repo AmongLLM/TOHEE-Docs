@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>Shapeshifting makes all players appear as identical small black beans. The camouflage ends when the Camouflager unshifts or dies, or when a meeting starts. Comms sabotage camouflage can stack with this ability.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Camouflagers in a match.</li>\n<li><strong>Camouflage Cooldown</strong>: Time before the ability can be used again.</li>\n<li><strong>Camouflage Duration</strong>: How long the camouflage lasts.</li>\n<li><strong>Can Use Comms Sabotage</strong>: When enabled, the Camouflager can sabotage comms; otherwise it cannot.</li>\n<li><strong>Disable Body Reporting When Camouflage Is Active</strong>: When enabled, bodies cannot be reported during camouflage; otherwise they can.</li>\n<li><strong>Show Shapeshift Animations</strong>: When enabled, shapeshift animations are shown; otherwise they are hidden.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

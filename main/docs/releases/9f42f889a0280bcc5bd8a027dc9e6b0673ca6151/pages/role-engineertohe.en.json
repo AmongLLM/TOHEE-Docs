@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The Engineer can access vents while communications are not sabotaged.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Count and spawn chance</strong>: Controlled by the TOHE role-spawn options.</li>\n<li><strong>Vent cooldown</strong>: Sets how long the Engineer must wait before using a vent again.</li>\n<li><strong>Maximum time in vent</strong>: Sets how long the Engineer may stay in a vent.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

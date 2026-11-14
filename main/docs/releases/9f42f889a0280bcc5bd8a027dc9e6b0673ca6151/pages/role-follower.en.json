@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"follower\">Follower</h2>\n<p>The Follower can use the kill button to choose a target, then use it again to switch targets. Choosing the first target also uses one charge. The Follower wins with their target and can still win after death.</p>\n<h3 id=\"settings\">Settings</h3>\n<ul>\n<li><strong>Maximum target selections:</strong> Total number of target choices, including the first target and later changes.</li>\n<li><strong>Follow cooldown:</strong> Base cooldown before choosing or changing a target.</li>\n<li><strong>Cooldown increase per dead player:</strong> The cooldown increases by this amount for each dead player in the game.</li>\n<li><strong>Maximum follow cooldown:</strong> Upper limit for the increased cooldown.</li>\n<li><strong>Knows target&#39;s role:</strong> When enabled, the Follower sees the target&#39;s role.</li>\n<li><strong>Target knows who the Follower is:</strong> Whether the target is told who is following them.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "follower",
+      "text": "Follower",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 3
+    }
+  ]
+}

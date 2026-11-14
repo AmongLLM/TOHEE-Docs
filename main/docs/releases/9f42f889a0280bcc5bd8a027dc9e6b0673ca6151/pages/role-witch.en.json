@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>The Witch can make a direct kill or cast a spell. Spelled targets have a cross beside their names during the meeting. If the Witch is not ejected or guessed before the meeting ends, all spelled targets die afterward.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Witches in a match.</li>\n<li><strong>Switch Action Via</strong>: Choose how to switch between normal kills and spells:<ul>\n<li><strong>Kill</strong>: Interacting with a target alternates between a normal kill and casting a spell.</li>\n<li><strong>Vent</strong>: Interacting with a vent switches between a normal kill and casting a spell.</li>\n<li><strong>Double-Click</strong>: Single-click to cast a spell; double-click to make a normal kill.</li>\n</ul>\n</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

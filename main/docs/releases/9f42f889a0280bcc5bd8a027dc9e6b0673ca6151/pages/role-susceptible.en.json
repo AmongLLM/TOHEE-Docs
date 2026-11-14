@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"effect\">Effect</h2>\n<p>Susceptible receives a randomly selected death reason. With &quot;Only Enabled Death Reasons&quot; on, the reason replaces the original only when its associated role is enabled. With it off, any reason outside the banned list can be used.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number that can appear in one match.</li>\n<li><strong>Spawn Chance</strong>: Chance for a player to receive this add-on.</li>\n<li><strong>Eligibility</strong>: Separate settings control whether Impostors, Crewmates, Neutrals can receive this add-on.</li>\n<li><strong>Only Enabled Death Reasons</strong>: ON replaces the original reason only when its associated role is enabled; OFF allows any reason outside the banned list.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "effect",
+      "text": "Effect",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

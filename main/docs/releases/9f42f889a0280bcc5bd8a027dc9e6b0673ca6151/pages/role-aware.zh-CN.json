@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"效果\">效果</h2>\n<p>如果军师或预言家尝试击杀意识者，或调查员或神谕者在会议中投票给意识者，意识者会收到会议通知。主持人可设置通知是否显示互动者的角色。</p>\n<h2 id=\"设置\">设置</h2>\n<ul>\n<li><strong>Max（最大数量）</strong>：本局中该附加身份可出现的数量上限。</li>\n<li><strong>Spawn Chance（生成概率）</strong>：玩家获得此附加身份的概率。</li>\n<li><strong>Eligibility（可分配阵营）</strong>：主持人可分别设置内鬼、船员、中立者是否可以获得此附加身份。</li>\n<li><strong>Knows the role of player（得知互动者角色）</strong>：控制意识者能否得知与其互动玩家的角色。</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "效果",
+      "text": "效果",
+      "level": 2
+    },
+    {
+      "id": "设置",
+      "text": "设置",
+      "level": 2
+    }
+  ]
+}

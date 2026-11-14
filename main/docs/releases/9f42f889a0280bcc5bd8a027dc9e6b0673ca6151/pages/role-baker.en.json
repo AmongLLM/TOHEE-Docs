@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"baker\">Baker</h2>\n<p>Once per round, the Baker can use the kill button to give one player bread. The Baker cannot give bread to another Apocalypse member. They transform into Famine when the configured number of breaded players are alive.</p>\n<p>If additional bread effects are enabled, the Baker can use vents to switch the effect granted by each loaf:</p>\n<ul>\n<li><strong>Reveal:</strong> Shows the target&#39;s role to the Baker for the rest of the game.</li>\n<li><strong>Roleblock:</strong> Sets the target&#39;s kill cooldown to 999 until the next meeting.</li>\n<li><strong>Barrier:</strong> Gives the target a barrier known only to the Baker; it is removed after the meeting.</li>\n</ul>\n<h3 id=\"settings\">Settings</h3>\n<ul>\n<li><strong>Bread required for Famine:</strong> Number of living breaded players needed for the transformation.</li>\n<li><strong>Famine starve cooldown:</strong> Time Famine must wait before using Starve again.</li>\n<li><strong>Bread gives additional effects:</strong> When enabled, bread has one of the effects above; when disabled, bread has no additional effect.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "baker",
+      "text": "Baker",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 3
+    }
+  ]
+}

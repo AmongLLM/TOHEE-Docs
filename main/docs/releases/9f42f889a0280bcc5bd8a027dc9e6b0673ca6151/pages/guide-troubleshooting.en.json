@@ -1,0 +1,40 @@
+{
+  "html": "<h2 id=\"tohee-did-not-load-and-the-game-still-looks-vanilla\">TOHEE did not load and the game still looks vanilla</h2>\n<ol>\n<li>Confirm that you launched the Among Us installation containing TOHEE files, not a different store directory or an unmodded copy.</li>\n<li>Check that the entire release package was extracted beside <code>Among Us.exe</code> and that you chose the right architecture: x64 for Steam, Epic, and Microsoft Store / Xbox App; x86 for Windows itch.io.</li>\n<li>Let first launch finish. BepInEx must generate interop files for this game installation, and initialization may take longer than usual. Follow the current release notes for any first-launch or network requirements.</li>\n<li>If other mods were installed in that directory, try a clean game copy with the current full release package. Do not copy an <code>interop</code> folder from another installation.</li>\n<li>Inspect <code>BepInEx/LogOutput.log</code>. Back up <code>TOHEE-DATA</code> before reinstalling.</li>\n</ol>\n<h2 id=\"sign-in-failed-or-is-taking-a-long-time\">Sign-in failed or is taking a long time</h2>\n<p>The Steam version can be launched directly from <code>Among Us.exe</code> in the game directory, but the signed-in Steam client must remain running in the background for game sign-in. The Epic version must be launched through Epic Games Launcher to sign in. Make sure the network is stable, and start an Xbox App / Microsoft Store game once from its store client as well. If only the modded copy cannot sign in, check the launch method, store directory, and the bundled <code>steam_appid.txt</code> (Steam only). Restarting the game will not fix a third-party sign-in outage; retry later and check the game service status.</p>\n<h2 id=\"the-game-reports-a-version-mismatch\">The game reports a version mismatch</h2>\n<p>Make sure Among Us itself is updated, the host uses a full TOHEE release that supports that game version, and joining players use a compatible version too. Steam players should check that they are not on a public beta branch by mistake. Compare the current notes on the <a href=\"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/releases\" rel=\"noopener noreferrer\">release page</a>; old upstream Discord notice links may have changed.</p>\n<h2 id=\"black-screen-hang-or-crash-on-startup\">Black screen, hang, or crash on startup</h2>\n<p>First launch initializes interop and can take longer than usual. Wait for it to finish, then launch once more. If it fails every time, note when the error occurs, inspect <code>BepInEx/LogOutput.log</code>, and try the full release package for the matching architecture in a clean game copy. Back up <code>TOHEE-DATA</code> before reinstalling. If a black screen occurs during a round, leave the game and keep the log; check the current build&#39;s help for a black-screen fix command rather than relying on an old shortcut.</p>\n<h2 id=\"kicked-from-a-room-or-disconnected\">Kicked from a room or disconnected</h2>\n<p>Check the room code, server region, network connection, and client game version. If the problem occurs in only one room, ask whether the host configured level, allow-list, or platform limits, or removed the player. If several rooms fail at once, Among Us services or the network may be temporarily unavailable; retry later. Do not assume one disconnect proves a mod bug.</p>\n<h2 id=\"a-round-ended-unexpectedly-or-will-not-end\">A round ended unexpectedly or will not end</h2>\n<p>Win conditions depend on the mode, living factions, tasks, and role objectives. Check Standard role victory conditions, task completion, system options such as No Game End, and the selected mode&#39;s own timer rules. If a meeting does not finish, use a host feature listed in the current <code>/help</code>; old upstream shortcuts may not apply to the current build.</p>\n<h2 id=\"collect-logs-and-report-the-problem\">Collect logs and report the problem</h2>\n<p>If the game still opens, run <code>/dump</code> or press <code>Ctrl</code> + <code>F1</code> to export the log. Otherwise, copy <code>BepInEx/LogOutput.log</code>. Include the Among Us and TOHEE versions, store, architecture, reproduction steps, and whether the issue happens in a clean installation. Remove account credentials, access tokens, and other private information before sharing a report publicly.</p>\n",
+  "headings": [
+    {
+      "id": "tohee-did-not-load-and-the-game-still-looks-vanilla",
+      "text": "TOHEE did not load and the game still looks vanilla",
+      "level": 2
+    },
+    {
+      "id": "sign-in-failed-or-is-taking-a-long-time",
+      "text": "Sign-in failed or is taking a long time",
+      "level": 2
+    },
+    {
+      "id": "the-game-reports-a-version-mismatch",
+      "text": "The game reports a version mismatch",
+      "level": 2
+    },
+    {
+      "id": "black-screen-hang-or-crash-on-startup",
+      "text": "Black screen, hang, or crash on startup",
+      "level": 2
+    },
+    {
+      "id": "kicked-from-a-room-or-disconnected",
+      "text": "Kicked from a room or disconnected",
+      "level": 2
+    },
+    {
+      "id": "a-round-ended-unexpectedly-or-will-not-end",
+      "text": "A round ended unexpectedly or will not end",
+      "level": 2
+    },
+    {
+      "id": "collect-logs-and-report-the-problem",
+      "text": "Collect logs and report the problem",
+      "level": 2
+    }
+  ]
+}

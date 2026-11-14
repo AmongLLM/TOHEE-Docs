@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"效果\">效果</h2>\n<p>会议中可猜测玩家的角色并击杀目标；猜错会导致自己死亡。命令格式为 <code>/bt [玩家编号] [角色]</code>。玩家编号显示在名字前，也可以使用 <code>/id</code> 查看所有玩家编号。</p>\n<h2 id=\"设置\">设置</h2>\n<ul>\n<li><strong>Max（最大数量）</strong>：本局中该附加身份可出现的数量上限。</li>\n<li><strong>Spawn Chance（生成概率）</strong>：玩家获得此附加身份的概率。</li>\n<li><strong>Eligibility（可分配阵营）</strong>：主持人可分别设置内鬼、船员、中立者是否可以获得此附加身份。</li>\n<li><strong>Can guess Add-ons（可猜测附加身份）</strong>：控制玩家公开附加身份后，是否能被赌怪猜测该附加身份。</li>\n<li><strong>Can guess Snitch with All Tasks Done（告密者完成任务后仍可被猜）</strong>：控制告密者完成全部任务后、暴露其他玩家前，是否仍能被猜测。</li>\n<li><strong>Try to hide guesser&#39;s command（尝试隐藏赌怪命令）</strong>：控制模组是否尝试隐藏赌怪使用的命令，避免暴露身份。</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "效果",
+      "text": "效果",
+      "level": 2
+    },
+    {
+      "id": "设置",
+      "text": "设置",
+      "level": 2
+    }
+  ]
+}

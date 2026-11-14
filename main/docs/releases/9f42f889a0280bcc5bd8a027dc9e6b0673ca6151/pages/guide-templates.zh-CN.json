@@ -1,0 +1,20 @@
+{
+  "html": "<h2 id=\"模板文件\">模板文件</h2>\n<p>TOHEE 在游戏目录的 <code>TOHEE-DATA/template.txt</code> 中保存聊天模板。首次运行会根据游戏语言生成默认模板；旧位置的 <code>template.txt</code> 可能会被复制到新目录。编辑前先备份文件，使用纯文本编辑器保存为 UTF-8。</p>\n<p>每行使用 <code>名称:消息</code> 格式，冒号是分隔符。例如：</p>\n<pre><code class=\"language-text\">welcome:欢迎来到房间，{{PlayerName}}！房主是 {{HostName}}。\nonMeeting:请讨论并投票。房间代码：{{RoomCode}}\nexample:第一行\\n第二行\n</code></pre>\n<p>在聊天框输入 <code>/t welcome</code> 或 <code>/t example</code>，即可发送匹配名称的消息。<code>\\n</code> 会换行；消息正文中的额外冒号会保留。名称不区分大小写。相同名称可以出现多次，模组会分别发送匹配的消息。不存在的名称不会发送内容，可用 <code>/help</code> 查看当前帮助。</p>\n<p>当前默认模板通常包含 <code>welcome</code>、<code>onMeeting</code> 等触发名称；更新或修改模板时，请以你本机 <code>template.txt</code> 的内容为准，不要假定每个版本都有相同默认模板。</p>\n<h2 id=\"可替换变量\">可替换变量</h2>\n<p>模板可以包含 <code>{{...}}</code> 变量，模组发送时会用当前信息替换，例如：</p>\n<table>\n<thead>\n<tr>\n<th>变量</th>\n<th>含义</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><code>{{PlayerName}}</code></td>\n<td>接收模板的玩家名称；在大厅广播时可能为空。</td>\n</tr>\n<tr>\n<td><code>{{HostName}}</code></td>\n<td>房主游戏昵称。</td>\n</tr>\n<tr>\n<td><code>{{RoomCode}}</code></td>\n<td>房间代码。</td>\n</tr>\n<tr>\n<td><code>{{AmongUsVersion}}</code></td>\n<td>当前游戏版本。</td>\n</tr>\n<tr>\n<td><code>{{ModVersion}}</code></td>\n<td>TOHEE 显示版本。</td>\n</tr>\n<tr>\n<td><code>{{Map}}</code></td>\n<td>当前地图名称。</td>\n</tr>\n<tr>\n<td><code>{{LobbyTimer}}</code></td>\n<td>大厅开始倒计时；不在大厅时为空。</td>\n</tr>\n</tbody></table>\n<p>普通模式还支持游戏时间、讨论/投票时长、速度、视野和任务数量等模板变量；Hide &amp; Seek 使用的可替换选项较少。变量名称需完全匹配，包括大括号。</p>\n<h2 id=\"格式注意事项\">格式注意事项</h2>\n<p>聊天消息支持模组采用的 Among Us 富文本标记。改动后保存文件并重新发送模板；如果没有输出或显示异常，检查是否缺少冒号、变量拼写错误或文本中存在格式未闭合。<code>TOHE-DATA</code> 是旧版目录名；当前默认目录为 <code>TOHEE-DATA</code>。</p>\n",
+  "headings": [
+    {
+      "id": "模板文件",
+      "text": "模板文件",
+      "level": 2
+    },
+    {
+      "id": "可替换变量",
+      "text": "可替换变量",
+      "level": 2
+    },
+    {
+      "id": "格式注意事项",
+      "text": "格式注意事项",
+      "level": 2
+    }
+  ]
+}
