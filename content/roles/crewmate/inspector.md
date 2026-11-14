@@ -1,5 +1,5 @@
 ---
-{"id":"role-inspector","kind":"role","category":"crewmate","title":{"zh-CN":"检查员","en":"Inspector"},"summary":{"zh-CN":"检查员可用 /cmp 比较两名玩家是否属于同一阵营，中立和转换阵营角色按规则归类。","en":"The Inspector compares two players' team alignment with /cmp, using special rules for Neutrals and converted roles."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Inspector.cs"}
+{"id":"role-inspector","kind":"role","category":"crewmate","title":{"zh-CN":"检查员","en":"Inspector"},"summary":{"zh-CN":"检查员可用 /cmp 比较两名玩家是否属于同一阵营，中立和转换阵营角色按规则归类。","en":"The Inspector compares two players' team alignment with /cmp, using special rules for Neutrals and converted roles."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Inspector.cs"}
 ---
 
 <!-- zh-CN -->

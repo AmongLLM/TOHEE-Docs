@@ -1,5 +1,5 @@
 ---
-{"id":"role-spiritualist","kind":"role","category":"crewmate","title":{"zh-CN":"灵魂论者","en":"Spiritualist"},"summary":{"zh-CN":"灵魂论者会看到指向最近一次报告的尸体玩家的箭头；会议结束后，该玩家会收到提示。","en":"The Spiritualist sees an arrow to the player whose body was most recently reported; after the meeting, that player receives a notice."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Spiritualist.cs"}
+{"id":"role-spiritualist","kind":"role","category":"crewmate","title":{"zh-CN":"灵魂论者","en":"Spiritualist"},"summary":{"zh-CN":"灵魂论者会看到指向最近一次报告的尸体玩家的箭头；会议结束后，该玩家会收到提示。","en":"The Spiritualist sees an arrow to the player whose body was most recently reported; after the meeting, that player receives a notice."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Spiritualist.cs"}
 ---
 
 <!-- zh-CN -->

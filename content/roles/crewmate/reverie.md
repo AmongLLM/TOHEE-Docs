@@ -1,5 +1,5 @@
 ---
-{"id":"role-reverie","kind":"role","category":"crewmate","title":{"zh-CN":"遐想者","en":"Reverie"},"summary":{"zh-CN":"遐想者可以击杀，但初始冷却很长；击杀船员会延长冷却，击杀其他目标则会缩短冷却。","en":"The Reverie can kill but starts with a long cooldown; killing a Crewmate lengthens it, while killing other targets shortens it."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Reverie.cs"}
+{"id":"role-reverie","kind":"role","category":"crewmate","title":{"zh-CN":"遐想者","en":"Reverie"},"summary":{"zh-CN":"遐想者可以击杀，但初始冷却很长；击杀船员会延长冷却，击杀其他目标则会缩短冷却。","en":"The Reverie can kill but starts with a long cooldown; killing a Crewmate lengthens it, while killing other targets shortens it."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Reverie.cs"}
 ---
 
 <!-- zh-CN -->

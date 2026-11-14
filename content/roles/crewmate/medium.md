@@ -1,5 +1,5 @@
 ---
-{"id":"role-medium","kind":"role","category":"crewmate","title":{"zh-CN":"通灵师","en":"Medium"},"summary":{"zh-CN":"尸体被报告后，通灵师可以联系该死者；死者需在会议中用指定指令回答，通灵师才能看到回复。","en":"After a body is reported, the Medium can contact its ghost, which must answer with the specified command during the meeting for the reply to appear."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Medium.cs"}
+{"id":"role-medium","kind":"role","category":"crewmate","title":{"zh-CN":"通灵师","en":"Medium"},"summary":{"zh-CN":"尸体被报告后，通灵师可以联系该死者；死者需在会议中用指定指令回答，通灵师才能看到回复。","en":"After a body is reported, the Medium can contact its ghost, which must answer with the specified command during the meeting for the reply to appear."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Medium.cs"}
 ---
 
 <!-- zh-CN -->

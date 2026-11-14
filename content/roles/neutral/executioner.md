@@ -1,5 +1,5 @@
 ---
-{"id":"role-executioner","kind":"role","category":"neutral","title":{"en":"Executioner","zh-CN":"处刑人"},"summary":{"zh-CN":"开局获得一名目标；目标被投票放逐时获胜，目标在此之前死亡时按设置转变职业。","en":"Receive a target at the start; win if they are voted out, or change roles as configured if they die first."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Executioner.cs"}
+{"id":"role-executioner","kind":"role","category":"neutral","title":{"en":"Executioner","zh-CN":"处刑人"},"summary":{"zh-CN":"开局获得一名目标；目标被投票放逐时获胜，目标在此之前死亡时按设置转变职业。","en":"Receive a target at the start; win if they are voted out, or change roles as configured if they die first."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Executioner.cs"}
 ---
 <!-- zh-CN -->
 ## 处刑人

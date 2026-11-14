@@ -1,5 +1,5 @@
 ---
-{"id":"role-workaholic","kind":"role","category":"neutral","title":{"en":"Workaholic","zh-CN":"工作狂"},"summary":{"zh-CN":"完成所有任务后单独获胜；房主可允许其死亡后继续做幽灵任务并获胜。","en":"Complete all tasks to win alone; the host can allow the Workaholic to finish ghost tasks and win after death."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Workaholic.cs"}
+{"id":"role-workaholic","kind":"role","category":"neutral","title":{"en":"Workaholic","zh-CN":"工作狂"},"summary":{"zh-CN":"完成所有任务后单独获胜；房主可允许其死亡后继续做幽灵任务并获胜。","en":"Complete all tasks to win alone; the host can allow the Workaholic to finish ghost tasks and win after death."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Workaholic.cs"}
 ---
 <!-- zh-CN -->
 ## 工作狂

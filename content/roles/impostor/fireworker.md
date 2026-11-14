@@ -1,5 +1,5 @@
 ---
-{"id":"role-fireworker","kind":"role","category":"impostor","title":{"zh-CN":"烟花爆破者","en":"Fireworker"},"summary":{"zh-CN":"变形可放置房主设定数量的烟花；全部放置且成为最后一名内鬼后，变形引爆所有烟花。","en":"Shapeshifts to plant the configured number of fireworks; once all are planted and it is the last Impostor, shapeshifting detonates them all."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Fireworker.cs"}
+{"id":"role-fireworker","kind":"role","category":"impostor","title":{"zh-CN":"烟花爆破者","en":"Fireworker"},"summary":{"zh-CN":"变形可放置房主设定数量的烟花；全部放置且成为最后一名内鬼后，变形引爆所有烟花。","en":"Shapeshifts to plant the configured number of fireworks; once all are planted and it is the last Impostor, shapeshifting detonates them all."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Fireworker.cs"}
 ---
 
 <!-- zh-CN -->

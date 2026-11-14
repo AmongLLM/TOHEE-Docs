@@ -4,7 +4,7 @@ This repository contains bilingual documentation for TOHEE and TOHEE Cloud. Arti
 
 ## TOHEE role information
 
-The role roster follows implemented TOHEE roles at commit [1dcecb4481a07eeeb61df99415318ed5355339c7](https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/tree/1dcecb4481a07eeeb61df99415318ed5355339c7). It contains 314 entries: 81 Crewmates, 80 Impostors, 75 Neutrals, and 78 Add-ons. The roster records each role's category and implementation path; the compiler checks role articles against it.
+The role roster follows implemented TOHEE roles at commit [1dcecb4481a07eeeb61df99415318ed5355339c7](https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/tree/1dcecb4481a07eeeb61df99415318ed5355339c7). It contains 314 entries: 81 Crewmates, 80 Impostors, 75 Neutrals, and 78 Add-ons. The roster records each role's category and implementation path; the compiler checks role articles against it.
 
 Role descriptions are based on source review, not individual in-game verification. TOHEE gameplay, settings, and role coverage can change. Review the relevant implementation and update the roster, article, and fixed source links together when documenting a new revision.
 

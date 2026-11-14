@@ -1,5 +1,5 @@
 ---
-{"id":"role-addict","kind":"role","category":"crewmate","title":{"zh-CN":"瘾君子","en":"Addict"},"summary":{"zh-CN":"瘾君子必须在自杀计时结束前及时使用通风口，否则会死亡；每次钻出后还会经历短暂无敌和定身阶段。","en":"The Addict must vent before a suicide timer expires or die, then passes through brief invulnerability and immobilization after venting."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Addict.cs"}
+{"id":"role-addict","kind":"role","category":"crewmate","title":{"zh-CN":"瘾君子","en":"Addict"},"summary":{"zh-CN":"瘾君子必须在自杀计时结束前及时使用通风口，否则会死亡；每次钻出后还会经历短暂无敌和定身阶段。","en":"The Addict must vent before a suicide timer expires or die, then passes through brief invulnerability and immobilization after venting."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Addict.cs"}
 ---
 
 <!-- zh-CN -->

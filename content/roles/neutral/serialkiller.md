@@ -1,5 +1,5 @@
 ---
-{"id":"role-serialkiller","kind":"role","category":"neutral","title":{"en":"Serial Killer","zh-CN":"连环杀手"},"summary":{"zh-CN":"连环杀手属于独立的中立阵营，按中立阵营的计数胜利规则获胜；队友开关目前没有额外效果。","en":"The Serial Killer is a separate Neutral team that wins under the counted-neutral endgame rule; the buddy toggle currently has no additional effect."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/SerialKiller.cs"}
+{"id":"role-serialkiller","kind":"role","category":"neutral","title":{"en":"Serial Killer","zh-CN":"连环杀手"},"summary":{"zh-CN":"连环杀手属于独立的中立阵营，按中立阵营的计数胜利规则获胜；队友开关目前没有额外效果。","en":"The Serial Killer is a separate Neutral team that wins under the counted-neutral endgame rule; the buddy toggle currently has no additional effect."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/SerialKiller.cs"}
 ---
 <!-- zh-CN -->
 ## 连环杀手

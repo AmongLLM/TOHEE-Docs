@@ -11,7 +11,7 @@
     "zh-CN": "部分通风口会被封锁，封锁数量可按地图设置。",
     "en": "Some vents are blocked, with the number configurable for each map."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Prohibited.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Prohibited.cs"
 }
 ---
 <!-- zh-CN -->

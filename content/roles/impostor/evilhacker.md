@@ -1,5 +1,5 @@
 ---
-{"id":"role-evilhacker","kind":"role","category":"impostor","title":{"zh-CN":"邪恶黑客","en":"Evil Hacker"},"summary":{"zh-CN":"在每次会议开始时查看最后一刻的管理室信息，并可按选项查看尸体、内鬼位置和击杀闪光。","en":"Sees a last-moment Admin snapshot at meeting start, with optional body, Impostor, and kill-flash information."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/EvilHacker.cs"}
+{"id":"role-evilhacker","kind":"role","category":"impostor","title":{"zh-CN":"邪恶黑客","en":"Evil Hacker"},"summary":{"zh-CN":"在每次会议开始时查看最后一刻的管理室信息，并可按选项查看尸体、内鬼位置和击杀闪光。","en":"Sees a last-moment Admin snapshot at meeting start, with optional body, Impostor, and kill-flash information."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/EvilHacker.cs"}
 ---
 
 <!-- zh-CN -->

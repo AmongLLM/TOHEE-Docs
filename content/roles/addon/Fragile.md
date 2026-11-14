@@ -11,7 +11,7 @@
     "zh-CN": "可被击杀按钮直接击杀；是否触发及击杀者是否冲刺由阵营设置控制。",
     "en": "Can be killed by a kill-button attempt; team settings control whether the kill works and whether the killer lunges."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Fragile.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Fragile.cs"
 }
 ---
 <!-- zh-CN -->

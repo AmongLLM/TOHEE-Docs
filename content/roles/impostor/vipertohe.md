@@ -1,5 +1,5 @@
 ---
-{"id":"role-vipertohe","kind":"role","category":"impostor","title":{"zh-CN":"毒蛇","en":"Viper"},"summary":{"zh-CN":"击杀后尸体会在设定时间后溶解。","en":"Bodies from its kills dissolve after a configured delay."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Vanilla/ViperTOHE.cs"}
+{"id":"role-vipertohe","kind":"role","category":"impostor","title":{"zh-CN":"毒蛇","en":"Viper"},"summary":{"zh-CN":"击杀后尸体会在设定时间后溶解。","en":"Bodies from its kills dissolve after a configured delay."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Vanilla/ViperTOHE.cs"}
 ---
 
 <!-- zh-CN -->

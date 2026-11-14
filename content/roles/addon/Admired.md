@@ -11,7 +11,7 @@
     "zh-CN": "由仰慕者转化获得，保留原主角色，但计入船员阵营并随船员获胜。",
     "en": "Granted by Admirer; keeps the main role but counts as Crewmate and wins with the Crewmates."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Admirer.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Admirer.cs"
 }
 ---
 <!-- zh-CN -->

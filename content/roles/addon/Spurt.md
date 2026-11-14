@@ -11,7 +11,7 @@
     "zh-CN": "静止时速度逐渐回升，移动时逐渐下降；最低和最高速度可设置。",
     "en": "Speed gradually recovers while still and falls while moving; the minimum and maximum speeds are configurable."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Spurt.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Spurt.cs"
 }
 ---
 <!-- zh-CN -->

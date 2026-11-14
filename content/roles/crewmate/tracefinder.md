@@ -1,5 +1,5 @@
 ---
-{"id":"role-tracefinder","kind":"role","category":"crewmate","title":{"zh-CN":"寻迹者","en":"Tracefinder"},"summary":{"zh-CN":"寻迹者可以使用生命监测仪，并会获得指向尸体的箭头；监测仪和箭头的时序均可调整。","en":"The Tracefinder can use Vitals and receives arrows pointing to dead bodies, with configurable Vitals and arrow timing."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Tracefinder.cs"}
+{"id":"role-tracefinder","kind":"role","category":"crewmate","title":{"zh-CN":"寻迹者","en":"Tracefinder"},"summary":{"zh-CN":"寻迹者可以使用生命监测仪，并会获得指向尸体的箭头；监测仪和箭头的时序均可调整。","en":"The Tracefinder can use Vitals and receives arrows pointing to dead bodies, with configurable Vitals and arrow timing."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Tracefinder.cs"}
 ---
 
 <!-- zh-CN -->

@@ -1,5 +1,5 @@
 ---
-{"id":"role-ludopath","kind":"role","category":"impostor","title":{"zh-CN":"速度者","en":"Ludopath"},"summary":{"zh-CN":"每次击杀后，击杀冷却会在 1 秒至“最大击杀冷却”上限间随机变化（上限值不计入）。","en":"After each kill, the cooldown is randomized from 1 second up to, but not including, the configured maximum."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Ludopath.cs"}
+{"id":"role-ludopath","kind":"role","category":"impostor","title":{"zh-CN":"速度者","en":"Ludopath"},"summary":{"zh-CN":"每次击杀后，击杀冷却会在 1 秒至“最大击杀冷却”上限间随机变化（上限值不计入）。","en":"After each kill, the cooldown is randomized from 1 second up to, but not including, the configured maximum."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Ludopath.cs"}
 ---
 
 <!-- zh-CN -->

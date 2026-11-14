@@ -1,5 +1,5 @@
 ---
-{"id":"role-niceguesser","kind":"role","category":"crewmate","title":{"zh-CN":"正义赌怪","en":"Nice Guesser"},"summary":{"zh-CN":"正义赌怪在会议中猜测玩家职业，猜对会击杀目标，猜错则自己死亡。","en":"During a meeting, the Nice Guesser guesses a player's role; a correct guess kills the target, while a wrong guess kills the Guesser."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/NiceGuesser.cs"}
+{"id":"role-niceguesser","kind":"role","category":"crewmate","title":{"zh-CN":"正义赌怪","en":"Nice Guesser"},"summary":{"zh-CN":"正义赌怪在会议中猜测玩家职业，猜对会击杀目标，猜错则自己死亡。","en":"During a meeting, the Nice Guesser guesses a player's role; a correct guess kills the target, while a wrong guess kills the Guesser."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/NiceGuesser.cs"}
 ---
 
 <!-- zh-CN -->

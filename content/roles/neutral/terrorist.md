@@ -1,5 +1,5 @@
 ---
-{"id":"role-terrorist","kind":"role","category":"neutral","title":{"en":"Terrorist","zh-CN":"恐怖分子"},"summary":{"zh-CN":"完成所有任务后被击杀或放逐即可单独获胜；自杀仅在设置允许时有效。","en":"Complete all tasks and then be killed or voted out to win alone; suicide counts only when enabled."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Terrorist.cs"}
+{"id":"role-terrorist","kind":"role","category":"neutral","title":{"en":"Terrorist","zh-CN":"恐怖分子"},"summary":{"zh-CN":"完成所有任务后被击杀或放逐即可单独获胜；自杀仅在设置允许时有效。","en":"Complete all tasks and then be killed or voted out to win alone; suicide counts only when enabled."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Terrorist.cs"}
 ---
 <!-- zh-CN -->
 ## 恐怖分子

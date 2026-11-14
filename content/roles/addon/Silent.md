@@ -11,7 +11,7 @@
     "zh-CN": "会议结果界面不显示其投票图标，因此其他玩家不知道它投给了谁。",
     "en": "Its vote icon is hidden from the results screen, so others do not know who it voted for."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Silent.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Silent.cs"
 }
 ---
 <!-- zh-CN -->

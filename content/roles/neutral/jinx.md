@@ -1,5 +1,5 @@
 ---
-{"id":"role-jinx","kind":"role","category":"neutral","title":{"en":"Jinx","zh-CN":"扫把星"},"summary":{"zh-CN":"受到攻击时可用有限次数的厄运反击；内鬼阵营消灭后按中立平衡条件获胜。","en":"Counter eligible attacks with limited jinxes; win under the neutral parity rule after the Impostors are gone."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Jinx.cs"}
+{"id":"role-jinx","kind":"role","category":"neutral","title":{"en":"Jinx","zh-CN":"扫把星"},"summary":{"zh-CN":"受到攻击时可用有限次数的厄运反击；内鬼阵营消灭后按中立平衡条件获胜。","en":"Counter eligible attacks with limited jinxes; win under the neutral parity rule after the Impostors are gone."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Jinx.cs"}
 ---
 <!-- zh-CN -->
 ## 扫把星

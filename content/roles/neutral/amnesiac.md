@@ -1,5 +1,5 @@
 ---
-{"id":"role-amnesiac","kind":"role","category":"neutral","title":{"en":"Amnesiac","zh-CN":"失忆者"},"summary":{"zh-CN":"报告尸体并记住死者的身份；根据死者阵营与兼容性转变为相应职业。","en":"Report a body to remember the victim's role, then become a role determined by their team and compatibility."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Amnesiac.cs"}
+{"id":"role-amnesiac","kind":"role","category":"neutral","title":{"en":"Amnesiac","zh-CN":"失忆者"},"summary":{"zh-CN":"报告尸体并记住死者的身份；根据死者阵营与兼容性转变为相应职业。","en":"Report a body to remember the victim's role, then become a role determined by their team and compatibility."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Amnesiac.cs"}
 ---
 <!-- zh-CN -->
 ## 失忆者

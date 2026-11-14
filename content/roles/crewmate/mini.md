@@ -1,5 +1,5 @@
 ---
-{"id":"role-mini","kind":"role","category":"crewmate","title":{"zh-CN":"迷你船员","en":"Mini"},"summary":{"zh-CN":"迷你船员会随时间长大，并可能成为好迷你或坏迷你；成长速度、阵营概率、年龄显示和击杀冷却可设置。","en":"The Mini grows over time and may be a Nice Mini or Evil Mini, with configurable growth, variant chance, age display, and kill cooldowns."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Double/Mini.cs"}
+{"id":"role-mini","kind":"role","category":"crewmate","title":{"zh-CN":"迷你船员","en":"Mini"},"summary":{"zh-CN":"迷你船员会随时间长大，并可能成为好迷你或坏迷你；成长速度、阵营概率、年龄显示和击杀冷却可设置。","en":"The Mini grows over time and may be a Nice Mini or Evil Mini, with configurable growth, variant chance, age display, and kill cooldowns."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Double/Mini.cs"}
 ---
 
 <!-- zh-CN -->

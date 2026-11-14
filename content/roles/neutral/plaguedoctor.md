@@ -1,5 +1,5 @@
 ---
-{"id":"role-plaguedoctor","kind":"role","category":"neutral","title":{"en":"Plague Scientist","zh-CN":"瘟疫学家"},"summary":{"zh-CN":"直接感染玩家并通过近距离接触继续传播；感染所有存活玩家后获胜。","en":"Directly infect a player and spread through proximity; infect every living player to win."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/PlagueDoctor.cs"}
+{"id":"role-plaguedoctor","kind":"role","category":"neutral","title":{"en":"Plague Scientist","zh-CN":"瘟疫学家"},"summary":{"zh-CN":"直接感染玩家并通过近距离接触继续传播；感染所有存活玩家后获胜。","en":"Directly infect a player and spread through proximity; infect every living player to win."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/PlagueDoctor.cs"}
 ---
 <!-- zh-CN -->
 ## 瘟疫学家

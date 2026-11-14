@@ -1,5 +1,5 @@
 ---
-{"id":"role-greedy","kind":"role","category":"impostor","title":{"zh-CN":"贪婪者","en":"Greedy"},"summary":{"zh-CN":"奇数次和偶数次击杀使用不同冷却；每次会议后计数重置，下一次击杀重新按奇数计算。","en":"Uses separate cooldowns for odd- and even-numbered kills; the count resets at each meeting."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Greedy.cs"}
+{"id":"role-greedy","kind":"role","category":"impostor","title":{"zh-CN":"贪婪者","en":"Greedy"},"summary":{"zh-CN":"奇数次和偶数次击杀使用不同冷却；每次会议后计数重置，下一次击杀重新按奇数计算。","en":"Uses separate cooldowns for odd- and even-numbered kills; the count resets at each meeting."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Greedy.cs"}
 ---
 
 <!-- zh-CN -->

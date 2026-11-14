@@ -1,5 +1,5 @@
 ---
-{"id":"role-superstar","kind":"role","category":"crewmate","title":{"zh-CN":"大明星","en":"Super Star"},"summary":{"zh-CN":"大明星只有在与杀手单独相处时才能被击杀，是否在名字旁显示黄色星星可设置。","en":"The Super Star can be killed only when alone with a killer, and a setting controls whether a yellow star appears by their name."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/SuperStar.cs"}
+{"id":"role-superstar","kind":"role","category":"crewmate","title":{"zh-CN":"大明星","en":"Super Star"},"summary":{"zh-CN":"大明星只有在与杀手单独相处时才能被击杀，是否在名字旁显示黄色星星可设置。","en":"The Super Star can be killed only when alone with a killer, and a setting controls whether a yellow star appears by their name."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/SuperStar.cs"}
 ---
 
 <!-- zh-CN -->

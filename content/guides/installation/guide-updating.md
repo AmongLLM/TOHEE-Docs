@@ -11,7 +11,7 @@
     "zh-CN": "安全替换发行文件，并保留本地设置和模板。",
     "en": "Replace release files safely while keeping local settings and templates."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/packaging/INSTALL.txt",
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/packaging/INSTALL.txt",
   "order": 3
 }
 ---
@@ -22,7 +22,7 @@
 
 ## 安装新版本
 
-1. 打开 [TOHEE GitHub Releases](https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/releases)，查看最新版本的发行说明和支持的 Among Us 版本。
+1. 打开 [TOHEE GitHub Releases](https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/releases)，查看最新版本的发行说明和支持的 Among Us 版本。
 2. 下载与当前商店及架构相符的发行包。Steam、Epic Games、Microsoft Store / Xbox App 通常使用 x64；Windows itch.io 客户端使用 x86。若游戏本体升级了，优先使用该游戏版本对应的完整发行包。
 3. 在游戏关闭时将发行包中的文件解压到 `Among Us.exe` 所在目录，并按提示覆盖模组文件。保留 `TOHEE-DATA`，不要用旧备份整个覆盖新安装目录。
 4. 从较早的整合包升级时，请查看随当前发行包提供的说明，确认是否还需替换 patcher 或其他加载器文件。若首次初始化要求重启，按发行说明重新启动游戏。
@@ -43,7 +43,7 @@ Close Among Us and any running game process from the launcher. Back up the `TOHE
 
 ## Install the new version
 
-1. Open [TOHEE GitHub Releases](https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/releases) and read the newest release notes and supported Among Us version.
+1. Open [TOHEE GitHub Releases](https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/releases) and read the newest release notes and supported Among Us version.
 2. Download the package for your store and architecture. Steam, Epic Games, and Microsoft Store / Xbox App normally use x64; the Windows itch.io client uses x86. If the game itself was updated, prefer the full release package for that game version.
 3. With the game closed, extract the package into the directory containing `Among Us.exe` and allow it to replace mod files as prompted. Keep `TOHEE-DATA`; do not replace the entire new installation directory with an old backup.
 4. When upgrading an older bundled release, check the current package instructions for any patcher or loader files that must also be replaced. If first initialization requires a restart, follow the release notes and relaunch the game.

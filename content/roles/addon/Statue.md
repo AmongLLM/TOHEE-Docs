@@ -11,7 +11,7 @@
     "zh-CN": "附近玩家达到设定人数时会被减速或完全定身。",
     "en": "Slows or freezes when enough players are nearby, according to host settings."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Statue.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Statue.cs"
 }
 ---
 <!-- zh-CN -->

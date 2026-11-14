@@ -1,5 +1,5 @@
 ---
-{"id":"role-antiadminer","kind":"role","category":"impostor","title":{"zh-CN":"监管者","en":"Anti Adminer"},"summary":{"zh-CN":"侦测摄像头、管理室地图、生命体征仪和门禁记录等设备附近的船员或中立玩家，但无法确认对方正在使用设备。","en":"Detects Crewmates or Neutrals near cameras, Admin, vitals, DoorLog, and similar devices, but cannot tell whether they are using them."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/AntiAdminer.cs"}
+{"id":"role-antiadminer","kind":"role","category":"impostor","title":{"zh-CN":"监管者","en":"Anti Adminer"},"summary":{"zh-CN":"侦测摄像头、管理室地图、生命体征仪和门禁记录等设备附近的船员或中立玩家，但无法确认对方正在使用设备。","en":"Detects Crewmates or Neutrals near cameras, Admin, vitals, DoorLog, and similar devices, but cannot tell whether they are using them."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/AntiAdminer.cs"}
 ---
 
 <!-- zh-CN -->

@@ -11,7 +11,7 @@
     "zh-CN": "基础移动速度低于其他玩家，具体速度由主持人设置。",
     "en": "Has a slower default movement speed, set by the host."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Sloth.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Sloth.cs"
 }
 ---
 <!-- zh-CN -->

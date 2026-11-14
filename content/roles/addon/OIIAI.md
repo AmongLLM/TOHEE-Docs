@@ -11,7 +11,7 @@
     "zh-CN": "被合格玩家击杀时会尝试抹除其主角色；是否传递 OIIAI 及中立击杀者的处理方式可设置。",
     "en": "When killed by an eligible player, attempts to erase their main role; OIIAI transfer and Neutral-killer handling are configurable."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Oiiai.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Oiiai.cs"
 }
 ---
 <!-- zh-CN -->

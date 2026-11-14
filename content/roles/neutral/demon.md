@@ -1,5 +1,5 @@
 ---
-{"id":"role-demon","kind":"role","category":"neutral","title":{"en":"Demon","zh-CN":"玩家"},"summary":{"zh-CN":"以生命值互相消耗进行攻击；内鬼消失后，若玩家阵营是唯一存活的计数中立阵营且人数不少于船员，即可获胜。","en":"Drain health to attack and defend; after Impostors are gone, the Demon wins when it is the only surviving counted Neutral team and at least as numerous as Crew."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Demon.cs"}
+{"id":"role-demon","kind":"role","category":"neutral","title":{"en":"Demon","zh-CN":"玩家"},"summary":{"zh-CN":"以生命值互相消耗进行攻击；内鬼消失后，若玩家阵营是唯一存活的计数中立阵营且人数不少于船员，即可获胜。","en":"Drain health to attack and defend; after Impostors are gone, the Demon wins when it is the only surviving counted Neutral team and at least as numerous as Crew."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Demon.cs"}
 ---
 <!-- zh-CN -->
 ## 玩家（Demon）

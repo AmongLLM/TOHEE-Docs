@@ -11,7 +11,7 @@
     "zh-CN": "仅分配给有击杀按钮的角色，并按设定比例缩短击杀冷却。",
     "en": "Assigned only to roles with a kill button and reduces their kill cooldown by a configured percentage."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Overlocked.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Overlocked.cs"
 }
 ---
 <!-- zh-CN -->

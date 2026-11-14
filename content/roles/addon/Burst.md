@@ -11,7 +11,7 @@
     "zh-CN": "符合条件的击杀者会在延迟后爆炸；通风口、死亡、会议、杀戮机器和变身的启示录中立角色可使效果失效。",
     "en": "An eligible killer explodes after a delay; venting, death, meetings, KillingMachine, or an Apocalypse-transformed killer can prevent it."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Burst.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Burst.cs"
 }
 ---
 <!-- zh-CN -->

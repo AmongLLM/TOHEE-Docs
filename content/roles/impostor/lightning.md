@@ -1,5 +1,5 @@
 ---
-{"id":"role-lightning","kind":"role","category":"impostor","title":{"zh-CN":"球状闪电","en":"Lightning"},"summary":{"zh-CN":"击中目标后延迟将其变成量子幽灵；幽灵会在被碰触或会议结束后死亡。","en":"Turns a target into a quantum ghost after a delay; the ghost dies if touched or after a meeting."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Lightning.cs"}
+{"id":"role-lightning","kind":"role","category":"impostor","title":{"zh-CN":"球状闪电","en":"Lightning"},"summary":{"zh-CN":"击中目标后延迟将其变成量子幽灵；幽灵会在被碰触或会议结束后死亡。","en":"Turns a target into a quantum ghost after a delay; the ghost dies if touched or after a meeting."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Lightning.cs"}
 ---
 
 <!-- zh-CN -->

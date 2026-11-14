@@ -1,5 +1,5 @@
 ---
-{"id":"role-taskinator","kind":"role","category":"neutral","title":{"en":"Taskinator","zh-CN":"任务执行者"},"summary":{"zh-CN":"完成任务时给任务安装炸弹；其他玩家完成被标记任务时会触发炸弹攻击。船员获胜时任务执行者不能获胜。","en":"Bomb tasks as they are completed so another player triggers an attack when completing one; the Taskinator wins only if Crew does not win and they survive."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Taskinator.cs"}
+{"id":"role-taskinator","kind":"role","category":"neutral","title":{"en":"Taskinator","zh-CN":"任务执行者"},"summary":{"zh-CN":"完成任务时给任务安装炸弹；其他玩家完成被标记任务时会触发炸弹攻击。船员获胜时任务执行者不能获胜。","en":"Bomb tasks as they are completed so another player triggers an attack when completing one; the Taskinator wins only if Crew does not win and they survive."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Taskinator.cs"}
 ---
 <!-- zh-CN -->
 ## 任务执行者

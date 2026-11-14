@@ -1,5 +1,5 @@
 ---
-{"id":"role-bloodmoon","kind":"role","category":"impostor","title":{"zh-CN":"嗜血之魂","en":"Bloodmoon"},"summary":{"zh-CN":"作为内鬼幽灵角色使用保护技能使目标流血；目标倒计时结束后死亡。","en":"As an Impostor ghost role, uses the protection ability to make a target bleed; they die when the timer expires."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/(Ghosts)/Impostor/Bloodmoon.cs"}
+{"id":"role-bloodmoon","kind":"role","category":"impostor","title":{"zh-CN":"嗜血之魂","en":"Bloodmoon"},"summary":{"zh-CN":"作为内鬼幽灵角色使用保护技能使目标流血；目标倒计时结束后死亡。","en":"As an Impostor ghost role, uses the protection ability to make a target bleed; they die when the timer expires."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/(Ghosts)/Impostor/Bloodmoon.cs"}
 ---
 
 <!-- zh-CN -->

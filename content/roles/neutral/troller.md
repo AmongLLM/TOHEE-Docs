@@ -1,5 +1,5 @@
 ---
-{"id":"role-troller","kind":"role","category":"neutral","title":{"en":"Troller","zh-CN":"暴君"},"summary":{"zh-CN":"通过完成任务触发随机事件来干扰玩家，并随获胜阵营获胜。","en":"Complete tasks to trigger random events that disrupt players, then win with the winning team."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Troller.cs"}
+{"id":"role-troller","kind":"role","category":"neutral","title":{"en":"Troller","zh-CN":"暴君"},"summary":{"zh-CN":"通过完成任务触发随机事件来干扰玩家，并随获胜阵营获胜。","en":"Complete tasks to trigger random events that disrupt players, then win with the winning team."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Troller.cs"}
 ---
 <!-- zh-CN -->
 ## 暴君

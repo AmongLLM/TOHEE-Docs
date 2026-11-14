@@ -1,5 +1,5 @@
 ---
-{"id":"role-councillor","kind":"role","category":"impostor","title":{"zh-CN":"邪恶法官","en":"Councillor"},"summary":{"zh-CN":"会议中以审判方式击杀；目标阵营、每场次数、每次会议次数和误判内鬼队伍的后果均可设置。","en":"Trials players during meetings; settings control target teams, per-game and per-meeting limits, and consequences for judging the Impostor team."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Councillor.cs"}
+{"id":"role-councillor","kind":"role","category":"impostor","title":{"zh-CN":"邪恶法官","en":"Councillor"},"summary":{"zh-CN":"会议中以审判方式击杀；目标阵营、每场次数、每次会议次数和误判内鬼队伍的后果均可设置。","en":"Trials players during meetings; settings control target teams, per-game and per-meeting limits, and consequences for judging the Impostor team."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Councillor.cs"}
 ---
 
 <!-- zh-CN -->

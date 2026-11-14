@@ -1,5 +1,5 @@
 ---
-{"id":"role-cursedsoul","kind":"role","category":"neutral","title":{"en":"Cursed Soul","zh-CN":"诅咒之人"},"summary":{"zh-CN":"存活到普通游戏结束时有机会夺取主要胜利；无魂玩家按死亡参与胜利检查。","en":"A living Cursed Soul can take the primary win at a normal game end; Soulless players count as dead for win checks."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/CursedSoul.cs"}
+{"id":"role-cursedsoul","kind":"role","category":"neutral","title":{"en":"Cursed Soul","zh-CN":"诅咒之人"},"summary":{"zh-CN":"存活到普通游戏结束时有机会夺取主要胜利；无魂玩家按死亡参与胜利检查。","en":"A living Cursed Soul can take the primary win at a normal game end; Soulless players count as dead for win checks."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/CursedSoul.cs"}
 ---
 <!-- zh-CN -->
 ## 诅咒之人

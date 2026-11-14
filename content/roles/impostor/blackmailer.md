@@ -1,5 +1,5 @@
 ---
-{"id":"role-blackmailer","kind":"role","category":"impostor","title":{"zh-CN":"勒索者","en":"Blackmailer"},"summary":{"zh-CN":"变形勒索一名玩家，使其在会议中无法发言；再次勒索会解除先前目标的勒索。","en":"Shapeshifts to blackmail one player and silence them during meetings; a new target is released from the previous blackmail."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Blackmailer.cs"}
+{"id":"role-blackmailer","kind":"role","category":"impostor","title":{"zh-CN":"勒索者","en":"Blackmailer"},"summary":{"zh-CN":"变形勒索一名玩家，使其在会议中无法发言；再次勒索会解除先前目标的勒索。","en":"Shapeshifts to blackmail one player and silence them during meetings; a new target is released from the previous blackmail."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Blackmailer.cs"}
 ---
 
 <!-- zh-CN -->

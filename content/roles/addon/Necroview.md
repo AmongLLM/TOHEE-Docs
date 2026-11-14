@@ -11,7 +11,7 @@
     "zh-CN": "存活的死神可在会议期间通过死者名字颜色辨别其所属阵营类别。",
     "en": "While alive, Necroview can identify dead players' team categories by their name colors during meetings."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Necroview.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Necroview.cs"
 }
 ---
 <!-- zh-CN -->

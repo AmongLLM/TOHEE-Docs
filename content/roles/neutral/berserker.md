@@ -1,5 +1,5 @@
 ---
-{"id":"role-berserker","kind":"role","category":"neutral","title":{"en":"Berserker","zh-CN":"狂战士"},"summary":{"zh-CN":"通过击杀升级并逐步解锁能力；达到设定等级后可转变为战争者。","en":"Level up by killing to unlock abilities, and transform into War at the configured level."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Berserker.cs"}
+{"id":"role-berserker","kind":"role","category":"neutral","title":{"en":"Berserker","zh-CN":"狂战士"},"summary":{"zh-CN":"通过击杀升级并逐步解锁能力；达到设定等级后可转变为战争者。","en":"Level up by killing to unlock abilities, and transform into War at the configured level."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Berserker.cs"}
 ---
 <!-- zh-CN -->
 ## 狂战士

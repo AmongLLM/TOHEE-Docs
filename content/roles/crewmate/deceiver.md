@@ -1,5 +1,5 @@
 ---
-{"id":"role-deceiver","kind":"role","category":"crewmate","title":{"zh-CN":"赝品商","en":"Deceiver"},"summary":{"zh-CN":"赝品商用击杀按钮把赝品交给玩家；没有击杀能力的目标会在会议后自杀，有击杀能力者则会在尝试击杀时自杀。","en":"The Deceiver passes a counterfeit with the kill button; a non-killer dies after the meeting, while a killer dies after attempting a kill."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Deceiver.cs"}
+{"id":"role-deceiver","kind":"role","category":"crewmate","title":{"zh-CN":"赝品商","en":"Deceiver"},"summary":{"zh-CN":"赝品商用击杀按钮把赝品交给玩家；没有击杀能力的目标会在会议后自杀，有击杀能力者则会在尝试击杀时自杀。","en":"The Deceiver passes a counterfeit with the kill button; a non-killer dies after the meeting, while a killer dies after attempting a kill."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Deceiver.cs"}
 ---
 
 <!-- zh-CN -->

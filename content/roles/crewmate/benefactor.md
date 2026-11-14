@@ -1,5 +1,5 @@
 ---
-{"id":"role-benefactor","kind":"role","category":"crewmate","title":{"zh-CN":"恩人","en":"Benefactor"},"summary":{"zh-CN":"恩人完成任务后会标记该任务，其他玩家完成被标记的任务时会获得只能抵挡直接击杀的临时护盾。","en":"The Benefactor marks completed tasks so that another player finishing one receives a temporary shield against direct kills."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Benefactor.cs"}
+{"id":"role-benefactor","kind":"role","category":"crewmate","title":{"zh-CN":"恩人","en":"Benefactor"},"summary":{"zh-CN":"恩人完成任务后会标记该任务，其他玩家完成被标记的任务时会获得只能抵挡直接击杀的临时护盾。","en":"The Benefactor marks completed tasks so that another player finishing one receives a temporary shield against direct kills."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Benefactor.cs"}
 ---
 
 <!-- zh-CN -->

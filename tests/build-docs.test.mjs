@@ -120,7 +120,7 @@ test('validates roster roles separately from navigation groups', async t => {
   });
   await addCategory(root, 'character-reference', 'character-reference');
   await writeJson(path.join(root, 'roleColor.json'), { Sheriff: '#abcdef' });
-  const source = 'https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1234567890abcdef/Roles/Crewmate/Sheriff.cs';
+  const source = 'https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1234567890abcdef/Roles/Crewmate/Sheriff.cs';
   await addDocument(root, 'guides/home.md', guide('guide-home'), localizedBody);
   await addDocument(root, 'character-reference/sheriff.md', guide('role-sheriff', {
     kind: 'role',

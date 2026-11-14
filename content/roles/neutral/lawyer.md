@@ -1,5 +1,5 @@
 ---
-{"id":"role-lawyer","kind":"role","category":"neutral","title":{"en":"Lawyer","zh-CN":"律师"},"summary":{"zh-CN":"开局获得一名以菱形标记的目标；目标获胜则律师获胜，目标失败则律师失败。","en":"Receive a diamond-marked target at the start; win if the target wins and lose if they lose."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Lawyer.cs"}
+{"id":"role-lawyer","kind":"role","category":"neutral","title":{"en":"Lawyer","zh-CN":"律师"},"summary":{"zh-CN":"开局获得一名以菱形标记的目标；目标获胜则律师获胜，目标失败则律师失败。","en":"Receive a diamond-marked target at the start; win if the target wins and lose if they lose."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Lawyer.cs"}
 ---
 <!-- zh-CN -->
 ## 律师

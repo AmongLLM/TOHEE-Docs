@@ -1,5 +1,5 @@
 ---
-{"id":"role-pyromaniac","kind":"role","category":"neutral","title":{"en":"Pyromaniac","zh-CN":"焚烧狂"},"summary":{"zh-CN":"涂油后可直接击杀目标；内鬼阵营消灭后按中立平衡条件获胜。","en":"Douse and directly kill targets; win under the neutral parity rule after the Impostors are gone."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Pyromaniac.cs"}
+{"id":"role-pyromaniac","kind":"role","category":"neutral","title":{"en":"Pyromaniac","zh-CN":"焚烧狂"},"summary":{"zh-CN":"涂油后可直接击杀目标；内鬼阵营消灭后按中立平衡条件获胜。","en":"Douse and directly kill targets; win under the neutral parity rule after the Impostors are gone."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Pyromaniac.cs"}
 ---
 <!-- zh-CN -->
 ## 焚烧狂

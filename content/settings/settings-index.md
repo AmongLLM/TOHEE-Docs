@@ -11,7 +11,7 @@
     "zh-CN": "按游戏、系统、模组和阵营设置分类查找选项说明。",
     "en": "Find options by game, system, mod, and faction setting groups."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/OptionHolder.cs",
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/OptionHolder.cs",
   "order": 100
 }
 ---

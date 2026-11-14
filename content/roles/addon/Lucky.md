@@ -11,7 +11,7 @@
     "zh-CN": "有概率躲过击杀；触发时击杀者会看到护盾动画，但幸运加持自身不会收到提示。",
     "en": "May evade a kill; the killer sees a shield animation, but Lucky is not notified."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Lucky.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Lucky.cs"
 }
 ---
 <!-- zh-CN -->

@@ -1,5 +1,5 @@
 ---
-{"id":"role-wraith","kind":"role","category":"neutral","title":{"en":"Wraith","zh-CN":"魅影"},"summary":{"zh-CN":"通过通风口暂时隐身；冷却期间能否正常使用通风口由设置决定。","en":"Use vents to become temporarily invisible; settings control normal vent use during cooldown."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Wraith.cs"}
+{"id":"role-wraith","kind":"role","category":"neutral","title":{"en":"Wraith","zh-CN":"魅影"},"summary":{"zh-CN":"通过通风口暂时隐身；冷却期间能否正常使用通风口由设置决定。","en":"Use vents to become temporarily invisible; settings control normal vent use during cooldown."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Wraith.cs"}
 ---
 <!-- zh-CN -->
 ## 魅影

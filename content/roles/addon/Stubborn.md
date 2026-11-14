@@ -11,7 +11,7 @@
     "zh-CN": "抹除者无法抹除其角色，清洗者无法净化，强盗无法窃取，君主无法授勋；商人不能给予其新附加身份。",
     "en": "Blocks Eraser, Cleanser, Bandit, Monarch, and Merchant from changing it or its add-ons."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Stubborn.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Stubborn.cs"
 }
 ---
 <!-- zh-CN -->

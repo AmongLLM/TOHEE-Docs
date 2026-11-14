@@ -1,5 +1,5 @@
 ---
-{"id":"role-bountyhunter","kind":"role","category":"impostor","title":{"zh-CN":"赏金猎人","en":"Bounty Hunter"},"summary":{"zh-CN":"击杀当前悬赏目标可缩短下一次击杀冷却，击杀其他人则会延长冷却；目标会定时更换。","en":"Killing the assigned target shortens the next kill cooldown; killing someone else lengthens it, and the target changes over time."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/BountyHunter.cs"}
+{"id":"role-bountyhunter","kind":"role","category":"impostor","title":{"zh-CN":"赏金猎人","en":"Bounty Hunter"},"summary":{"zh-CN":"击杀当前悬赏目标可缩短下一次击杀冷却，击杀其他人则会延长冷却；目标会定时更换。","en":"Killing the assigned target shortens the next kill cooldown; killing someone else lengthens it, and the target changes over time."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/BountyHunter.cs"}
 ---
 
 <!-- zh-CN -->

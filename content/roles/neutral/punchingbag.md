@@ -1,5 +1,5 @@
 ---
-{"id":"role-punchingbag","kind":"role","category":"neutral","title":{"en":"Punching Bag","zh-CN":"受虐狂"},"summary":{"zh-CN":"承受足够次数的攻击即可获胜；猜测受虐狂会被阻止，但每位猜测者的首次尝试会计为一次攻击。","en":"Win after enough attacks; guesses at the role are blocked, but each guesser's first attempt counts as an attack."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/PunchingBag.cs"}
+{"id":"role-punchingbag","kind":"role","category":"neutral","title":{"en":"Punching Bag","zh-CN":"受虐狂"},"summary":{"zh-CN":"承受足够次数的攻击即可获胜；猜测受虐狂会被阻止，但每位猜测者的首次尝试会计为一次攻击。","en":"Win after enough attacks; guesses at the role are blocked, but each guesser's first attempt counts as an attack."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/PunchingBag.cs"}
 ---
 <!-- zh-CN -->
 ## 受虐狂

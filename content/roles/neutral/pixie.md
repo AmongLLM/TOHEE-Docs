@@ -1,5 +1,5 @@
 ---
-{"id":"role-pixie","kind":"role","category":"neutral","title":{"en":"Pixie","zh-CN":"小精灵"},"summary":{"zh-CN":"每轮标记目标，并在会议中促成至少一名目标被放逐以得分；达到分数后随胜利阵营获胜。","en":"Mark targets each round and get at least one voted out at the meeting to score; reach the required score to win with the winning team."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Pixie.cs"}
+{"id":"role-pixie","kind":"role","category":"neutral","title":{"en":"Pixie","zh-CN":"小精灵"},"summary":{"zh-CN":"每轮标记目标，并在会议中促成至少一名目标被放逐以得分；达到分数后随胜利阵营获胜。","en":"Mark targets each round and get at least one voted out at the meeting to score; reach the required score to win with the winning team."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Pixie.cs"}
 ---
 <!-- zh-CN -->
 ## 小精灵

@@ -1,5 +1,5 @@
 ---
-{"id":"role-puppeteer","kind":"role","category":"impostor","title":{"zh-CN":"傀儡师","en":"Puppeteer"},"summary":{"zh-CN":"单击操纵目标；傀儡会自动攻击范围内最近的非内鬼玩家，双击则普通击杀。","en":"Single-clicks to puppeteer a target; the puppet automatically attacks the nearest non-Impostor in range, while double-clicking kills normally."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Puppeteer.cs"}
+{"id":"role-puppeteer","kind":"role","category":"impostor","title":{"zh-CN":"傀儡师","en":"Puppeteer"},"summary":{"zh-CN":"单击操纵目标；傀儡会自动攻击范围内最近的非内鬼玩家，双击则普通击杀。","en":"Single-clicks to puppeteer a target; the puppet automatically attacks the nearest non-Impostor in range, while double-clicking kills normally."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Puppeteer.cs"}
 ---
 
 <!-- zh-CN -->

@@ -1,5 +1,5 @@
 ---
-{"id":"role-monarch","kind":"role","category":"crewmate","title":{"zh-CN":"君主","en":"Monarch"},"summary":{"zh-CN":"君主可以册封玩家为骑士并给予额外投票；只要场上存在骑士，君主就不能被猜测或击杀。","en":"The Monarch knights players to give them an extra vote; while any knighted player exists, the Monarch cannot be guessed or killed."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Monarch.cs"}
+{"id":"role-monarch","kind":"role","category":"crewmate","title":{"zh-CN":"君主","en":"Monarch"},"summary":{"zh-CN":"君主可以册封玩家为骑士并给予额外投票；只要场上存在骑士，君主就不能被猜测或击杀。","en":"The Monarch knights players to give them an extra vote; while any knighted player exists, the Monarch cannot be guessed or killed."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Monarch.cs"}
 ---
 
 <!-- zh-CN -->

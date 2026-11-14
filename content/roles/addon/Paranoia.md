@@ -11,7 +11,7 @@
     "zh-CN": "仅船员或内鬼可获得；胜负人数判定时计作两人，并可在会议中追加一票。",
     "en": "Only Crewmates or Impostors can receive it; counts as two for parity checks and can cast an extra meeting vote."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Paranoia.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Paranoia.cs"
 }
 ---
 <!-- zh-CN -->

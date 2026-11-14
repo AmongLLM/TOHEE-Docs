@@ -1,5 +1,5 @@
 ---
-{"id":"role-possessor","kind":"role","category":"impostor","title":{"zh-CN":"附身者","en":"Possessor"},"summary":{"zh-CN":"在警戒范围内无人靠近时附身并拖慢目标；若结束时焦点范围内无人，目标会死亡。","en":"Possesses and slows a target when no one is within alert range; the target dies if no one is within focus range when possession ends."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/(Ghosts)/Impostor/Possessor.cs"}
+{"id":"role-possessor","kind":"role","category":"impostor","title":{"zh-CN":"附身者","en":"Possessor"},"summary":{"zh-CN":"在警戒范围内无人靠近时附身并拖慢目标；若结束时焦点范围内无人，目标会死亡。","en":"Possesses and slows a target when no one is within alert range; the target dies if no one is within focus range when possession ends."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/(Ghosts)/Impostor/Possessor.cs"}
 ---
 
 <!-- zh-CN -->

@@ -11,7 +11,7 @@
     "zh-CN": "会持续快速改变颜色，改变频率及伪装期间是否继续变化可设置。",
     "en": "Cycles through colors; the interval and behavior during camouflage are configurable."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Rainbow.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Rainbow.cs"
 }
 ---
 <!-- zh-CN -->

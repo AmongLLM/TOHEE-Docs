@@ -1,5 +1,5 @@
 ---
-{"id":"role-kamikaze","kind":"role","category":"impostor","title":{"zh-CN":"神风特攻队","en":"Kamikaze"},"summary":{"zh-CN":"单击标记、双击普通击杀；神风特攻队死亡时，所有标记目标都会死亡。","en":"Single-clicks to mark and double-clicks to kill; all marked targets die when the Kamikaze dies."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Kamikaze.cs"}
+{"id":"role-kamikaze","kind":"role","category":"impostor","title":{"zh-CN":"神风特攻队","en":"Kamikaze"},"summary":{"zh-CN":"单击标记、双击普通击杀；神风特攻队死亡时，所有标记目标都会死亡。","en":"Single-clicks to mark and double-clicks to kill; all marked targets die when the Kamikaze dies."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Kamikaze.cs"}
 ---
 
 <!-- zh-CN -->

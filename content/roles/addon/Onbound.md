@@ -11,7 +11,7 @@
     "zh-CN": "会议中无法被赌怪猜中。",
     "en": "Cannot be guessed by Guessers during meetings."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Onbound.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Onbound.cs"
 }
 ---
 <!-- zh-CN -->

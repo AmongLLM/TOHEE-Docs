@@ -1,5 +1,5 @@
 ---
-{"id":"role-cursedwolf","kind":"role","category":"impostor","title":{"zh-CN":"呪狼","en":"Cursed Wolf"},"summary":{"zh-CN":"受到攻击时会消耗一次反击次数并阻止击杀；按设置可诅咒杀死攻击者。","en":"When attacked, spends a counter and blocks the kill; a setting determines whether the attacker is also killed by the curse."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/CursedWolf.cs"}
+{"id":"role-cursedwolf","kind":"role","category":"impostor","title":{"zh-CN":"呪狼","en":"Cursed Wolf"},"summary":{"zh-CN":"受到攻击时会消耗一次反击次数并阻止击杀；按设置可诅咒杀死攻击者。","en":"When attacked, spends a counter and blocks the kill; a setting determines whether the attacker is also killed by the curse."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/CursedWolf.cs"}
 ---
 
 <!-- zh-CN -->

@@ -11,7 +11,7 @@
     "zh-CN": "被投票出局时有概率免于被驱逐，机会次数和概率可设置。",
     "en": "May escape exile when voted out, with configurable uses and chance."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Evader.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Evader.cs"
 }
 ---
 <!-- zh-CN -->

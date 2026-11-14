@@ -1,5 +1,5 @@
 ---
-{"id":"role-ghastly","kind":"role","category":"crewmate","title":{"zh-CN":"鬼怪","en":"Ghastly"},"summary":{"zh-CN":"鬼怪附身一名玩家并为其指定目标，使其只能对该目标使用击杀或击杀类技能；更换附身、效果到期或附身者/指定目标死亡时，限制解除。","en":"The Ghastly possesses a player and assigns them a target, restricting their kill actions to that target until possession changes, expires, or either player dies."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/(Ghosts)/Crewmate/Ghastly.cs"}
+{"id":"role-ghastly","kind":"role","category":"crewmate","title":{"zh-CN":"鬼怪","en":"Ghastly"},"summary":{"zh-CN":"鬼怪附身一名玩家并为其指定目标，使其只能对该目标使用击杀或击杀类技能；更换附身、效果到期或附身者/指定目标死亡时，限制解除。","en":"The Ghastly possesses a player and assigns them a target, restricting their kill actions to that target until possession changes, expires, or either player dies."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/(Ghosts)/Crewmate/Ghastly.cs"}
 ---
 
 <!-- zh-CN -->

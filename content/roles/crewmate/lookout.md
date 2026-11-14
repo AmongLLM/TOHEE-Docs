@@ -1,5 +1,5 @@
 ---
-{"id":"role-lookout","kind":"role","category":"crewmate","title":{"zh-CN":"瞭望员","en":"Lookout"},"summary":{"zh-CN":"瞭望员存活时可以看到其他存活玩家的 ID，借此辨认变形或伪装。","en":"While alive, the Lookout can see the IDs of other living players, which can help identify shapeshifts or camouflage."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Lookout.cs"}
+{"id":"role-lookout","kind":"role","category":"crewmate","title":{"zh-CN":"瞭望员","en":"Lookout"},"summary":{"zh-CN":"瞭望员存活时可以看到其他存活玩家的 ID，借此辨认变形或伪装。","en":"While alive, the Lookout can see the IDs of other living players, which can help identify shapeshifts or camouflage."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Lookout.cs"}
 ---
 
 <!-- zh-CN -->

@@ -11,7 +11,7 @@
     "zh-CN": "配置内鬼队友信息、Madmate 互动和基础变身规则。",
     "en": "Configure Impostor teammate information, Madmate interactions, and base shapeshift rules."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/OptionHolder.cs",
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/OptionHolder.cs",
   "order": 105
 }
 ---

@@ -1,5 +1,5 @@
 ---
-{"id":"role-merchant","kind":"role","category":"crewmate","title":{"zh-CN":"商人","en":"Merchant"},"summary":{"zh-CN":"商人每完成任务会向随机玩家出售随机附加职业并获得金钱；达到门槛后可贿赂攻击者，使其本局后续无法击杀商人。","en":"The Merchant sells a random add-on to a random player per task and earns money; after reaching the threshold, they can bribe an attacker to block that player's later kill attempts against them for the rest of the game."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Merchant.cs"}
+{"id":"role-merchant","kind":"role","category":"crewmate","title":{"zh-CN":"商人","en":"Merchant"},"summary":{"zh-CN":"商人每完成任务会向随机玩家出售随机附加职业并获得金钱；达到门槛后可贿赂攻击者，使其本局后续无法击杀商人。","en":"The Merchant sells a random add-on to a random player per task and earns money; after reaching the threshold, they can bribe an attacker to block that player's later kill attempts against them for the rest of the game."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Merchant.cs"}
 ---
 
 <!-- zh-CN -->

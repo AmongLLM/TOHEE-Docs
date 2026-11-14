@@ -1,5 +1,5 @@
 ---
-{"id":"role-disperser","kind":"role","category":"impostor","title":{"zh-CN":"分散者","en":"Disperser"},"summary":{"zh-CN":"使用幽灵技能将所有存活且可传送的玩家随机传送到通风口。","en":"Uses its Phantom ability to teleport all living players who can be teleported to random vents."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Disperser.cs"}
+{"id":"role-disperser","kind":"role","category":"impostor","title":{"zh-CN":"分散者","en":"Disperser"},"summary":{"zh-CN":"使用幽灵技能将所有存活且可传送的玩家随机传送到通风口。","en":"Uses its Phantom ability to teleport all living players who can be teleported to random vents."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Disperser.cs"}
 ---
 
 <!-- zh-CN -->

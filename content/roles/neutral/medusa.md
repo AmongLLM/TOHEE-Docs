@@ -1,5 +1,5 @@
 ---
-{"id":"role-medusa","kind":"role","category":"neutral","title":{"en":"Medusa","zh-CN":"美杜莎"},"summary":{"zh-CN":"通过报告按钮石化尸体，使尸体无法再次被报告；内鬼阵营消灭后按中立平衡条件获胜。","en":"Stone bodies with the report button so they cannot be reported again; win under the neutral parity rule after the Impostors are gone."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Medusa.cs"}
+{"id":"role-medusa","kind":"role","category":"neutral","title":{"en":"Medusa","zh-CN":"美杜莎"},"summary":{"zh-CN":"通过报告按钮石化尸体，使尸体无法再次被报告；内鬼阵营消灭后按中立平衡条件获胜。","en":"Stone bodies with the report button so they cannot be reported again; win under the neutral parity rule after the Impostors are gone."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Medusa.cs"}
 ---
 <!-- zh-CN -->
 ## 美杜莎

@@ -1,5 +1,5 @@
 ---
-{"id":"role-witness","kind":"role","category":"crewmate","title":{"zh-CN":"目击者","en":"Witness"},"summary":{"zh-CN":"目击者对玩家使用击杀按钮后可判断其是否在设定时间内杀过人。","en":"After using the kill button on a player, the Witness learns whether that player killed within a configurable time window."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Witness.cs"}
+{"id":"role-witness","kind":"role","category":"crewmate","title":{"zh-CN":"目击者","en":"Witness"},"summary":{"zh-CN":"目击者对玩家使用击杀按钮后可判断其是否在设定时间内杀过人。","en":"After using the kill button on a player, the Witness learns whether that player killed within a configurable time window."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Witness.cs"}
 ---
 
 <!-- zh-CN -->

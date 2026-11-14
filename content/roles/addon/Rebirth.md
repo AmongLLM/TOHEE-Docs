@@ -11,7 +11,7 @@
     "zh-CN": "即将被投出时会与一名玩家交换外观并存活，次数耗尽后移除此附加身份。",
     "en": "When about to be exiled, swaps skins with a player and survives; removed after its rebirths are exhausted."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Rebirth.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Rebirth.cs"
 }
 ---
 <!-- zh-CN -->

@@ -1,5 +1,5 @@
 ---
-{"id":"role-warden","kind":"role","category":"crewmate","title":{"zh-CN":"典狱长","en":"Warden"},"summary":{"zh-CN":"典狱长可以提醒玩家附近有危险，并为目标提供临时速度加成。","en":"The Warden can alert a player to nearby danger and give that target a temporary speed boost."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/(Ghosts)/Crewmate/Warden.cs"}
+{"id":"role-warden","kind":"role","category":"crewmate","title":{"zh-CN":"典狱长","en":"Warden"},"summary":{"zh-CN":"典狱长可以提醒玩家附近有危险，并为目标提供临时速度加成。","en":"The Warden can alert a player to nearby danger and give that target a temporary speed boost."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/(Ghosts)/Crewmate/Warden.cs"}
 ---
 
 <!-- zh-CN -->

@@ -1,5 +1,5 @@
 ---
-{"id":"role-warlock","kind":"role","category":"impostor","title":{"zh-CN":"术士","en":"Warlock"},"summary":{"zh-CN":"未变形时给玩家下咒；随后变形会令被咒者击杀离自己最近的玩家，变形状态下术士仍可正常击杀。","en":"Curses a player while unshifted; shifting makes the cursed player kill the nearest player, while the Warlock can still kill normally when shifted."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Warlock.cs"}
+{"id":"role-warlock","kind":"role","category":"impostor","title":{"zh-CN":"术士","en":"Warlock"},"summary":{"zh-CN":"未变形时给玩家下咒；随后变形会令被咒者击杀离自己最近的玩家，变形状态下术士仍可正常击杀。","en":"Curses a player while unshifted; shifting makes the cursed player kill the nearest player, while the Warlock can still kill normally when shifted."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Warlock.cs"}
 ---
 
 <!-- zh-CN -->

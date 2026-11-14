@@ -1,5 +1,5 @@
 ---
-{"id":"role-traitor","kind":"role","category":"neutral","title":{"en":"Traitor","zh-CN":"背叛者"},"summary":{"zh-CN":"背叛者能识别内鬼但不能击杀他们；内鬼出局后，背叛者按独立中立阵营的计数胜利规则获胜。","en":"The Traitor can identify but cannot kill Impostors; after they are gone, the Traitor wins under its separate Neutral team count rule."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Traitor.cs"}
+{"id":"role-traitor","kind":"role","category":"neutral","title":{"en":"Traitor","zh-CN":"背叛者"},"summary":{"zh-CN":"背叛者能识别内鬼但不能击杀他们；内鬼出局后，背叛者按独立中立阵营的计数胜利规则获胜。","en":"The Traitor can identify but cannot kill Impostors; after they are gone, the Traitor wins under its separate Neutral team count rule."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Traitor.cs"}
 ---
 <!-- zh-CN -->
 ## 背叛者

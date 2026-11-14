@@ -1,5 +1,5 @@
 ---
-{"id":"role-nicemini","kind":"role","category":"crewmate","title":{"zh-CN":"好迷你船员","en":"Nice Mini"},"summary":{"zh-CN":"好迷你船员长大前不能被击杀；若在长大前死亡或被会议驱逐，会以好迷你为胜者结束游戏。","en":"The Nice Mini cannot be killed before growing up; if they die or are ejected before then, the game ends with the Nice Mini as the winner."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Double/Mini.cs"}
+{"id":"role-nicemini","kind":"role","category":"crewmate","title":{"zh-CN":"好迷你船员","en":"Nice Mini"},"summary":{"zh-CN":"好迷你船员长大前不能被击杀；若在长大前死亡或被会议驱逐，会以好迷你为胜者结束游戏。","en":"The Nice Mini cannot be killed before growing up; if they die or are ejected before then, the game ends with the Nice Mini as the winner."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Double/Mini.cs"}
 ---
 
 <!-- zh-CN -->

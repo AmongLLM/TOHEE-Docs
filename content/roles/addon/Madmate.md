@@ -11,7 +11,7 @@
     "zh-CN": "以指定方式由船员转化为内鬼盟友；转化资格、阵营计数、视野、互相识别和击杀行为均可设置。",
     "en": "Converts eligible Crewmates into Impostor allies using a selected method; team count, vision, recognition, and kill rules are configurable."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Impostor/Madmate.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Impostor/Madmate.cs"
 }
 ---
 <!-- zh-CN -->

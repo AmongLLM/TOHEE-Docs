@@ -1,5 +1,5 @@
 ---
-{"id":"role-telecommunication","kind":"role","category":"crewmate","title":{"zh-CN":"通信员","en":"Telecommunication"},"summary":{"zh-CN":"存活玩家走近监控、生命监测仪、门禁日志或管理室定位设备时，通信员会收到位置提示；代码检测的是接近设备，不是打开界面。","en":"The Telecommunication receives a proximity warning when living players approach cameras, Vitals, door logs, or Admin devices; the source checks proximity, not whether a UI was opened."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Telecommunication.cs"}
+{"id":"role-telecommunication","kind":"role","category":"crewmate","title":{"zh-CN":"通信员","en":"Telecommunication"},"summary":{"zh-CN":"存活玩家走近监控、生命监测仪、门禁日志或管理室定位设备时，通信员会收到位置提示；代码检测的是接近设备，不是打开界面。","en":"The Telecommunication receives a proximity warning when living players approach cameras, Vitals, door logs, or Admin devices; the source checks proximity, not whether a UI was opened."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Telecommunication.cs"}
 ---
 
 <!-- zh-CN -->

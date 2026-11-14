@@ -11,7 +11,7 @@
     "zh-CN": "仅内鬼可获得；灯光破坏期间获得额外速度、缩短击杀冷却，并显示阵营颜色。",
     "en": "Only Impostors can receive it; during Lights Out, gains speed, has a shorter kill cooldown, and shows its team color."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Impostor/Mare.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Impostor/Mare.cs"
 }
 ---
 <!-- zh-CN -->

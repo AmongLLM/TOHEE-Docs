@@ -1,5 +1,5 @@
 ---
-{"id":"role-mercenary","kind":"role","category":"impostor","title":{"zh-CN":"嗜血杀手","en":"Mercenary"},"summary":{"zh-CN":"首次击杀后必须在规定时限内再次击杀，否则会自杀；击杀冷却由房主设置。","en":"After its first kill, must kill again before the configured deadline or die by suicide; the host sets its kill cooldown."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Mercenary.cs"}
+{"id":"role-mercenary","kind":"role","category":"impostor","title":{"zh-CN":"嗜血杀手","en":"Mercenary"},"summary":{"zh-CN":"首次击杀后必须在规定时限内再次击杀，否则会自杀；击杀冷却由房主设置。","en":"After its first kill, must kill again before the configured deadline or die by suicide; the host sets its kill cooldown."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Mercenary.cs"}
 ---
 
 <!-- zh-CN -->

@@ -11,7 +11,7 @@
     "zh-CN": "仅内鬼可获得，但无法使用通风口。",
     "en": "Assigned only to Impostors, but removes their vent access."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Impostor/Circumvent.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Impostor/Circumvent.cs"
 }
 ---
 <!-- zh-CN -->

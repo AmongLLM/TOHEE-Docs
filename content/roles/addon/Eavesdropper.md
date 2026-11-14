@@ -11,7 +11,7 @@
     "zh-CN": "每次会议有概率看到一条发给特定玩家的随机消息。",
     "en": "May see one random private message at each meeting."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Eavesdropper.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Eavesdropper.cs"
 }
 ---
 <!-- zh-CN -->

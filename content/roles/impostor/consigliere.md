@@ -1,5 +1,5 @@
 ---
-{"id":"role-consigliere","kind":"role","category":"impostor","title":{"zh-CN":"军师","en":"Consigliere"},"summary":{"zh-CN":"单击击杀键查明目标职业，双击可击杀；查明次数用尽后击杀键恢复普通功能。","en":"Single-clicks the kill button to reveal a target role and double-clicks to kill; after reveals run out, the button works normally."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Consigliere.cs"}
+{"id":"role-consigliere","kind":"role","category":"impostor","title":{"zh-CN":"军师","en":"Consigliere"},"summary":{"zh-CN":"单击击杀键查明目标职业，双击可击杀；查明次数用尽后击杀键恢复普通功能。","en":"Single-clicks the kill button to reveal a target role and double-clicks to kill; after reveals run out, the button works normally."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Consigliere.cs"}
 ---
 
 <!-- zh-CN -->

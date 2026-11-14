@@ -1,5 +1,5 @@
 ---
-{"id":"role-huntsman","kind":"role","category":"neutral","title":{"en":"Huntsman","zh-CN":"猎人"},"summary":{"zh-CN":"击杀目标会永久缩短击杀冷却，击杀其他玩家则会永久延长冷却。","en":"Killing a target permanently reduces the kill cooldown; killing someone else permanently increases it."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Huntsman.cs"}
+{"id":"role-huntsman","kind":"role","category":"neutral","title":{"en":"Huntsman","zh-CN":"猎人"},"summary":{"zh-CN":"击杀目标会永久缩短击杀冷却，击杀其他玩家则会永久延长冷却。","en":"Killing a target permanently reduces the kill cooldown; killing someone else permanently increases it."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Huntsman.cs"}
 ---
 <!-- zh-CN -->
 ## 猎人

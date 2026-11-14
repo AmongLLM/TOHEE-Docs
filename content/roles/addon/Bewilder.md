@@ -11,7 +11,7 @@
     "zh-CN": "被击杀时会让击杀者获得与自己相同的视野；主持人可设定视野和分配阵营。",
     "en": "When killed, gives its killer the same vision level; host settings control vision and eligible teams."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Bewilder.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Bewilder.cs"
 }
 ---
 <!-- zh-CN -->

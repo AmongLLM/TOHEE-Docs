@@ -1,5 +1,5 @@
 ---
-{"id":"role-hangman","kind":"role","category":"impostor","title":{"zh-CN":"刽子手","en":"Hangman"},"summary":{"zh-CN":"变形期间可用绞杀击杀；该方式无视防护且不留尸体，也不会触发受害者技能或灵媒提示。","en":"While shapeshifted, strangling ignores protections, leaves no body, and does not trigger victim abilities or Seer alerts."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Hangman.cs"}
+{"id":"role-hangman","kind":"role","category":"impostor","title":{"zh-CN":"刽子手","en":"Hangman"},"summary":{"zh-CN":"变形期间可用绞杀击杀；该方式无视防护且不留尸体，也不会触发受害者技能或灵媒提示。","en":"While shapeshifted, strangling ignores protections, leaves no body, and does not trigger victim abilities or Seer alerts."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Hangman.cs"}
 ---
 
 <!-- zh-CN -->

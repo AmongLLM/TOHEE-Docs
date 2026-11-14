@@ -1,5 +1,5 @@
 ---
-{"id":"role-parasite","kind":"role","category":"impostor","title":{"zh-CN":"寄生虫","en":"Parasite"},"summary":{"zh-CN":"寄生虫与内鬼互不相认，但按普通内鬼方式行动并与内鬼一同获胜。","en":"The Parasite and Impostors do not know each other, but it acts like a normal Impostor and wins with them."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Parasite.cs"}
+{"id":"role-parasite","kind":"role","category":"impostor","title":{"zh-CN":"寄生虫","en":"Parasite"},"summary":{"zh-CN":"寄生虫与内鬼互不相认，但按普通内鬼方式行动并与内鬼一同获胜。","en":"The Parasite and Impostors do not know each other, but it acts like a normal Impostor and wins with them."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Parasite.cs"}
 ---
 
 <!-- zh-CN -->

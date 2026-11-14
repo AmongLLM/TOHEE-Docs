@@ -1,5 +1,5 @@
 ---
-{"id":"role-doubleagent","kind":"role","category":"impostor","title":{"zh-CN":"双面特工","en":"Double Agent"},"summary":{"zh-CN":"会议中将定时炸弹交给一名非内鬼玩家；成为最后一名内鬼时可按设置更换职业。","en":"Passes a timed bomb to one non-Impostor during a meeting; can change roles when becoming the last Impostor, depending on settings."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/DoubleAgent.cs"}
+{"id":"role-doubleagent","kind":"role","category":"impostor","title":{"zh-CN":"双面特工","en":"Double Agent"},"summary":{"zh-CN":"会议中将定时炸弹交给一名非内鬼玩家；成为最后一名内鬼时可按设置更换职业。","en":"Passes a timed bomb to one non-Impostor during a meeting; can change roles when becoming the last Impostor, depending on settings."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/DoubleAgent.cs"}
 ---
 
 <!-- zh-CN -->

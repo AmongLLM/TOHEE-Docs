@@ -1,5 +1,5 @@
 ---
-{"id":"role-scientisttohe","kind":"role","category":"crewmate","title":{"zh-CN":"科学家（TOHE）","en":"Scientist (TOHE)"},"summary":{"zh-CN":"科学家可以随时查看全体船员的生命状态；生命监测仪冷却和单次使用时长可设置。","en":"The Scientist can check Crew vitals at any time, with configurable Vitals cooldown and battery duration."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Vanilla/ScientistTOHE.cs"}
+{"id":"role-scientisttohe","kind":"role","category":"crewmate","title":{"zh-CN":"科学家（TOHE）","en":"Scientist (TOHE)"},"summary":{"zh-CN":"科学家可以随时查看全体船员的生命状态；生命监测仪冷却和单次使用时长可设置。","en":"The Scientist can check Crew vitals at any time, with configurable Vitals cooldown and battery duration."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Vanilla/ScientistTOHE.cs"}
 ---
 
 <!-- zh-CN -->

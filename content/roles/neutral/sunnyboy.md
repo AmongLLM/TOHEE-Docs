@@ -1,5 +1,5 @@
 ---
-{"id":"role-sunnyboy","kind":"role","category":"neutral","title":{"en":"Sunnyboy","zh-CN":"阳光开朗大男孩"},"summary":{"zh-CN":"通过生命面板查看玩家状态；只要该角色存在且仍有至少两名玩家存活，人数结算就不会结束游戏；死亡后随获胜阵营获胜。","en":"Check player life status through vitals; while the role exists and at least two players remain alive, a numbers-based game end is delayed. A dead Sunnyboy wins with the winning team."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Sunnyboy.cs"}
+{"id":"role-sunnyboy","kind":"role","category":"neutral","title":{"en":"Sunnyboy","zh-CN":"阳光开朗大男孩"},"summary":{"zh-CN":"通过生命面板查看玩家状态；只要该角色存在且仍有至少两名玩家存活，人数结算就不会结束游戏；死亡后随获胜阵营获胜。","en":"Check player life status through vitals; while the role exists and at least two players remain alive, a numbers-based game end is delayed. A dead Sunnyboy wins with the winning team."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Sunnyboy.cs"}
 ---
 <!-- zh-CN -->
 ## 阳光开朗大男孩

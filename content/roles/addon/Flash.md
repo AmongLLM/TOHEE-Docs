@@ -11,7 +11,7 @@
     "zh-CN": "移动速度由主持人设置，可以调得比其他玩家快或慢。",
     "en": "Uses a host-configured movement speed, which can be faster or slower than other players' speed."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Flash.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Flash.cs"
 }
 ---
 <!-- zh-CN -->

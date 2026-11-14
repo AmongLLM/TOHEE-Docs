@@ -1,5 +1,5 @@
 ---
-{"id":"role-agitater","kind":"role","category":"neutral","title":{"en":"Agitator","zh-CN":"煽动者"},"summary":{"zh-CN":"传递炸弹；持弹者会在会议、尸体报告或倒计时结束时死亡。无内鬼且煽动者是唯一存活的计数中立阵营时，人数达到船员人数即可获胜。","en":"Pass a bomb; its holder dies when a meeting is called, a body is reported, or the timer expires. With no Impostors, the Agitater wins at parity when it is the only surviving counted Neutral team."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Agitater.cs"}
+{"id":"role-agitater","kind":"role","category":"neutral","title":{"en":"Agitator","zh-CN":"煽动者"},"summary":{"zh-CN":"传递炸弹；持弹者会在会议、尸体报告或倒计时结束时死亡。无内鬼且煽动者是唯一存活的计数中立阵营时，人数达到船员人数即可获胜。","en":"Pass a bomb; its holder dies when a meeting is called, a body is reported, or the timer expires. With no Impostors, the Agitater wins at parity when it is the only surviving counted Neutral team."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Agitater.cs"}
 ---
 <!-- zh-CN -->
 ## 煽动者

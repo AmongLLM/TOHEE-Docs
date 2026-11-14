@@ -1,5 +1,5 @@
 ---
-{"id":"role-admirer","kind":"role","category":"crewmate","title":{"zh-CN":"仰慕者","en":"Admirer"},"summary":{"zh-CN":"仰慕者可将目标转为仰慕者身份；若自身已转化，会尝试让目标加入相同阵营。是否记录已仰慕的目标取决于“知道被仰慕者的职业”选项。","en":"The Admirer can convert a target to Admired; if the Admirer has been converted, they attempt to convert the target to the same faction. Whether targets are tracked depends on the role-knowledge setting."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Admirer.cs"}
+{"id":"role-admirer","kind":"role","category":"crewmate","title":{"zh-CN":"仰慕者","en":"Admirer"},"summary":{"zh-CN":"仰慕者可将目标转为仰慕者身份；若自身已转化，会尝试让目标加入相同阵营。是否记录已仰慕的目标取决于“知道被仰慕者的职业”选项。","en":"The Admirer can convert a target to Admired; if the Admirer has been converted, they attempt to convert the target to the same faction. Whether targets are tracked depends on the role-knowledge setting."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Admirer.cs"}
 ---
 
 <!-- zh-CN -->

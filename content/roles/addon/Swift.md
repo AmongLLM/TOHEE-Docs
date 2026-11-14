@@ -11,7 +11,7 @@
     "zh-CN": "仅内鬼可获得；击杀时不会向目标冲刺。",
     "en": "Only Impostors can receive it; Swift does not lunge when making kills."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Impostor/Swift.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Impostor/Swift.cs"
 }
 ---
 <!-- zh-CN -->

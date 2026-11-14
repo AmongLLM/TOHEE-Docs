@@ -11,7 +11,7 @@
     "zh-CN": "只分配给船员；不会获得任务，术士和傀儡师无法对其使用控制能力。",
     "en": "Assigned only to Crewmates; receives no tasks and cannot be targeted by Warlock or Puppeteer control abilities."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Crewmate/Lazy.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Crewmate/Lazy.cs"
 }
 ---
 <!-- zh-CN -->

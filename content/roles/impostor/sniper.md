@@ -1,5 +1,5 @@
 ---
-{"id":"role-sniper","kind":"role","category":"impostor","title":{"zh-CN":"狙击手","en":"Sniper"},"summary":{"zh-CN":"变形开始到解除变形形成射线，弹道上最符合判定的玩家会被狙杀；弹药耗尽后才能普通击杀。","en":"Uses the line from shapeshift to unshift as a shot path; the best match along it is killed, and normal kills are available after ammo runs out."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Sniper.cs"}
+{"id":"role-sniper","kind":"role","category":"impostor","title":{"zh-CN":"狙击手","en":"Sniper"},"summary":{"zh-CN":"变形开始到解除变形形成射线，弹道上最符合判定的玩家会被狙杀；弹药耗尽后才能普通击杀。","en":"Uses the line from shapeshift to unshift as a shot path; the best match along it is killed, and normal kills are available after ammo runs out."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Sniper.cs"}
 ---
 
 <!-- zh-CN -->

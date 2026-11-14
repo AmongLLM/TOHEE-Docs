@@ -1,5 +1,5 @@
 ---
-{"id":"role-camouflager","kind":"role","category":"impostor","title":{"zh-CN":"隐蔽者","en":"Camouflager"},"summary":{"zh-CN":"变形使所有人变成外观相同的小黑人；解除变形、死亡或会议开始会结束伪装。","en":"Shapeshifts to make everyone look like the same small black bean; unshifting, dying, or a meeting ends the camouflage."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Camouflager.cs"}
+{"id":"role-camouflager","kind":"role","category":"impostor","title":{"zh-CN":"隐蔽者","en":"Camouflager"},"summary":{"zh-CN":"变形使所有人变成外观相同的小黑人；解除变形、死亡或会议开始会结束伪装。","en":"Shapeshifts to make everyone look like the same small black bean; unshifting, dying, or a meeting ends the camouflage."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Camouflager.cs"}
 ---
 
 <!-- zh-CN -->

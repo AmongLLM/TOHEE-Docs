@@ -1,5 +1,5 @@
 ---
-{"id":"role-cultist","kind":"role","category":"neutral","title":{"en":"Cultist","zh-CN":"魅魔"},"summary":{"zh-CN":"用击杀按钮魅惑玩家，使其保留技能并加入魅魔阵营；内鬼消失且魅魔人数不少于船员时可按中立阵营胜利条件获胜。","en":"Charm players with the kill button; they keep their abilities and join the Cultist team. After Impostors are gone, Cultists can win at parity if no other counted Neutral team remains."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Cultist.cs"}
+{"id":"role-cultist","kind":"role","category":"neutral","title":{"en":"Cultist","zh-CN":"魅魔"},"summary":{"zh-CN":"用击杀按钮魅惑玩家，使其保留技能并加入魅魔阵营；内鬼消失且魅魔人数不少于船员时可按中立阵营胜利条件获胜。","en":"Charm players with the kill button; they keep their abilities and join the Cultist team. After Impostors are gone, Cultists can win at parity if no other counted Neutral team remains."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Cultist.cs"}
 ---
 <!-- zh-CN -->
 ## 魅魔

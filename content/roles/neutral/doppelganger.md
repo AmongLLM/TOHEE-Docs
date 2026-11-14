@@ -1,5 +1,5 @@
 ---
-{"id":"role-doppelganger","kind":"role","category":"neutral","title":{"en":"Doppelganger","zh-CN":"替身者"},"summary":{"zh-CN":"窃取目标名字和外观并将其杀死；内鬼消失后，若替身者是唯一存活的计数中立阵营且人数不少于船员，即可获胜。","en":"Steal a target name and appearance, then kill them; after Impostors are gone, win when Doppelgangers are the only surviving counted Neutral team and at least as numerous as Crew."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Doppelganger.cs"}
+{"id":"role-doppelganger","kind":"role","category":"neutral","title":{"en":"Doppelganger","zh-CN":"替身者"},"summary":{"zh-CN":"窃取目标名字和外观并将其杀死；内鬼消失后，若替身者是唯一存活的计数中立阵营且人数不少于船员，即可获胜。","en":"Steal a target name and appearance, then kill them; after Impostors are gone, win when Doppelgangers are the only surviving counted Neutral team and at least as numerous as Crew."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Doppelganger.cs"}
 ---
 <!-- zh-CN -->
 ## 替身者

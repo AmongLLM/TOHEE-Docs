@@ -11,7 +11,7 @@
     "zh-CN": "查看尸体的死亡原因；与法医、寻迹者、科学家和阳光开朗大男孩不兼容。",
     "en": "Reveals how players died; incompatible with Doctor, Tracefinder, ScientistTOHE, and Sunnyboy."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Autopsy.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Autopsy.cs"
 }
 ---
 <!-- zh-CN -->

@@ -1,5 +1,5 @@
 ---
-{"id":"role-vengefulromantic","kind":"role","category":"neutral","title":{"en":"Vengeful Romantic","zh-CN":"复仇浪漫者"},"summary":{"zh-CN":"船员或非带刀中立恋人死亡且有可确认的凶手时，浪漫者转为复仇浪漫者；击杀凶手后两人一同获胜。","en":"Become Vengeful Romantic when a Crewmate or non-killing Neutral partner dies with a recorded killer; kill that killer so both partners win."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Romantic.cs"}
+{"id":"role-vengefulromantic","kind":"role","category":"neutral","title":{"en":"Vengeful Romantic","zh-CN":"复仇浪漫者"},"summary":{"zh-CN":"船员或非带刀中立恋人死亡且有可确认的凶手时，浪漫者转为复仇浪漫者；击杀凶手后两人一同获胜。","en":"Become Vengeful Romantic when a Crewmate or non-killing Neutral partner dies with a recorded killer; kill that killer so both partners win."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Romantic.cs"}
 ---
 <!-- zh-CN -->
 ## 复仇浪漫者

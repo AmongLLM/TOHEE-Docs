@@ -11,7 +11,7 @@
     "zh-CN": "在会议外被非自杀击杀时，会随机向一名符合条件的存活玩家复仇。",
     "en": "When killed outside a meeting other than by suicide, takes revenge on a random eligible living player."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Avanger.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Avanger.cs"
 }
 ---
 <!-- zh-CN -->

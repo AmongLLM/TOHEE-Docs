@@ -1,5 +1,5 @@
 ---
-{"id":"role-riftmaker","kind":"role","category":"impostor","title":{"zh-CN":"裂缝制造者","en":"Rift Maker"},"summary":{"zh-CN":"变形放置最多两道裂缝；靠近一道裂缝可按冷却传送到另一道，进通风口会摧毁所有裂缝。","en":"Shapeshifts to place up to two rifts; approaching one teleports to the other after a cooldown, while venting destroys all rifts."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/RiftMaker.cs"}
+{"id":"role-riftmaker","kind":"role","category":"impostor","title":{"zh-CN":"裂缝制造者","en":"Rift Maker"},"summary":{"zh-CN":"变形放置最多两道裂缝；靠近一道裂缝可按冷却传送到另一道，进通风口会摧毁所有裂缝。","en":"Shapeshifts to place up to two rifts; approaching one teleports to the other after a cooldown, while venting destroys all rifts."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/RiftMaker.cs"}
 ---
 
 <!-- zh-CN -->

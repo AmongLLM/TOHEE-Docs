@@ -1,5 +1,5 @@
 ---
-{"id":"role-stalker","kind":"role","category":"neutral","title":{"en":"Stalker","zh-CN":"潜藏者"},"summary":{"zh-CN":"在会议外造成击杀会于电力未被破坏时触发电力破坏；存活的潜藏者可按指定阵营和胜利方式夺取胜利。","en":"A non-suicide kill outside a meeting triggers electrical sabotage when none is active; a living Stalker can take eligible Impostor or configured Crewmate wins."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Stalker.cs"}
+{"id":"role-stalker","kind":"role","category":"neutral","title":{"en":"Stalker","zh-CN":"潜藏者"},"summary":{"zh-CN":"在会议外造成击杀会于电力未被破坏时触发电力破坏；存活的潜藏者可按指定阵营和胜利方式夺取胜利。","en":"A non-suicide kill outside a meeting triggers electrical sabotage when none is active; a living Stalker can take eligible Impostor or configured Crewmate wins."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Stalker.cs"}
 ---
 <!-- zh-CN -->
 ## 潜藏者

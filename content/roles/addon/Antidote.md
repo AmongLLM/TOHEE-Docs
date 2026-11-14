@@ -11,7 +11,7 @@
     "zh-CN": "有人尝试对其使用击杀按钮时，对方的击杀冷却会缩短。",
     "en": "When someone tries to kill it, that player's kill cooldown is reduced."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Antidote.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Antidote.cs"
 }
 ---
 <!-- zh-CN -->

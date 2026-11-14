@@ -11,7 +11,7 @@
     "zh-CN": "仅船员可获得；视野倍率可设置，默认不受灯光破坏影响。",
     "en": "Only Crewmates can receive it; vision is configurable and is unaffected by Lights sabotage by default."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Crewmate/Torch.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Crewmate/Torch.cs"
 }
 ---
 <!-- zh-CN -->

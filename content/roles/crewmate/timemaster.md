@@ -1,5 +1,5 @@
 ---
-{"id":"role-timemaster","kind":"role","category":"crewmate","title":{"zh-CN":"时间之主","en":"Time Master"},"summary":{"zh-CN":"时间之主使用通风口标记所有人的位置，再次发动技能会将存活玩家倒回标记位置，并在技能期间获得免死时间护盾。","en":"The Time Master marks everyone's positions through vents, then rewinds living players to those positions and gains a temporary shield."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/TimeMaster.cs"}
+{"id":"role-timemaster","kind":"role","category":"crewmate","title":{"zh-CN":"时间之主","en":"Time Master"},"summary":{"zh-CN":"时间之主使用通风口标记所有人的位置，再次发动技能会将存活玩家倒回标记位置，并在技能期间获得免死时间护盾。","en":"The Time Master marks everyone's positions through vents, then rewinds living players to those positions and gains a temporary shield."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/TimeMaster.cs"}
 ---
 
 <!-- zh-CN -->

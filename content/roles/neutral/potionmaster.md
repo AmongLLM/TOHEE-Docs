@@ -1,5 +1,5 @@
 ---
-{"id":"role-potionmaster","kind":"role","category":"neutral","title":{"en":"Potion Master","zh-CN":"药剂师"},"summary":{"zh-CN":"使用揭示药水查看目标职业，双击击杀，或打开地图发动破坏；内鬼阵营消灭后按中立平衡条件获胜。","en":"Reveal a target's role, double-click to kill, or use the map to sabotage; win under the neutral parity rule after the Impostors are gone."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/PotionMaster.cs"}
+{"id":"role-potionmaster","kind":"role","category":"neutral","title":{"en":"Potion Master","zh-CN":"药剂师"},"summary":{"zh-CN":"使用揭示药水查看目标职业，双击击杀，或打开地图发动破坏；内鬼阵营消灭后按中立平衡条件获胜。","en":"Reveal a target's role, double-click to kill, or use the map to sabotage; win under the neutral parity rule after the Impostors are gone."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/PotionMaster.cs"}
 ---
 <!-- zh-CN -->
 ## 药剂师

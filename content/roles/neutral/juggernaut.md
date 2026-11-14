@@ -1,5 +1,5 @@
 ---
-{"id":"role-juggernaut","kind":"role","category":"neutral","title":{"en":"Juggernaut","zh-CN":"天启"},"summary":{"zh-CN":"每次击杀都会缩短击杀冷却；内鬼阵营消灭后按中立平衡条件获胜。","en":"Each kill reduces the kill cooldown; win under the neutral parity rule after the Impostors are gone."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Juggernaut.cs"}
+{"id":"role-juggernaut","kind":"role","category":"neutral","title":{"en":"Juggernaut","zh-CN":"天启"},"summary":{"zh-CN":"每次击杀都会缩短击杀冷却；内鬼阵营消灭后按中立平衡条件获胜。","en":"Each kill reduces the kill cooldown; win under the neutral parity rule after the Impostors are gone."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Juggernaut.cs"}
 ---
 <!-- zh-CN -->
 ## 天启

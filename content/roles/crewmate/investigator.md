@@ -1,5 +1,5 @@
 ---
-{"id":"role-investigator","kind":"role","category":"crewmate","title":{"zh-CN":"研究者","en":"Investigator"},"summary":{"zh-CN":"研究者用击杀按钮调查目标，目标是否拥有击杀按钮会分别显示为红名或浅蓝名。","en":"The Investigator uses the kill button to inspect a target, whose name appears red or light blue depending on whether they have a kill button."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Investigator.cs"}
+{"id":"role-investigator","kind":"role","category":"crewmate","title":{"zh-CN":"研究者","en":"Investigator"},"summary":{"zh-CN":"研究者用击杀按钮调查目标，目标是否拥有击杀按钮会分别显示为红名或浅蓝名。","en":"The Investigator uses the kill button to inspect a target, whose name appears red or light blue depending on whether they have a kill button."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Investigator.cs"}
 ---
 
 <!-- zh-CN -->

@@ -1,5 +1,5 @@
 ---
-{"id":"cloud-sharing","kind":"guide","category":"cloud","title":{"zh-CN":"分享你的房间","en":"Share your room"},"summary":{"zh-CN":"房主在网站与模组两端开启分享，让玩家发现当前房间。","en":"Enable sharing on the website and in the mod to help players discover your room."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/main/Modules/Cloud/CloudService.cs","order":4}
+{"id":"cloud-sharing","kind":"guide","category":"cloud","title":{"zh-CN":"分享你的房间","en":"Share your room"},"summary":{"zh-CN":"房主在网站与模组两端开启分享，让玩家发现当前房间。","en":"Enable sharing on the website and in the mod to help players discover your room."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/main/Modules/Cloud/CloudService.cs","order":4}
 ---
 <!-- zh-CN -->
 ## 分享前需要什么

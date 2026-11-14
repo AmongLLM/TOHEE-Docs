@@ -1,5 +1,5 @@
 ---
-{"id":"role-provocateur","kind":"role","category":"neutral","title":{"en":"Provocateur","zh-CN":"自爆卡车"},"summary":{"zh-CN":"使用击杀按钮与符合条件的目标同归于尽；若目标最终失败，自爆卡车也获胜。","en":"Use the kill button to take out an eligible target and yourself; win if the target loses."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Provocateur.cs"}
+{"id":"role-provocateur","kind":"role","category":"neutral","title":{"en":"Provocateur","zh-CN":"自爆卡车"},"summary":{"zh-CN":"使用击杀按钮与符合条件的目标同归于尽；若目标最终失败，自爆卡车也获胜。","en":"Use the kill button to take out an eligible target and yourself; win if the target loses."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Provocateur.cs"}
 ---
 <!-- zh-CN -->
 ## 自爆卡车

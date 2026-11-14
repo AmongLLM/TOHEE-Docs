@@ -1,5 +1,5 @@
 ---
-{"id":"role-maverick","kind":"role","category":"neutral","title":{"en":"Maverick","zh-CN":"独行者"},"summary":{"zh-CN":"击杀并存活到游戏结束，达到最低击杀数后随获胜阵营获胜。","en":"Kill and survive to the end; meet the minimum kill count to win with the winning team."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Maverick.cs"}
+{"id":"role-maverick","kind":"role","category":"neutral","title":{"en":"Maverick","zh-CN":"独行者"},"summary":{"zh-CN":"击杀并存活到游戏结束，达到最低击杀数后随获胜阵营获胜。","en":"Kill and survive to the end; meet the minimum kill count to win with the winning team."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Maverick.cs"}
 ---
 <!-- zh-CN -->
 ## 独行者

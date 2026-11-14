@@ -1,5 +1,5 @@
 ---
-{"id":"role-mastermind","kind":"role","category":"impostor","title":{"zh-CN":"策划者","en":"Mastermind"},"summary":{"zh-CN":"操纵拥有击杀按钮的目标，限时内若未击杀或先召开会议就会死亡；双击可普通击杀。","en":"Manipulates targets with a kill button; they die if they fail to kill before the deadline or a meeting is called first. Double-clicks kill normally."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Mastermind.cs"}
+{"id":"role-mastermind","kind":"role","category":"impostor","title":{"zh-CN":"策划者","en":"Mastermind"},"summary":{"zh-CN":"操纵拥有击杀按钮的目标，限时内若未击杀或先召开会议就会死亡；双击可普通击杀。","en":"Manipulates targets with a kill button; they die if they fail to kill before the deadline or a meeting is called first. Double-clicks kill normally."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Mastermind.cs"}
 ---
 
 <!-- zh-CN -->

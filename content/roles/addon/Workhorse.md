@@ -11,7 +11,7 @@
     "zh-CN": "完成全部现有任务的合格玩家会转为加班狂并获得额外任务，人数受上限控制。",
     "en": "Eligible players who finish all existing tasks become Workhorse and receive extra tasks, up to a configured limit."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Crewmate/Workhorse.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Crewmate/Workhorse.cs"
 }
 ---
 <!-- zh-CN -->

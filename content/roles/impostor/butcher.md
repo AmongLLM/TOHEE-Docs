@@ -1,5 +1,5 @@
 ---
-{"id":"role-butcher","kind":"role","category":"impostor","title":{"zh-CN":"肢解者","en":"Butcher"},"summary":{"zh-CN":"击杀会产生多个尸体干扰报告判断；被击杀者会重复播放击杀动画，并且击杀复仇者会触发其群体复仇。","en":"Kills create multiple bodies that confuse reports; victims repeat the kill animation, and killing an Avenger triggers their group revenge."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Butcher.cs"}
+{"id":"role-butcher","kind":"role","category":"impostor","title":{"zh-CN":"肢解者","en":"Butcher"},"summary":{"zh-CN":"击杀会产生多个尸体干扰报告判断；被击杀者会重复播放击杀动画，并且击杀复仇者会触发其群体复仇。","en":"Kills create multiple bodies that confuse reports; victims repeat the kill animation, and killing an Avenger triggers their group revenge."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Butcher.cs"}
 ---
 
 <!-- zh-CN -->

@@ -1,5 +1,5 @@
 ---
-{"id":"role-judge","kind":"role","category":"crewmate","title":{"zh-CN":"正义法官","en":"Judge"},"summary":{"zh-CN":"正义法官在会议中审判玩家，若目标符合邪恶条件则将其击杀，否则法官自杀。","en":"During a meeting, the Judge trials a player and kills them if they meet the configured Evil criteria; otherwise the Judge dies."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Judge.cs"}
+{"id":"role-judge","kind":"role","category":"crewmate","title":{"zh-CN":"正义法官","en":"Judge"},"summary":{"zh-CN":"正义法官在会议中审判玩家，若目标符合邪恶条件则将其击杀，否则法官自杀。","en":"During a meeting, the Judge trials a player and kills them if they meet the configured Evil criteria; otherwise the Judge dies."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Judge.cs"}
 ---
 
 <!-- zh-CN -->

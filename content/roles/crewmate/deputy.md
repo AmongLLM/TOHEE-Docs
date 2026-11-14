@@ -1,5 +1,5 @@
 ---
-{"id":"role-deputy","kind":"role","category":"crewmate","title":{"zh-CN":"捕快","en":"Deputy"},"summary":{"zh-CN":"捕快用击杀按钮给有效目标戴上手铐并消耗一次技能次数；目标不需要有击杀按钮。","en":"The Deputy uses the kill button to handcuff a valid target and spend one use; the target does not need a kill button."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Deputy.cs"}
+{"id":"role-deputy","kind":"role","category":"crewmate","title":{"zh-CN":"捕快","en":"Deputy"},"summary":{"zh-CN":"捕快用击杀按钮给有效目标戴上手铐并消耗一次技能次数；目标不需要有击杀按钮。","en":"The Deputy uses the kill button to handcuff a valid target and spend one use; the target does not need a kill button."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Deputy.cs"}
 ---
 
 <!-- zh-CN -->

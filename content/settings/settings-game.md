@@ -11,7 +11,7 @@
     "zh-CN": "调整 Among Us 的基础规则，如地图、速度、视野、会议和任务。",
     "en": "Adjust base Among Us rules such as maps, speed, vision, meetings, and tasks."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Patches/GameSettingMenuPatch.cs",
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Patches/GameSettingMenuPatch.cs",
   "order": 101
 }
 ---

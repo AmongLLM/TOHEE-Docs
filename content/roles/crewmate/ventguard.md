@@ -1,5 +1,5 @@
 ---
-{"id":"role-ventguard","kind":"role","category":"crewmate","title":{"zh-CN":"阻碍者","en":"Ventguard"},"summary":{"zh-CN":"阻碍者进入通风口即可封堵它；封堵期间能否由船员进入以及会议后是否重置均可设置。","en":"The Ventguard blocks a vent by entering it, with settings for Crew access to blocked vents and whether blocks reset after meetings."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Ventguard.cs"}
+{"id":"role-ventguard","kind":"role","category":"crewmate","title":{"zh-CN":"阻碍者","en":"Ventguard"},"summary":{"zh-CN":"阻碍者进入通风口即可封堵它；封堵期间能否由船员进入以及会议后是否重置均可设置。","en":"The Ventguard blocks a vent by entering it, with settings for Crew access to blocked vents and whether blocks reset after meetings."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Ventguard.cs"}
 ---
 
 <!-- zh-CN -->

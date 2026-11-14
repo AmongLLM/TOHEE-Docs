@@ -1,5 +1,5 @@
 ---
-{"id":"role-arrogance","kind":"role","category":"impostor","title":{"zh-CN":"狂妄杀手","en":"Arrogance"},"summary":{"zh-CN":"每次成功击杀都会缩短后续击杀冷却。","en":"Each successful kill reduces the cooldown before the next kill."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Arrogance.cs"}
+{"id":"role-arrogance","kind":"role","category":"impostor","title":{"zh-CN":"狂妄杀手","en":"Arrogance"},"summary":{"zh-CN":"每次成功击杀都会缩短后续击杀冷却。","en":"Each successful kill reduces the cooldown before the next kill."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Arrogance.cs"}
 ---
 
 <!-- zh-CN -->

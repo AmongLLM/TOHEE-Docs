@@ -1,5 +1,5 @@
 ---
-{"id":"role-chameleon","kind":"role","category":"crewmate","title":{"zh-CN":"变色龙","en":"Chameleon"},"summary":{"zh-CN":"变色龙可通过通风口暂时隐身，技能次数有限并可通过完成任务补充。","en":"The Chameleon can vent to become temporarily invisible, with limited uses replenished by completing tasks."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Chameleon.cs"}
+{"id":"role-chameleon","kind":"role","category":"crewmate","title":{"zh-CN":"变色龙","en":"Chameleon"},"summary":{"zh-CN":"变色龙可通过通风口暂时隐身，技能次数有限并可通过完成任务补充。","en":"The Chameleon can vent to become temporarily invisible, with limited uses replenished by completing tasks."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Chameleon.cs"}
 ---
 
 <!-- zh-CN -->

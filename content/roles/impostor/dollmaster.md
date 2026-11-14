@@ -1,5 +1,5 @@
 ---
-{"id":"role-dollmaster","kind":"role","category":"impostor","title":{"zh-CN":"玩偶师","en":"Dollmaster"},"summary":{"zh-CN":"通过变形附身非内鬼玩家并操纵其行动；可设置本体是否能击杀以及解除附身时是否杀死目标。","en":"Shapeshifts to possess and control a non-Impostor; settings control main-body kills and whether the target dies when possession ends."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/DollMaster.cs"}
+{"id":"role-dollmaster","kind":"role","category":"impostor","title":{"zh-CN":"玩偶师","en":"Dollmaster"},"summary":{"zh-CN":"通过变形附身非内鬼玩家并操纵其行动；可设置本体是否能击杀以及解除附身时是否杀死目标。","en":"Shapeshifts to possess and control a non-Impostor; settings control main-body kills and whether the target dies when possession ends."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/DollMaster.cs"}
 ---
 
 <!-- zh-CN -->

@@ -1,5 +1,5 @@
 ---
-{"id":"role-gangster","kind":"role","category":"impostor","title":{"zh-CN":"歹徒","en":"Gangster"},"summary":{"zh-CN":"用击杀键尝试招募玩家；次数耗尽或目标不符合招募条件时，转入普通击杀判定。","en":"Uses the kill button to recruit players; exhausted uses or an ineligible target trigger the normal kill checks instead."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Gangster.cs"}
+{"id":"role-gangster","kind":"role","category":"impostor","title":{"zh-CN":"歹徒","en":"Gangster"},"summary":{"zh-CN":"用击杀键尝试招募玩家；次数耗尽或目标不符合招募条件时，转入普通击杀判定。","en":"Uses the kill button to recruit players; exhausted uses or an ineligible target trigger the normal kill checks instead."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Gangster.cs"}
 ---
 
 <!-- zh-CN -->

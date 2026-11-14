@@ -11,7 +11,7 @@
     "zh-CN": "使用预设槽、备份当前配置，并了解当前 JSONC 与本地分享文件。",
     "en": "Use preset slots, back up settings, and understand current JSONC and local share files."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/PresetSharing.cs",
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/PresetSharing.cs",
   "order": 6
 }
 ---

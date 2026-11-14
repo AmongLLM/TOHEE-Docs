@@ -1,5 +1,5 @@
 ---
-{"id":"role-snitch","kind":"role","category":"crewmate","title":{"zh-CN":"告密者","en":"Snitch"},"summary":{"zh-CN":"告密者完成任务后可识别符合设置的杀手；剩余任务达到阈值时，杀手会看到警告标记和指向告密者的箭头。","en":"The Snitch identifies eligible killers after finishing tasks; when their remaining tasks reach a threshold, killers see a warning mark and an arrow to the Snitch."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Snitch.cs"}
+{"id":"role-snitch","kind":"role","category":"crewmate","title":{"zh-CN":"告密者","en":"Snitch"},"summary":{"zh-CN":"告密者完成任务后可识别符合设置的杀手；剩余任务达到阈值时，杀手会看到警告标记和指向告密者的箭头。","en":"The Snitch identifies eligible killers after finishing tasks; when their remaining tasks reach a threshold, killers see a warning mark and an arrow to the Snitch."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Snitch.cs"}
 ---
 
 <!-- zh-CN -->

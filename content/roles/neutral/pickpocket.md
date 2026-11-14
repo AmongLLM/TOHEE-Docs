@@ -1,5 +1,5 @@
 ---
-{"id":"role-pickpocket","kind":"role","category":"neutral","title":{"en":"Pickpocket","zh-CN":"小偷"},"summary":{"zh-CN":"每次击杀都会增加额外投票权，且可对其他玩家隐藏；内鬼阵营消灭后按中立平衡条件获胜。","en":"Gain extra voting power for kills and optionally hide it; win under the neutral parity rule after the Impostors are gone."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Pickpocket.cs"}
+{"id":"role-pickpocket","kind":"role","category":"neutral","title":{"en":"Pickpocket","zh-CN":"小偷"},"summary":{"zh-CN":"每次击杀都会增加额外投票权，且可对其他玩家隐藏；内鬼阵营消灭后按中立平衡条件获胜。","en":"Gain extra voting power for kills and optionally hide it; win under the neutral parity rule after the Impostors are gone."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Pickpocket.cs"}
 ---
 <!-- zh-CN -->
 ## 小偷

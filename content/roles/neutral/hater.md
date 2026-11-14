@@ -1,5 +1,5 @@
 ---
-{"id":"role-hater","kind":"role","category":"neutral","title":{"en":"Hater","zh-CN":"FFF团"},"summary":{"zh-CN":"以 1 秒冷却击杀设置允许的恋人或转换职业；任一FFF团成功击杀后，所有FFF团玩家即使死亡也会随获胜阵营获胜。","en":"Kill eligible Lovers or converted roles with a 1-second cooldown; after any Hater makes a valid kill, all Haters can win with the winning team even if dead."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Hater.cs"}
+{"id":"role-hater","kind":"role","category":"neutral","title":{"en":"Hater","zh-CN":"FFF团"},"summary":{"zh-CN":"以 1 秒冷却击杀设置允许的恋人或转换职业；任一FFF团成功击杀后，所有FFF团玩家即使死亡也会随获胜阵营获胜。","en":"Kill eligible Lovers or converted roles with a 1-second cooldown; after any Hater makes a valid kill, all Haters can win with the winning team even if dead."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Hater.cs"}
 ---
 <!-- zh-CN -->
 ## FFF团

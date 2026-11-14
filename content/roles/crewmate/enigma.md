@@ -1,5 +1,5 @@
 ---
-{"id":"role-enigma","kind":"role","category":"crewmate","title":{"zh-CN":"猜想者","en":"Enigma"},"summary":{"zh-CN":"尸体被报告后，猜想者可获得关于击杀者的随机线索；完成任务可提高线索阶段，是否必须由自己报告可设置。","en":"After a body is reported, the Enigma can receive a random clue about its killer; task progress improves the clue stage, and whether the Enigma must report it is configurable."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Enigma.cs"}
+{"id":"role-enigma","kind":"role","category":"crewmate","title":{"zh-CN":"猜想者","en":"Enigma"},"summary":{"zh-CN":"尸体被报告后，猜想者可获得关于击杀者的随机线索；完成任务可提高线索阶段，是否必须由自己报告可设置。","en":"After a body is reported, the Enigma can receive a random clue about its killer; task progress improves the clue stage, and whether the Enigma must report it is configurable."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Enigma.cs"}
 ---
 
 <!-- zh-CN -->

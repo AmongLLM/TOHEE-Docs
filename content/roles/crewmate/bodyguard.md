@@ -1,5 +1,5 @@
 ---
-{"id":"role-bodyguard","kind":"role","category":"crewmate","title":{"zh-CN":"保镖","en":"Bodyguard"},"summary":{"zh-CN":"附近玩家即将被击杀时，保镖会替其挡下攻击并牺牲自己。","en":"When a nearby player is about to be killed, the Bodyguard prevents the attack and sacrifices themself."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Bodyguard.cs"}
+{"id":"role-bodyguard","kind":"role","category":"crewmate","title":{"zh-CN":"保镖","en":"Bodyguard"},"summary":{"zh-CN":"附近玩家即将被击杀时，保镖会替其挡下攻击并牺牲自己。","en":"When a nearby player is about to be killed, the Bodyguard prevents the attack and sacrifices themself."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Bodyguard.cs"}
 ---
 
 <!-- zh-CN -->

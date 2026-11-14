@@ -1,5 +1,5 @@
 ---
-{"id":"role-vampire","kind":"role","category":"impostor","title":{"zh-CN":"吸血鬼","en":"Vampire"},"summary":{"zh-CN":"咬中的玩家延迟死亡；会议开始时会立即死亡，诱饵则被正常击杀并报告。","en":"Bitten players die after a delay or immediately when a meeting starts; a Bait is killed and reported normally."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Vampire.cs"}
+{"id":"role-vampire","kind":"role","category":"impostor","title":{"zh-CN":"吸血鬼","en":"Vampire"},"summary":{"zh-CN":"咬中的玩家延迟死亡；会议开始时会立即死亡，诱饵则被正常击杀并报告。","en":"Bitten players die after a delay or immediately when a meeting starts; a Bait is killed and reported normally."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Vampire.cs"}
 ---
 
 <!-- zh-CN -->

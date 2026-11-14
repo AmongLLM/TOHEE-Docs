@@ -11,7 +11,7 @@
     "zh-CN": "仅内鬼可获得；击杀会显示随机死亡原因，主持人可限制随机范围。",
     "en": "Only Impostors can receive it; kills show a random death reason, with an optional limit to enabled roles."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Impostor/Tricky.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Impostor/Tricky.cs"
 }
 ---
 <!-- zh-CN -->

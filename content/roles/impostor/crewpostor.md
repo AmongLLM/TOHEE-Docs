@@ -1,5 +1,5 @@
 ---
-{"id":"role-crewpostor","kind":"role","category":"impostor","title":{"zh-CN":"船鬼","en":"Crewpostor"},"summary":{"zh-CN":"不能主动使用击杀键；完成任务达到设定间隔时，会杀死最近的合格玩家。","en":"Cannot use the kill button; completing tasks at the configured interval kills the nearest eligible player."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Crewpostor.cs"}
+{"id":"role-crewpostor","kind":"role","category":"impostor","title":{"zh-CN":"船鬼","en":"Crewpostor"},"summary":{"zh-CN":"不能主动使用击杀键；完成任务达到设定间隔时，会杀死最近的合格玩家。","en":"Cannot use the kill button; completing tasks at the configured interval kills the nearest eligible player."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Crewpostor.cs"}
 ---
 
 <!-- zh-CN -->

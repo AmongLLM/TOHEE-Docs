@@ -11,7 +11,7 @@
     "zh-CN": "了解房主专属模组、兼容客户端、角色显示和日志获取。",
     "en": "Learn about host-only mods, client compatibility, role display, and logs."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/README.md",
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/README.md",
   "order": 11
 }
 ---
@@ -46,7 +46,7 @@
 
 ## 为什么加入房间后提示版本不兼容？
 
-房主与加入者必须使用兼容的 Among Us 版本；房主还要使用支持该游戏版本的 TOHEE 发行包。更新游戏后，请从[发行页](https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/releases)查看适配版本。
+房主与加入者必须使用兼容的 Among Us 版本；房主还要使用支持该游戏版本的 TOHEE 发行包。更新游戏后，请从[发行页](https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/releases)查看适配版本。
 
 ## 哪里可以找到更具体的帮助？
 
@@ -83,7 +83,7 @@ Check the role's maximum count and spawn chance. If the maximum is greater than 
 
 ## Why does the room say that our versions are incompatible?
 
-The host and joining players need compatible Among Us versions, and the host needs a TOHEE release that supports that game version. After a game update, check the [release page](https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/releases) for a compatible build.
+The host and joining players need compatible Among Us versions, and the host needs a TOHEE release that supports that game version. After a game update, check the [release page](https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/releases) for a compatible build.
 
 ## Where can I get more help?
 

@@ -1,5 +1,5 @@
 ---
-{"id":"role-mechanic","kind":"role","category":"crewmate","title":{"zh-CN":"修理工","en":"Mechanic"},"summary":{"zh-CN":"修理工可随时使用通风口，并能按设置独自处理特定破坏。","en":"The Mechanic can vent at any time and can handle selected sabotages alone, depending on settings."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Mechanic.cs"}
+{"id":"role-mechanic","kind":"role","category":"crewmate","title":{"zh-CN":"修理工","en":"Mechanic"},"summary":{"zh-CN":"修理工可随时使用通风口，并能按设置独自处理特定破坏。","en":"The Mechanic can vent at any time and can handle selected sabotages alone, depending on settings."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Mechanic.cs"}
 ---
 
 <!-- zh-CN -->

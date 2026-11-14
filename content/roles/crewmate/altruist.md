@@ -1,5 +1,5 @@
 ---
-{"id":"role-altruist","kind":"role","category":"crewmate","title":{"zh-CN":"殉道者","en":"Altruist"},"summary":{"zh-CN":"殉道者可切换报告模式与复活模式；在复活模式报告尸体会牺牲自己并复活死者。","en":"The Altruist can switch between normal reporting and revival mode; reporting a body in revival mode sacrifices themself to revive the dead player."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Altruist.cs"}
+{"id":"role-altruist","kind":"role","category":"crewmate","title":{"zh-CN":"殉道者","en":"Altruist"},"summary":{"zh-CN":"殉道者可切换报告模式与复活模式；在复活模式报告尸体会牺牲自己并复活死者。","en":"The Altruist can switch between normal reporting and revival mode; reporting a body in revival mode sacrifices themself to revive the dead player."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Altruist.cs"}
 ---
 
 <!-- zh-CN -->

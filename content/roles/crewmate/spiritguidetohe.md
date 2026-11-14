@@ -1,5 +1,5 @@
 ---
-{"id":"role-spiritguidetohe","kind":"role","category":"crewmate","title":{"zh-CN":"灵媒（原版）","en":"Spirit Guide (TOHE)"},"summary":{"zh-CN":"死亡后，灵媒可使用原版灵媒能力向存活玩家发送图像消息；通讯破坏会阻止使用。","en":"After death, the Spirit Guide can send image messages to living players with the native ability; communications sabotage blocks it."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/(Ghosts)/Crewmate/SpiritGuideTOHE.cs"}
+{"id":"role-spiritguidetohe","kind":"role","category":"crewmate","title":{"zh-CN":"灵媒（原版）","en":"Spirit Guide (TOHE)"},"summary":{"zh-CN":"死亡后，灵媒可使用原版灵媒能力向存活玩家发送图像消息；通讯破坏会阻止使用。","en":"After death, the Spirit Guide can send image messages to living players with the native ability; communications sabotage blocks it."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/(Ghosts)/Crewmate/SpiritGuideTOHE.cs"}
 ---
 
 <!-- zh-CN -->

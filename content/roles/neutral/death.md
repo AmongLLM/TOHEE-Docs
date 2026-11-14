@@ -1,5 +1,5 @@
 ---
-{"id":"role-death","kind":"role","category":"neutral","title":{"en":"Death","zh-CN":"死亡"},"summary":{"zh-CN":"灵魂收集者收集足够灵魂后转变为死亡；若未在下一次会议中被投出，死亡会在会议结算时杀死非灾厄玩家。","en":"The Soul Collector transforms into Death after collecting enough souls; if not voted out at the next meeting, Death kills non-Apocalypse players when the meeting resolves."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/SoulCollector.cs"}
+{"id":"role-death","kind":"role","category":"neutral","title":{"en":"Death","zh-CN":"死亡"},"summary":{"zh-CN":"灵魂收集者收集足够灵魂后转变为死亡；若未在下一次会议中被投出，死亡会在会议结算时杀死非灾厄玩家。","en":"The Soul Collector transforms into Death after collecting enough souls; if not voted out at the next meeting, Death kills non-Apocalypse players when the meeting resolves."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/SoulCollector.cs"}
 ---
 <!-- zh-CN -->
 ## 死亡

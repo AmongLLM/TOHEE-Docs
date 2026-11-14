@@ -11,7 +11,7 @@
     "zh-CN": "会议中猜测玩家的角色以击杀对方；猜错则自己死亡。",
     "en": "Guesses players' roles during meetings to kill them; an incorrect guess kills the Guesser."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Guesser.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Guesser.cs"
 }
 ---
 <!-- zh-CN -->

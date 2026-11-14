@@ -1,5 +1,5 @@
 ---
-{"id":"role-detective","kind":"role","category":"crewmate","title":{"zh-CN":"侦探","en":"Detective"},"summary":{"zh-CN":"侦探报告尸体后会收到被害者职业的线索，并可按设置获知凶手职业。","en":"After reporting a body, the Detective learns the victim's role and can also learn the killer's role when enabled."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Detective.cs"}
+{"id":"role-detective","kind":"role","category":"crewmate","title":{"zh-CN":"侦探","en":"Detective"},"summary":{"zh-CN":"侦探报告尸体后会收到被害者职业的线索，并可按设置获知凶手职业。","en":"After reporting a body, the Detective learns the victim's role and can also learn the killer's role when enabled."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Detective.cs"}
 ---
 
 <!-- zh-CN -->

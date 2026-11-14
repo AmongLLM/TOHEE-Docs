@@ -1,5 +1,5 @@
 ---
-{"id":"role-taskmanager","kind":"role","category":"crewmate","title":{"zh-CN":"任务管理者","en":"Task Manager"},"summary":{"zh-CN":"任务管理者会实时看到全体玩家已完成任务的总数，数字显示在职业名称旁。","en":"The Task Manager sees the combined number of tasks completed by all players beside their role name, updated in real time."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/TaskManager.cs"}
+{"id":"role-taskmanager","kind":"role","category":"crewmate","title":{"zh-CN":"任务管理者","en":"Task Manager"},"summary":{"zh-CN":"任务管理者会实时看到全体玩家已完成任务的总数，数字显示在职业名称旁。","en":"The Task Manager sees the combined number of tasks completed by all players beside their role name, updated in real time."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/TaskManager.cs"}
 ---
 
 <!-- zh-CN -->

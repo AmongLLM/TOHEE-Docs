@@ -11,7 +11,7 @@
     "zh-CN": "由感染者转化获得；感染者被驱逐时，存活的感染会全部死亡。",
     "en": "Converted by Infectious; all living Infected players die if Infectious is exiled."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Infectious.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Infectious.cs"
 }
 ---
 <!-- zh-CN -->

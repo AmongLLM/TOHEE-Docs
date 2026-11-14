@@ -1,5 +1,5 @@
 ---
-{"id":"role-deathpact","kind":"role","category":"impostor","title":{"zh-CN":"死亡契约","en":"Deathpact"},"summary":{"zh-CN":"变形标记玩家；达到人数后必须在限时内会合，否则契约玩家死亡，会议也可按设置触发死亡。","en":"Shapeshifts to mark players; once the pact is complete they must meet before the deadline or die, and meetings can trigger deaths by setting."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Deathpact.cs"}
+{"id":"role-deathpact","kind":"role","category":"impostor","title":{"zh-CN":"死亡契约","en":"Deathpact"},"summary":{"zh-CN":"变形标记玩家；达到人数后必须在限时内会合，否则契约玩家死亡，会议也可按设置触发死亡。","en":"Shapeshifts to mark players; once the pact is complete they must meet before the deadline or die, and meetings can trigger deaths by setting."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Deathpact.cs"}
 ---
 
 <!-- zh-CN -->

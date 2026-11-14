@@ -1,5 +1,5 @@
 ---
-{"id":"role-killingmachine","kind":"role","category":"impostor","title":{"zh-CN":"杀戮机器","en":"Killing Machine"},"summary":{"zh-CN":"击杀冷却极短、视野与船员相同，但不能通风、破坏、报告或召开紧急会议，并会无视所有护盾。","en":"Has a very short kill cooldown and Crewmate vision, but cannot vent, sabotage, report, or call meetings, and bypasses all shields."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/KillingMachine.cs"}
+{"id":"role-killingmachine","kind":"role","category":"impostor","title":{"zh-CN":"杀戮机器","en":"Killing Machine"},"summary":{"zh-CN":"击杀冷却极短、视野与船员相同，但不能通风、破坏、报告或召开紧急会议，并会无视所有护盾。","en":"Has a very short kill cooldown and Crewmate vision, but cannot vent, sabotage, report, or call meetings, and bypasses all shields."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/KillingMachine.cs"}
 ---
 
 <!-- zh-CN -->

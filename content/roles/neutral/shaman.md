@@ -1,5 +1,5 @@
 ---
-{"id":"role-shaman","kind":"role","category":"neutral","title":{"en":"Shaman","zh-CN":"萨满"},"summary":{"zh-CN":"每轮选择一名玩家作为巫毒娃娃；选定后，对萨满使用击杀按钮的互动会转移到娃娃。","en":"Choose a player as a voodoo doll each round; while one is selected, kill-button attacks directed at the Shaman are redirected to the doll."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Shaman.cs"}
+{"id":"role-shaman","kind":"role","category":"neutral","title":{"en":"Shaman","zh-CN":"萨满"},"summary":{"zh-CN":"每轮选择一名玩家作为巫毒娃娃；选定后，对萨满使用击杀按钮的互动会转移到娃娃。","en":"Choose a player as a voodoo doll each round; while one is selected, kill-button attacks directed at the Shaman are redirected to the doll."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Shaman.cs"}
 ---
 <!-- zh-CN -->
 ## 萨满

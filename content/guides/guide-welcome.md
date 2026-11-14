@@ -11,7 +11,7 @@
     "zh-CN": "了解 TOHEE 的房主专属玩法，并从安装、开房和设置开始。",
     "en": "Learn how TOHEE's host-only gameplay works and get started with installation, hosting, and settings."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/README.md",
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/README.md",
   "order": 1
 }
 ---
@@ -20,7 +20,7 @@
 
 Town of Host: Enhanced-Enhanced（TOHEE）是 Among Us 的房主专属模组。房主在 Windows 电脑上运行模组并控制房间规则；其他玩家通常可以使用未修改的游戏客户端加入。TOHEE 提供角色、阵营、游戏模式和房间选项，具体内容以当前发行版为准。
 
-TOHEE 基于 Town of Host: Enhanced 上游项目发展。上游网站的旧教程可能使用不同的安装包、设置文件和操作步骤；本文档已按当前 TOHEE 行为整理。安装请从 [TOHEE GitHub Releases](https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/releases) 获取与游戏平台和架构匹配的发行包。
+TOHEE 基于 Town of Host: Enhanced 上游项目发展。上游网站的旧教程可能使用不同的安装包、设置文件和操作步骤；本文档已按当前 TOHEE 行为整理。安装请从 [TOHEE GitHub Releases](https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/releases) 获取与游戏平台和架构匹配的发行包。
 
 ## 从这里开始
 
@@ -42,7 +42,7 @@ TOHEE 基于 Town of Host: Enhanced 上游项目发展。上游网站的旧教�
 
 Town of Host: Enhanced-Enhanced (TOHEE) is a host-only Among Us mod. The host runs the mod on a Windows PC and controls the room rules; other players can usually join with unmodified game clients. TOHEE adds roles, factions, game modes, and room options. The current release determines what is available.
 
-TOHEE builds on the upstream Town of Host: Enhanced project. Older upstream pages may describe different packages, settings files, and procedures; this documentation has been updated for current TOHEE behavior. Get the release that matches your game platform and architecture from [TOHEE GitHub Releases](https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/releases).
+TOHEE builds on the upstream Town of Host: Enhanced project. Older upstream pages may describe different packages, settings files, and procedures; this documentation has been updated for current TOHEE behavior. Get the release that matches your game platform and architecture from [TOHEE GitHub Releases](https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/releases).
 
 ## Start here
 

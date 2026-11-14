@@ -1,5 +1,5 @@
 ---
-{"id":"role-schrodingerscat","kind":"role","category":"neutral","title":{"en":"Schrodingers Cat","zh-CN":"薛定谔的猫"},"summary":{"zh-CN":"首次普通击杀会被阻止，并记录攻击者；猫仍计为无阵营，攻击者获胜时猫会作为额外获胜者一同获胜。","en":"Block the first ordinary kill attempt and record the attacker; the Cat remains on no team and wins as an additional winner if that attacker wins."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/SchrodingersCat.cs"}
+{"id":"role-schrodingerscat","kind":"role","category":"neutral","title":{"en":"Schrodingers Cat","zh-CN":"薛定谔的猫"},"summary":{"zh-CN":"首次普通击杀会被阻止，并记录攻击者；猫仍计为无阵营，攻击者获胜时猫会作为额外获胜者一同获胜。","en":"Block the first ordinary kill attempt and record the attacker; the Cat remains on no team and wins as an additional winner if that attacker wins."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/SchrodingersCat.cs"}
 ---
 <!-- zh-CN -->
 ## 薛定谔的猫

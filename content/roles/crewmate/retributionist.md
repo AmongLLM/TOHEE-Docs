@@ -1,5 +1,5 @@
 ---
-{"id":"role-retributionist","kind":"role","category":"crewmate","title":{"zh-CN":"惩罚者","en":"Retributionist"},"summary":{"zh-CN":"惩罚者死亡后可用 /ret [玩家 ID] 复仇击杀有限数量的玩家，任务完成和存活人数阈值可限制使用。","en":"After death, the Retributionist can use /ret [player ID] to kill a limited number of players, subject to task-completion and living-player thresholds."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Retributionist.cs"}
+{"id":"role-retributionist","kind":"role","category":"crewmate","title":{"zh-CN":"惩罚者","en":"Retributionist"},"summary":{"zh-CN":"惩罚者死亡后可用 /ret [玩家 ID] 复仇击杀有限数量的玩家，任务完成和存活人数阈值可限制使用。","en":"After death, the Retributionist can use /ret [player ID] to kill a limited number of players, subject to task-completion and living-player thresholds."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Retributionist.cs"}
 ---
 
 <!-- zh-CN -->

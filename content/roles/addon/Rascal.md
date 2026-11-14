@@ -11,7 +11,7 @@
     "zh-CN": "仅船员可获得；警长可以击杀，告密者若能查找叛徒也能找到流氓。",
     "en": "Only Crewmates can receive it; Sheriff can kill it, and Snitch can find it when Madmates are searchable."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Crewmate/Rascal.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Crewmate/Rascal.cs"
 }
 ---
 <!-- zh-CN -->

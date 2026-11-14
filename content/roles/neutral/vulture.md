@@ -1,5 +1,5 @@
 ---
-{"id":"role-vulture","kind":"role","category":"neutral","title":{"en":"Vulture","zh-CN":"秃鹫"},"summary":{"zh-CN":"通过报告尸体来吞食并阻止他人再次报告；吞食足够尸体即可获胜。","en":"Eat bodies by reporting them so they cannot be reported again; eat enough bodies to win."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Vulture.cs"}
+{"id":"role-vulture","kind":"role","category":"neutral","title":{"en":"Vulture","zh-CN":"秃鹫"},"summary":{"zh-CN":"通过报告尸体来吞食并阻止他人再次报告；吞食足够尸体即可获胜。","en":"Eat bodies by reporting them so they cannot be reported again; eat enough bodies to win."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Vulture.cs"}
 ---
 <!-- zh-CN -->
 ## 秃鹫

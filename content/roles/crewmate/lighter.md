@@ -1,5 +1,5 @@
 ---
-{"id":"role-lighter","kind":"role","category":"crewmate","title":{"zh-CN":"执灯人","en":"Lighter"},"summary":{"zh-CN":"执灯人钻通风口后可暂时提高视野，正常照明和停电时的视野增强值可分别设置。","en":"The Lighter can vent to temporarily increase their vision, with separate vision settings for normal conditions and lights sabotage."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Lighter.cs"}
+{"id":"role-lighter","kind":"role","category":"crewmate","title":{"zh-CN":"执灯人","en":"Lighter"},"summary":{"zh-CN":"执灯人钻通风口后可暂时提高视野，正常照明和停电时的视野增强值可分别设置。","en":"The Lighter can vent to temporarily increase their vision, with separate vision settings for normal conditions and lights sabotage."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Lighter.cs"}
 ---
 
 <!-- zh-CN -->

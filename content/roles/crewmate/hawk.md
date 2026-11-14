@@ -1,5 +1,5 @@
 ---
-{"id":"role-hawk","kind":"role","category":"crewmate","title":{"zh-CN":"猎鹰","en":"Hawk"},"summary":{"zh-CN":"猎鹰可以有限次数地尝试击杀玩家，但有概率失手；对同一目标多次出手会提高成功率。","en":"The Hawk can attempt a limited number of kills but may miss; repeated attacks against the same target increase the chance of success."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/(Ghosts)/Crewmate/Hawk.cs"}
+{"id":"role-hawk","kind":"role","category":"crewmate","title":{"zh-CN":"猎鹰","en":"Hawk"},"summary":{"zh-CN":"猎鹰可以有限次数地尝试击杀玩家，但有概率失手；对同一目标多次出手会提高成功率。","en":"The Hawk can attempt a limited number of kills but may miss; repeated attacks against the same target increase the chance of success."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/(Ghosts)/Crewmate/Hawk.cs"}
 ---
 
 <!-- zh-CN -->

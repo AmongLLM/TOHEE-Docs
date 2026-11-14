@@ -1,5 +1,5 @@
 ---
-{"id":"role-swapper","kind":"role","category":"crewmate","title":{"zh-CN":"换票师","en":"Swapper"},"summary":{"zh-CN":"换票师在会议中用 /sw [玩家编号] 选择两名玩家交换票数，且默认不能选择自己。","en":"During a meeting, the Swapper selects two players with /sw [player ID] to exchange their votes, and cannot select themself by default."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Swapper.cs"}
+{"id":"role-swapper","kind":"role","category":"crewmate","title":{"zh-CN":"换票师","en":"Swapper"},"summary":{"zh-CN":"换票师在会议中用 /sw [玩家编号] 选择两名玩家交换票数，且默认不能选择自己。","en":"During a meeting, the Swapper selects two players with /sw [player ID] to exchange their votes, and cannot select themself by default."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Swapper.cs"}
 ---
 
 <!-- zh-CN -->

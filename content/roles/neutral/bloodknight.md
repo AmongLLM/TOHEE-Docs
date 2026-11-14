@@ -1,5 +1,5 @@
 ---
-{"id":"role-bloodknight","kind":"role","category":"neutral","title":{"en":"Blood Knight","zh-CN":"嗜血骑士"},"summary":{"zh-CN":"内鬼消失后，若嗜血骑士是唯一存活的计数中立杀手阵营且人数不少于船员，即可获胜；每次击杀后获得短暂无敌护盾。","en":"After Impostors are gone, win when Blood Knights are the only surviving counted Neutral team and at least as numerous as Crew; gain a brief invulnerability shield after each kill."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/BloodKnight.cs"}
+{"id":"role-bloodknight","kind":"role","category":"neutral","title":{"en":"Blood Knight","zh-CN":"嗜血骑士"},"summary":{"zh-CN":"内鬼消失后，若嗜血骑士是唯一存活的计数中立杀手阵营且人数不少于船员，即可获胜；每次击杀后获得短暂无敌护盾。","en":"After Impostors are gone, win when Blood Knights are the only surviving counted Neutral team and at least as numerous as Crew; gain a brief invulnerability shield after each kill."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/BloodKnight.cs"}
 ---
 <!-- zh-CN -->
 ## 嗜血骑士

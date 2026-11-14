@@ -11,7 +11,7 @@
     "zh-CN": "由诅咒之人赋予，胜利结算可随原船员、内鬼或启示录队伍获胜，也可计入诅咒之人的胜利。",
     "en": "Granted by Cursed Soul; can win with its original Crewmate, Impostor, or Apocalypse team, and can also be included in Cursed Soul's win."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/CursedSoul.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/CursedSoul.cs"
 }
 ---
 <!-- zh-CN -->

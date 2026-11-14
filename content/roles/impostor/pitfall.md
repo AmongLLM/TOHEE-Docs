@@ -1,5 +1,5 @@
 ---
-{"id":"role-pitfall","kind":"role","category":"impostor","title":{"zh-CN":"设陷者","en":"Pitfall"},"summary":{"zh-CN":"用变形在周围布置陷阱；进入陷阱的玩家会被冻结并受到视野影响。","en":"Shapeshifts to place traps that freeze players who enter and affect their vision."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Pitfall.cs"}
+{"id":"role-pitfall","kind":"role","category":"impostor","title":{"zh-CN":"设陷者","en":"Pitfall"},"summary":{"zh-CN":"用变形在周围布置陷阱；进入陷阱的玩家会被冻结并受到视野影响。","en":"Shapeshifts to place traps that freeze players who enter and affect their vision."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Pitfall.cs"}
 ---
 
 <!-- zh-CN -->

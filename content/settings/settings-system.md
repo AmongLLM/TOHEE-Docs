@@ -11,7 +11,7 @@
     "zh-CN": "了解房间保护、加入限制、信息显示和模组全局行为。",
     "en": "Review room protections, join restrictions, information display, and global mod behavior."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/OptionHolder.cs",
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/OptionHolder.cs",
   "order": 102
 }
 ---

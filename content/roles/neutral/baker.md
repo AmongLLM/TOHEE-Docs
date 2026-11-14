@@ -1,5 +1,5 @@
 ---
-{"id":"role-baker","kind":"role","category":"neutral","title":{"en":"Baker","zh-CN":"面包师"},"summary":{"en":"Give one non-Apocalypse player bread each round; transform into Famine once enough breaded players are alive.","zh-CN":"每轮给一名非灾厄玩家面包；达到存活面包玩家门槛后转变为饥荒。"},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Baker.cs"}
+{"id":"role-baker","kind":"role","category":"neutral","title":{"en":"Baker","zh-CN":"面包师"},"summary":{"en":"Give one non-Apocalypse player bread each round; transform into Famine once enough breaded players are alive.","zh-CN":"每轮给一名非灾厄玩家面包；达到存活面包玩家门槛后转变为饥荒。"},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Baker.cs"}
 ---
 <!-- zh-CN -->
 ## 面包师

@@ -532,7 +532,7 @@ export async function compileDocs({
       const role = roster.get(document.id);
       if (!role) fail(file.sourcePath, 'role is not in the TOHEE source roster: ' + document.id);
       if (document.category !== role.category) fail(file.sourcePath, 'role category must be ' + role.category);
-      const roleSource = 'https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/' + modCommit + '/' + role.source;
+      const roleSource = 'https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/' + modCommit + '/' + role.source;
       if (document.source !== roleSource) fail(file.sourcePath, 'role source must match the roster revision: ' + roleSource);
       document.color = roleColors[role.key] ?? (role.category === 'impostor' ? '#ff1919' : '#ffffff');
     } else {

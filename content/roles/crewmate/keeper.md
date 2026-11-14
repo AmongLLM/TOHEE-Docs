@@ -1,5 +1,5 @@
 ---
-{"id":"role-keeper","kind":"role","category":"crewmate","title":{"zh-CN":"守卫者","en":"Keeper"},"summary":{"zh-CN":"守卫者在会议中投票给一名玩家以保护其免遭驱逐，使用次数由设置限定。","en":"During a meeting, the Keeper votes for a player to protect them from ejection, with a limited number of uses."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Keeper.cs"}
+{"id":"role-keeper","kind":"role","category":"crewmate","title":{"zh-CN":"守卫者","en":"Keeper"},"summary":{"zh-CN":"守卫者在会议中投票给一名玩家以保护其免遭驱逐，使用次数由设置限定。","en":"During a meeting, the Keeper votes for a player to protect them from ejection, with a limited number of uses."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Keeper.cs"}
 ---
 
 <!-- zh-CN -->

@@ -11,7 +11,7 @@
     "zh-CN": "有概率击杀失败；失败时目标不受影响且击杀冷却重置。",
     "en": "May miss a kill; a miss leaves the target unharmed and resets the cooldown."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Impostor/Clumsy.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Impostor/Clumsy.cs"
 }
 ---
 <!-- zh-CN -->

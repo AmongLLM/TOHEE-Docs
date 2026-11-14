@@ -11,7 +11,7 @@
     "zh-CN": "调查员或神谕者投票给它，或军师、预言家尝试击杀它后，会在会议收到通知。",
     "en": "Receives a meeting notice if Fortune Teller or Oracle votes for it, or Consigliere or Overseer attempts to kill it."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Aware.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Aware.cs"
 }
 ---
 <!-- zh-CN -->

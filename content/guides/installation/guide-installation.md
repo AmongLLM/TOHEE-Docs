@@ -11,7 +11,7 @@
     "zh-CN": "下载正确的发行包，并将模组文件安装到 Among Us 游戏目录。",
     "en": "Download the correct release package and install its files beside Among Us."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/packaging/INSTALL.txt",
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/packaging/INSTALL.txt",
   "order": 2
 }
 ---
@@ -19,7 +19,7 @@
 ## 准备工作
 
 - 需要 Windows 电脑、已安装的正版 Among Us，以及对应商店版本的游戏目录。TOHEE 是房主专属模组：房主需在电脑上安装，其他玩家不需要安装。
-- 从 [TOHEE GitHub Releases](https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/releases) 下载最新发行包。不要下载源码 ZIP；源码包不是可直接运行的模组。
+- 从 [TOHEE GitHub Releases](https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/releases) 下载最新发行包。不要下载源码 ZIP；源码包不是可直接运行的模组。
 - 关闭 Among Us 后再安装或更新。若游戏目录已经装有其他模组或加载器，建议先准备一份干净的游戏副本，避免混用插件和 BepInEx 文件。
 
 ## 选择发行包架构
@@ -51,7 +51,7 @@
 ## Before you start
 
 - You need a Windows PC, a legitimate installation of Among Us, and the game directory for the store version you use. TOHEE is host-only: the host installs it on a PC; other players do not need to install the mod.
-- Download the latest release package from [TOHEE GitHub Releases](https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/releases). Do not download the source ZIP; it is not a runnable mod package.
+- Download the latest release package from [TOHEE GitHub Releases](https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/releases). Do not download the source ZIP; it is not a runnable mod package.
 - Close Among Us before installing or updating. If the game directory already contains another mod or loader, prepare a clean game copy to avoid mixing plugins and BepInEx files.
 
 ## Choose the package architecture

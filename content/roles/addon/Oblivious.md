@@ -11,7 +11,7 @@
     "zh-CN": "无法报告尸体；可设置诱饵强制报告对胆小鬼的影响，且与多种调查或报告角色不兼容。",
     "en": "Cannot report bodies; settings govern Bait's forced report, and the add-on is incompatible with several investigation or reporting roles."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Oblivious.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Oblivious.cs"
 }
 ---
 <!-- zh-CN -->

@@ -1,5 +1,5 @@
 ---
-{"id":"role-eviltracker","kind":"role","category":"impostor","title":{"zh-CN":"邪恶追踪者","en":"Evil Tracker"},"summary":{"zh-CN":"追踪目标并通过变形更换目标；队友击杀时可显示击杀闪光。","en":"Tracks a target and changes targets by shapeshifting; can see a kill flash when a teammate kills."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/EvilTracker.cs"}
+{"id":"role-eviltracker","kind":"role","category":"impostor","title":{"zh-CN":"邪恶追踪者","en":"Evil Tracker"},"summary":{"zh-CN":"追踪目标并通过变形更换目标；队友击杀时可显示击杀闪光。","en":"Tracks a target and changes targets by shapeshifting; can see a kill flash when a teammate kills."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/EvilTracker.cs"}
 ---
 
 <!-- zh-CN -->
