@@ -1,0 +1,1889 @@
+{
+  "modCommit": "1dcecb4481a07eeeb61df99415318ed5355339c7",
+  "roles": [
+    {
+      "key": "CrewmateTOHE",
+      "id": "role-crewmatetohe",
+      "category": "crewmate",
+      "source": "Roles/Vanilla/CrewmateTOHE.cs"
+    },
+    {
+      "key": "EngineerTOHE",
+      "id": "role-engineertohe",
+      "category": "crewmate",
+      "source": "Roles/Vanilla/EngineerTOHE.cs"
+    },
+    {
+      "key": "GuardianAngelTOHE",
+      "id": "role-guardianangeltohe",
+      "category": "crewmate",
+      "source": "Roles/(Ghosts)/Crewmate/GuardianAngelTOHE.cs"
+    },
+    {
+      "key": "NoisemakerTOHE",
+      "id": "role-noisemakertohe",
+      "category": "crewmate",
+      "source": "Roles/Vanilla/NoisemakerTOHE.cs"
+    },
+    {
+      "key": "ScientistTOHE",
+      "id": "role-scientisttohe",
+      "category": "crewmate",
+      "source": "Roles/Vanilla/ScientistTOHE.cs"
+    },
+    {
+      "key": "TrackerTOHE",
+      "id": "role-trackertohe",
+      "category": "crewmate",
+      "source": "Roles/Vanilla/TrackerTOHE.cs"
+    },
+    {
+      "key": "Ghastly",
+      "id": "role-ghastly",
+      "category": "crewmate",
+      "source": "Roles/(Ghosts)/Crewmate/Ghastly.cs"
+    },
+    {
+      "key": "Hawk",
+      "id": "role-hawk",
+      "category": "crewmate",
+      "source": "Roles/(Ghosts)/Crewmate/Hawk.cs"
+    },
+    {
+      "key": "Warden",
+      "id": "role-warden",
+      "category": "crewmate",
+      "source": "Roles/(Ghosts)/Crewmate/Warden.cs"
+    },
+    {
+      "key": "Addict",
+      "id": "role-addict",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Addict.cs"
+    },
+    {
+      "key": "Admirer",
+      "id": "role-admirer",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Admirer.cs"
+    },
+    {
+      "key": "Alchemist",
+      "id": "role-alchemist",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Alchemist.cs"
+    },
+    {
+      "key": "Altruist",
+      "id": "role-altruist",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Altruist.cs"
+    },
+    {
+      "key": "Bastion",
+      "id": "role-bastion",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Bastion.cs"
+    },
+    {
+      "key": "Benefactor",
+      "id": "role-benefactor",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Benefactor.cs"
+    },
+    {
+      "key": "Bodyguard",
+      "id": "role-bodyguard",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Bodyguard.cs"
+    },
+    {
+      "key": "Captain",
+      "id": "role-captain",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Captain.cs"
+    },
+    {
+      "key": "Celebrity",
+      "id": "role-celebrity",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Celebrity.cs"
+    },
+    {
+      "key": "Chameleon",
+      "id": "role-chameleon",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Chameleon.cs"
+    },
+    {
+      "key": "Cleanser",
+      "id": "role-cleanser",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Cleanser.cs"
+    },
+    {
+      "key": "CopyCat",
+      "id": "role-copycat",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/CopyCat.cs"
+    },
+    {
+      "key": "Coroner",
+      "id": "role-coroner",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Coroner.cs"
+    },
+    {
+      "key": "Crusader",
+      "id": "role-crusader",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Crusader.cs"
+    },
+    {
+      "key": "Deceiver",
+      "id": "role-deceiver",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Deceiver.cs"
+    },
+    {
+      "key": "Deputy",
+      "id": "role-deputy",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Deputy.cs"
+    },
+    {
+      "key": "Detective",
+      "id": "role-detective",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Detective.cs"
+    },
+    {
+      "key": "Dictator",
+      "id": "role-dictator",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Dictator.cs"
+    },
+    {
+      "key": "Doctor",
+      "id": "role-doctor",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Doctor.cs"
+    },
+    {
+      "key": "Enigma",
+      "id": "role-enigma",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Enigma.cs"
+    },
+    {
+      "key": "FortuneTeller",
+      "id": "role-fortuneteller",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/FortuneTeller.cs"
+    },
+    {
+      "key": "Grenadier",
+      "id": "role-grenadier",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Grenadier.cs"
+    },
+    {
+      "key": "Guardian",
+      "id": "role-guardian",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Guardian.cs"
+    },
+    {
+      "key": "GuessMaster",
+      "id": "role-guessmaster",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/GuessMaster.cs"
+    },
+    {
+      "key": "Inspector",
+      "id": "role-inspector",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Inspector.cs"
+    },
+    {
+      "key": "Investigator",
+      "id": "role-investigator",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Investigator.cs"
+    },
+    {
+      "key": "Jailer",
+      "id": "role-jailer",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Jailer.cs"
+    },
+    {
+      "key": "Judge",
+      "id": "role-judge",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Judge.cs"
+    },
+    {
+      "key": "Keeper",
+      "id": "role-keeper",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Keeper.cs"
+    },
+    {
+      "key": "Knight",
+      "id": "role-knight",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Knight.cs"
+    },
+    {
+      "key": "LazyGuy",
+      "id": "role-lazyguy",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/LazyGuy.cs"
+    },
+    {
+      "key": "Lighter",
+      "id": "role-lighter",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Lighter.cs"
+    },
+    {
+      "key": "Lookout",
+      "id": "role-lookout",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Lookout.cs"
+    },
+    {
+      "key": "Marshall",
+      "id": "role-marshall",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Marshall.cs"
+    },
+    {
+      "key": "Mayor",
+      "id": "role-mayor",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Mayor.cs"
+    },
+    {
+      "key": "Mechanic",
+      "id": "role-mechanic",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Mechanic.cs"
+    },
+    {
+      "key": "Medic",
+      "id": "role-medic",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Medic.cs"
+    },
+    {
+      "key": "Medium",
+      "id": "role-medium",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Medium.cs"
+    },
+    {
+      "key": "Merchant",
+      "id": "role-merchant",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Merchant.cs"
+    },
+    {
+      "key": "Mole",
+      "id": "role-mole",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Mole.cs"
+    },
+    {
+      "key": "Monarch",
+      "id": "role-monarch",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Monarch.cs"
+    },
+    {
+      "key": "Mortician",
+      "id": "role-mortician",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Mortician.cs"
+    },
+    {
+      "key": "NiceGuesser",
+      "id": "role-niceguesser",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/NiceGuesser.cs"
+    },
+    {
+      "key": "NiceMini",
+      "id": "role-nicemini",
+      "category": "crewmate",
+      "source": "Roles/Double/Mini.cs"
+    },
+    {
+      "key": "Observer",
+      "id": "role-observer",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Observer.cs"
+    },
+    {
+      "key": "Oracle",
+      "id": "role-oracle",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Oracle.cs"
+    },
+    {
+      "key": "Overseer",
+      "id": "role-overseer",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Overseer.cs"
+    },
+    {
+      "key": "Pacifist",
+      "id": "role-pacifist",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Pacifist.cs"
+    },
+    {
+      "key": "President",
+      "id": "role-president",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/President.cs"
+    },
+    {
+      "key": "Psychic",
+      "id": "role-psychic",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Psychic.cs"
+    },
+    {
+      "key": "Randomizer",
+      "id": "role-randomizer",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Randomizer.cs"
+    },
+    {
+      "key": "Retributionist",
+      "id": "role-retributionist",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Retributionist.cs"
+    },
+    {
+      "key": "Reverie",
+      "id": "role-reverie",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Reverie.cs"
+    },
+    {
+      "key": "Sheriff",
+      "id": "role-sheriff",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Sheriff.cs"
+    },
+    {
+      "key": "Snitch",
+      "id": "role-snitch",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Snitch.cs"
+    },
+    {
+      "key": "Spiritualist",
+      "id": "role-spiritualist",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Spiritualist.cs"
+    },
+    {
+      "key": "Spy",
+      "id": "role-spy",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Spy.cs"
+    },
+    {
+      "key": "SuperStar",
+      "id": "role-superstar",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/SuperStar.cs"
+    },
+    {
+      "key": "Swapper",
+      "id": "role-swapper",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Swapper.cs"
+    },
+    {
+      "key": "TaskManager",
+      "id": "role-taskmanager",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/TaskManager.cs"
+    },
+    {
+      "key": "Telecommunication",
+      "id": "role-telecommunication",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Telecommunication.cs"
+    },
+    {
+      "key": "TimeManager",
+      "id": "role-timemanager",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/TimeManager.cs"
+    },
+    {
+      "key": "TimeMaster",
+      "id": "role-timemaster",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/TimeMaster.cs"
+    },
+    {
+      "key": "Tracefinder",
+      "id": "role-tracefinder",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Tracefinder.cs"
+    },
+    {
+      "key": "Transporter",
+      "id": "role-transporter",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Transporter.cs"
+    },
+    {
+      "key": "Ventguard",
+      "id": "role-ventguard",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Ventguard.cs"
+    },
+    {
+      "key": "Veteran",
+      "id": "role-veteran",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Veteran.cs"
+    },
+    {
+      "key": "Vigilante",
+      "id": "role-vigilante",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Vigilante.cs"
+    },
+    {
+      "key": "Witness",
+      "id": "role-witness",
+      "category": "crewmate",
+      "source": "Roles/Crewmate/Witness.cs"
+    },
+    {
+      "key": "Mini",
+      "id": "role-mini",
+      "category": "crewmate",
+      "source": "Roles/Double/Mini.cs"
+    },
+    {
+      "key": "DetectiveTOHE",
+      "id": "role-detectivetohe",
+      "category": "crewmate",
+      "source": "Roles/Vanilla/DetectiveTOHE.cs"
+    },
+    {
+      "key": "SpiritGuideTOHE",
+      "id": "role-spiritguidetohe",
+      "category": "crewmate",
+      "source": "Roles/(Ghosts)/Crewmate/SpiritGuideTOHE.cs"
+    },
+    {
+      "key": "ImpostorTOHE",
+      "id": "role-impostortohe",
+      "category": "impostor",
+      "source": "Roles/Vanilla/ImpostorTOHE.cs"
+    },
+    {
+      "key": "PhantomTOHE",
+      "id": "role-phantomtohe",
+      "category": "impostor",
+      "source": "Roles/Vanilla/PhantomTOHE.cs"
+    },
+    {
+      "key": "ShapeshifterTOHE",
+      "id": "role-shapeshiftertohe",
+      "category": "impostor",
+      "source": "Roles/Vanilla/ShapeshifterTOHE.cs"
+    },
+    {
+      "key": "Bloodmoon",
+      "id": "role-bloodmoon",
+      "category": "impostor",
+      "source": "Roles/(Ghosts)/Impostor/Bloodmoon.cs"
+    },
+    {
+      "key": "Minion",
+      "id": "role-minion",
+      "category": "impostor",
+      "source": "Roles/(Ghosts)/Impostor/Minion.cs"
+    },
+    {
+      "key": "Possessor",
+      "id": "role-possessor",
+      "category": "impostor",
+      "source": "Roles/(Ghosts)/Impostor/Possessor.cs"
+    },
+    {
+      "key": "Anonymous",
+      "id": "role-anonymous",
+      "category": "impostor",
+      "source": "Roles/Impostor/Anonymous.cs"
+    },
+    {
+      "key": "AntiAdminer",
+      "id": "role-antiadminer",
+      "category": "impostor",
+      "source": "Roles/Impostor/AntiAdminer.cs"
+    },
+    {
+      "key": "Arrogance",
+      "id": "role-arrogance",
+      "category": "impostor",
+      "source": "Roles/Impostor/Arrogance.cs"
+    },
+    {
+      "key": "Bard",
+      "id": "role-bard",
+      "category": "impostor",
+      "source": "Roles/Impostor/Bard.cs"
+    },
+    {
+      "key": "Blackmailer",
+      "id": "role-blackmailer",
+      "category": "impostor",
+      "source": "Roles/Impostor/Blackmailer.cs"
+    },
+    {
+      "key": "Bomber",
+      "id": "role-bomber",
+      "category": "impostor",
+      "source": "Roles/Impostor/Bomber.cs"
+    },
+    {
+      "key": "BountyHunter",
+      "id": "role-bountyhunter",
+      "category": "impostor",
+      "source": "Roles/Impostor/BountyHunter.cs"
+    },
+    {
+      "key": "Butcher",
+      "id": "role-butcher",
+      "category": "impostor",
+      "source": "Roles/Impostor/Butcher.cs"
+    },
+    {
+      "key": "Camouflager",
+      "id": "role-camouflager",
+      "category": "impostor",
+      "source": "Roles/Impostor/Camouflager.cs"
+    },
+    {
+      "key": "Chronomancer",
+      "id": "role-chronomancer",
+      "category": "impostor",
+      "source": "Roles/Impostor/Chronomancer.cs"
+    },
+    {
+      "key": "Cleaner",
+      "id": "role-cleaner",
+      "category": "impostor",
+      "source": "Roles/Impostor/Cleaner.cs"
+    },
+    {
+      "key": "Consigliere",
+      "id": "role-consigliere",
+      "category": "impostor",
+      "source": "Roles/Impostor/Consigliere.cs"
+    },
+    {
+      "key": "Councillor",
+      "id": "role-councillor",
+      "category": "impostor",
+      "source": "Roles/Impostor/Councillor.cs"
+    },
+    {
+      "key": "Crewpostor",
+      "id": "role-crewpostor",
+      "category": "impostor",
+      "source": "Roles/Impostor/Crewpostor.cs"
+    },
+    {
+      "key": "CursedWolf",
+      "id": "role-cursedwolf",
+      "category": "impostor",
+      "source": "Roles/Impostor/CursedWolf.cs"
+    },
+    {
+      "key": "Dazzler",
+      "id": "role-dazzler",
+      "category": "impostor",
+      "source": "Roles/Impostor/Dazzler.cs"
+    },
+    {
+      "key": "Deathpact",
+      "id": "role-deathpact",
+      "category": "impostor",
+      "source": "Roles/Impostor/Deathpact.cs"
+    },
+    {
+      "key": "Devourer",
+      "id": "role-devourer",
+      "category": "impostor",
+      "source": "Roles/Impostor/Devourer.cs"
+    },
+    {
+      "key": "Disperser",
+      "id": "role-disperser",
+      "category": "impostor",
+      "source": "Roles/Impostor/Disperser.cs"
+    },
+    {
+      "key": "DollMaster",
+      "id": "role-dollmaster",
+      "category": "impostor",
+      "source": "Roles/Impostor/DollMaster.cs"
+    },
+    {
+      "key": "DoubleAgent",
+      "id": "role-doubleagent",
+      "category": "impostor",
+      "source": "Roles/Impostor/DoubleAgent.cs"
+    },
+    {
+      "key": "Eraser",
+      "id": "role-eraser",
+      "category": "impostor",
+      "source": "Roles/Impostor/Eraser.cs"
+    },
+    {
+      "key": "Escapist",
+      "id": "role-escapist",
+      "category": "impostor",
+      "source": "Roles/Impostor/Escapist.cs"
+    },
+    {
+      "key": "EvilGuesser",
+      "id": "role-evilguesser",
+      "category": "impostor",
+      "source": "Roles/Impostor/EvilGuesser.cs"
+    },
+    {
+      "key": "EvilHacker",
+      "id": "role-evilhacker",
+      "category": "impostor",
+      "source": "Roles/Impostor/EvilHacker.cs"
+    },
+    {
+      "key": "EvilMini",
+      "id": "role-evilmini",
+      "category": "impostor",
+      "source": "Roles/Double/Mini.cs"
+    },
+    {
+      "key": "EvilTracker",
+      "id": "role-eviltracker",
+      "category": "impostor",
+      "source": "Roles/Impostor/EvilTracker.cs"
+    },
+    {
+      "key": "Fireworker",
+      "id": "role-fireworker",
+      "category": "impostor",
+      "source": "Roles/Impostor/Fireworker.cs"
+    },
+    {
+      "key": "Gangster",
+      "id": "role-gangster",
+      "category": "impostor",
+      "source": "Roles/Impostor/Gangster.cs"
+    },
+    {
+      "key": "Godfather",
+      "id": "role-godfather",
+      "category": "impostor",
+      "source": "Roles/Impostor/Godfather.cs"
+    },
+    {
+      "key": "Greedy",
+      "id": "role-greedy",
+      "category": "impostor",
+      "source": "Roles/Impostor/Greedy.cs"
+    },
+    {
+      "key": "Hangman",
+      "id": "role-hangman",
+      "category": "impostor",
+      "source": "Roles/Impostor/Hangman.cs"
+    },
+    {
+      "key": "Inhibitor",
+      "id": "role-inhibitor",
+      "category": "impostor",
+      "source": "Roles/Impostor/Inhibitor.cs"
+    },
+    {
+      "key": "Instigator",
+      "id": "role-instigator",
+      "category": "impostor",
+      "source": "Roles/Impostor/Instigator.cs"
+    },
+    {
+      "key": "Kamikaze",
+      "id": "role-kamikaze",
+      "category": "impostor",
+      "source": "Roles/Impostor/Kamikaze.cs"
+    },
+    {
+      "key": "KillingMachine",
+      "id": "role-killingmachine",
+      "category": "impostor",
+      "source": "Roles/Impostor/KillingMachine.cs"
+    },
+    {
+      "key": "Lightning",
+      "id": "role-lightning",
+      "category": "impostor",
+      "source": "Roles/Impostor/Lightning.cs"
+    },
+    {
+      "key": "Ludopath",
+      "id": "role-ludopath",
+      "category": "impostor",
+      "source": "Roles/Impostor/Ludopath.cs"
+    },
+    {
+      "key": "Lurker",
+      "id": "role-lurker",
+      "category": "impostor",
+      "source": "Roles/Impostor/Lurker.cs"
+    },
+    {
+      "key": "Mastermind",
+      "id": "role-mastermind",
+      "category": "impostor",
+      "source": "Roles/Impostor/Mastermind.cs"
+    },
+    {
+      "key": "Mercenary",
+      "id": "role-mercenary",
+      "category": "impostor",
+      "source": "Roles/Impostor/Mercenary.cs"
+    },
+    {
+      "key": "Miner",
+      "id": "role-miner",
+      "category": "impostor",
+      "source": "Roles/Impostor/Miner.cs"
+    },
+    {
+      "key": "Morphling",
+      "id": "role-morphling",
+      "category": "impostor",
+      "source": "Roles/Impostor/Morphling.cs"
+    },
+    {
+      "key": "Nemesis",
+      "id": "role-nemesis",
+      "category": "impostor",
+      "source": "Roles/Impostor/Nemesis.cs"
+    },
+    {
+      "key": "Ninja",
+      "id": "role-ninja",
+      "category": "impostor",
+      "source": "Roles/Impostor/Ninja.cs"
+    },
+    {
+      "key": "Parasite",
+      "id": "role-parasite",
+      "category": "impostor",
+      "source": "Roles/Impostor/Parasite.cs"
+    },
+    {
+      "key": "Penguin",
+      "id": "role-penguin",
+      "category": "impostor",
+      "source": "Roles/Impostor/Penguin.cs"
+    },
+    {
+      "key": "Pitfall",
+      "id": "role-pitfall",
+      "category": "impostor",
+      "source": "Roles/Impostor/Pitfall.cs"
+    },
+    {
+      "key": "Puppeteer",
+      "id": "role-puppeteer",
+      "category": "impostor",
+      "source": "Roles/Impostor/Puppeteer.cs"
+    },
+    {
+      "key": "QuickShooter",
+      "id": "role-quickshooter",
+      "category": "impostor",
+      "source": "Roles/Impostor/QuickShooter.cs"
+    },
+    {
+      "key": "Refugee",
+      "id": "role-refugee",
+      "category": "impostor",
+      "source": "Roles/Impostor/Refugee.cs"
+    },
+    {
+      "key": "RiftMaker",
+      "id": "role-riftmaker",
+      "category": "impostor",
+      "source": "Roles/Impostor/RiftMaker.cs"
+    },
+    {
+      "key": "Saboteur",
+      "id": "role-saboteur",
+      "category": "impostor",
+      "source": "Roles/Impostor/Saboteur.cs"
+    },
+    {
+      "key": "Scavenger",
+      "id": "role-scavenger",
+      "category": "impostor",
+      "source": "Roles/Impostor/Scavenger.cs"
+    },
+    {
+      "key": "ShapeMaster",
+      "id": "role-shapemaster",
+      "category": "impostor",
+      "source": "Roles/Impostor/ShapeMaster.cs"
+    },
+    {
+      "key": "Sniper",
+      "id": "role-sniper",
+      "category": "impostor",
+      "source": "Roles/Impostor/Sniper.cs"
+    },
+    {
+      "key": "SoulCatcher",
+      "id": "role-soulcatcher",
+      "category": "impostor",
+      "source": "Roles/Impostor/SoulCatcher.cs"
+    },
+    {
+      "key": "Stealth",
+      "id": "role-stealth",
+      "category": "impostor",
+      "source": "Roles/Impostor/Stealth.cs"
+    },
+    {
+      "key": "YinYanger",
+      "id": "role-yinyanger",
+      "category": "impostor",
+      "source": "Roles/Impostor/YinYanger.cs"
+    },
+    {
+      "key": "Swooper",
+      "id": "role-swooper",
+      "category": "impostor",
+      "source": "Roles/Impostor/Swooper.cs"
+    },
+    {
+      "key": "TimeThief",
+      "id": "role-timethief",
+      "category": "impostor",
+      "source": "Roles/Impostor/TimeThief.cs"
+    },
+    {
+      "key": "Trapster",
+      "id": "role-trapster",
+      "category": "impostor",
+      "source": "Roles/Impostor/Trapster.cs"
+    },
+    {
+      "key": "Trickster",
+      "id": "role-trickster",
+      "category": "impostor",
+      "source": "Roles/Impostor/Trickster.cs"
+    },
+    {
+      "key": "Twister",
+      "id": "role-twister",
+      "category": "impostor",
+      "source": "Roles/Impostor/Twister.cs"
+    },
+    {
+      "key": "Underdog",
+      "id": "role-underdog",
+      "category": "impostor",
+      "source": "Roles/Impostor/Underdog.cs"
+    },
+    {
+      "key": "Undertaker",
+      "id": "role-undertaker",
+      "category": "impostor",
+      "source": "Roles/Impostor/Undertaker.cs"
+    },
+    {
+      "key": "Vampire",
+      "id": "role-vampire",
+      "category": "impostor",
+      "source": "Roles/Impostor/Vampire.cs"
+    },
+    {
+      "key": "Vindicator",
+      "id": "role-vindicator",
+      "category": "impostor",
+      "source": "Roles/Impostor/Vindicator.cs"
+    },
+    {
+      "key": "Visionary",
+      "id": "role-visionary",
+      "category": "impostor",
+      "source": "Roles/Impostor/Visionary.cs"
+    },
+    {
+      "key": "Warlock",
+      "id": "role-warlock",
+      "category": "impostor",
+      "source": "Roles/Impostor/Warlock.cs"
+    },
+    {
+      "key": "Wildling",
+      "id": "role-wildling",
+      "category": "impostor",
+      "source": "Roles/Impostor/Wildling.cs"
+    },
+    {
+      "key": "Witch",
+      "id": "role-witch",
+      "category": "impostor",
+      "source": "Roles/Impostor/Witch.cs"
+    },
+    {
+      "key": "Zombie",
+      "id": "role-zombie",
+      "category": "impostor",
+      "source": "Roles/Impostor/Zombie.cs"
+    },
+    {
+      "key": "ViperTOHE",
+      "id": "role-vipertohe",
+      "category": "impostor",
+      "source": "Roles/Vanilla/ViperTOHE.cs"
+    },
+    {
+      "key": "Agitater",
+      "id": "role-agitater",
+      "category": "neutral",
+      "source": "Roles/Neutral/Agitater.cs"
+    },
+    {
+      "key": "Amnesiac",
+      "id": "role-amnesiac",
+      "category": "neutral",
+      "source": "Roles/Neutral/Amnesiac.cs"
+    },
+    {
+      "key": "Arsonist",
+      "id": "role-arsonist",
+      "category": "neutral",
+      "source": "Roles/Neutral/Arsonist.cs"
+    },
+    {
+      "key": "Baker",
+      "id": "role-baker",
+      "category": "neutral",
+      "source": "Roles/Neutral/Baker.cs"
+    },
+    {
+      "key": "Bandit",
+      "id": "role-bandit",
+      "category": "neutral",
+      "source": "Roles/Neutral/Bandit.cs"
+    },
+    {
+      "key": "Berserker",
+      "id": "role-berserker",
+      "category": "neutral",
+      "source": "Roles/Neutral/Berserker.cs"
+    },
+    {
+      "key": "BloodKnight",
+      "id": "role-bloodknight",
+      "category": "neutral",
+      "source": "Roles/Neutral/BloodKnight.cs"
+    },
+    {
+      "key": "Collector",
+      "id": "role-collector",
+      "category": "neutral",
+      "source": "Roles/Neutral/Collector.cs"
+    },
+    {
+      "key": "Cultist",
+      "id": "role-cultist",
+      "category": "neutral",
+      "source": "Roles/Neutral/Cultist.cs"
+    },
+    {
+      "key": "CursedSoul",
+      "id": "role-cursedsoul",
+      "category": "neutral",
+      "source": "Roles/Neutral/CursedSoul.cs"
+    },
+    {
+      "key": "Death",
+      "id": "role-death",
+      "category": "neutral",
+      "source": "Roles/Neutral/SoulCollector.cs"
+    },
+    {
+      "key": "Demon",
+      "id": "role-demon",
+      "category": "neutral",
+      "source": "Roles/Neutral/Demon.cs"
+    },
+    {
+      "key": "Doomsayer",
+      "id": "role-doomsayer",
+      "category": "neutral",
+      "source": "Roles/Neutral/Doomsayer.cs"
+    },
+    {
+      "key": "Doppelganger",
+      "id": "role-doppelganger",
+      "category": "neutral",
+      "source": "Roles/Neutral/Doppelganger.cs"
+    },
+    {
+      "key": "Executioner",
+      "id": "role-executioner",
+      "category": "neutral",
+      "source": "Roles/Neutral/Executioner.cs"
+    },
+    {
+      "key": "Famine",
+      "id": "role-famine",
+      "category": "neutral",
+      "source": "Roles/Neutral/Baker.cs"
+    },
+    {
+      "key": "Follower",
+      "id": "role-follower",
+      "category": "neutral",
+      "source": "Roles/Neutral/Follower.cs"
+    },
+    {
+      "key": "Glitch",
+      "id": "role-glitch",
+      "category": "neutral",
+      "source": "Roles/Neutral/Glitch.cs"
+    },
+    {
+      "key": "God",
+      "id": "role-god",
+      "category": "neutral",
+      "source": "Roles/Neutral/God.cs"
+    },
+    {
+      "key": "Hater",
+      "id": "role-hater",
+      "category": "neutral",
+      "source": "Roles/Neutral/Hater.cs"
+    },
+    {
+      "key": "HexMaster",
+      "id": "role-hexmaster",
+      "category": "neutral",
+      "source": "Roles/Neutral/HexMaster.cs"
+    },
+    {
+      "key": "Huntsman",
+      "id": "role-huntsman",
+      "category": "neutral",
+      "source": "Roles/Neutral/Huntsman.cs"
+    },
+    {
+      "key": "Imitator",
+      "id": "role-imitator",
+      "category": "neutral",
+      "source": "Roles/Neutral/Imitator.cs"
+    },
+    {
+      "key": "Infectious",
+      "id": "role-infectious",
+      "category": "neutral",
+      "source": "Roles/Neutral/Infectious.cs"
+    },
+    {
+      "key": "Innocent",
+      "id": "role-innocent",
+      "category": "neutral",
+      "source": "Roles/Neutral/Innocent.cs"
+    },
+    {
+      "key": "Jackal",
+      "id": "role-jackal",
+      "category": "neutral",
+      "source": "Roles/Neutral/Jackal.cs"
+    },
+    {
+      "key": "Jester",
+      "id": "role-jester",
+      "category": "neutral",
+      "source": "Roles/Neutral/Jester.cs"
+    },
+    {
+      "key": "Jinx",
+      "id": "role-jinx",
+      "category": "neutral",
+      "source": "Roles/Neutral/Jinx.cs"
+    },
+    {
+      "key": "Juggernaut",
+      "id": "role-juggernaut",
+      "category": "neutral",
+      "source": "Roles/Neutral/Juggernaut.cs"
+    },
+    {
+      "key": "Lawyer",
+      "id": "role-lawyer",
+      "category": "neutral",
+      "source": "Roles/Neutral/Lawyer.cs"
+    },
+    {
+      "key": "Maverick",
+      "id": "role-maverick",
+      "category": "neutral",
+      "source": "Roles/Neutral/Maverick.cs"
+    },
+    {
+      "key": "Medusa",
+      "id": "role-medusa",
+      "category": "neutral",
+      "source": "Roles/Neutral/Medusa.cs"
+    },
+    {
+      "key": "Necromancer",
+      "id": "role-necromancer",
+      "category": "neutral",
+      "source": "Roles/Neutral/Necromancer.cs"
+    },
+    {
+      "key": "Opportunist",
+      "id": "role-opportunist",
+      "category": "neutral",
+      "source": "Roles/Neutral/Opportunist.cs"
+    },
+    {
+      "key": "Pelican",
+      "id": "role-pelican",
+      "category": "neutral",
+      "source": "Roles/Neutral/Pelican.cs"
+    },
+    {
+      "key": "Pestilence",
+      "id": "role-pestilence",
+      "category": "neutral",
+      "source": "Roles/Neutral/PlagueBearer.cs"
+    },
+    {
+      "key": "Pickpocket",
+      "id": "role-pickpocket",
+      "category": "neutral",
+      "source": "Roles/Neutral/Pickpocket.cs"
+    },
+    {
+      "key": "Pirate",
+      "id": "role-pirate",
+      "category": "neutral",
+      "source": "Roles/Neutral/Pirate.cs"
+    },
+    {
+      "key": "Pixie",
+      "id": "role-pixie",
+      "category": "neutral",
+      "source": "Roles/Neutral/Pixie.cs"
+    },
+    {
+      "key": "PlagueBearer",
+      "id": "role-plaguebearer",
+      "category": "neutral",
+      "source": "Roles/Neutral/PlagueBearer.cs"
+    },
+    {
+      "key": "PlagueDoctor",
+      "id": "role-plaguedoctor",
+      "category": "neutral",
+      "source": "Roles/Neutral/PlagueDoctor.cs"
+    },
+    {
+      "key": "Poisoner",
+      "id": "role-poisoner",
+      "category": "neutral",
+      "source": "Roles/Neutral/Poisoner.cs"
+    },
+    {
+      "key": "PotionMaster",
+      "id": "role-potionmaster",
+      "category": "neutral",
+      "source": "Roles/Neutral/PotionMaster.cs"
+    },
+    {
+      "key": "Provocateur",
+      "id": "role-provocateur",
+      "category": "neutral",
+      "source": "Roles/Neutral/Provocateur.cs"
+    },
+    {
+      "key": "PunchingBag",
+      "id": "role-punchingbag",
+      "category": "neutral",
+      "source": "Roles/Neutral/PunchingBag.cs"
+    },
+    {
+      "key": "Pursuer",
+      "id": "role-pursuer",
+      "category": "neutral",
+      "source": "Roles/Neutral/Pursuer.cs"
+    },
+    {
+      "key": "Pyromaniac",
+      "id": "role-pyromaniac",
+      "category": "neutral",
+      "source": "Roles/Neutral/Pyromaniac.cs"
+    },
+    {
+      "key": "Quizmaster",
+      "id": "role-quizmaster",
+      "category": "neutral",
+      "source": "Roles/Neutral/Quizmaster.cs"
+    },
+    {
+      "key": "Revolutionist",
+      "id": "role-revolutionist",
+      "category": "neutral",
+      "source": "Roles/Neutral/Revolutionist.cs"
+    },
+    {
+      "key": "Romantic",
+      "id": "role-romantic",
+      "category": "neutral",
+      "source": "Roles/Neutral/Romantic.cs"
+    },
+    {
+      "key": "RuthlessRomantic",
+      "id": "role-ruthlessromantic",
+      "category": "neutral",
+      "source": "Roles/Neutral/Romantic.cs"
+    },
+    {
+      "key": "SchrodingersCat",
+      "id": "role-schrodingerscat",
+      "category": "neutral",
+      "source": "Roles/Neutral/SchrodingersCat.cs"
+    },
+    {
+      "key": "Seeker",
+      "id": "role-seeker",
+      "category": "neutral",
+      "source": "Roles/Neutral/Seeker.cs"
+    },
+    {
+      "key": "SerialKiller",
+      "id": "role-serialkiller",
+      "category": "neutral",
+      "source": "Roles/Neutral/SerialKiller.cs"
+    },
+    {
+      "key": "Shaman",
+      "id": "role-shaman",
+      "category": "neutral",
+      "source": "Roles/Neutral/Shaman.cs"
+    },
+    {
+      "key": "Shroud",
+      "id": "role-shroud",
+      "category": "neutral",
+      "source": "Roles/Neutral/Shroud.cs"
+    },
+    {
+      "key": "Sidekick",
+      "id": "role-sidekick",
+      "category": "neutral",
+      "source": "Roles/Neutral/Sidekick.cs"
+    },
+    {
+      "key": "Solsticer",
+      "id": "role-solsticer",
+      "category": "neutral",
+      "source": "Roles/Neutral/Solsticer.cs"
+    },
+    {
+      "key": "SoulCollector",
+      "id": "role-soulcollector",
+      "category": "neutral",
+      "source": "Roles/Neutral/SoulCollector.cs"
+    },
+    {
+      "key": "Specter",
+      "id": "role-specter",
+      "category": "neutral",
+      "source": "Roles/Neutral/Specter.cs"
+    },
+    {
+      "key": "Spiritcaller",
+      "id": "role-spiritcaller",
+      "category": "neutral",
+      "source": "Roles/Neutral/Spiritcaller.cs"
+    },
+    {
+      "key": "Stalker",
+      "id": "role-stalker",
+      "category": "neutral",
+      "source": "Roles/Neutral/Stalker.cs"
+    },
+    {
+      "key": "Sunnyboy",
+      "id": "role-sunnyboy",
+      "category": "neutral",
+      "source": "Roles/Neutral/Sunnyboy.cs"
+    },
+    {
+      "key": "Taskinator",
+      "id": "role-taskinator",
+      "category": "neutral",
+      "source": "Roles/Neutral/Taskinator.cs"
+    },
+    {
+      "key": "Terrorist",
+      "id": "role-terrorist",
+      "category": "neutral",
+      "source": "Roles/Neutral/Terrorist.cs"
+    },
+    {
+      "key": "Traitor",
+      "id": "role-traitor",
+      "category": "neutral",
+      "source": "Roles/Neutral/Traitor.cs"
+    },
+    {
+      "key": "Troller",
+      "id": "role-troller",
+      "category": "neutral",
+      "source": "Roles/Neutral/Troller.cs"
+    },
+    {
+      "key": "Vector",
+      "id": "role-vector",
+      "category": "neutral",
+      "source": "Roles/Neutral/Vector.cs"
+    },
+    {
+      "key": "VengefulRomantic",
+      "id": "role-vengefulromantic",
+      "category": "neutral",
+      "source": "Roles/Neutral/Romantic.cs"
+    },
+    {
+      "key": "Virus",
+      "id": "role-virus",
+      "category": "neutral",
+      "source": "Roles/Neutral/Virus.cs"
+    },
+    {
+      "key": "Vulture",
+      "id": "role-vulture",
+      "category": "neutral",
+      "source": "Roles/Neutral/Vulture.cs"
+    },
+    {
+      "key": "War",
+      "id": "role-war",
+      "category": "neutral",
+      "source": "Roles/Neutral/Berserker.cs"
+    },
+    {
+      "key": "Werewolf",
+      "id": "role-werewolf",
+      "category": "neutral",
+      "source": "Roles/Neutral/Werewolf.cs"
+    },
+    {
+      "key": "Workaholic",
+      "id": "role-workaholic",
+      "category": "neutral",
+      "source": "Roles/Neutral/Workaholic.cs"
+    },
+    {
+      "key": "Wraith",
+      "id": "role-wraith",
+      "category": "neutral",
+      "source": "Roles/Neutral/Wraith.cs"
+    },
+    {
+      "key": "Admired",
+      "id": "role-admired",
+      "category": "addon",
+      "source": "Roles/Crewmate/Admirer.cs"
+    },
+    {
+      "key": "Antidote",
+      "id": "role-antidote",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Antidote.cs"
+    },
+    {
+      "key": "Autopsy",
+      "id": "role-autopsy",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Autopsy.cs"
+    },
+    {
+      "key": "Avanger",
+      "id": "role-avanger",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Avanger.cs"
+    },
+    {
+      "key": "Aware",
+      "id": "role-aware",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Aware.cs"
+    },
+    {
+      "key": "Bait",
+      "id": "role-bait",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Bait.cs"
+    },
+    {
+      "key": "Bewilder",
+      "id": "role-bewilder",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Bewilder.cs"
+    },
+    {
+      "key": "Bloodthirst",
+      "id": "role-bloodthirst",
+      "category": "addon",
+      "source": "Roles/AddOns/Crewmate/Bloodthirst.cs"
+    },
+    {
+      "key": "Burst",
+      "id": "role-burst",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Burst.cs"
+    },
+    {
+      "key": "Charmed",
+      "id": "role-charmed",
+      "category": "addon",
+      "source": "Roles/Neutral/Cultist.cs"
+    },
+    {
+      "key": "Circumvent",
+      "id": "role-circumvent",
+      "category": "addon",
+      "source": "Roles/AddOns/Impostor/Circumvent.cs"
+    },
+    {
+      "key": "Cleansed",
+      "id": "role-cleansed",
+      "category": "addon",
+      "source": "Roles/Crewmate/Cleanser.cs"
+    },
+    {
+      "key": "Clumsy",
+      "id": "role-clumsy",
+      "category": "addon",
+      "source": "Roles/AddOns/Impostor/Clumsy.cs"
+    },
+    {
+      "key": "Contagious",
+      "id": "role-contagious",
+      "category": "addon",
+      "source": "Roles/Neutral/Virus.cs"
+    },
+    {
+      "key": "Cyber",
+      "id": "role-cyber",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Cyber.cs"
+    },
+    {
+      "key": "Diseased",
+      "id": "role-diseased",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Diseased.cs"
+    },
+    {
+      "key": "DoubleShot",
+      "id": "role-doubleshot",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/DoubleShot.cs"
+    },
+    {
+      "key": "Eavesdropper",
+      "id": "role-eavesdropper",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Eavesdropper.cs"
+    },
+    {
+      "key": "Egoist",
+      "id": "role-egoist",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Egoist.cs"
+    },
+    {
+      "key": "Evader",
+      "id": "role-evader",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Evader.cs"
+    },
+    {
+      "key": "EvilSpirit",
+      "id": "role-evilspirit",
+      "category": "addon",
+      "source": "Roles/Neutral/Spiritcaller.cs"
+    },
+    {
+      "key": "Flash",
+      "id": "role-flash",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Flash.cs"
+    },
+    {
+      "key": "Fool",
+      "id": "role-fool",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Fool.cs"
+    },
+    {
+      "key": "Fragile",
+      "id": "role-fragile",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Fragile.cs"
+    },
+    {
+      "key": "Ghoul",
+      "id": "role-ghoul",
+      "category": "addon",
+      "source": "Roles/AddOns/Crewmate/Ghoul.cs"
+    },
+    {
+      "key": "Glow",
+      "id": "role-glow",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Glow.cs"
+    },
+    {
+      "key": "Gravestone",
+      "id": "role-gravestone",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Gravestone.cs"
+    },
+    {
+      "key": "Guesser",
+      "id": "role-guesser",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Guesser.cs"
+    },
+    {
+      "key": "Hurried",
+      "id": "role-hurried",
+      "category": "addon",
+      "source": "Roles/AddOns/Crewmate/Hurried.cs"
+    },
+    {
+      "key": "Infected",
+      "id": "role-infected",
+      "category": "addon",
+      "source": "Roles/Neutral/Infectious.cs"
+    },
+    {
+      "key": "Influenced",
+      "id": "role-influenced",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Influenced.cs"
+    },
+    {
+      "key": "Knighted",
+      "id": "role-knighted",
+      "category": "addon",
+      "source": "Roles/Crewmate/Monarch.cs"
+    },
+    {
+      "key": "LastImpostor",
+      "id": "role-lastimpostor",
+      "category": "addon",
+      "source": "Roles/AddOns/Impostor/LastImpostor.cs"
+    },
+    {
+      "key": "Lazy",
+      "id": "role-lazy",
+      "category": "addon",
+      "source": "Roles/AddOns/Crewmate/Lazy.cs"
+    },
+    {
+      "key": "Lovers",
+      "id": "role-lovers",
+      "category": "addon",
+      "source": "Roles/Core/AssignManager/LoversAssignment.cs"
+    },
+    {
+      "key": "Loyal",
+      "id": "role-loyal",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Loyal.cs"
+    },
+    {
+      "key": "Lucky",
+      "id": "role-lucky",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Lucky.cs"
+    },
+    {
+      "key": "Madmate",
+      "id": "role-madmate",
+      "category": "addon",
+      "source": "Roles/AddOns/Impostor/Madmate.cs"
+    },
+    {
+      "key": "Mare",
+      "id": "role-mare",
+      "category": "addon",
+      "source": "Roles/AddOns/Impostor/Mare.cs"
+    },
+    {
+      "key": "Rebirth",
+      "id": "role-rebirth",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Rebirth.cs"
+    },
+    {
+      "key": "Mimic",
+      "id": "role-mimic",
+      "category": "addon",
+      "source": "Roles/AddOns/Impostor/Mimic.cs"
+    },
+    {
+      "key": "Mundane",
+      "id": "role-mundane",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Mundane.cs"
+    },
+    {
+      "key": "Necroview",
+      "id": "role-necroview",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Necroview.cs"
+    },
+    {
+      "key": "Nimble",
+      "id": "role-nimble",
+      "category": "addon",
+      "source": "Roles/AddOns/Crewmate/Nimble.cs"
+    },
+    {
+      "key": "Oblivious",
+      "id": "role-oblivious",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Oblivious.cs"
+    },
+    {
+      "key": "Oiiai",
+      "id": "role-oiiai",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Oiiai.cs"
+    },
+    {
+      "key": "Onbound",
+      "id": "role-onbound",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Onbound.cs"
+    },
+    {
+      "key": "Overclocked",
+      "id": "role-overclocked",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Overlocked.cs"
+    },
+    {
+      "key": "Paranoia",
+      "id": "role-paranoia",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Paranoia.cs"
+    },
+    {
+      "key": "Prohibited",
+      "id": "role-prohibited",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Prohibited.cs"
+    },
+    {
+      "key": "Radar",
+      "id": "role-radar",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Radar.cs"
+    },
+    {
+      "key": "Rainbow",
+      "id": "role-rainbow",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Rainbow.cs"
+    },
+    {
+      "key": "Rascal",
+      "id": "role-rascal",
+      "category": "addon",
+      "source": "Roles/AddOns/Crewmate/Rascal.cs"
+    },
+    {
+      "key": "Reach",
+      "id": "role-reach",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Reach.cs"
+    },
+    {
+      "key": "Rebound",
+      "id": "role-rebound",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Rebound.cs"
+    },
+    {
+      "key": "Spurt",
+      "id": "role-spurt",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Spurt.cs"
+    },
+    {
+      "key": "Recruit",
+      "id": "role-recruit",
+      "category": "addon",
+      "source": "Roles/Neutral/Jackal.cs"
+    },
+    {
+      "key": "Seer",
+      "id": "role-seer",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Seer.cs"
+    },
+    {
+      "key": "Silent",
+      "id": "role-silent",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Silent.cs"
+    },
+    {
+      "key": "Sleuth",
+      "id": "role-sleuth",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Sleuth.cs"
+    },
+    {
+      "key": "Sloth",
+      "id": "role-sloth",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Sloth.cs"
+    },
+    {
+      "key": "Soulless",
+      "id": "role-soulless",
+      "category": "addon",
+      "source": "Roles/Neutral/CursedSoul.cs"
+    },
+    {
+      "key": "Statue",
+      "id": "role-statue",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Statue.cs"
+    },
+    {
+      "key": "Stubborn",
+      "id": "role-stubborn",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Stubborn.cs"
+    },
+    {
+      "key": "Susceptible",
+      "id": "role-susceptible",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Susceptible.cs"
+    },
+    {
+      "key": "Swift",
+      "id": "role-swift",
+      "category": "addon",
+      "source": "Roles/AddOns/Impostor/Swift.cs"
+    },
+    {
+      "key": "Tiebreaker",
+      "id": "role-tiebreaker",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Tiebreaker.cs"
+    },
+    {
+      "key": "Stealer",
+      "id": "role-stealer",
+      "category": "addon",
+      "source": "Roles/AddOns/Impostor/Stealer.cs"
+    },
+    {
+      "key": "Torch",
+      "id": "role-torch",
+      "category": "addon",
+      "source": "Roles/AddOns/Crewmate/Torch.cs"
+    },
+    {
+      "key": "Trapper",
+      "id": "role-trapper",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Beartrap.cs"
+    },
+    {
+      "key": "Tricky",
+      "id": "role-tricky",
+      "category": "addon",
+      "source": "Roles/AddOns/Impostor/Tricky.cs"
+    },
+    {
+      "key": "Tired",
+      "id": "role-tired",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Tired.cs"
+    },
+    {
+      "key": "Unlucky",
+      "id": "role-unlucky",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Unlucky.cs"
+    },
+    {
+      "key": "Unreportable",
+      "id": "role-unreportable",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Unreportable.cs"
+    },
+    {
+      "key": "VoidBallot",
+      "id": "role-voidballot",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Voidballot.cs"
+    },
+    {
+      "key": "Watcher",
+      "id": "role-watcher",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Watcher.cs"
+    },
+    {
+      "key": "Workhorse",
+      "id": "role-workhorse",
+      "category": "addon",
+      "source": "Roles/AddOns/Crewmate/Workhorse.cs"
+    },
+    {
+      "key": "Youtuber",
+      "id": "role-youtuber",
+      "category": "addon",
+      "source": "Roles/AddOns/Common/Youtuber.cs"
+    }
+  ]
+}

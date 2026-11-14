@@ -1,0 +1,8 @@
+{
+  "id": "settings",
+  "order": 3,
+  "title": {
+    "zh-CN": "房主设置",
+    "en": "Host settings"
+  }
+}

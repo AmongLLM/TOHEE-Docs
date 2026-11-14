@@ -1,0 +1,107 @@
+{
+  "factions": [
+    {
+      "id": "crewmate",
+      "color": "#8cffff",
+      "title": {
+        "zh-CN": "船员",
+        "en": "Crewmates"
+      }
+    },
+    {
+      "id": "impostor",
+      "color": "#f74631",
+      "title": {
+        "zh-CN": "内鬼",
+        "en": "Impostors"
+      }
+    },
+    {
+      "id": "neutral",
+      "color": "#7f8c8d",
+      "title": {
+        "zh-CN": "中立",
+        "en": "Neutrals"
+      }
+    },
+    {
+      "id": "addon",
+      "color": "#ff9ace",
+      "title": {
+        "zh-CN": "附加职业",
+        "en": "Add-ons"
+      }
+    }
+  ],
+  "startCards": [
+    {
+      "id": "guide-installation",
+      "summary": {
+        "zh-CN": "从下载到创建第一个房间。",
+        "en": "From download to your first lobby."
+      },
+      "title": {
+        "zh-CN": "安装与更新",
+        "en": "Install & update"
+      }
+    },
+    {
+      "id": "guide-game-modes",
+      "summary": {
+        "zh-CN": "了解不同模式的规则与目标。",
+        "en": "Explore different rules and objectives."
+      },
+      "title": {
+        "zh-CN": "游戏模式",
+        "en": "Game modes"
+      }
+    },
+    {
+      "id": "cloud-overview",
+      "summary": {
+        "zh-CN": "绑定账号、设置标签、寻找同伴。",
+        "en": "Link accounts, set a tag and find a room."
+      },
+      "title": {
+        "zh-CN": "云功能",
+        "en": "Cloud features"
+      }
+    }
+  ],
+  "searchScopes": [
+    {
+      "groups": [
+        "guide",
+        "cloud"
+      ],
+      "id": "guide",
+      "title": {
+        "zh-CN": "教程",
+        "en": "Guides"
+      }
+    },
+    {
+      "groups": [
+        "settings"
+      ],
+      "id": "settings",
+      "title": {
+        "zh-CN": "设置",
+        "en": "Settings"
+      }
+    },
+    {
+      "groups": [
+        "crewmate",
+        "impostor",
+        "neutral",
+        "addon"
+      ],
+      "id": "roles",
+      "title": {
+        "zh-CN": "职业",
+        "en": "Roles"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "addon",
+  "order": 4,
+  "title": {
+    "zh-CN": "附加职业",
+    "en": "Add-ons"
+  }
+}
