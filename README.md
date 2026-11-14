@@ -2,15 +2,105 @@
 
 Bilingual public documentation for Town of Host: Enhanced-Enhanced (TOHEE) and TOHEE Cloud. Pages are Markdown; `scripts/build-docs.mjs` compiles them into the JSON bundle used by the website.
 
-## Build and check
+## Contributing
 
-Use Node.js 24 and npm:
+### Edit on GitHub
+
+Open the article in [`content/`](content/) and select **Edit this file**. If you cannot write to the repository, GitHub will let you propose the edit from a fork. Save the changes to a branch and open a pull request against `AmongLLM/TOHEE-Docs:main`. For a change that includes several files, such as an article and its screenshots, put all of them in the same branch and pull request.
+
+### Work locally
+
+Install Git, Node.js **24.x**, and npm. Fork the repository, replace `YOUR-USERNAME` with your GitHub username, and run these commands from a terminal. The standalone preview needs no Cloud backend or credentials.
 
 ```sh
+git clone https://github.com/YOUR-USERNAME/TOHEE-Docs.git
+cd TOHEE-Docs
+git switch -c docs/update-installation
 npm ci
+npm run preview:dev
+```
+
+Open [http://127.0.0.1:4200/docs](http://127.0.0.1:4200/docs) to review the site. Changes to the Angular frontend are picked up by the dev server. Markdown, the roster, category metadata, and image files are compiled before the server starts. After changing any of these inputs, stop and restart `npm run preview:dev` to refresh the compiled content.
+
+### Check and submit a pull request
+
+From the repository root, run the tests and compile the documentation. Also run `npm run preview:build` when changing the Angular reader, its styles, or preview build scripts.
+
+```sh
 npm test
 npm run build
 ```
+
+Review both language sections, links, screenshots, and navigation in the preview. Stage and commit the files you changed, then push the branch with `git push -u origin docs/update-installation` if you used the example branch name. Open a PR against `main` and include the source revision for changes to game mechanics or settings. Generated files in `dist/` and `preview/.generated/` are ignored.
+
+For a PR that can be published, the **PR Preview** bot comment links to the rendered site. Check [the repository's Actions tab](https://github.com/AmongLLM/TOHEE-Docs/actions) if the link is missing. New fork contributors may need a maintainer to approve the build. A PR that changes `.github/workflows/` cannot publish a Pages preview, so use the local reader to check its site output. See [CONTRIBUTING.md](CONTRIBUTING.md) for the article template and review checklist, and [SOURCE.md](SOURCE.md) for source revisions and attribution.
+
+## Content layout
+
+```text
+content/
+  _category_.json
+  guides/
+    _category_.json
+    installation/
+      _category_.json
+      guide-installation.md
+  cloud/
+    _category_.json
+  settings/
+    _category_.json
+  roles/
+    _category_.json
+    crewmate/
+      _category_.json
+      crewmatetohe.md
+assets/
+docs.config.json
+role-roster.json
+roleColor.json
+```
+
+### Add or update an article
+
+Copy [the example article](examples/new-guide-group/example.md) into the appropriate category under `content/`. Each article starts with **JSON** frontmatter between `---` lines. It needs an `id`, a `kind` (`guide` or `role`), bilingual `title` and `summary`, and a non-empty `source`. `order` is optional and defaults to `0`. Use lowercase letters and digits separated by hyphens for the ID, such as `guide-installation`. The public URL is `/docs/<id>`, so keep the ID when renaming or moving a file.
+
+Write the Chinese body after `<!-- zh-CN -->` and the English body after `<!-- en -->`. Each marker must appear once, in that order. Keep both bodies in the same file. Link to other articles by ID, for example `[Installation](/docs/guide-installation)`. The compiler checks these links in both languages. Check heading links in the rendered preview, since heading anchors can differ between translations.
+
+### Add a category or change navigation
+
+Create a directory under `content/` for a top-level category, or under an existing category for a subcategory. Every directory under `content/`, including the root, requires an `_category_.json` file with a globally unique, stable ID, bilingual title, and numeric `order`. Put articles inside a child category rather than directly in `content/`.
+
+```json
+{
+  "id": "installation",
+  "title": { "zh-CN": "安装与更新", "en": "Installation & updates" },
+  "order": 1
+}
+```
+
+Categories and articles are listed in ascending `order`, with the ID breaking ties. Moving a file changes its navigation group without changing its URL. The compiler derives a guide's category from its directory. Update [`docs.config.json`](docs.config.json) when changing a faction label or color, a homepage card, or a search scope. Homepage cards must reference existing guide IDs. Search-scope `groups` refer to category IDs and include their descendants. The `all` scope is reserved for the reader.
+
+### Update role documentation
+
+Role articles use `kind: role` and a `category` matching the faction in [`role-roster.json`](role-roster.json). The roster records the TOHEE commit and each role's implementation path. A role article must link to that exact source, and the build requires one article per roster entry. When bringing the roster to a new TOHEE revision, update the affected pages and their pinned source links together. [`roleColor.json`](roleColor.json) maps roster keys to display colors. Missing colors use the existing fallback.
+
+### Add an image
+
+Place images in the repository-root [`assets/`](assets/) folder. For `assets/room-list.webp`, use `![Cloud room list](/assets/room-list.webp)` in English and corresponding Chinese alt text in Chinese. PNG, JPEG, WebP, and GIF are supported. Relative paths that resolve inside `assets/` also work, but `/assets/` paths stay valid if the article moves. The build copies referenced local images into the bundle, rejects missing files and symlinks, and leaves external HTTPS images at their original URLs. See the [upload instructions](assets/README.md) for examples.
+
+## Development reference
+
+| Command | Purpose |
+| --- | --- |
+| `npm ci` | Install the exact dependencies in `package-lock.json`. |
+| `npm test` | Run the compiler and Pages directory tests in `tests/`. |
+| `npm run build` | Generate the documentation data, then check the generated output. |
+| `npm run docs:build` | Generate documentation data with the release version `preview`. |
+| `npm run docs:check` | Compare existing generated files with the current source. Run `docs:build` first. |
+| `npm run preview:dev` | Generate preview data and start the Angular dev server. |
+| `npm run preview:build` | Generate preview data and build the deployable Angular site. |
+
+### Documentation compiler
 
 The build writes `dist/index.json`, `dist/pages/<id>.<locale>.json`, `dist/roleColor.json`, and `dist/assets/`. The default asset URL version is `preview`. A deployment can provide its own release version:
 
@@ -19,24 +109,31 @@ node scripts/build-docs.mjs --source . --output dist --version 1.2.3
 node scripts/build-docs.mjs --source . --output dist --version 1.2.3 --check
 ```
 
-`--source` is the repository root. The compiler reads `content/`, `docs.config.json`, `role-roster.json`, and `roleColor.json` from that root. Its single-file implementation is also vendored by TOHEE Cloud; keep changes in sync with that copy.
+`--source` is the repository root. The compiler reads `content/`, `assets/`, `docs.config.json`, `role-roster.json`, and `roleColor.json` from that root. `--check` compares the existing output without regenerating it. Validation errors identify the affected file or path. Check for invalid JSON, missing translations or category metadata, duplicate IDs, broken local article links, and missing or unsupported images. Raw HTML is escaped and unsafe URLs are omitted.
 
-## Standalone web preview
+### Standalone web preview
 
-The repository also builds a standalone Angular documentation reader using the TOHEE Cloud frontend styling. It compiles the current Markdown content before serving or building:
+[`scripts/build-preview-docs.mjs`](scripts/build-preview-docs.mjs) compiles the local Markdown into `preview/.generated/docs/`. The Angular reader loads `docs/manifest.json` to find the versioned index, pages, and assets under `docs/releases/<version>/`. [`angular.json`](angular.json) bundles that data with the reader in [`preview/src/`](preview/src/) and the static files in [`preview/public/`](preview/public/). The production entry point is `dist/preview/index.html`. The default local routes are `/docs` and `/docs/<id>`.
 
-```sh
-npm run preview:dev
-npm run preview:build
-```
+The standalone reader picks Chinese or English from the browser's language preferences unless a locale was saved. To check both variants in one browser, change the `tohee-locale` local storage value to `zh-CN` or `en` and reload.
 
-The documentation component, search helper, and global styles are shared copies of the Cloud frontend. Keep changes to those files synchronized between the two repositories.
+### TOHEE Cloud integration
 
-`preview:dev` starts the local reader at `http://127.0.0.1:4200`. `preview:build` writes a production site to `dist/preview/`; the generated `index.html` is at `dist/preview/index.html`. Generated pages and the deployment manifest live in the ignored `preview/.generated/` directory.
+The documentation component, search helper, and global styles under `preview/src/` are shared copies of the Cloud frontend. Keep changes to both copies in sync. If you have a TOHEE Cloud checkout, set `DOCS_SOURCE_DIR` to the absolute path of this repo before running `npm run docs:build` from Cloud's `frontend/` directory. Cloud's frontend dev and build commands also pick up that variable.
 
-To create a Vercel preview, import `AmongLLM/TOHEE-Docs` from GitHub and keep the project root at the repository root. The checked-in `vercel.json` selects the Other framework preset, runs `npm run preview:build`, and serves `dist/preview/`. Pull requests receive Vercel preview deployments; commits to the configured production branch (normally `main`) deploy the main site. This project serves documentation only and does not need Cloud backend services, credentials, or required environment variables.
+Cloud uses a reviewed copy of `scripts/build-docs.mjs` at `backend/docs/build-docs.mjs`. When changing the compiler or output format, coordinate the compiler update with Cloud and keep both projects' `marked` versions aligned. A Cloud deployment with GitHub docs sync enabled pulls changes from its configured branch on a matching webhook push. GitHub Pages and Vercel serve the standalone reader independently.
 
-`DOCS_SITE_URL` optionally changes where non-documentation links in generated articles lead. Set it to an HTTP(S) origin, without a path, query, or fragment. The default is `https://tohee.niko233.top`. The generated manifest points to the `main` source branch, so source links in pull request previews still open `main`.
+## Preview deployment
+
+### Build configuration
+
+| Variable | Purpose |
+| --- | --- |
+| `DOCS_SITE_URL` | Cloud origin for root-relative links outside `/docs`. Defaults to `https://tohee.niko233.top`. Supply an HTTP(S) origin without credentials, a path, a query, or a fragment. |
+| `DOCS_PREVIEW_BASE_PATH` | Site base path, with a leading and trailing `/`. Defaults to `/`. For a subpath, pass the same value as Angular's `--base-href`. |
+| `DOCS_PREVIEW_VERSION` | Version used for the generated docs release. Defaults to `VERCEL_GIT_COMMIT_SHA` when available, or `preview`. |
+
+The generated manifest points to the `main` source branch, so **Edit this page** links in PR previews still open `main`.
 
 For a GitHub Pages preview published below a repository path, set `DOCS_PREVIEW_BASE_PATH` to the site's absolute base path with a trailing slash, pass the same value to Angular's `--base-href`, and publish `dist/preview/` contents under that path. For example:
 
@@ -46,9 +143,9 @@ export DOCS_PREVIEW_VERSION="$(git rev-parse HEAD)"
 npm run preview:build -- --base-href "$DOCS_PREVIEW_BASE_PATH"
 ```
 
-The standalone reader uses hash URLs only when the base path is not `/`, so GitHub Pages can open and refresh article links without an SPA rewrite. `DOCS_PREVIEW_VERSION` selects the generated docs version and takes precedence over `VERCEL_GIT_COMMIT_SHA`.
+The standalone reader uses hash URLs, such as `/#/docs/guide-installation`, when deployed under a base path other than `/`. This lets GitHub Pages open and refresh article links without an SPA rewrite.
 
-## Build directory and previews on GitHub Pages
+### Build directory and previews on GitHub Pages
 
 The [Pages root](https://amongllm.github.io/TOHEE-Docs/) is a build directory. It shows when the directory was generated, all deployed preview directories, and each preview's build time and source revision. Timestamps retain their ISO values and are converted to the visitor's local time using the browser's time zone, which is displayed on the page. Without JavaScript, the original UTC timestamp remains readable.
 
@@ -72,52 +169,6 @@ PR preview URLs use `https://amongllm.github.io/TOHEE-Docs/pr-preview/pr-<number
 
 Publishing is serialized with GitHub's `concurrency.queue: max`, so different PRs and main builds share the same publishing queue. Commits created by the workflows use the public `github-actions[bot]` Git identity; the configured token still authenticates the push. Preview HTML and JavaScript remain untrusted PR content; do not use this Pages origin for privileged browser state.
 
-## Content layout
+### Vercel
 
-```text
-content/
-  _category_.json
-  guides/
-    _category_.json
-    installation/
-      _category_.json
-      guide-installation.md
-  cloud/
-    _category_.json
-  settings/
-    _category_.json
-  roles/
-    _category_.json
-    crewmate/
-      _category_.json
-      role-example.md
-docs.config.json
-role-roster.json
-roleColor.json
-```
-
-Every directory under `content/`, including `content/` itself, needs an `_category_.json` file with a globally unique stable ID, bilingual title, and numeric sort order:
-
-```json
-{
-  "id": "installation",
-  "title": { "zh-CN": "安装与更新", "en": "Installation & updates" },
-  "order": 1
-}
-```
-
-Each Markdown article keeps its stable lowercase ID in JSON frontmatter. Moving the file changes its navigation group but not its `/docs/<id>` URL. `kind` is `guide` or `role`; role `category` must match its roster faction. For guide pages, the compiler derives `category` from the containing navigation directory and ignores the legacy frontmatter category value. Each page has one Chinese and one English body separated by `<!-- zh-CN -->` and `<!-- en -->`.
-
-The `navigation` tree and each node's article IDs are generated from the content directories. `docs.config.json` holds the role faction palette, homepage cards, and search scopes. Scope `groups` list navigation IDs; a consumer matches each listed node and its descendants. The ID `all` is reserved for the frontend's all-results option.
-
-Role articles must match `role-roster.json` one-to-one. The roster pins the TOHEE source commit and implementation path; the compiler checks role IDs, categories, and source links. `roleColor.json` supplies role colors. Missing individual colors use the existing role fallback.
-
-### Images
-
-Place publishable images in the repository-root [`assets/`](assets/) folder. See the [upload and Markdown examples](assets/README.md). Markdown can use `/assets/example.webp` or a relative path that resolves from the article into `assets/`, such as `../../assets/example.webp`. The compiler accepts PNG, JPEG, WebP, and GIF files, copies referenced files into the bundle, and writes image URLs under `/docs/releases/<version>/assets/`. It rejects missing files, paths outside `assets/`, symbolic links, and other image formats. Existing HTTPS image links remain external.
-
-## Contributing
-
-Open a pull request for documentation changes. Add a category by adding its directory metadata and updating the relevant faction or search-scope entry when needed; no per-article navigation list is required.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the article template and review steps. See [SOURCE.md](SOURCE.md) for source revisions and attribution.
+Import `AmongLLM/TOHEE-Docs` as a Vercel project with the repository root as the project root. [`vercel.json`](vercel.json) runs `npm run preview:build`, serves `dist/preview/`, and rewrites `/docs` and `/docs/<id>` to the reader's `index.html`. No Cloud backend or credentials are required. Set `DOCS_SITE_URL` if the public Cloud origin differs from the default.
