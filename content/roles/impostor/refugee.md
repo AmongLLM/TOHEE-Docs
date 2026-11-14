@@ -1,5 +1,5 @@
 ---
-{"id":"role-refugee","kind":"role","category":"impostor","title":{"zh-CN":"逃亡者","en":"Refugee"},"summary":{"zh-CN":"逃亡者属于叛徒阵营，按普通内鬼方式击杀、使用通风口和发动破坏。","en":"The Refugee belongs to the Traitor team and can kill, vent, and sabotage like a regular Impostor."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Refugee.cs"}
+{"id":"role-refugee","kind":"role","category":"impostor","title":{"zh-CN":"逃亡者","en":"Refugee"},"summary":{"zh-CN":"逃亡者属于叛徒阵营，按普通内鬼方式击杀、使用通风口和发动破坏。","en":"The Refugee belongs to the Traitor team and can kill, vent, and sabotage like a regular Impostor."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Refugee.cs"}
 ---
 
 <!-- zh-CN -->

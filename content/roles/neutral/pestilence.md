@@ -1,5 +1,5 @@
 ---
-{"id":"role-pestilence","kind":"role","category":"neutral","title":{"en":"Pestilence","zh-CN":"瘟疫"},"summary":{"zh-CN":"感染所有其他存活玩家后转变为瘟疫；常规击杀会反弹，猜测其职业会使猜测者死亡。","en":"Infect every other living player to become Pestilence; standard kill attempts are reflected, and guessing Pestilence kills the guesser."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/PlagueBearer.cs"}
+{"id":"role-pestilence","kind":"role","category":"neutral","title":{"en":"Pestilence","zh-CN":"瘟疫"},"summary":{"zh-CN":"感染所有其他存活玩家后转变为瘟疫；常规击杀会反弹，猜测其职业会使猜测者死亡。","en":"Infect every other living player to become Pestilence; standard kill attempts are reflected, and guessing Pestilence kills the guesser."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/PlagueBearer.cs"}
 ---
 <!-- zh-CN -->
 ## 瘟疫

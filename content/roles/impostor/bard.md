@@ -1,5 +1,5 @@
 ---
-{"id":"role-bard","kind":"role","category":"impostor","title":{"zh-CN":"吟游诗人","en":"Bard"},"summary":{"zh-CN":"存活时，放逐确认会显示吟游诗人创作的句子；每次会议放逐后击杀冷却永久减半。","en":"While alive, replaces ejection confirmation with a composed sentence; each ejection permanently halves its kill cooldown."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Bard.cs"}
+{"id":"role-bard","kind":"role","category":"impostor","title":{"zh-CN":"吟游诗人","en":"Bard"},"summary":{"zh-CN":"存活时，放逐确认会显示吟游诗人创作的句子；每次会议放逐后击杀冷却永久减半。","en":"While alive, replaces ejection confirmation with a composed sentence; each ejection permanently halves its kill cooldown."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Bard.cs"}
 ---
 
 <!-- zh-CN -->

@@ -11,7 +11,7 @@
     "zh-CN": "由豺狼招募获得；加入豺狼阵营并与豺狼一同获胜。",
     "en": "Granted by Jackal recruitment; joins Jackal's team and wins with Jackal."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Jackal.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Jackal.cs"
 }
 ---
 <!-- zh-CN -->

@@ -11,7 +11,7 @@
     "zh-CN": "仅内鬼可获得；死亡后的下一次会议会向内鬼通报其击杀且目前仍存活的玩家角色。",
     "en": "Only Impostors can receive it; at the next meeting after it dies, Impostors learn the roles of living players it killed."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Impostor/Mimic.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Impostor/Mimic.cs"
 }
 ---
 <!-- zh-CN -->

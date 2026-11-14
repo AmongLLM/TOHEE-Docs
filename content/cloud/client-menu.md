@@ -1,5 +1,5 @@
 ---
-{"id":"cloud-client-menu","kind":"guide","category":"cloud","title":{"zh-CN":"模组内 Cloud 界面","en":"The in-mod Cloud interface"},"summary":{"zh-CN":"认识客户端 TOHEE Cloud 面板的按钮、状态、分享控制与网页协议流程。","en":"Use the TOHEE Cloud panel's buttons, status messages, sharing controls and website policy flow."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/Cloud/CloudMenu.cs","order":1.5}
+{"id":"cloud-client-menu","kind":"guide","category":"cloud","title":{"zh-CN":"模组内 Cloud 界面","en":"The in-mod Cloud interface"},"summary":{"zh-CN":"认识客户端 TOHEE Cloud 面板的按钮、状态、分享控制与网页协议流程。","en":"Use the TOHEE Cloud panel's buttons, status messages, sharing controls and website policy flow."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/Cloud/CloudMenu.cs","order":1.5}
 ---
 <!-- zh-CN -->
 ## 从哪里打开

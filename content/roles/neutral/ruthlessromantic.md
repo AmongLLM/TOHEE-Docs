@@ -1,5 +1,5 @@
 ---
-{"id":"role-ruthlessromantic","kind":"role","category":"neutral","title":{"en":"Ruthless Romantic","zh-CN":"无情浪漫者"},"summary":{"zh-CN":"恋人作为带刀中立死亡，或其死亡没有可确认的凶手时，浪漫者会转为无情浪漫者；达到该中立阵营的胜利条件后，已死亡的恋人也会获胜。","en":"Become Ruthless Romantic when a Neutral Killer partner dies or a partner dies without a recorded killer; the dead partner also wins when the Ruthless Romantic team meets its neutral parity condition."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Romantic.cs"}
+{"id":"role-ruthlessromantic","kind":"role","category":"neutral","title":{"en":"Ruthless Romantic","zh-CN":"无情浪漫者"},"summary":{"zh-CN":"恋人作为带刀中立死亡，或其死亡没有可确认的凶手时，浪漫者会转为无情浪漫者；达到该中立阵营的胜利条件后，已死亡的恋人也会获胜。","en":"Become Ruthless Romantic when a Neutral Killer partner dies or a partner dies without a recorded killer; the dead partner also wins when the Ruthless Romantic team meets its neutral parity condition."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Romantic.cs"}
 ---
 <!-- zh-CN -->
 ## 无情浪漫者

@@ -1,5 +1,5 @@
 ---
-{"id":"role-mortician","kind":"role","category":"crewmate","title":{"zh-CN":"入殓师","en":"Mortician"},"summary":{"zh-CN":"入殓师可查看指向尸体的箭头；当前源码未实现可靠的最后接触线索，报告提示存在错误。","en":"The Mortician can see arrows to bodies; the current source does not provide a reliable last-contact clue and has an error in the report notification path."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Mortician.cs"}
+{"id":"role-mortician","kind":"role","category":"crewmate","title":{"zh-CN":"入殓师","en":"Mortician"},"summary":{"zh-CN":"入殓师可查看指向尸体的箭头；当前源码未实现可靠的最后接触线索，报告提示存在错误。","en":"The Mortician can see arrows to bodies; the current source does not provide a reliable last-contact clue and has an error in the report notification path."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Mortician.cs"}
 ---
 
 <!-- zh-CN -->

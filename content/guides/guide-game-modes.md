@@ -11,7 +11,7 @@
     "zh-CN": "比较标准模式、自由混战和 TOHE 躲猫猫，并说明旧上游指南中的竞速模式。",
     "en": "Compare Standard, FFA, and TOHE Hide & Seek, and identify Speedrun from older upstream guides."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/OptionHolder.cs",
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/OptionHolder.cs",
   "order": 8
 }
 ---

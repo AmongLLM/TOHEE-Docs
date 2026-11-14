@@ -1,5 +1,5 @@
 ---
-{"id":"role-famine","kind":"role","category":"neutral","title":{"en":"Famine","zh-CN":"饥荒"},"summary":{"zh-CN":"面包师达到存活面包玩家门槛后转变为饥荒；未被放逐时会使无面包的非灾厄玩家饿死，并标记其他非灾厄玩家在下次会议死亡。","en":"The Baker transforms into Famine after enough breaded players survive; if not voted out, Famine starves unbreaded non-Apocalypse players and marks the remaining non-Apocalypse players to die at the next meeting."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Baker.cs"}
+{"id":"role-famine","kind":"role","category":"neutral","title":{"en":"Famine","zh-CN":"饥荒"},"summary":{"zh-CN":"面包师达到存活面包玩家门槛后转变为饥荒；未被放逐时会使无面包的非灾厄玩家饿死，并标记其他非灾厄玩家在下次会议死亡。","en":"The Baker transforms into Famine after enough breaded players survive; if not voted out, Famine starves unbreaded non-Apocalypse players and marks the remaining non-Apocalypse players to die at the next meeting."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Baker.cs"}
 ---
 <!-- zh-CN -->
 ## 饥荒

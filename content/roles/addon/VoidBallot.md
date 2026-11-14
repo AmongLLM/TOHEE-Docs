@@ -11,7 +11,7 @@
     "zh-CN": "投票计数为零。",
     "en": "Its vote has a count of zero."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Voidballot.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Voidballot.cs"
 }
 ---
 <!-- zh-CN -->

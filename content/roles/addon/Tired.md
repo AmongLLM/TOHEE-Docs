@@ -11,7 +11,7 @@
     "zh-CN": "尝试击杀或完成任务后会暂时降低视野与移动速度。",
     "en": "Temporarily loses vision and movement speed after attempting a kill or completing a task."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Tired.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Tired.cs"
 }
 ---
 <!-- zh-CN -->

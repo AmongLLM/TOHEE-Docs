@@ -1,5 +1,5 @@
 ---
-{"id":"role-mayor","kind":"role","category":"crewmate","title":{"zh-CN":"市长","en":"Mayor"},"summary":{"zh-CN":"市长拥有额外投票，并可按设置使用便携紧急会议按钮；公开身份及额外票显示方式也可调整。","en":"The Mayor has extra votes and may use a portable emergency-meeting button, with settings for vote display and identity reveal."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Mayor.cs"}
+{"id":"role-mayor","kind":"role","category":"crewmate","title":{"zh-CN":"市长","en":"Mayor"},"summary":{"zh-CN":"市长拥有额外投票，并可按设置使用便携紧急会议按钮；公开身份及额外票显示方式也可调整。","en":"The Mayor has extra votes and may use a portable emergency-meeting button, with settings for vote display and identity reveal."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Mayor.cs"}
 ---
 
 <!-- zh-CN -->

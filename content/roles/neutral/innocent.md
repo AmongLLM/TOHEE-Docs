@@ -1,5 +1,5 @@
 ---
-{"id":"role-innocent","kind":"role","category":"neutral","title":{"en":"Innocent","zh-CN":"冤罪师"},"summary":{"zh-CN":"用击杀按钮栽赃玩家，目标会立即杀死冤罪师；目标被投票放逐时获胜。","en":"Frame a player with the kill button, causing them to kill the Innocent; win if the target is voted out."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Innocent.cs"}
+{"id":"role-innocent","kind":"role","category":"neutral","title":{"en":"Innocent","zh-CN":"冤罪师"},"summary":{"zh-CN":"用击杀按钮栽赃玩家，目标会立即杀死冤罪师；目标被投票放逐时获胜。","en":"Frame a player with the kill button, causing them to kill the Innocent; win if the target is voted out."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Innocent.cs"}
 ---
 <!-- zh-CN -->
 ## 冤罪师

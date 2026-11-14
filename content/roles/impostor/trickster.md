@@ -1,5 +1,5 @@
 ---
-{"id":"role-trickster","kind":"role","category":"impostor","title":{"zh-CN":"骗术师","en":"Trickster"},"summary":{"zh-CN":"行动方式与内鬼相同，但船员阵营判定会将其视为船员。","en":"Acts like an Impostor, but Crewmate-team checks treat it as a Crewmate."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Trickster.cs"}
+{"id":"role-trickster","kind":"role","category":"impostor","title":{"zh-CN":"骗术师","en":"Trickster"},"summary":{"zh-CN":"行动方式与内鬼相同，但船员阵营判定会将其视为船员。","en":"Acts like an Impostor, but Crewmate-team checks treat it as a Crewmate."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Trickster.cs"}
 ---
 
 <!-- zh-CN -->

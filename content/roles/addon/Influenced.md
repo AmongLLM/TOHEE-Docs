@@ -11,7 +11,7 @@
     "zh-CN": "有明确领先者时，投票会改投给该玩家，会议界面也会显示改投后的目标。",
     "en": "When there is a clear leader, its vote is redirected to that player and the meeting display shows the redirected target."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Influenced.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Influenced.cs"
 }
 ---
 <!-- zh-CN -->

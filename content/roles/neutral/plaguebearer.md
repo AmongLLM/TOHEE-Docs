@@ -1,5 +1,5 @@
 ---
-{"id":"role-plaguebearer","kind":"role","category":"neutral","title":{"en":"Plaguebearer","zh-CN":"瘟疫使者"},"summary":{"zh-CN":"感染所有其他存活玩家后转变为瘟疫；转化后按天启阵营的中立平衡条件获胜。","en":"Infect every other living player to become Pestilence; win under the Apocalypse neutral parity rule after transforming."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/PlagueBearer.cs"}
+{"id":"role-plaguebearer","kind":"role","category":"neutral","title":{"en":"Plaguebearer","zh-CN":"瘟疫使者"},"summary":{"zh-CN":"感染所有其他存活玩家后转变为瘟疫；转化后按天启阵营的中立平衡条件获胜。","en":"Infect every other living player to become Pestilence; win under the Apocalypse neutral parity rule after transforming."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/PlagueBearer.cs"}
 ---
 <!-- zh-CN -->
 ## 瘟疫使者

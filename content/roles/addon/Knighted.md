@@ -11,7 +11,7 @@
     "zh-CN": "由君主授勋；会议中额外增加一票，是否显示额外票数可设置。",
     "en": "Granted by Monarch; adds an extra meeting vote, which can be hidden by a setting."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Monarch.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Monarch.cs"
 }
 ---
 <!-- zh-CN -->

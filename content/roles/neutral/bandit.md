@@ -1,5 +1,5 @@
 ---
-{"id":"role-bandit","kind":"role","category":"neutral","title":{"en":"Bandit","zh-CN":"强盗"},"summary":{"en":"Use a single kill-button press to steal an addon; double-click to kill instead. After Impostors are gone, Bandits win when they are the only counted Neutral team and at least as numerous as Crew.","zh-CN":"单击击杀按钮偷取附加职业，双击则会击杀目标。内鬼阵营消失后，若强盗是唯一存活的计数中立阵营且人数不少于船员，即可获胜。"},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Bandit.cs"}
+{"id":"role-bandit","kind":"role","category":"neutral","title":{"en":"Bandit","zh-CN":"强盗"},"summary":{"en":"Use a single kill-button press to steal an addon; double-click to kill instead. After Impostors are gone, Bandits win when they are the only counted Neutral team and at least as numerous as Crew.","zh-CN":"单击击杀按钮偷取附加职业，双击则会击杀目标。内鬼阵营消失后，若强盗是唯一存活的计数中立阵营且人数不少于船员，即可获胜。"},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Bandit.cs"}
 ---
 <!-- zh-CN -->
 ## 强盗

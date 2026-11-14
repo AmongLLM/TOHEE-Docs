@@ -11,7 +11,7 @@
     "zh-CN": "开局随机配成两名恋人；按设置彼此知晓身份、一方死亡时殉情，并可共同取胜。",
     "en": "Randomly pairs two Lovers at the start; settings govern role knowledge, shared death, and their joint win."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Core/AssignManager/LoversAssignment.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Core/AssignManager/LoversAssignment.cs"
 }
 ---
 <!-- zh-CN -->

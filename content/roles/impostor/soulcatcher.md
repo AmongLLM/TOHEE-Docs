@@ -1,5 +1,5 @@
 ---
-{"id":"role-soulcatcher","kind":"role","category":"impostor","title":{"zh-CN":"夺魂者","en":"Soul Catcher"},"summary":{"zh-CN":"变形完成后与目标交换位置；目标处于死亡、通风口或被吞等异常状态时不会交换。","en":"Swaps places with the target unless that player is dead, vented, swallowed, or otherwise abnormal."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/SoulCatcher.cs"}
+{"id":"role-soulcatcher","kind":"role","category":"impostor","title":{"zh-CN":"夺魂者","en":"Soul Catcher"},"summary":{"zh-CN":"变形完成后与目标交换位置；目标处于死亡、通风口或被吞等异常状态时不会交换。","en":"Swaps places with the target unless that player is dead, vented, swallowed, or otherwise abnormal."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/SoulCatcher.cs"}
 ---
 
 <!-- zh-CN -->

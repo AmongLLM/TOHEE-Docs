@@ -1,5 +1,5 @@
 ---
-{"id":"role-noisemakertohe","kind":"role","category":"crewmate","title":{"zh-CN":"大嗓门（TOHE）","en":"Noisemaker (TOHE)"},"summary":{"zh-CN":"大嗓门死亡时会发出声音并显示死亡提示，船员可据此赶到现场；内鬼提示和持续时间可设置。","en":"When the Noisemaker dies, a sound and visual alert mark the death for Crewmates; Impostor alerts and alert duration are configurable."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Vanilla/NoisemakerTOHE.cs"}
+{"id":"role-noisemakertohe","kind":"role","category":"crewmate","title":{"zh-CN":"大嗓门（TOHE）","en":"Noisemaker (TOHE)"},"summary":{"zh-CN":"大嗓门死亡时会发出声音并显示死亡提示，船员可据此赶到现场；内鬼提示和持续时间可设置。","en":"When the Noisemaker dies, a sound and visual alert mark the death for Crewmates; Impostor alerts and alert duration are configurable."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Vanilla/NoisemakerTOHE.cs"}
 ---
 
 <!-- zh-CN -->

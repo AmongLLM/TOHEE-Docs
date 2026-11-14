@@ -1,5 +1,5 @@
 ---
-{"id":"role-timemanager","kind":"role","category":"crewmate","title":{"zh-CN":"时间操控者","en":"Time Manager"},"summary":{"zh-CN":"时间操控者完成任务会延长会议投票时间，成为叛徒时则缩短时间，死亡后所有改动恢复。","en":"Tasks increase the Time Manager's meeting voting time, or decrease it as a Mad Time Manager; all changes revert on death."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/TimeManager.cs"}
+{"id":"role-timemanager","kind":"role","category":"crewmate","title":{"zh-CN":"时间操控者","en":"Time Manager"},"summary":{"zh-CN":"时间操控者完成任务会延长会议投票时间，成为叛徒时则缩短时间，死亡后所有改动恢复。","en":"Tasks increase the Time Manager's meeting voting time, or decrease it as a Mad Time Manager; all changes revert on death."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/TimeManager.cs"}
 ---
 
 <!-- zh-CN -->

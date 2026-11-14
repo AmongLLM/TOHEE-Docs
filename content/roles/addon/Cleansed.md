@@ -11,7 +11,7 @@
     "zh-CN": "清洗者在会议后移除目标的所有附加身份，并留下干净标记。",
     "en": "Cleanser removes all of a target's add-ons after the meeting and leaves the Cleansed marker."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Cleanser.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Cleanser.cs"
 }
 ---
 <!-- zh-CN -->

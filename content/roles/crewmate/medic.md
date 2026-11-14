@@ -1,5 +1,5 @@
 ---
-{"id":"role-medic","kind":"role","category":"crewmate","title":{"zh-CN":"医生","en":"Medic"},"summary":{"zh-CN":"医生用击杀按钮给一名玩家施加护盾，护盾与击杀尝试的提示、死亡后失效和职业猜测交互均可配置。","en":"The Medic uses the kill button to shield one player, with configurable shield visibility, kill-attempt alerts, death behavior, and guessing interaction."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Medic.cs"}
+{"id":"role-medic","kind":"role","category":"crewmate","title":{"zh-CN":"医生","en":"Medic"},"summary":{"zh-CN":"医生用击杀按钮给一名玩家施加护盾，护盾与击杀尝试的提示、死亡后失效和职业猜测交互均可配置。","en":"The Medic uses the kill button to shield one player, with configurable shield visibility, kill-attempt alerts, death behavior, and guessing interaction."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Medic.cs"}
 ---
 
 <!-- zh-CN -->

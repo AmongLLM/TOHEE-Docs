@@ -1,5 +1,5 @@
 ---
-{"id":"role-jailer","kind":"role","category":"crewmate","title":{"zh-CN":"狱警","en":"Jailer"},"summary":{"zh-CN":"狱警用击杀按钮监禁玩家，使其下一次会议无法投票或被投票；狱警可投票处决囚犯。处决不属于已启用类别或内鬼阵营的目标后，会失去剩余处决次数。","en":"The Jailer confines a player so they cannot vote or be voted in the next meeting, and can execute prisoners. Executing a target outside the enabled categories and Impostor team consumes all remaining execution uses."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Jailer.cs"}
+{"id":"role-jailer","kind":"role","category":"crewmate","title":{"zh-CN":"狱警","en":"Jailer"},"summary":{"zh-CN":"狱警用击杀按钮监禁玩家，使其下一次会议无法投票或被投票；狱警可投票处决囚犯。处决不属于已启用类别或内鬼阵营的目标后，会失去剩余处决次数。","en":"The Jailer confines a player so they cannot vote or be voted in the next meeting, and can execute prisoners. Executing a target outside the enabled categories and Impostor team consumes all remaining execution uses."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Jailer.cs"}
 ---
 
 <!-- zh-CN -->

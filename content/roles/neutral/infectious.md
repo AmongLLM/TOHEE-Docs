@@ -1,5 +1,5 @@
 ---
-{"id":"role-infectious","kind":"role","category":"neutral","title":{"en":"Infectious","zh-CN":"感染者"},"summary":{"zh-CN":"感染可转换的船员、内鬼和中立杀手以扩大感染阵营；内鬼消失后，若感染者阵营是唯一计数中立阵营且人数不少于船员，即可获胜。","en":"Infect eligible Crewmates, Impostors, and Neutral Killers to build an infected team; after Impostors are gone, win at parity when it is the only counted Neutral team."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Infectious.cs"}
+{"id":"role-infectious","kind":"role","category":"neutral","title":{"en":"Infectious","zh-CN":"感染者"},"summary":{"zh-CN":"感染可转换的船员、内鬼和中立杀手以扩大感染阵营；内鬼消失后，若感染者阵营是唯一计数中立阵营且人数不少于船员，即可获胜。","en":"Infect eligible Crewmates, Impostors, and Neutral Killers to build an infected team; after Impostors are gone, win at parity when it is the only counted Neutral team."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Infectious.cs"}
 ---
 <!-- zh-CN -->
 ## 感染者

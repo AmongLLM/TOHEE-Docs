@@ -1,5 +1,5 @@
 ---
-{"id":"role-cleaner","kind":"role","category":"impostor","title":{"zh-CN":"清理工","en":"Cleaner"},"summary":{"zh-CN":"按报告键清理尸体；成功后尸体无法再被报告，并出现护盾动画作为提示。","en":"Uses the Report button to clean a body; cleaned bodies cannot be reported, and a shield animation confirms success."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Cleaner.cs"}
+{"id":"role-cleaner","kind":"role","category":"impostor","title":{"zh-CN":"清理工","en":"Cleaner"},"summary":{"zh-CN":"按报告键清理尸体；成功后尸体无法再被报告，并出现护盾动画作为提示。","en":"Uses the Report button to clean a body; cleaned bodies cannot be reported, and a shield animation confirms success."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Cleaner.cs"}
 ---
 
 <!-- zh-CN -->

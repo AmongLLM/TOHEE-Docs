@@ -1,5 +1,5 @@
 ---
-{"id":"role-evilmini","kind":"role","category":"impostor","title":{"zh-CN":"坏迷你船员","en":"Evil Mini"},"summary":{"zh-CN":"坏迷你船员在成年前无法被击杀或招募；成长期间击杀冷却会逐渐缩短。","en":"Cannot be killed or recruited before adulthood; its kill cooldown gradually decreases as it grows."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Double/Mini.cs"}
+{"id":"role-evilmini","kind":"role","category":"impostor","title":{"zh-CN":"坏迷你船员","en":"Evil Mini"},"summary":{"zh-CN":"坏迷你船员在成年前无法被击杀或招募；成长期间击杀冷却会逐渐缩短。","en":"Cannot be killed or recruited before adulthood; its kill cooldown gradually decreases as it grows."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Double/Mini.cs"}
 ---
 
 <!-- zh-CN -->

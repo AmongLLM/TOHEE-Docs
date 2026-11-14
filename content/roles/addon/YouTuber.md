@@ -11,7 +11,7 @@
     "zh-CN": "仅船员可获得；若是游戏中首名被直接击杀的玩家则立刻以 UP主胜利，凶手是否一同获胜可设置。",
     "en": "Only Crewmates can receive it; the first direct murder victim wins as YouTuber, and the killer can optionally win too."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Youtuber.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Youtuber.cs"
 }
 ---
 <!-- zh-CN -->

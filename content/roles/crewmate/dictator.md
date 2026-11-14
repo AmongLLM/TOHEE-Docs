@@ -1,5 +1,5 @@
 ---
-{"id":"role-dictator","kind":"role","category":"crewmate","title":{"zh-CN":"独裁者","en":"Dictator"},"summary":{"zh-CN":"独裁者投票后会立即结束会议并驱逐所投玩家，之后独裁者会自杀。","en":"When the Dictator votes, the meeting immediately ends and ejects that player; the Dictator then dies."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Dictator.cs"}
+{"id":"role-dictator","kind":"role","category":"crewmate","title":{"zh-CN":"独裁者","en":"Dictator"},"summary":{"zh-CN":"独裁者投票后会立即结束会议并驱逐所投玩家，之后独裁者会自杀。","en":"When the Dictator votes, the meeting immediately ends and ejects that player; the Dictator then dies."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Dictator.cs"}
 ---
 
 <!-- zh-CN -->

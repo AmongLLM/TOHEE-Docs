@@ -1,5 +1,5 @@
 ---
-{"id":"role-dazzler","kind":"role","category":"impostor","title":{"zh-CN":"眩晕者","en":"Dazzler"},"summary":{"zh-CN":"变形降低目标视野；是否在眩晕者死亡或被放逐后恢复，由设置决定。","en":"Shapeshifts to reduce a target's vision; a setting controls whether the effect ends when the Dazzler dies or is ejected."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Dazzler.cs"}
+{"id":"role-dazzler","kind":"role","category":"impostor","title":{"zh-CN":"眩晕者","en":"Dazzler"},"summary":{"zh-CN":"变形降低目标视野；是否在眩晕者死亡或被放逐后恢复，由设置决定。","en":"Shapeshifts to reduce a target's vision; a setting controls whether the effect ends when the Dazzler dies or is ejected."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Dazzler.cs"}
 ---
 
 <!-- zh-CN -->

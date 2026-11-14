@@ -11,7 +11,7 @@
     "zh-CN": "仅船员或内鬼可获得，不能被转化阵营的角色招募。",
     "en": "Only Crewmates or Impostors can receive it and cannot be recruited by converting roles."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Loyal.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Loyal.cs"
 }
 ---
 <!-- zh-CN -->

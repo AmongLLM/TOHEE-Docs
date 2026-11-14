@@ -1,5 +1,5 @@
 ---
-{"id":"role-timethief","kind":"role","category":"impostor","title":{"zh-CN":"蚀时者","en":"Time Thief"},"summary":{"zh-CN":"每次击杀都会缩短会议投票时间；蚀时者死亡后可按设置恢复被偷走的时间。","en":"Each kill reduces meeting voting time; the stolen time can be restored when the Time Thief dies."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/TimeThief.cs"}
+{"id":"role-timethief","kind":"role","category":"impostor","title":{"zh-CN":"蚀时者","en":"Time Thief"},"summary":{"zh-CN":"每次击杀都会缩短会议投票时间；蚀时者死亡后可按设置恢复被偷走的时间。","en":"Each kill reduces meeting voting time; the stolen time can be restored when the Time Thief dies."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/TimeThief.cs"}
 ---
 
 <!-- zh-CN -->

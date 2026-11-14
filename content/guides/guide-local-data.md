@@ -11,7 +11,7 @@
     "zh-CN": "认识 TOHEE-DATA 中的设置、模板、预设和标签文件。",
     "en": "Find settings, templates, presets, and tag files under TOHEE-DATA."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/DataDirectoryMigration.cs",
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/DataDirectoryMigration.cs",
   "order": 10
 }
 ---

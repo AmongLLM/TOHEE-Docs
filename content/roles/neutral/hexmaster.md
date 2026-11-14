@@ -1,5 +1,5 @@
 ---
-{"id":"role-hexmaster","kind":"role","category":"neutral","title":{"en":"Hex Master","zh-CN":"巫师"},"summary":{"zh-CN":"可切换击杀与下咒模式；会议结束时，若巫师存活，被下咒的玩家会死亡。","en":"Switch between killing and hexing; hexed players die after a meeting if the Hex Master is still alive."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/HexMaster.cs"}
+{"id":"role-hexmaster","kind":"role","category":"neutral","title":{"en":"Hex Master","zh-CN":"巫师"},"summary":{"zh-CN":"可切换击杀与下咒模式；会议结束时，若巫师存活，被下咒的玩家会死亡。","en":"Switch between killing and hexing; hexed players die after a meeting if the Hex Master is still alive."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/HexMaster.cs"}
 ---
 <!-- zh-CN -->
 ## 巫师

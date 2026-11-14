@@ -1,5 +1,5 @@
 ---
-{"id":"role-imitator","kind":"role","category":"neutral","title":{"en":"Imitator","zh-CN":"效仿者"},"summary":{"zh-CN":"每局可用一次击杀按钮效仿玩家；根据目标职业转变为警长、逃亡者、指定职业或不兼容中立职业的替代职业。","en":"Use the kill button once to imitate a player; depending on the target, become a Sheriff, Refugee, a supported copied role, or the fallback for a designated incompatible Neutral role."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Imitator.cs"}
+{"id":"role-imitator","kind":"role","category":"neutral","title":{"en":"Imitator","zh-CN":"效仿者"},"summary":{"zh-CN":"每局可用一次击杀按钮效仿玩家；根据目标职业转变为警长、逃亡者、指定职业或不兼容中立职业的替代职业。","en":"Use the kill button once to imitate a player; depending on the target, become a Sheriff, Refugee, a supported copied role, or the fallback for a designated incompatible Neutral role."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Imitator.cs"}
 ---
 <!-- zh-CN -->
 ## 效仿者

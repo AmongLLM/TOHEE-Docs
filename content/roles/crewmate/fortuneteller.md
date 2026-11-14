@@ -1,5 +1,5 @@
 ---
-{"id":"role-fortuneteller","kind":"role","category":"crewmate","title":{"zh-CN":"调查员","en":"Fortune Teller"},"summary":{"zh-CN":"调查员会议投票后会获得目标职业线索，完成全部任务后可看到目标的确切职业。","en":"The Fortune Teller gets a role clue after voting for a player and can see the exact role after completing all tasks."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/FortuneTeller.cs"}
+{"id":"role-fortuneteller","kind":"role","category":"crewmate","title":{"zh-CN":"调查员","en":"Fortune Teller"},"summary":{"zh-CN":"调查员会议投票后会获得目标职业线索，完成全部任务后可看到目标的确切职业。","en":"The Fortune Teller gets a role clue after voting for a player and can see the exact role after completing all tasks."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/FortuneTeller.cs"}
 ---
 
 <!-- zh-CN -->

@@ -11,7 +11,7 @@
     "zh-CN": "会议外无法修复指定的破坏系统；与修理工、守护天使、炼金术士和暴君不兼容。",
     "en": "Cannot fix specified sabotage systems outside meetings; incompatible with Mechanic, GuardianAngelTOHE, Alchemist, and Troller."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Fool.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Fool.cs"
 }
 ---
 <!-- zh-CN -->

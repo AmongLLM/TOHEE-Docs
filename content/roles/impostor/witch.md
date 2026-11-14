@@ -1,5 +1,5 @@
 ---
-{"id":"role-witch","kind":"role","category":"impostor","title":{"zh-CN":"女巫","en":"Witch"},"summary":{"zh-CN":"可直接击杀或施咒；若女巫在会议结束前未被放逐或猜中，被施咒者会在会后死亡。","en":"Can kill directly or cast spells; if the Witch survives the meeting, all spelled targets die afterward."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Witch.cs"}
+{"id":"role-witch","kind":"role","category":"impostor","title":{"zh-CN":"女巫","en":"Witch"},"summary":{"zh-CN":"可直接击杀或施咒；若女巫在会议结束前未被放逐或猜中，被施咒者会在会后死亡。","en":"Can kill directly or cast spells; if the Witch survives the meeting, all spelled targets die afterward."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Witch.cs"}
 ---
 
 <!-- zh-CN -->

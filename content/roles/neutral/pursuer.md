@@ -1,5 +1,5 @@
 ---
-{"id":"role-pursuer","kind":"role","category":"neutral","title":{"en":"Pursuer","zh-CN":"起诉人"},"summary":{"zh-CN":"存活到游戏结束时通常可获胜；标记一名玩家后，对方若尝试击杀任何人都会走火自杀。","en":"Usually win by surviving to the end; after marking a player, any attempt they make to kill someone causes a fatal misfire."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Pursuer.cs"}
+{"id":"role-pursuer","kind":"role","category":"neutral","title":{"en":"Pursuer","zh-CN":"起诉人"},"summary":{"zh-CN":"存活到游戏结束时通常可获胜；标记一名玩家后，对方若尝试击杀任何人都会走火自杀。","en":"Usually win by surviving to the end; after marking a player, any attempt they make to kill someone causes a fatal misfire."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Pursuer.cs"}
 ---
 <!-- zh-CN -->
 ## 起诉人

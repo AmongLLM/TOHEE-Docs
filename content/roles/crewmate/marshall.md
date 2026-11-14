@@ -1,5 +1,5 @@
 ---
-{"id":"role-marshall","kind":"role","category":"crewmate","title":{"zh-CN":"展现者","en":"Marshall"},"summary":{"zh-CN":"展现者完成全部任务后会向船员公开身份，非船员阵营无法看到其身份。","en":"After finishing all tasks, the Marshall reveals their identity to the Crew; non-Crew teams cannot see the reveal."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Marshall.cs"}
+{"id":"role-marshall","kind":"role","category":"crewmate","title":{"zh-CN":"展现者","en":"Marshall"},"summary":{"zh-CN":"展现者完成全部任务后会向船员公开身份，非船员阵营无法看到其身份。","en":"After finishing all tasks, the Marshall reveals their identity to the Crew; non-Crew teams cannot see the reveal."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Marshall.cs"}
 ---
 
 <!-- zh-CN -->

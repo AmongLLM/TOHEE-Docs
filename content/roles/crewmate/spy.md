@@ -1,5 +1,5 @@
 ---
-{"id":"role-spy","kind":"role","category":"crewmate","title":{"zh-CN":"间谍","en":"Spy"},"summary":{"zh-CN":"有人对间谍使用击杀按钮技能时，间谍可短暂看到对方的橙色名字；技能次数耗尽后不再看到提示。","en":"When someone uses a kill-button ability on the Spy, the Spy can briefly see their name in orange; this stops when uses run out."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Spy.cs"}
+{"id":"role-spy","kind":"role","category":"crewmate","title":{"zh-CN":"间谍","en":"Spy"},"summary":{"zh-CN":"有人对间谍使用击杀按钮技能时，间谍可短暂看到对方的橙色名字；技能次数耗尽后不再看到提示。","en":"When someone uses a kill-button ability on the Spy, the Spy can briefly see their name in orange; this stops when uses run out."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Spy.cs"}
 ---
 
 <!-- zh-CN -->

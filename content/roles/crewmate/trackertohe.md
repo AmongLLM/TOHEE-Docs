@@ -1,5 +1,5 @@
 ---
-{"id":"role-trackertohe","kind":"role","category":"crewmate","title":{"zh-CN":"侦查员（TOHE）","en":"Tracker (TOHE)"},"summary":{"zh-CN":"侦查员选择玩家后可在地图上追踪其位置一段时间，追踪冷却、持续时间和启动延迟可设置。","en":"The Tracker can follow a selected player's location on the map for a limited time, with configurable cooldown, duration, and delay."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Vanilla/TrackerTOHE.cs"}
+{"id":"role-trackertohe","kind":"role","category":"crewmate","title":{"zh-CN":"侦查员（TOHE）","en":"Tracker (TOHE)"},"summary":{"zh-CN":"侦查员选择玩家后可在地图上追踪其位置一段时间，追踪冷却、持续时间和启动延迟可设置。","en":"The Tracker can follow a selected player's location on the map for a limited time, with configurable cooldown, duration, and delay."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Vanilla/TrackerTOHE.cs"}
 ---
 
 <!-- zh-CN -->

@@ -1,5 +1,5 @@
 ---
-{"id":"role-trapster","kind":"role","category":"impostor","title":{"zh-CN":"诡雷","en":"Trapster"},"summary":{"zh-CN":"诡雷击杀的尸体会杀死报告者；击杀诱饵会让诡雷立即死亡。","en":"Bodies from Trapster kills kill the reporter; killing a Bait immediately kills the Trapster."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Trapster.cs"}
+{"id":"role-trapster","kind":"role","category":"impostor","title":{"zh-CN":"诡雷","en":"Trapster"},"summary":{"zh-CN":"诡雷击杀的尸体会杀死报告者；击杀诱饵会让诡雷立即死亡。","en":"Bodies from Trapster kills kill the reporter; killing a Bait immediately kills the Trapster."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Trapster.cs"}
 ---
 
 <!-- zh-CN -->

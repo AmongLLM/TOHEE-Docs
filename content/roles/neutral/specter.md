@@ -1,5 +1,5 @@
 ---
-{"id":"role-specter","kind":"role","category":"neutral","title":{"en":"Specter","zh-CN":"幽灵"},"summary":{"zh-CN":"完成所有任务并死亡后随获胜阵营获胜；开启抢夺胜利时可独自获胜。","en":"Complete all tasks and die to win with the winning team; when victory stealing is enabled, the Specter can win alone."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Specter.cs"}
+{"id":"role-specter","kind":"role","category":"neutral","title":{"en":"Specter","zh-CN":"幽灵"},"summary":{"zh-CN":"完成所有任务并死亡后随获胜阵营获胜；开启抢夺胜利时可独自获胜。","en":"Complete all tasks and die to win with the winning team; when victory stealing is enabled, the Specter can win alone."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Specter.cs"}
 ---
 <!-- zh-CN -->
 ## 幽灵

@@ -1,5 +1,5 @@
 ---
-{"id":"role-quickshooter","kind":"role","category":"impostor","title":{"zh-CN":"快枪手","en":"Quick Shooter"},"summary":{"zh-CN":"击杀冷却结束后变形可储存子弹并重置冷却；会议开始时子弹会被限制到设定上限。","en":"After kill cooldown ends, shapeshifting stores a bullet and resets cooldown; the meeting bullet count is capped by a setting."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/QuickShooter.cs"}
+{"id":"role-quickshooter","kind":"role","category":"impostor","title":{"zh-CN":"快枪手","en":"Quick Shooter"},"summary":{"zh-CN":"击杀冷却结束后变形可储存子弹并重置冷却；会议开始时子弹会被限制到设定上限。","en":"After kill cooldown ends, shapeshifting stores a bullet and resets cooldown; the meeting bullet count is capped by a setting."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/QuickShooter.cs"}
 ---
 
 <!-- zh-CN -->

@@ -1,5 +1,5 @@
 ---
-{"id":"role-detectivetohe","kind":"role","category":"crewmate","title":{"zh-CN":"侦探（原版）","en":"Detective (Vanilla)"},"summary":{"zh-CN":"原版侦探可调查线索，房主可以设置嫌疑人数上限；这是独立于模组自定义侦探的角色。","en":"The native Detective investigates clues with a configurable suspect limit and is separate from the custom Detective role."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Vanilla/DetectiveTOHE.cs"}
+{"id":"role-detectivetohe","kind":"role","category":"crewmate","title":{"zh-CN":"侦探（原版）","en":"Detective (Vanilla)"},"summary":{"zh-CN":"原版侦探可调查线索，房主可以设置嫌疑人数上限；这是独立于模组自定义侦探的角色。","en":"The native Detective investigates clues with a configurable suspect limit and is separate from the custom Detective role."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Vanilla/DetectiveTOHE.cs"}
 ---
 
 <!-- zh-CN -->

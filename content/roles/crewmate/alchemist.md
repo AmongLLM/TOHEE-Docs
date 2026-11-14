@@ -1,5 +1,5 @@
 ---
-{"id":"role-alchemist","kind":"role","category":"crewmate","title":{"zh-CN":"炼金术士","en":"Alchemist"},"summary":{"zh-CN":"炼金术士完成任务会获得随机药水，可用于护盾、传送、加速、修复破坏、嗜血、夜视、隐身或使自己中毒。","en":"The Alchemist gains a random potion for each completed task, with effects including a shield, teleport, speed, sabotage repair, bloodthirst, night vision, invisibility, or self-poisoning."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Alchemist.cs"}
+{"id":"role-alchemist","kind":"role","category":"crewmate","title":{"zh-CN":"炼金术士","en":"Alchemist"},"summary":{"zh-CN":"炼金术士完成任务会获得随机药水，可用于护盾、传送、加速、修复破坏、嗜血、夜视、隐身或使自己中毒。","en":"The Alchemist gains a random potion for each completed task, with effects including a shield, teleport, speed, sabotage repair, bloodthirst, night vision, invisibility, or self-poisoning."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Alchemist.cs"}
 ---
 
 <!-- zh-CN -->

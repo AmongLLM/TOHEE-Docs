@@ -11,7 +11,7 @@
     "zh-CN": "必须完成全部任务才能随队伍获胜，未完成则落败；设置可控制其开局分配与招募。",
     "en": "Must complete all tasks to win with its team or loses; settings govern assignment and recruitment."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Crewmate/Hurried.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Crewmate/Hurried.cs"
 }
 ---
 <!-- zh-CN -->

@@ -11,7 +11,7 @@
     "zh-CN": "按安装、登录、版本和游戏运行问题检查常见原因。",
     "en": "Check common installation, sign-in, version, and gameplay problems."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/README.md",
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/README.md",
   "order": 12
 }
 ---
@@ -30,7 +30,7 @@ Steam 版可以直接运行游戏目录中的 `Among Us.exe`，但登录时需�
 
 ## 提示 Among Us 版本不匹配
 
-确认游戏本体已更新，房主使用支持该版本的 TOHEE 完整发行包，加入者也运行兼容的游戏版本。Steam 玩家应检查是否意外加入公开测试分支。可在[发行页](https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/releases)核对当前版本说明；旧上游 Discord notice 链接可能已经变更。
+确认游戏本体已更新，房主使用支持该版本的 TOHEE 完整发行包，加入者也运行兼容的游戏版本。Steam 玩家应检查是否意外加入公开测试分支。可在[发行页](https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/releases)核对当前版本说明；旧上游 Discord notice 链接可能已经变更。
 
 ## 启动时黑屏、卡住或崩溃
 
@@ -63,7 +63,7 @@ The Steam version can be launched directly from `Among Us.exe` in the game direc
 
 ## The game reports a version mismatch
 
-Make sure Among Us itself is updated, the host uses a full TOHEE release that supports that game version, and joining players use a compatible version too. Steam players should check that they are not on a public beta branch by mistake. Compare the current notes on the [release page](https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/releases); old upstream Discord notice links may have changed.
+Make sure Among Us itself is updated, the host uses a full TOHEE release that supports that game version, and joining players use a compatible version too. Steam players should check that they are not on a public beta branch by mistake. Compare the current notes on the [release page](https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/releases); old upstream Discord notice links may have changed.
 
 ## Black screen, hang, or crash on startup
 

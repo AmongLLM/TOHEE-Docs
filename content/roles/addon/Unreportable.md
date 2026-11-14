@@ -11,7 +11,7 @@
     "zh-CN": "死亡后尸体无法被报告；与萧暮、至日者和诱饵不兼容。",
     "en": "Its corpse cannot be reported after death; incompatible with Randomizer, Solsticer, and Bait."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Unreportable.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Unreportable.cs"
 }
 ---
 <!-- zh-CN -->

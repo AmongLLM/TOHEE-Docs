@@ -1,5 +1,5 @@
 ---
-{"id":"role-solsticer","kind":"role","category":"neutral","title":{"en":"Solsticer","zh-CN":"至日者"},"summary":{"zh-CN":"在一轮内完成全部任务即可获胜；每次会议后任务重置，普通击杀和投票会被阻止。","en":"Complete all tasks in one round to win; tasks reset after each meeting, and ordinary kill attempts and votes are blocked."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Solsticer.cs"}
+{"id":"role-solsticer","kind":"role","category":"neutral","title":{"en":"Solsticer","zh-CN":"至日者"},"summary":{"zh-CN":"在一轮内完成全部任务即可获胜；每次会议后任务重置，普通击杀和投票会被阻止。","en":"Complete all tasks in one round to win; tasks reset after each meeting, and ordinary kill attempts and votes are blocked."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Solsticer.cs"}
 ---
 <!-- zh-CN -->
 ## 至日者

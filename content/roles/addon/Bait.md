@@ -11,7 +11,7 @@
     "zh-CN": "被击杀后会迫使击杀者延迟报告尸体；特定击杀者及通讯破坏设置可阻止触发。",
     "en": "When killed, forces the killer to report the body after a delay; some killers and Comms settings suppress it."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Bait.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Bait.cs"
 }
 ---
 <!-- zh-CN -->

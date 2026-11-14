@@ -1,5 +1,5 @@
 ---
-{"id":"role-veteran","kind":"role","category":"crewmate","title":{"zh-CN":"老兵","en":"Veteran"},"summary":{"zh-CN":"老兵通过通风口进入戒备状态，期间多数击杀者会被反杀；任务执行者、十字军、保镖和捕快例外，瘟疫、战争者和扫把星会触发特殊处理。","en":"The Veteran vents to enter Alert and retaliates against most attackers; Taskinator, Crusader, Bodyguard, and Deputy are exempt, while Pestilence, War, and Jinx use special handling."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Veteran.cs"}
+{"id":"role-veteran","kind":"role","category":"crewmate","title":{"zh-CN":"老兵","en":"Veteran"},"summary":{"zh-CN":"老兵通过通风口进入戒备状态，期间多数击杀者会被反杀；任务执行者、十字军、保镖和捕快例外，瘟疫、战争者和扫把星会触发特殊处理。","en":"The Veteran vents to enter Alert and retaliates against most attackers; Taskinator, Crusader, Bodyguard, and Deputy are exempt, while Pestilence, War, and Jinx use special handling."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Veteran.cs"}
 ---
 
 <!-- zh-CN -->

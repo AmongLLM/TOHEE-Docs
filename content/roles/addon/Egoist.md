@@ -11,7 +11,7 @@
     "zh-CN": "仅船员或内鬼可获得；存活的利己主义者会在其队伍获胜时取代该队伍成为胜者。",
     "en": "Only Crewmates or Impostors can receive it; a living Egoist replaces its team's win when that team wins."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Egoist.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Egoist.cs"
 }
 ---
 <!-- zh-CN -->

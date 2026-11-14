@@ -1,5 +1,5 @@
 ---
-{"id":"role-guardianangeltohe","kind":"role","category":"crewmate","title":{"zh-CN":"守护天使（TOHE）","en":"Guardian Angel (TOHE)"},"summary":{"zh-CN":"守护天使（TOHE）是可分配给符合条件的死亡玩家的幽灵职业，可为任意阵营目标施加临时护盾；护盾冷却、时长及内鬼能否看到护盾可设置。","en":"The Guardian Angel (TOHE) is a ghost role that can be assigned to eligible dead players and can shield a target of any team, with configurable cooldown, duration, and Impostor visibility."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/(Ghosts)/Crewmate/GuardianAngelTOHE.cs"}
+{"id":"role-guardianangeltohe","kind":"role","category":"crewmate","title":{"zh-CN":"守护天使（TOHE）","en":"Guardian Angel (TOHE)"},"summary":{"zh-CN":"守护天使（TOHE）是可分配给符合条件的死亡玩家的幽灵职业，可为任意阵营目标施加临时护盾；护盾冷却、时长及内鬼能否看到护盾可设置。","en":"The Guardian Angel (TOHE) is a ghost role that can be assigned to eligible dead players and can shield a target of any team, with configurable cooldown, duration, and Impostor visibility."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/(Ghosts)/Crewmate/GuardianAngelTOHE.cs"}
 ---
 
 <!-- zh-CN -->

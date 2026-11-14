@@ -11,7 +11,7 @@
     "zh-CN": "由灵魂召唤者赋予；成为恶灵后可使用守护天使能力冻结或降低目标视野。",
     "en": "Granted by Spiritcaller; as an Evil Spirit, it can use Guardian Angel protection to freeze or reduce a target's vision."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Spiritcaller.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Spiritcaller.cs"
 }
 ---
 <!-- zh-CN -->

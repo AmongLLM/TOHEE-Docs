@@ -1,5 +1,5 @@
 ---
-{"id":"role-seeker","kind":"role","category":"neutral","title":{"en":"Seeker","zh-CN":"探索者"},"summary":{"zh-CN":"使用击杀按钮标记玩家，标记正确得分、错误扣分；达到设定分数即可获胜。","en":"Tag players with the kill button, gaining points for correct tags and losing points for incorrect ones; reach the required score to win."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Seeker.cs"}
+{"id":"role-seeker","kind":"role","category":"neutral","title":{"en":"Seeker","zh-CN":"探索者"},"summary":{"zh-CN":"使用击杀按钮标记玩家，标记正确得分、错误扣分；达到设定分数即可获胜。","en":"Tag players with the kill button, gaining points for correct tags and losing points for incorrect ones; reach the required score to win."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Seeker.cs"}
 ---
 <!-- zh-CN -->
 ## 探索者

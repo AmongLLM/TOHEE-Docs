@@ -1,5 +1,5 @@
 ---
-{"id":"guide-custom-sounds","kind":"guide","category":"guide","title":{"zh-CN":"自定义音效管理界面","en":"Custom Sound Manager GUI"},"summary":{"zh-CN":"在模组客户端中开关内置音效、调整总音量与单独音量，并试听效果。","en":"Enable built-in effects, adjust master and individual volumes, and preview sounds in the mod client."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/CustomSoundMenu.cs","order":13}
+{"id":"guide-custom-sounds","kind":"guide","category":"guide","title":{"zh-CN":"自定义音效管理界面","en":"Custom Sound Manager GUI"},"summary":{"zh-CN":"在模组客户端中开关内置音效、调整总音量与单独音量，并试听效果。","en":"Enable built-in effects, adjust master and individual volumes, and preview sounds in the mod client."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/CustomSoundMenu.cs","order":13}
 ---
 <!-- zh-CN -->
 ## 打开界面

@@ -1,5 +1,5 @@
 ---
-{"id":"role-copycat","kind":"role","category":"crewmate","title":{"zh-CN":"模仿者","en":"Copycat"},"summary":{"zh-CN":"模仿者使用击杀按钮复制部分船员职业；复制的职业在会议结束后重置，且模仿者不能参与职业猜测。","en":"The Copycat uses the kill button to copy selected Crewmate roles; the copied role resets after meetings, and the Copycat cannot guess roles."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/CopyCat.cs"}
+{"id":"role-copycat","kind":"role","category":"crewmate","title":{"zh-CN":"模仿者","en":"Copycat"},"summary":{"zh-CN":"模仿者使用击杀按钮复制部分船员职业；复制的职业在会议结束后重置，且模仿者不能参与职业猜测。","en":"The Copycat uses the kill button to copy selected Crewmate roles; the copied role resets after meetings, and the Copycat cannot guess roles."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/CopyCat.cs"}
 ---
 
 <!-- zh-CN -->

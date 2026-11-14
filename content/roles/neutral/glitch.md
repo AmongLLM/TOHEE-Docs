@@ -1,5 +1,5 @@
 ---
-{"id":"role-glitch","kind":"role","category":"neutral","title":{"en":"Glitch","zh-CN":"缺点者"},"summary":{"zh-CN":"通过黑入限制玩家行动并伪装成随机玩家；内鬼消失后，若缺点者是唯一存活的计数中立阵营且人数不少于船员，即可获胜。","en":"Hack players to restrict their actions and mimic a random player; after Impostors are gone, win when Glitch is the only surviving counted Neutral team and at least as numerous as Crew."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Glitch.cs"}
+{"id":"role-glitch","kind":"role","category":"neutral","title":{"en":"Glitch","zh-CN":"缺点者"},"summary":{"zh-CN":"通过黑入限制玩家行动并伪装成随机玩家；内鬼消失后，若缺点者是唯一存活的计数中立阵营且人数不少于船员，即可获胜。","en":"Hack players to restrict their actions and mimic a random player; after Impostors are gone, win when Glitch is the only surviving counted Neutral team and at least as numerous as Crew."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Glitch.cs"}
 ---
 <!-- zh-CN -->
 ## 缺点者

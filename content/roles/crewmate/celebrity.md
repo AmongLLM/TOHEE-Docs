@@ -1,5 +1,5 @@
 ---
-{"id":"role-celebrity","kind":"role","category":"crewmate","title":{"zh-CN":"网红","en":"Celebrity"},"summary":{"zh-CN":"网红死亡时，船员会看到击杀闪光并在下次会议收到提示，内鬼与中立是否获知可分别设置。","en":"When the Celebrity dies, Crewmates see a kill flash and receive a notice at the next meeting; alerts to Impostors and Neutrals are configurable."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Celebrity.cs"}
+{"id":"role-celebrity","kind":"role","category":"crewmate","title":{"zh-CN":"网红","en":"Celebrity"},"summary":{"zh-CN":"网红死亡时，船员会看到击杀闪光并在下次会议收到提示，内鬼与中立是否获知可分别设置。","en":"When the Celebrity dies, Crewmates see a kill flash and receive a notice at the next meeting; alerts to Impostors and Neutrals are configurable."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Celebrity.cs"}
 ---
 
 <!-- zh-CN -->

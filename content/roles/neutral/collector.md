@@ -1,5 +1,5 @@
 ---
-{"id":"role-collector","kind":"role","category":"neutral","title":{"en":"Collector","zh-CN":"集票者"},"summary":{"zh-CN":"每次会议投给一名玩家并收集该玩家本次收到的票数；分数会跨会议累积，存活且达到门槛时获胜。","en":"Vote for a player each meeting and collect all votes cast for them; the score accumulates across meetings, and the Collector wins if alive at the threshold."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Collector.cs"}
+{"id":"role-collector","kind":"role","category":"neutral","title":{"en":"Collector","zh-CN":"集票者"},"summary":{"zh-CN":"每次会议投给一名玩家并收集该玩家本次收到的票数；分数会跨会议累积，存活且达到门槛时获胜。","en":"Vote for a player each meeting and collect all votes cast for them; the score accumulates across meetings, and the Collector wins if alive at the threshold."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Collector.cs"}
 ---
 <!-- zh-CN -->
 ## 集票者

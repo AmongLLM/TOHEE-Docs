@@ -1,5 +1,5 @@
 ---
-{"id":"role-bastion","kind":"role","category":"crewmate","title":{"zh-CN":"埋雷兵","en":"Bastion"},"summary":{"zh-CN":"埋雷兵可以在通风口放置炸弹以击杀内鬼和中立，但炸弹也可能炸死船员。","en":"The Bastion plants bombs in vents to kill Impostors and Neutrals, but the bombs can also kill Crewmates."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Bastion.cs"}
+{"id":"role-bastion","kind":"role","category":"crewmate","title":{"zh-CN":"埋雷兵","en":"Bastion"},"summary":{"zh-CN":"埋雷兵可以在通风口放置炸弹以击杀内鬼和中立，但炸弹也可能炸死船员。","en":"The Bastion plants bombs in vents to kill Impostors and Neutrals, but the bombs can also kill Crewmates."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Bastion.cs"}
 ---
 
 <!-- zh-CN -->

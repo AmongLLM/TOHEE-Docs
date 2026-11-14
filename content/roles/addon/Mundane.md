@@ -11,7 +11,7 @@
     "zh-CN": "只有完成任务且具备猜测能力时才能猜测角色；仅可配置船员和中立者获得。",
     "en": "Can guess only after finishing tasks and only if it has a role-guessing ability; can be assigned to Crewmates or Neutrals."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Mundane.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Mundane.cs"
 }
 ---
 <!-- zh-CN -->

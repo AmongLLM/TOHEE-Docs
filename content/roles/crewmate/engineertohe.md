@@ -1,5 +1,5 @@
 ---
-{"id":"role-engineertohe","kind":"role","category":"crewmate","title":{"zh-CN":"工程师（TOHE）","en":"Engineer (TOHE)"},"summary":{"zh-CN":"工程师可以在通讯破坏未生效时使用通风口，通风冷却和单次停留时长可分别设置。","en":"The Engineer can use vents while communications are not sabotaged, with configurable vent cooldown and maximum time in a vent."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Vanilla/EngineerTOHE.cs"}
+{"id":"role-engineertohe","kind":"role","category":"crewmate","title":{"zh-CN":"工程师（TOHE）","en":"Engineer (TOHE)"},"summary":{"zh-CN":"工程师可以在通讯破坏未生效时使用通风口，通风冷却和单次停留时长可分别设置。","en":"The Engineer can use vents while communications are not sabotaged, with configurable vent cooldown and maximum time in a vent."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Vanilla/EngineerTOHE.cs"}
 ---
 
 <!-- zh-CN -->

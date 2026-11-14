@@ -11,7 +11,7 @@
     "zh-CN": "仅分配给具有内鬼基础阵营的船员，并使其获得使用通风口的能力。",
     "en": "Assigned only to Crewmates with an Impostor basis, granting vent access."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Crewmate/Nimble.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Crewmate/Nimble.cs"
 }
 ---
 <!-- zh-CN -->

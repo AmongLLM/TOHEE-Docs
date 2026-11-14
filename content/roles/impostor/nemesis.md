@@ -1,5 +1,5 @@
 ---
-{"id":"role-nemesis","kind":"role","category":"impostor","title":{"zh-CN":"黑手党","en":"Nemesis"},"summary":{"zh-CN":"其他内鬼存活时不能击杀；死亡后可按 `/rv [玩家编号]` 复仇，且独自成为存活内鬼时可以正常击杀。","en":"Cannot kill while another Impostor is alive; after death can use `/rv [player ID]` to take revenge, and can kill normally when the last living Impostor."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Nemesis.cs"}
+{"id":"role-nemesis","kind":"role","category":"impostor","title":{"zh-CN":"黑手党","en":"Nemesis"},"summary":{"zh-CN":"其他内鬼存活时不能击杀；死亡后可按 `/rv [玩家编号]` 复仇，且独自成为存活内鬼时可以正常击杀。","en":"Cannot kill while another Impostor is alive; after death can use `/rv [player ID]` to take revenge, and can kill normally when the last living Impostor."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Nemesis.cs"}
 ---
 
 <!-- zh-CN -->

@@ -1,5 +1,5 @@
 ---
-{"id":"role-coroner","kind":"role","category":"crewmate","title":{"zh-CN":"验尸官","en":"Coroner"},"summary":{"zh-CN":"验尸官不能正常报告尸体，尝试报告时会追踪凶手，并可选择查看尸体箭头及阻止被处理的尸体再次报告。","en":"The Coroner cannot report bodies normally and instead tracks the killer when attempting to report, with configurable body arrows and report blocking."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Coroner.cs"}
+{"id":"role-coroner","kind":"role","category":"crewmate","title":{"zh-CN":"验尸官","en":"Coroner"},"summary":{"zh-CN":"验尸官不能正常报告尸体，尝试报告时会追踪凶手，并可选择查看尸体箭头及阻止被处理的尸体再次报告。","en":"The Coroner cannot report bodies normally and instead tracks the killer when attempting to report, with configurable body arrows and report blocking."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Coroner.cs"}
 ---
 
 <!-- zh-CN -->

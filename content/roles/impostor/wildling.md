@@ -1,5 +1,5 @@
 ---
-{"id":"role-wildling","kind":"role","category":"impostor","title":{"zh-CN":"野人","en":"Wildling"},"summary":{"zh-CN":"可以变形但不能使用通风口；击杀后会获得短暂无敌保护。","en":"Can shapeshift but cannot vent; gains temporary invulnerability after a kill."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Wildling.cs"}
+{"id":"role-wildling","kind":"role","category":"impostor","title":{"zh-CN":"野人","en":"Wildling"},"summary":{"zh-CN":"可以变形但不能使用通风口；击杀后会获得短暂无敌保护。","en":"Can shapeshift but cannot vent; gains temporary invulnerability after a kill."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Wildling.cs"}
 ---
 
 <!-- zh-CN -->

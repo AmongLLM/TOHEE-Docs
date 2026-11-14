@@ -1,5 +1,5 @@
 ---
-{"id":"role-anonymous","kind":"role","category":"impostor","title":{"zh-CN":"骇客","en":"Anonymous"},"summary":{"zh-CN":"变形骇入合格目标，让其报告骇客共享的近期击杀尸体记录；没有记录时目标会报告自己。","en":"Shapeshifts to hack an eligible target into reporting a body from the shared list of recent Anonymous kills; if none is recorded, the target reports themself."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Anonymous.cs"}
+{"id":"role-anonymous","kind":"role","category":"impostor","title":{"zh-CN":"骇客","en":"Anonymous"},"summary":{"zh-CN":"变形骇入合格目标，让其报告骇客共享的近期击杀尸体记录；没有记录时目标会报告自己。","en":"Shapeshifts to hack an eligible target into reporting a body from the shared list of recent Anonymous kills; if none is recorded, the target reports themself."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Anonymous.cs"}
 ---
 
 <!-- zh-CN -->

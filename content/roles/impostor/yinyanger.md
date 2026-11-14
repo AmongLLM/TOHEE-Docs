@@ -1,5 +1,5 @@
 ---
-{"id":"role-yinyanger","kind":"role","category":"impostor","title":{"zh-CN":"阴阳命煞人","en":"YinYanger"},"summary":{"zh-CN":"先后选择一名阴与一名阳；两人相遇时会互相杀死，选完后可普通击杀。","en":"Selects a Yin and a Yang; they kill each other when they meet, and the YinYanger can kill normally after both are chosen."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/YinYanger.cs"}
+{"id":"role-yinyanger","kind":"role","category":"impostor","title":{"zh-CN":"阴阳命煞人","en":"YinYanger"},"summary":{"zh-CN":"先后选择一名阴与一名阳；两人相遇时会互相杀死，选完后可普通击杀。","en":"Selects a Yin and a Yang; they kill each other when they meet, and the YinYanger can kill normally after both are chosen."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/YinYanger.cs"}
 ---
 
 <!-- zh-CN -->

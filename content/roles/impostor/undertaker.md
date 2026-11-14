@@ -1,5 +1,5 @@
 ---
-{"id":"role-undertaker","kind":"role","category":"impostor","title":{"zh-CN":"暗杀者","en":"Undertaker"},"summary":{"zh-CN":"变形标记尸体传送点；每次击杀或会议会清除标记，传送击杀后会被冻结。","en":"Marks a destination for bodies; each kill or meeting clears it, and a teleporting kill briefly freezes the Undertaker."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Undertaker.cs"}
+{"id":"role-undertaker","kind":"role","category":"impostor","title":{"zh-CN":"暗杀者","en":"Undertaker"},"summary":{"zh-CN":"变形标记尸体传送点；每次击杀或会议会清除标记，传送击杀后会被冻结。","en":"Marks a destination for bodies; each kill or meeting clears it, and a teleporting kill briefly freezes the Undertaker."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Undertaker.cs"}
 ---
 
 <!-- zh-CN -->

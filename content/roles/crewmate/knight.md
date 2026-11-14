@@ -1,5 +1,5 @@
 ---
-{"id":"role-knight","kind":"role","category":"crewmate","title":{"zh-CN":"侠客","en":"Knight"},"summary":{"zh-CN":"侠客没有任务，整局只有一次对任意玩家发动击杀的机会；是否可以使用通风口可设置。","en":"The Knight has no tasks and can kill any player once per game, with vent access controlled by a setting."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Knight.cs"}
+{"id":"role-knight","kind":"role","category":"crewmate","title":{"zh-CN":"侠客","en":"Knight"},"summary":{"zh-CN":"侠客没有任务，整局只有一次对任意玩家发动击杀的机会；是否可以使用通风口可设置。","en":"The Knight has no tasks and can kill any player once per game, with vent access controlled by a setting."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Knight.cs"}
 ---
 
 <!-- zh-CN -->

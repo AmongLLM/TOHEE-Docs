@@ -11,7 +11,7 @@
     "zh-CN": "了解 TOHEE Cloud 网页标签与模组本地标签的区别。",
     "en": "Understand the difference between TOHEE Cloud tags and mod-local tags."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/docs/player-tags.md",
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/docs/player-tags.md",
   "order": 9
 }
 ---
@@ -24,7 +24,7 @@ TOHEE Cloud 玩家标签与旧版上游模组标签文件是两种不同功能�
 
 ## 房主本地标签
 
-TOHEE 模组本身还支持房主本地标签、权限配置和 GM 身份。这些设置保存在房主电脑的 `TOHEE-DATA/Tags`，不会与 Cloud 网页标签自动同步。房主可以输入 `/tags reload` 让模组重新读取本地标签。关于当前本地 TXT 格式、权限级别和旧配置变化，请查阅 [TOHEE 本地玩家标签说明](https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/main/docs/player-tags.md)。
+TOHEE 模组本身还支持房主本地标签、权限配置和 GM 身份。这些设置保存在房主电脑的 `TOHEE-DATA/Tags`，不会与 Cloud 网页标签自动同步。房主可以输入 `/tags reload` 让模组重新读取本地标签。关于当前本地 TXT 格式、权限级别和旧配置变化，请查阅 [TOHEE 本地玩家标签说明](https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/main/docs/player-tags.md)。
 
 旧版上游教程提到的 `MOD_TAGS`、`VIP_TAGS` 目录和旧 MOD/VIP 名单不再代表当前 TOHEE 权限系统；不要按旧教程复制标签文件或授予权限。Cloud 标签和模组本地标签各自维护，使用场景不同。
 
@@ -37,6 +37,6 @@ Sign in, link a game account, and open the Cloud account or tag page to edit the
 
 ## Host-local mod tags
 
-The TOHEE mod also supports host-local tags, permission settings, and GM status. These are stored on the host's computer under `TOHEE-DATA/Tags` and do not sync automatically with Cloud web tags. The host can enter `/tags reload` to make the mod read local tags again. For the current local TXT format, permission levels, and legacy changes, see [TOHEE host-local player tags](https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/main/docs/player-tags.en.md).
+The TOHEE mod also supports host-local tags, permission settings, and GM status. These are stored on the host's computer under `TOHEE-DATA/Tags` and do not sync automatically with Cloud web tags. The host can enter `/tags reload` to make the mod read local tags again. For the current local TXT format, permission levels, and legacy changes, see [TOHEE host-local player tags](https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/main/docs/player-tags.en.md).
 
 The `MOD_TAGS` and `VIP_TAGS` folders and old MOD/VIP lists mentioned in upstream instructions no longer describe the current TOHEE permission system. Do not copy old tag files or grant permissions using those instructions. Cloud tags and host-local mod tags are maintained separately and serve different purposes.

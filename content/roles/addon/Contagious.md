@@ -11,7 +11,7 @@
     "zh-CN": "病毒击杀后，报告该尸体的合格玩家会被转化为传染性，或按设置在会议后死亡。",
     "en": "After Virus kills someone, an eligible reporter can become Contagious or die after the meeting, depending on settings."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Virus.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Virus.cs"
 }
 ---
 <!-- zh-CN -->

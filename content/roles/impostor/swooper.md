@@ -1,5 +1,5 @@
 ---
-{"id":"role-swooper","kind":"role","category":"impostor","title":{"zh-CN":"隐匿者","en":"Swooper"},"summary":{"zh-CN":"使用通风口进入短暂隐身，再次使用通风口可提前解除。","en":"Uses a vent to become temporarily invisible and can use a vent again to end it early."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Swooper.cs"}
+{"id":"role-swooper","kind":"role","category":"impostor","title":{"zh-CN":"隐匿者","en":"Swooper"},"summary":{"zh-CN":"使用通风口进入短暂隐身，再次使用通风口可提前解除。","en":"Uses a vent to become temporarily invisible and can use a vent again to end it early."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Swooper.cs"}
 ---
 
 <!-- zh-CN -->

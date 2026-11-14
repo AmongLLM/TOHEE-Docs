@@ -11,7 +11,7 @@
     "zh-CN": "附近有其他存活玩家时无法被击杀；死亡消息和身份标记可按设置公开。",
     "en": "Cannot be killed while another player is nearby; death alerts and public identification are configurable."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Cyber.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Cyber.cs"
 }
 ---
 <!-- zh-CN -->

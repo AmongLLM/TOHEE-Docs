@@ -11,7 +11,7 @@
     "zh-CN": "仅分配给拥有击杀按钮的角色，并赋予游戏中最长的击杀距离。",
     "en": "Assigned only to roles with a kill button and grants the longest kill range in the game."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Reach.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Reach.cs"
 }
 ---
 <!-- zh-CN -->

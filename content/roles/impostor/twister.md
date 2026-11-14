@@ -1,5 +1,5 @@
 ---
-{"id":"role-twister","kind":"role","category":"impostor","title":{"zh-CN":"龙卷风","en":"Twister"},"summary":{"zh-CN":"变形开始和解除时各随机交换一次玩家位置；自己和通风口中的玩家不会参与。","en":"Randomly swaps player positions once on shapeshift and again on unshift; the Twister and vented players are excluded."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Twister.cs"}
+{"id":"role-twister","kind":"role","category":"impostor","title":{"zh-CN":"龙卷风","en":"Twister"},"summary":{"zh-CN":"变形开始和解除时各随机交换一次玩家位置；自己和通风口中的玩家不会参与。","en":"Randomly swaps player positions once on shapeshift and again on unshift; the Twister and vented players are excluded."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Twister.cs"}
 ---
 
 <!-- zh-CN -->

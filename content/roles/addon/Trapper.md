@@ -11,7 +11,7 @@
     "zh-CN": "在会议外被非自杀击杀时会将击杀者定身并阻止其报告尸体一段时间。",
     "en": "When killed outside a meeting other than by suicide, immobilizes its killer and prevents reporting for a configured duration."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Beartrap.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Beartrap.cs"
 }
 ---
 <!-- zh-CN -->

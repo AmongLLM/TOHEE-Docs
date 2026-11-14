@@ -1,5 +1,5 @@
 ---
-{"id":"role-overseer","kind":"role","category":"crewmate","title":{"zh-CN":"预言家","en":"Overseer"},"summary":{"zh-CN":"预言家使用击杀按钮揭示附近最近玩家的职业，但必须在有限视野内靠近目标一段时间。","en":"The Overseer uses the kill button to reveal the nearest player's role, but must stay close to the target for a set time and has limited vision."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Overseer.cs"}
+{"id":"role-overseer","kind":"role","category":"crewmate","title":{"zh-CN":"预言家","en":"Overseer"},"summary":{"zh-CN":"预言家使用击杀按钮揭示附近最近玩家的职业，但必须在有限视野内靠近目标一段时间。","en":"The Overseer uses the kill button to reveal the nearest player's role, but must stay close to the target for a set time and has limited vision."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Overseer.cs"}
 ---
 
 <!-- zh-CN -->

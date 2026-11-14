@@ -1,5 +1,5 @@
 ---
-{"id":"role-cleanser","kind":"role","category":"crewmate","title":{"zh-CN":"清洗者","en":"Cleanser"},"summary":{"zh-CN":"清洗者在会议中投票指定一名存活的其他玩家（不能是固执者），会议结束后移除其附加职业；被清洗者之后能否获得附加职业可设置。","en":"The Cleanser votes for another living player, except a Stubborn, to remove their add-ons after the meeting; whether they can receive add-ons afterward is configurable."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Cleanser.cs"}
+{"id":"role-cleanser","kind":"role","category":"crewmate","title":{"zh-CN":"清洗者","en":"Cleanser"},"summary":{"zh-CN":"清洗者在会议中投票指定一名存活的其他玩家（不能是固执者），会议结束后移除其附加职业；被清洗者之后能否获得附加职业可设置。","en":"The Cleanser votes for another living player, except a Stubborn, to remove their add-ons after the meeting; whether they can receive add-ons afterward is configurable."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Cleanser.cs"}
 ---
 
 <!-- zh-CN -->

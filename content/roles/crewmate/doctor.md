@@ -1,5 +1,5 @@
 ---
-{"id":"role-doctor","kind":"role","category":"crewmate","title":{"zh-CN":"法医","en":"Doctor"},"summary":{"zh-CN":"法医可以查看所有玩家的死亡原因，并使用便携生命监测仪；是否公开其身份可设置。","en":"The Doctor can inspect causes of death and use portable Vitals, with an option to reveal the Doctor's identity to everyone."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Doctor.cs"}
+{"id":"role-doctor","kind":"role","category":"crewmate","title":{"zh-CN":"法医","en":"Doctor"},"summary":{"zh-CN":"法医可以查看所有玩家的死亡原因，并使用便携生命监测仪；是否公开其身份可设置。","en":"The Doctor can inspect causes of death and use portable Vitals, with an option to reveal the Doctor's identity to everyone."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Doctor.cs"}
 ---
 
 <!-- zh-CN -->

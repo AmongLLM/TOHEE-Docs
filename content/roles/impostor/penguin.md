@@ -1,5 +1,5 @@
 ---
-{"id":"role-penguin","kind":"role","category":"impostor","title":{"zh-CN":"企鹅","en":"Penguin"},"summary":{"zh-CN":"单击束缚并拖拽目标，再次击杀或拖拽时间结束时将其杀死；双击可直接击杀。","en":"Restrains and drags a target; a second kill-button press or the drag timer kills them. Double-clicking kills directly."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Penguin.cs"}
+{"id":"role-penguin","kind":"role","category":"impostor","title":{"zh-CN":"企鹅","en":"Penguin"},"summary":{"zh-CN":"单击束缚并拖拽目标，再次击杀或拖拽时间结束时将其杀死；双击可直接击杀。","en":"Restrains and drags a target; a second kill-button press or the drag timer kills them. Double-clicking kills directly."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Penguin.cs"}
 ---
 
 <!-- zh-CN -->

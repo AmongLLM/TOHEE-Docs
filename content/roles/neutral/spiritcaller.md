@@ -1,5 +1,5 @@
 ---
-{"id":"role-spiritcaller","kind":"role","category":"neutral","title":{"en":"Spiritcaller","zh-CN":"灵魂召唤者"},"summary":{"zh-CN":"可转化的击杀目标会成为恶灵；恶灵可短暂冻结、致盲玩家或保护灵魂召唤者，并会在灵魂召唤者获胜时一同获胜。","en":"Eligible kill victims become Evil Spirits that can briefly freeze or blind players or protect the Spiritcaller; they also win when the Spiritcaller wins."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Spiritcaller.cs"}
+{"id":"role-spiritcaller","kind":"role","category":"neutral","title":{"en":"Spiritcaller","zh-CN":"灵魂召唤者"},"summary":{"zh-CN":"可转化的击杀目标会成为恶灵；恶灵可短暂冻结、致盲玩家或保护灵魂召唤者，并会在灵魂召唤者获胜时一同获胜。","en":"Eligible kill victims become Evil Spirits that can briefly freeze or blind players or protect the Spiritcaller; they also win when the Spiritcaller wins."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Spiritcaller.cs"}
 ---
 <!-- zh-CN -->
 ## 灵魂召唤者

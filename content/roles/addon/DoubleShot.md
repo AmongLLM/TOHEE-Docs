@@ -11,7 +11,7 @@
     "zh-CN": "赌怪第一次猜错后可再猜一次，第二次猜错会死亡；仅能分配给可猜测身份的玩家。",
     "en": "A Guesser can survive one wrong guess and try again; the next wrong guess kills them."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/DoubleShot.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/DoubleShot.cs"
 }
 ---
 <!-- zh-CN -->

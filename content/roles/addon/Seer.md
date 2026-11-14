@@ -11,7 +11,7 @@
     "zh-CN": "每当有玩家死亡，灵媒都会看到击杀闪光。",
     "en": "Sees a kill flash whenever a player dies."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Seer.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Seer.cs"
 }
 ---
 <!-- zh-CN -->

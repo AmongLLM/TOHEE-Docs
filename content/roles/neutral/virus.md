@@ -1,5 +1,5 @@
 ---
-{"id":"role-virus","kind":"role","category":"neutral","title":{"en":"Virus","zh-CN":"病毒"},"summary":{"zh-CN":"给击杀目标的尸体标记病毒；合适的报告者会成为感染者，或在病毒存活并通过投票后于会议结束时死亡。病毒按感染者计入方式参与中立阵营人数结算。","en":"Mark victims' bodies with infection; an eligible reporter becomes Contagious or dies after the meeting if the Virus survives the vote. The Virus participates in neutral endgame counting, which infected-player settings affect."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Virus.cs"}
+{"id":"role-virus","kind":"role","category":"neutral","title":{"en":"Virus","zh-CN":"病毒"},"summary":{"zh-CN":"给击杀目标的尸体标记病毒；合适的报告者会成为感染者，或在病毒存活并通过投票后于会议结束时死亡。病毒按感染者计入方式参与中立阵营人数结算。","en":"Mark victims' bodies with infection; an eligible reporter becomes Contagious or dies after the meeting if the Virus survives the vote. The Virus participates in neutral endgame counting, which infected-player settings affect."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Virus.cs"}
 ---
 <!-- zh-CN -->
 ## 病毒

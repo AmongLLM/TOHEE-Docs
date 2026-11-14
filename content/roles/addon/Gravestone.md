@@ -11,7 +11,7 @@
     "zh-CN": "死亡时向所有人揭示其角色。",
     "en": "Reveals its role to everyone when it dies."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Gravestone.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Gravestone.cs"
 }
 ---
 <!-- zh-CN -->

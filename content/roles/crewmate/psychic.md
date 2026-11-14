@@ -1,5 +1,5 @@
 ---
-{"id":"role-psychic","kind":"role","category":"crewmate","title":{"zh-CN":"愚者","en":"Psychic"},"summary":{"zh-CN":"愚者会议期间会看到若干红名，其中至少一名从邪恶候选池中抽取；其他红名从其余存活玩家中抽取。成为叛徒后可看到带刀中立、邪恶中立和带刀船员红名。","en":"The Psychic sees several red names in meetings, including one drawn from an Evil candidate pool; the remaining red names come from other living players. As a Madmate, they see Neutral Killing, Neutral Evil, and Killing Crewmates in red."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Psychic.cs"}
+{"id":"role-psychic","kind":"role","category":"crewmate","title":{"zh-CN":"愚者","en":"Psychic"},"summary":{"zh-CN":"愚者会议期间会看到若干红名，其中至少一名从邪恶候选池中抽取；其他红名从其余存活玩家中抽取。成为叛徒后可看到带刀中立、邪恶中立和带刀船员红名。","en":"The Psychic sees several red names in meetings, including one drawn from an Evil candidate pool; the remaining red names come from other living players. As a Madmate, they see Neutral Killing, Neutral Evil, and Killing Crewmates in red."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Psychic.cs"}
 ---
 
 <!-- zh-CN -->

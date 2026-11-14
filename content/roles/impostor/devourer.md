@@ -1,5 +1,5 @@
 ---
-{"id":"role-devourer","kind":"role","category":"impostor","title":{"zh-CN":"吞噬者","en":"Devourer"},"summary":{"zh-CN":"变形永久改变目标外观并按改变人数缩短击杀冷却；吞噬者死亡或出局后外观恢复。","en":"Shapeshifts to permanently change target appearances and reduce kill cooldown per changed player; effects revert if the Devourer dies or is ejected."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Devourer.cs"}
+{"id":"role-devourer","kind":"role","category":"impostor","title":{"zh-CN":"吞噬者","en":"Devourer"},"summary":{"zh-CN":"变形永久改变目标外观并按改变人数缩短击杀冷却；吞噬者死亡或出局后外观恢复。","en":"Shapeshifts to permanently change target appearances and reduce kill cooldown per changed player; effects revert if the Devourer dies or is ejected."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Devourer.cs"}
 ---
 
 <!-- zh-CN -->

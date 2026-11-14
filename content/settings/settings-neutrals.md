@@ -11,7 +11,7 @@
     "zh-CN": "控制中立击杀角色、末日中立角色数量范围和共同胜利。",
     "en": "Control Neutral killer and Apocalypse role ranges and shared wins."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/OptionHolder.cs",
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/OptionHolder.cs",
   "order": 106
 }
 ---

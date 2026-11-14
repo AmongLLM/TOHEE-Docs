@@ -1,5 +1,5 @@
 ---
-{"id":"role-pelican","kind":"role","category":"neutral","title":{"en":"Pelican","zh-CN":"鹈鹕"},"summary":{"zh-CN":"使用击杀按钮活吞玩家并将其移出地图；会议或报告尸体会使被吞者立即死亡。","en":"Swallow players alive and remove them from the map; a meeting or body report immediately kills swallowed players."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Pelican.cs"}
+{"id":"role-pelican","kind":"role","category":"neutral","title":{"en":"Pelican","zh-CN":"鹈鹕"},"summary":{"zh-CN":"使用击杀按钮活吞玩家并将其移出地图；会议或报告尸体会使被吞者立即死亡。","en":"Swallow players alive and remove them from the map; a meeting or body report immediately kills swallowed players."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Pelican.cs"}
 ---
 <!-- zh-CN -->
 ## 鹈鹕

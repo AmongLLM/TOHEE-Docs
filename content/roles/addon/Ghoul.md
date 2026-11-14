@@ -11,7 +11,7 @@
     "zh-CN": "完成全部任务时，存活的食尸鬼会自杀；死去的食尸鬼完成全部任务时，会击杀所有仍存活且曾击杀食尸鬼的玩家。",
     "en": "After all tasks are complete, a living Ghoul dies by suicide; a dead Ghoul kills every living player marked as having killed a Ghoul."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Crewmate/Ghoul.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Crewmate/Ghoul.cs"
 }
 ---
 <!-- zh-CN -->

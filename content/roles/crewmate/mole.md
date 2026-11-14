@@ -1,5 +1,5 @@
 ---
-{"id":"role-mole","kind":"role","category":"crewmate","title":{"zh-CN":"鼹鼠","en":"Mole"},"summary":{"zh-CN":"鼹鼠使用通风口后会停留一秒，再从地图上另一个随机通风口出现。","en":"The Mole stays in a vent for one second, then emerges from a random different vent on the map."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Mole.cs"}
+{"id":"role-mole","kind":"role","category":"crewmate","title":{"zh-CN":"鼹鼠","en":"Mole"},"summary":{"zh-CN":"鼹鼠使用通风口后会停留一秒，再从地图上另一个随机通风口出现。","en":"The Mole stays in a vent for one second, then emerges from a random different vent on the map."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Mole.cs"}
 ---
 
 <!-- zh-CN -->

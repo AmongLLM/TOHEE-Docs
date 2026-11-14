@@ -11,7 +11,7 @@
     "zh-CN": "编辑房间欢迎词和自定义聊天消息。",
     "en": "Edit the lobby welcome message and custom chat messages."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/TemplateManager.cs",
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/TemplateManager.cs",
   "order": 7
 }
 ---

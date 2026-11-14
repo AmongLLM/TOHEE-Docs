@@ -1,5 +1,5 @@
 ---
-{"id":"role-eraser","kind":"role","category":"impostor","title":{"zh-CN":"抹除者","en":"Eraser"},"summary":{"zh-CN":"会议中可抹除一名合格船员的主职业；会后转为对应原版职业，每名玩家整局只能被抹除一次。","en":"Can erase the main role of one eligible Crewmate during a meeting; afterward they become the matching vanilla role, and each player can be erased only once per game."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Eraser.cs"}
+{"id":"role-eraser","kind":"role","category":"impostor","title":{"zh-CN":"抹除者","en":"Eraser"},"summary":{"zh-CN":"会议中可抹除一名合格船员的主职业；会后转为对应原版职业，每名玩家整局只能被抹除一次。","en":"Can erase the main role of one eligible Crewmate during a meeting; afterward they become the matching vanilla role, and each player can be erased only once per game."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Eraser.cs"}
 ---
 
 <!-- zh-CN -->

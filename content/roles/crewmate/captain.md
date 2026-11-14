@@ -1,5 +1,5 @@
 ---
-{"id":"role-captain","kind":"role","category":"crewmate","title":{"zh-CN":"舰长","en":"Captain"},"summary":{"zh-CN":"舰长每完成任务可减慢一名随机非船员玩家，船员可能看到其标记；投票驱逐舰长会失去附加职业。","en":"Each completed task lets the Captain slow a random non-Crew player; Crewmates may see a marker, and voting the Captain out costs an add-on."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Captain.cs"}
+{"id":"role-captain","kind":"role","category":"crewmate","title":{"zh-CN":"舰长","en":"Captain"},"summary":{"zh-CN":"舰长每完成任务可减慢一名随机非船员玩家，船员可能看到其标记；投票驱逐舰长会失去附加职业。","en":"Each completed task lets the Captain slow a random non-Crew player; Crewmates may see a marker, and voting the Captain out costs an add-on."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Captain.cs"}
 ---
 
 <!-- zh-CN -->

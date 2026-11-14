@@ -11,7 +11,7 @@
     "zh-CN": "给予最后一名存活的内鬼，并缩短其击杀冷却。",
     "en": "Given to the last surviving Impostor and reduces their kill cooldown."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Impostor/LastImpostor.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Impostor/LastImpostor.cs"
 }
 ---
 <!-- zh-CN -->

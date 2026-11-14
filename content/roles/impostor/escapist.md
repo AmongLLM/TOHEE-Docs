@@ -1,5 +1,5 @@
 ---
-{"id":"role-escapist","kind":"role","category":"impostor","title":{"zh-CN":"逃逸者","en":"Escapist"},"summary":{"zh-CN":"用变形标记一个位置，之后再次变形即可传送回该处。","en":"Marks a location while shapeshifting, then returns there on a later shapeshift."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Escapist.cs"}
+{"id":"role-escapist","kind":"role","category":"impostor","title":{"zh-CN":"逃逸者","en":"Escapist"},"summary":{"zh-CN":"用变形标记一个位置，之后再次变形即可传送回该处。","en":"Marks a location while shapeshifting, then returns there on a later shapeshift."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Escapist.cs"}
 ---
 
 <!-- zh-CN -->

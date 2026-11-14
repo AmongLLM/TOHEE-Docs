@@ -1,5 +1,5 @@
 ---
-{"id":"role-bomber","kind":"role","category":"impostor","title":{"zh-CN":"自爆兵","en":"Bomber"},"summary":{"zh-CN":"变形会引爆周围区域并使范围内玩家死亡；可设置自爆兵和其他内鬼是否能在爆炸中存活。","en":"Shapeshifting detonates an area bomb; settings determine whether the Bomber and other Impostors survive the blast."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Bomber.cs"}
+{"id":"role-bomber","kind":"role","category":"impostor","title":{"zh-CN":"自爆兵","en":"Bomber"},"summary":{"zh-CN":"变形会引爆周围区域并使范围内玩家死亡；可设置自爆兵和其他内鬼是否能在爆炸中存活。","en":"Shapeshifting detonates an area bomb; settings determine whether the Bomber and other Impostors survive the blast."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Bomber.cs"}
 ---
 
 <!-- zh-CN -->

@@ -11,7 +11,7 @@
     "zh-CN": "由魅魔转化获得；会按魅魔阵营的设置计入胜负，并与魅魔一同获胜。",
     "en": "Converted by Cultist; its team count follows Cultist settings and it wins with the Cultist."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Cultist.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Cultist.cs"
 }
 ---
 <!-- zh-CN -->

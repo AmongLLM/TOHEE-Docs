@@ -1,5 +1,5 @@
 ---
-{"id":"role-president","kind":"role","category":"crewmate","title":{"zh-CN":"总统","en":"President"},"summary":{"zh-CN":"总统可用 /finish 立即结束会议，并用 /reveal 公开身份；公开后是否仍可被猜测及哪些阵营能看见可设置。","en":"The President can end a meeting with /finish and reveal their identity with /reveal; guessability and which teams see the reveal are configurable."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/President.cs"}
+{"id":"role-president","kind":"role","category":"crewmate","title":{"zh-CN":"总统","en":"President"},"summary":{"zh-CN":"总统可用 /finish 立即结束会议，并用 /reveal 公开身份；公开后是否仍可被猜测及哪些阵营能看见可设置。","en":"The President can end a meeting with /finish and reveal their identity with /reveal; guessability and which teams see the reveal are configurable."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/President.cs"}
 ---
 
 <!-- zh-CN -->

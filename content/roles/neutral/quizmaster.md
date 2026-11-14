@@ -1,5 +1,5 @@
 ---
-{"id":"role-quizmaster","kind":"role","category":"neutral","title":{"en":"Quizmaster","zh-CN":"测验长"},"summary":{"zh-CN":"每轮标记一名玩家，让其在下一次会议正确回答问题；答错或未答会死亡。","en":"Mark one player per round to answer a question at the next meeting; a wrong or missing answer kills them."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Quizmaster.cs"}
+{"id":"role-quizmaster","kind":"role","category":"neutral","title":{"en":"Quizmaster","zh-CN":"测验长"},"summary":{"zh-CN":"每轮标记一名玩家，让其在下一次会议正确回答问题；答错或未答会死亡。","en":"Mark one player per round to answer a question at the next meeting; a wrong or missing answer kills them."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Quizmaster.cs"}
 ---
 <!-- zh-CN -->
 ## 测验长

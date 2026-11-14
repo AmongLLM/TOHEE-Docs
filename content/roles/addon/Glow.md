@@ -11,7 +11,7 @@
     "zh-CN": "停电期间，光辉和附近玩家获得额外视野。",
     "en": "During Lights Out, Glow and nearby players receive a vision boost."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Glow.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Glow.cs"
 }
 ---
 <!-- zh-CN -->

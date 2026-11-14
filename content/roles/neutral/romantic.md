@@ -1,5 +1,5 @@
 ---
-{"id":"role-romantic","kind":"role","category":"neutral","title":{"en":"Romantic","zh-CN":"浪漫者"},"summary":{"zh-CN":"选择一名恋人并可为其提供临时护盾；恋人死亡后，浪漫者按恋人阵营及凶手转变职业。","en":"Choose a partner and grant temporary protection; if they die, the Romantic's role changes based on their team and killer."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Romantic.cs"}
+{"id":"role-romantic","kind":"role","category":"neutral","title":{"en":"Romantic","zh-CN":"浪漫者"},"summary":{"zh-CN":"选择一名恋人并可为其提供临时护盾；恋人死亡后，浪漫者按恋人阵营及凶手转变职业。","en":"Choose a partner and grant temporary protection; if they die, the Romantic's role changes based on their team and killer."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Romantic.cs"}
 ---
 <!-- zh-CN -->
 ## 浪漫者

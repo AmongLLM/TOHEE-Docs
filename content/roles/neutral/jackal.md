@@ -1,5 +1,5 @@
 ---
-{"id":"role-jackal","kind":"role","category":"neutral","title":{"en":"Jackal","zh-CN":"豺狼"},"summary":{"zh-CN":"可击杀并招募跟班；仅剩豺狼与船员阵营且豺狼人数不少于船员时获胜。","en":"Kill and recruit Sidekicks; win when only the Jackal and Crew remain and the Jackal team is at least as large as Crew."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Jackal.cs"}
+{"id":"role-jackal","kind":"role","category":"neutral","title":{"en":"Jackal","zh-CN":"豺狼"},"summary":{"zh-CN":"可击杀并招募跟班；仅剩豺狼与船员阵营且豺狼人数不少于船员时获胜。","en":"Kill and recruit Sidekicks; win when only the Jackal and Crew remain and the Jackal team is at least as large as Crew."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Jackal.cs"}
 ---
 <!-- zh-CN -->
 ## 豺狼

@@ -1,5 +1,5 @@
 ---
-{"id":"role-necromancer","kind":"role","category":"neutral","title":{"en":"Necromancer","zh-CN":"亡灵巫师"},"summary":{"zh-CN":"受到击杀时会传送到随机通风口，并限时反杀凶手；错杀、超时或会议开始都会死亡。","en":"When attacked, teleport to a random vent and kill the attacker before time runs out; a wrong kill, timeout, or meeting means death."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Necromancer.cs"}
+{"id":"role-necromancer","kind":"role","category":"neutral","title":{"en":"Necromancer","zh-CN":"亡灵巫师"},"summary":{"zh-CN":"受到击杀时会传送到随机通风口，并限时反杀凶手；错杀、超时或会议开始都会死亡。","en":"When attacked, teleport to a random vent and kill the attacker before time runs out; a wrong kill, timeout, or meeting means death."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Necromancer.cs"}
 ---
 <!-- zh-CN -->
 ## 亡灵巫师

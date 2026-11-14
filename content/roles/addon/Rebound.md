@@ -11,7 +11,7 @@
     "zh-CN": "赌怪正确猜中或正义法官成功审判时，攻击者会反而死亡。",
     "en": "A Guesser who correctly guesses or a Judge who judges this player dies instead."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Rebound.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Rebound.cs"
 }
 ---
 <!-- zh-CN -->

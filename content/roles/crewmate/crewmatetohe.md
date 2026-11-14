@@ -1,5 +1,5 @@
 ---
-{"id":"role-crewmatetohe","kind":"role","category":"crewmate","title":{"zh-CN":"船员（TOHE）","en":"Crewmate (TOHE)"},"summary":{"zh-CN":"船员的目标是找出并驱逐内鬼；船员阵营可通过消灭所有杀手或完成全部任务获胜。","en":"The Crewmate's goal is to find and eject the Impostors; the Crew wins by eliminating all killers or completing all tasks."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Vanilla/CrewmateTOHE.cs"}
+{"id":"role-crewmatetohe","kind":"role","category":"crewmate","title":{"zh-CN":"船员（TOHE）","en":"Crewmate (TOHE)"},"summary":{"zh-CN":"船员的目标是找出并驱逐内鬼；船员阵营可通过消灭所有杀手或完成全部任务获胜。","en":"The Crewmate's goal is to find and eject the Impostors; the Crew wins by eliminating all killers or completing all tasks."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Vanilla/CrewmateTOHE.cs"}
 ---
 
 <!-- zh-CN -->

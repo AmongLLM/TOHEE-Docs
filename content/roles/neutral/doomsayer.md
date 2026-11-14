@@ -1,5 +1,5 @@
 ---
-{"id":"role-doomsayer","kind":"role","category":"neutral","title":{"en":"Doomsayer","zh-CN":"末日赌怪"},"summary":{"zh-CN":"在会议中猜测玩家职业，正确猜测达到设定数量后获胜；高级选项可调整误猜惩罚。","en":"Guess roles in meetings and win after enough correct guesses; advanced options configure misguess penalties."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Doomsayer.cs"}
+{"id":"role-doomsayer","kind":"role","category":"neutral","title":{"en":"Doomsayer","zh-CN":"末日赌怪"},"summary":{"zh-CN":"在会议中猜测玩家职业，正确猜测达到设定数量后获胜；高级选项可调整误猜惩罚。","en":"Guess roles in meetings and win after enough correct guesses; advanced options configure misguess penalties."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Doomsayer.cs"}
 ---
 <!-- zh-CN -->
 ## 末日赌怪

@@ -1,5 +1,5 @@
 ---
-{"id":"role-vigilante","kind":"role","category":"crewmate","title":{"zh-CN":"义务警员","en":"Vigilante"},"summary":{"zh-CN":"义务警员负责清除威胁，但误杀无辜船员会因内疚转变为叛徒；歹徒不能转换义务警员。","en":"The Vigilante eliminates threats but becomes a Madmate after mistakenly killing an innocent Crewmate; Gangster cannot convert the Vigilante."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Vigilante.cs"}
+{"id":"role-vigilante","kind":"role","category":"crewmate","title":{"zh-CN":"义务警员","en":"Vigilante"},"summary":{"zh-CN":"义务警员负责清除威胁，但误杀无辜船员会因内疚转变为叛徒；歹徒不能转换义务警员。","en":"The Vigilante eliminates threats but becomes a Madmate after mistakenly killing an innocent Crewmate; Gangster cannot convert the Vigilante."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Vigilante.cs"}
 ---
 
 <!-- zh-CN -->

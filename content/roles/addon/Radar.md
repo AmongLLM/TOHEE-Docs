@@ -11,7 +11,7 @@
     "zh-CN": "在任务阶段更新指向最近存活玩家的箭头。",
     "en": "Updates an arrow to point toward the nearest living player during tasks."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Radar.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Radar.cs"
 }
 ---
 <!-- zh-CN -->

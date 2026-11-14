@@ -1,5 +1,5 @@
 ---
-{"id":"role-vindicator","kind":"role","category":"impostor","title":{"zh-CN":"卫道士","en":"Vindicator"},"summary":{"zh-CN":"投票时拥有额外票数，可设置额外票是否显示。","en":"Has extra votes during meetings, which can be hidden by setting."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Vindicator.cs"}
+{"id":"role-vindicator","kind":"role","category":"impostor","title":{"zh-CN":"卫道士","en":"Vindicator"},"summary":{"zh-CN":"投票时拥有额外票数，可设置额外票是否显示。","en":"Has extra votes during meetings, which can be hidden by setting."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Vindicator.cs"}
 ---
 
 <!-- zh-CN -->

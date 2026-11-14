@@ -1,5 +1,5 @@
 ---
-{"id":"role-ninja","kind":"role","category":"impostor","title":{"zh-CN":"刺客","en":"Ninja"},"summary":{"zh-CN":"单击标记目标，双击普通击杀；标记后变形会传送至目标并将其击杀。","en":"Single-clicks to mark a target and double-clicks to kill normally; after marking, shapeshifting teleports to and kills the target."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Ninja.cs"}
+{"id":"role-ninja","kind":"role","category":"impostor","title":{"zh-CN":"刺客","en":"Ninja"},"summary":{"zh-CN":"单击标记目标，双击普通击杀；标记后变形会传送至目标并将其击杀。","en":"Single-clicks to mark a target and double-clicks to kill normally; after marking, shapeshifting teleports to and kills the target."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Ninja.cs"}
 ---
 
 <!-- zh-CN -->

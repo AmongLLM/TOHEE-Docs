@@ -1,5 +1,5 @@
 ---
-{"id":"role-god","kind":"role","category":"neutral","title":{"en":"God","zh-CN":"神"},"summary":{"zh-CN":"从游戏开始就知道所有玩家的职业；普通游戏结束时若仍存活，神会夺取主要胜利。","en":"Know all roles from the start; if alive when a normal game end is resolved, God takes the primary win."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/God.cs"}
+{"id":"role-god","kind":"role","category":"neutral","title":{"en":"God","zh-CN":"神"},"summary":{"zh-CN":"从游戏开始就知道所有玩家的职业；普通游戏结束时若仍存活，神会夺取主要胜利。","en":"Know all roles from the start; if alive when a normal game end is resolved, God takes the primary win."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/God.cs"}
 ---
 <!-- zh-CN -->
 ## 神

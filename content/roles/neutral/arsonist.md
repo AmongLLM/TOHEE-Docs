@@ -1,5 +1,5 @@
 ---
-{"id":"role-arsonist","kind":"role","category":"neutral","title":{"en":"Arsonist","zh-CN":"纵火犯"},"summary":{"zh-CN":"跟随玩家为其涂油；除自己外的所有存活玩家都涂油后可点火获胜，开启随时点火后也可提前点燃已涂油玩家。","en":"Douse players by following them; ignite after dousing all other living players, or ignite doused players earlier when anytime ignition is enabled."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Arsonist.cs"}
+{"id":"role-arsonist","kind":"role","category":"neutral","title":{"en":"Arsonist","zh-CN":"纵火犯"},"summary":{"zh-CN":"跟随玩家为其涂油；除自己外的所有存活玩家都涂油后可点火获胜，开启随时点火后也可提前点燃已涂油玩家。","en":"Douse players by following them; ignite after dousing all other living players, or ignite doused players earlier when anytime ignition is enabled."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Arsonist.cs"}
 ---
 <!-- zh-CN -->
 ## 纵火犯

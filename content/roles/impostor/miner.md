@@ -1,5 +1,5 @@
 ---
-{"id":"role-miner","kind":"role","category":"impostor","title":{"zh-CN":"矿工","en":"Miner"},"summary":{"zh-CN":"变形可传送回自己最近一次进入的通风口。","en":"Shapeshifting returns the Miner to the last vent they entered."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Miner.cs"}
+{"id":"role-miner","kind":"role","category":"impostor","title":{"zh-CN":"矿工","en":"Miner"},"summary":{"zh-CN":"变形可传送回自己最近一次进入的通风口。","en":"Shapeshifting returns the Miner to the last vent they entered."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Miner.cs"}
 ---
 
 <!-- zh-CN -->

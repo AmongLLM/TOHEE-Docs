@@ -1,5 +1,5 @@
 ---
-{"id":"role-sheriff","kind":"role","category":"crewmate","title":{"zh-CN":"警长","en":"Sheriff"},"summary":{"zh-CN":"警长没有船员任务，可以击杀内鬼；根据设置也可击杀中立或特定附加职业目标，误杀会导致走火。","en":"The Sheriff has no Crewmate tasks and can kill Impostors; settings can also allow Neutral or modifier targets, while an invalid shot causes a misfire."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Sheriff.cs"}
+{"id":"role-sheriff","kind":"role","category":"crewmate","title":{"zh-CN":"警长","en":"Sheriff"},"summary":{"zh-CN":"警长没有船员任务，可以击杀内鬼；根据设置也可击杀中立或特定附加职业目标，误杀会导致走火。","en":"The Sheriff has no Crewmate tasks and can kill Impostors; settings can also allow Neutral or modifier targets, while an invalid shot causes a misfire."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Sheriff.cs"}
 ---
 
 <!-- zh-CN -->

@@ -1,5 +1,5 @@
 ---
-{"id":"role-shapeshiftertohe","kind":"role","category":"impostor","title":{"zh-CN":"变形者","en":"Shapeshifter"},"summary":{"zh-CN":"变形为其他玩家以伪装或嫁祸；可设置变形痕迹是否留下。","en":"Shapeshifts into another player to disguise or frame them; settings control whether shapeshifting evidence is left."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Vanilla/ShapeshifterTOHE.cs"}
+{"id":"role-shapeshiftertohe","kind":"role","category":"impostor","title":{"zh-CN":"变形者","en":"Shapeshifter"},"summary":{"zh-CN":"变形为其他玩家以伪装或嫁祸；可设置变形痕迹是否留下。","en":"Shapeshifts into another player to disguise or frame them; settings control whether shapeshifting evidence is left."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Vanilla/ShapeshifterTOHE.cs"}
 ---
 
 <!-- zh-CN -->

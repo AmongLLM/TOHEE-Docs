@@ -1,5 +1,5 @@
 ---
-{"id":"role-underdog","kind":"role","category":"impostor","title":{"zh-CN":"失败者","en":"Underdog"},"summary":{"zh-CN":"只有当存活人数不多于房主设置的门槛时，失败者才能击杀。","en":"Can kill only when the number of living players is at or below the host-set threshold."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Underdog.cs"}
+{"id":"role-underdog","kind":"role","category":"impostor","title":{"zh-CN":"失败者","en":"Underdog"},"summary":{"zh-CN":"只有当存活人数不多于房主设置的门槛时，失败者才能击杀。","en":"Can kill only when the number of living players is at or below the host-set threshold."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Underdog.cs"}
 ---
 
 <!-- zh-CN -->

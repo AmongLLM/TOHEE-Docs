@@ -1,5 +1,5 @@
 ---
-{"id":"role-revolutionist","kind":"role","category":"neutral","title":{"en":"Revolutionist","zh-CN":"革命家"},"summary":{"zh-CN":"通过跟随玩家将其拉拢入队；达到人数要求后须在倒计时内进入通风口，革命家和被拉拢者一同获胜。","en":"Recruit players by following them; after recruiting enough, vent before the timer expires so the Revolutionist and recruits win together."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Revolutionist.cs"}
+{"id":"role-revolutionist","kind":"role","category":"neutral","title":{"en":"Revolutionist","zh-CN":"革命家"},"summary":{"zh-CN":"通过跟随玩家将其拉拢入队；达到人数要求后须在倒计时内进入通风口，革命家和被拉拢者一同获胜。","en":"Recruit players by following them; after recruiting enough, vent before the timer expires so the Revolutionist and recruits win together."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Revolutionist.cs"}
 ---
 <!-- zh-CN -->
 ## 革命家

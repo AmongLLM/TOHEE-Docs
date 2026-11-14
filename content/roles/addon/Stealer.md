@@ -11,7 +11,7 @@
     "zh-CN": "仅内鬼可获得；每次击杀都会增加额外投票数，票数可设置为隐藏。",
     "en": "Only Impostors can receive it; kills add extra votes, which can be hidden by a setting."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Impostor/Stealer.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Impostor/Stealer.cs"
 }
 ---
 <!-- zh-CN -->

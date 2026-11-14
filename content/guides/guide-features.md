@@ -11,7 +11,7 @@
     "zh-CN": "查看常用聊天命令、房主功能和键盘快捷键。",
     "en": "Find common chat commands, host tools, and keyboard shortcuts."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Patches/ChatCommandPatch.cs",
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Patches/ChatCommandPatch.cs",
   "order": 5
 }
 ---

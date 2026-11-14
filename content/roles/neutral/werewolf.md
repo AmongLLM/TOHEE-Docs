@@ -1,5 +1,5 @@
 ---
-{"id":"role-werewolf","kind":"role","category":"neutral","title":{"en":"Werewolf","zh-CN":"月下狼人"},"summary":{"zh-CN":"击杀目标时会同时杀死狼人附近的玩家；狼人属于独立中立阵营，按中立阵营人数结算规则获胜。","en":"Killing a target also kills nearby players around the Werewolf; it is a separate Neutral team that wins under the counted-neutral endgame rule."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Werewolf.cs"}
+{"id":"role-werewolf","kind":"role","category":"neutral","title":{"en":"Werewolf","zh-CN":"月下狼人"},"summary":{"zh-CN":"击杀目标时会同时杀死狼人附近的玩家；狼人属于独立中立阵营，按中立阵营人数结算规则获胜。","en":"Killing a target also kills nearby players around the Werewolf; it is a separate Neutral team that wins under the counted-neutral endgame rule."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Werewolf.cs"}
 ---
 <!-- zh-CN -->
 ## 月下狼人

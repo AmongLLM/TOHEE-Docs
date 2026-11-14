@@ -1,5 +1,5 @@
 ---
-{"id":"role-evilguesser","kind":"role","category":"impostor","title":{"zh-CN":"邪恶赌怪","en":"Evil Guesser"},"summary":{"zh-CN":"会议中猜测玩家职业；猜对击杀目标，猜错则自己死亡。","en":"Guesses player roles during meetings; a correct guess kills the target, while a wrong guess kills the Guesser."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/EvilGuesser.cs"}
+{"id":"role-evilguesser","kind":"role","category":"impostor","title":{"zh-CN":"邪恶赌怪","en":"Evil Guesser"},"summary":{"zh-CN":"会议中猜测玩家职业；猜对击杀目标，猜错则自己死亡。","en":"Guesses player roles during meetings; a correct guess kills the target, while a wrong guess kills the Guesser."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/EvilGuesser.cs"}
 ---
 
 <!-- zh-CN -->

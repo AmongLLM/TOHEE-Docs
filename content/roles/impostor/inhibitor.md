@@ -1,5 +1,5 @@
 ---
-{"id":"role-inhibitor","kind":"role","category":"impostor","title":{"zh-CN":"抑郁者","en":"Inhibitor"},"summary":{"zh-CN":"重大破坏进行期间不能击杀，其他时间可以击杀。","en":"Cannot kill during a critical sabotage; can kill at other times."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Inhibitor.cs"}
+{"id":"role-inhibitor","kind":"role","category":"impostor","title":{"zh-CN":"抑郁者","en":"Inhibitor"},"summary":{"zh-CN":"重大破坏进行期间不能击杀，其他时间可以击杀。","en":"Cannot kill during a critical sabotage; can kill at other times."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Inhibitor.cs"}
 ---
 
 <!-- zh-CN -->

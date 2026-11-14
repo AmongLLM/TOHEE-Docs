@@ -1,5 +1,5 @@
 ---
-{"id":"role-grenadier","kind":"role","category":"crewmate","title":{"zh-CN":"掷雷兵","en":"Grenadier"},"summary":{"zh-CN":"掷雷兵可通过通风口投掷闪光弹，降低受影响玩家的视野；成为叛徒时不会影响非船员。","en":"The Grenadier can flash players through vents to reduce their vision; as a Mad Grenadier, the effect does not hinder non-Crew."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Grenadier.cs"}
+{"id":"role-grenadier","kind":"role","category":"crewmate","title":{"zh-CN":"掷雷兵","en":"Grenadier"},"summary":{"zh-CN":"掷雷兵可通过通风口投掷闪光弹，降低受影响玩家的视野；成为叛徒时不会影响非船员。","en":"The Grenadier can flash players through vents to reduce their vision; as a Mad Grenadier, the effect does not hinder non-Crew."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Grenadier.cs"}
 ---
 
 <!-- zh-CN -->

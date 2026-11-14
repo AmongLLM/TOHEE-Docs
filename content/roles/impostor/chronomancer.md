@@ -1,5 +1,5 @@
 ---
-{"id":"role-chronomancer","kind":"role","category":"impostor","title":{"zh-CN":"天文学家","en":"Chronomancer"},"summary":{"zh-CN":"时间自动充能；充满后下一次击杀启动屠杀模式，击杀冷却极短并消耗充能，会议会重置充能。","en":"Automatically charges over time; the next kill at full charge starts a short-cooldown massacre that drains charge, and meetings reset it."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Chronomancer.cs"}
+{"id":"role-chronomancer","kind":"role","category":"impostor","title":{"zh-CN":"天文学家","en":"Chronomancer"},"summary":{"zh-CN":"时间自动充能；充满后下一次击杀启动屠杀模式，击杀冷却极短并消耗充能，会议会重置充能。","en":"Automatically charges over time; the next kill at full charge starts a short-cooldown massacre that drains charge, and meetings reset it."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Chronomancer.cs"}
 ---
 
 <!-- zh-CN -->

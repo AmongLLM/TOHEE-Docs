@@ -1,5 +1,5 @@
 ---
-{"id":"role-instigator","kind":"role","category":"impostor","title":{"zh-CN":"教唆者","en":"Instigator"},"summary":{"zh-CN":"只要教唆者存活，投票放逐无辜船员后，投票给该玩家的额外船员会在会后死亡。","en":"While alive, causes additional Crewmates who voted for an innocent player to die after that player is voted out."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Instigator.cs"}
+{"id":"role-instigator","kind":"role","category":"impostor","title":{"zh-CN":"教唆者","en":"Instigator"},"summary":{"zh-CN":"只要教唆者存活，投票放逐无辜船员后，投票给该玩家的额外船员会在会后死亡。","en":"While alive, causes additional Crewmates who voted for an innocent player to die after that player is voted out."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Instigator.cs"}
 ---
 
 <!-- zh-CN -->

@@ -1,5 +1,5 @@
 ---
-{"id":"role-zombie","kind":"role","category":"impostor","title":{"zh-CN":"僵尸","en":"Zombie"},"summary":{"zh-CN":"击杀冷却短、移动缓慢且视野极小；只有独裁者能投出僵尸，击杀冷却更新时速度会继续降低。","en":"Has a short kill cooldown, slow movement, and low vision; only Dictator can vote it out, and speed drops further when kill cooldown resets."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Zombie.cs"}
+{"id":"role-zombie","kind":"role","category":"impostor","title":{"zh-CN":"僵尸","en":"Zombie"},"summary":{"zh-CN":"击杀冷却短、移动缓慢且视野极小；只有独裁者能投出僵尸，击杀冷却更新时速度会继续降低。","en":"Has a short kill cooldown, slow movement, and low vision; only Dictator can vote it out, and speed drops further when kill cooldown resets."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Zombie.cs"}
 ---
 
 <!-- zh-CN -->

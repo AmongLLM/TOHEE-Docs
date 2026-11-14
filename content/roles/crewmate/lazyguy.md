@@ -1,5 +1,5 @@
 ---
-{"id":"role-lazyguy","kind":"role","category":"crewmate","title":{"zh-CN":"摆烂人","en":"Lazy Guy"},"summary":{"zh-CN":"摆烂人只有一个任务，不能被他人作为傀儡或随从使用（被女巫控制除外），也不能获得附加职业。","en":"The Lazy Guy has one task, cannot be used as another player's minion except when Witched, and cannot receive add-ons."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/LazyGuy.cs"}
+{"id":"role-lazyguy","kind":"role","category":"crewmate","title":{"zh-CN":"摆烂人","en":"Lazy Guy"},"summary":{"zh-CN":"摆烂人只有一个任务，不能被他人作为傀儡或随从使用（被女巫控制除外），也不能获得附加职业。","en":"The Lazy Guy has one task, cannot be used as another player's minion except when Witched, and cannot receive add-ons."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/LazyGuy.cs"}
 ---
 
 <!-- zh-CN -->

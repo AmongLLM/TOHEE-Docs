@@ -1,5 +1,5 @@
 ---
-{"id":"role-opportunist","kind":"role","category":"neutral","title":{"en":"Opportunist","zh-CN":"投机者"},"summary":{"zh-CN":"存活到游戏结束即可随获胜阵营获胜；死亡则失败。","en":"Survive until the end to win with the winning team; dying means losing."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Opportunist.cs"}
+{"id":"role-opportunist","kind":"role","category":"neutral","title":{"en":"Opportunist","zh-CN":"投机者"},"summary":{"zh-CN":"存活到游戏结束即可随获胜阵营获胜；死亡则失败。","en":"Survive until the end to win with the winning team; dying means losing."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Opportunist.cs"}
 ---
 <!-- zh-CN -->
 ## 投机者

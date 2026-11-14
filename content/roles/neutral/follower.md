@@ -1,5 +1,5 @@
 ---
-{"id":"role-follower","kind":"role","category":"neutral","title":{"en":"Follower","zh-CN":"赌徒"},"summary":{"zh-CN":"用击杀按钮选择目标；每次选择或更换都会消耗次数。目标获胜时，赌徒即使已死亡也能一同获胜。","en":"Choose a target with the kill button; each initial choice or change uses a charge. If the target wins, the Follower wins even after death."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Follower.cs"}
+{"id":"role-follower","kind":"role","category":"neutral","title":{"en":"Follower","zh-CN":"赌徒"},"summary":{"zh-CN":"用击杀按钮选择目标；每次选择或更换都会消耗次数。目标获胜时，赌徒即使已死亡也能一同获胜。","en":"Choose a target with the kill button; each initial choice or change uses a charge. If the target wins, the Follower wins even after death."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Follower.cs"}
 ---
 <!-- zh-CN -->
 ## 赌徒

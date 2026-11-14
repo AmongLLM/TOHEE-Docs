@@ -1,5 +1,5 @@
 ---
-{"id":"role-morphling","kind":"role","category":"impostor","title":{"zh-CN":"化形者","en":"Morphling"},"summary":{"zh-CN":"只能在变形状态下击杀。","en":"Can make kills only while shapeshifted."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Morphling.cs"}
+{"id":"role-morphling","kind":"role","category":"impostor","title":{"zh-CN":"化形者","en":"Morphling"},"summary":{"zh-CN":"只能在变形状态下击杀。","en":"Can make kills only while shapeshifted."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Morphling.cs"}
 ---
 
 <!-- zh-CN -->

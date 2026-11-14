@@ -11,7 +11,7 @@
     "zh-CN": "选择 TOHEE 游戏模式，并配置角色、胜利规则和模组玩法选项。",
     "en": "Choose a TOHEE game mode and configure roles, win rules, and mod gameplay options."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/OptionHolder.cs",
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/OptionHolder.cs",
   "order": 103
 }
 ---

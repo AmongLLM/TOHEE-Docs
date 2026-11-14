@@ -1,5 +1,5 @@
 ---
-{"id":"role-godfather","kind":"role","category":"impostor","title":{"zh-CN":"教父","en":"Godfather"},"summary":{"zh-CN":"会议投票指定目标；下一回合，击杀该目标的非内鬼玩家会按设置转为逃亡者或叛徒。","en":"Votes to select a target; next round, a non-Impostor who kills the target becomes a Refugee or Madmate, depending on settings."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Godfather.cs"}
+{"id":"role-godfather","kind":"role","category":"impostor","title":{"zh-CN":"教父","en":"Godfather"},"summary":{"zh-CN":"会议投票指定目标；下一回合，击杀该目标的非内鬼玩家会按设置转为逃亡者或叛徒。","en":"Votes to select a target; next round, a non-Impostor who kills the target becomes a Refugee or Madmate, depending on settings."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Godfather.cs"}
 ---
 
 <!-- zh-CN -->

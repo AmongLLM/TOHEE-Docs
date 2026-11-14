@@ -11,7 +11,7 @@
     "zh-CN": "死亡原因会随机抽选；已启用角色选项会限制可替换的原因。",
     "en": "Gets a randomly selected death reason; an option limits replacements to reasons tied to enabled roles."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Susceptible.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Susceptible.cs"
 }
 ---
 <!-- zh-CN -->

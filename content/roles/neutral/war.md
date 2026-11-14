@@ -1,5 +1,5 @@
 ---
-{"id":"role-war","kind":"role","category":"neutral","title":{"en":"War","zh-CN":"战争者"},"summary":{"zh-CN":"狂战士达到设定等级并开启转变后成为战争者；普通击杀检查会被阻止，但战争者仍可被投票放逐。","en":"A Berserker becomes War at the configured level when transformation is enabled; ordinary kill checks are blocked, but War can still be voted out."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Berserker.cs"}
+{"id":"role-war","kind":"role","category":"neutral","title":{"en":"War","zh-CN":"战争者"},"summary":{"zh-CN":"狂战士达到设定等级并开启转变后成为战争者；普通击杀检查会被阻止，但战争者仍可被投票放逐。","en":"A Berserker becomes War at the configured level when transformation is enabled; ordinary kill checks are blocked, but War can still be voted out."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Berserker.cs"}
 ---
 <!-- zh-CN -->
 ## 战争者

@@ -1,5 +1,5 @@
 ---
-{"id":"role-oracle","kind":"role","category":"crewmate","title":{"zh-CN":"神谕","en":"Oracle"},"summary":{"zh-CN":"神谕在会议中投票给玩家后会查看其船员、内鬼或中立阵营结果；开启附加职业选项时，分类也会考虑附加职业的阵营倾向，结果可能出错。","en":"After voting for a player in a meeting, the Oracle learns whether they are Crew, Impostor, or Neutral; when enabled, the add-on option also factors add-on team alignment into classification, which may be wrong."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Oracle.cs"}
+{"id":"role-oracle","kind":"role","category":"crewmate","title":{"zh-CN":"神谕","en":"Oracle"},"summary":{"zh-CN":"神谕在会议中投票给玩家后会查看其船员、内鬼或中立阵营结果；开启附加职业选项时，分类也会考虑附加职业的阵营倾向，结果可能出错。","en":"After voting for a player in a meeting, the Oracle learns whether they are Crew, Impostor, or Neutral; when enabled, the add-on option also factors add-on team alignment into classification, which may be wrong."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Oracle.cs"}
 ---
 
 <!-- zh-CN -->

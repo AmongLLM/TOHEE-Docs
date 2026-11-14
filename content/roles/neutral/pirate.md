@@ -1,5 +1,5 @@
 ---
-{"id":"role-pirate","kind":"role","category":"neutral","title":{"en":"Pirate","zh-CN":"决斗者"},"summary":{"zh-CN":"每轮选择一名玩家数字决斗；相同数字得分并击杀目标，目标未提交也会被击杀但不得分。","en":"Choose a player for a number duel each round; matching numbers score and kill the target, while a nonresponsive target dies without scoring."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Pirate.cs"}
+{"id":"role-pirate","kind":"role","category":"neutral","title":{"en":"Pirate","zh-CN":"决斗者"},"summary":{"zh-CN":"每轮选择一名玩家数字决斗；相同数字得分并击杀目标，目标未提交也会被击杀但不得分。","en":"Choose a player for a number duel each round; matching numbers score and kill the target, while a nonresponsive target dies without scoring."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Pirate.cs"}
 ---
 <!-- zh-CN -->
 ## 决斗者（Pirate）

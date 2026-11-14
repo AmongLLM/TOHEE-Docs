@@ -1,5 +1,5 @@
 ---
-{"id":"role-randomizer","kind":"role","category":"crewmate","title":{"zh-CN":"萧暮","en":"Randomizer"},"summary":{"zh-CN":"萧暮死亡时会对凶手随机施加一种效果，包括自动报告、停留在尸体旁、超长击杀冷却或随机复仇。","en":"When the Randomizer dies, their killer receives a random effect: self-reporting, staying by the body, a very long kill cooldown, or random revenge."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Randomizer.cs"}
+{"id":"role-randomizer","kind":"role","category":"crewmate","title":{"zh-CN":"萧暮","en":"Randomizer"},"summary":{"zh-CN":"萧暮死亡时会对凶手随机施加一种效果，包括自动报告、停留在尸体旁、超长击杀冷却或随机复仇。","en":"When the Randomizer dies, their killer receives a random effect: self-reporting, staying by the body, a very long kill cooldown, or random revenge."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Randomizer.cs"}
 ---
 
 <!-- zh-CN -->

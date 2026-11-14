@@ -1,5 +1,5 @@
 ---
-{"id":"role-sidekick","kind":"role","category":"neutral","title":{"en":"Sidekick","zh-CN":"跟班"},"summary":{"zh-CN":"跟班属于豺狼阵营，并会在豺狼获胜时一同获胜；豺狼设置可控制跟班如何计入胜负人数。","en":"The Sidekick is on the Jackal team and wins with the Jackal; Jackal settings control how Sidekicks count toward the win threshold."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Sidekick.cs"}
+{"id":"role-sidekick","kind":"role","category":"neutral","title":{"en":"Sidekick","zh-CN":"跟班"},"summary":{"zh-CN":"跟班属于豺狼阵营，并会在豺狼获胜时一同获胜；豺狼设置可控制跟班如何计入胜负人数。","en":"The Sidekick is on the Jackal team and wins with the Jackal; Jackal settings control how Sidekicks count toward the win threshold."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Sidekick.cs"}
 ---
 <!-- zh-CN -->
 ## 跟班

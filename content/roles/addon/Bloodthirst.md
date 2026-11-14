@@ -11,7 +11,7 @@
     "zh-CN": "完成任务后获得一次接触击杀机会；只分配给有任务的船员。",
     "en": "Completing a task grants a contact kill; assigned only to Crewmates with tasks."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Crewmate/Bloodthirst.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Crewmate/Bloodthirst.cs"
 }
 ---
 <!-- zh-CN -->

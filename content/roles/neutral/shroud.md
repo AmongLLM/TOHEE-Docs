@@ -1,5 +1,5 @@
 ---
-{"id":"role-shroud","kind":"role","category":"neutral","title":{"en":"Shroud","zh-CN":"裹尸布"},"summary":{"zh-CN":"给玩家披上裹尸布后，该玩家会自动尝试击杀附近目标；未消耗的标记会在会议结束时杀死标记玩家，前提是裹尸布仍存活。","en":"Shroud a player to make them automatically attempt to kill nearby targets; an unused mark kills its holder after a meeting if the Shroud is alive."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Shroud.cs"}
+{"id":"role-shroud","kind":"role","category":"neutral","title":{"en":"Shroud","zh-CN":"裹尸布"},"summary":{"zh-CN":"给玩家披上裹尸布后，该玩家会自动尝试击杀附近目标；未消耗的标记会在会议结束时杀死标记玩家，前提是裹尸布仍存活。","en":"Shroud a player to make them automatically attempt to kill nearby targets; an unused mark kills its holder after a meeting if the Shroud is alive."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Shroud.cs"}
 ---
 <!-- zh-CN -->
 ## 裹尸布

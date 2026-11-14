@@ -1,5 +1,5 @@
 ---
-{"id":"role-soulcollector","kind":"role","category":"neutral","title":{"en":"Soul Collector","zh-CN":"灵魂收集者"},"summary":{"zh-CN":"预测玩家在本轮或下次会议死亡以收集灵魂，达到门槛后转变为死亡。","en":"Predict a player's death this round or at the next meeting to collect souls and eventually become Death."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/SoulCollector.cs"}
+{"id":"role-soulcollector","kind":"role","category":"neutral","title":{"en":"Soul Collector","zh-CN":"灵魂收集者"},"summary":{"zh-CN":"预测玩家在本轮或下次会议死亡以收集灵魂，达到门槛后转变为死亡。","en":"Predict a player's death this round or at the next meeting to collect souls and eventually become Death."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/SoulCollector.cs"}
 ---
 <!-- zh-CN -->
 ## 灵魂收集者

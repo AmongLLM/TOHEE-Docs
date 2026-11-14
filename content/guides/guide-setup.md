@@ -11,7 +11,7 @@
     "zh-CN": "从基础游戏规则开始，再逐步配置模式、角色和其他模组设置。",
     "en": "Start with the base game rules, then configure the mode, roles, and other mod options."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/OptionHolder.cs",
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Modules/OptionHolder.cs",
   "order": 4
 }
 ---

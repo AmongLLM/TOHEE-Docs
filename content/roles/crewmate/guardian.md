@@ -1,5 +1,5 @@
 ---
-{"id":"role-guardian","kind":"role","category":"crewmate","title":{"zh-CN":"守护者","en":"Guardian"},"summary":{"zh-CN":"守护者完成全部任务后不会被击杀或被猜测为该职业。","en":"After completing all tasks, the Guardian cannot be killed or guessed as this role."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Guardian.cs"}
+{"id":"role-guardian","kind":"role","category":"crewmate","title":{"zh-CN":"守护者","en":"Guardian"},"summary":{"zh-CN":"守护者完成全部任务后不会被击杀或被猜测为该职业。","en":"After completing all tasks, the Guardian cannot be killed or guessed as this role."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Guardian.cs"}
 ---
 
 <!-- zh-CN -->

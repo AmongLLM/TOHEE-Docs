@@ -1,5 +1,5 @@
 ---
-{"id":"role-crusader","kind":"role","category":"crewmate","title":{"zh-CN":"十字军","en":"Crusader"},"summary":{"zh-CN":"十字军用击杀按钮为玩家施加保护；多数攻击者会被反击击杀，但任务执行者、保镖、老兵和捕快例外，瘟疫会反杀十字军。","en":"The Crusader uses the kill button to protect a player and usually kills attackers, with exceptions for Taskinator, Bodyguard, Veteran, and Deputy; Pestilence kills the Crusader instead."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Crusader.cs"}
+{"id":"role-crusader","kind":"role","category":"crewmate","title":{"zh-CN":"十字军","en":"Crusader"},"summary":{"zh-CN":"十字军用击杀按钮为玩家施加保护；多数攻击者会被反击击杀，但任务执行者、保镖、老兵和捕快例外，瘟疫会反杀十字军。","en":"The Crusader uses the kill button to protect a player and usually kills attackers, with exceptions for Taskinator, Bodyguard, Veteran, and Deputy; Pestilence kills the Crusader instead."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Crusader.cs"}
 ---
 
 <!-- zh-CN -->

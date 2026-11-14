@@ -11,7 +11,7 @@
     "zh-CN": "执行特定动作时有概率自杀；尝试击杀也可能触发。",
     "en": "Can die by suicide when performing certain actions, including attempting a kill."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Unlucky.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Unlucky.cs"
 }
 ---
 <!-- zh-CN -->

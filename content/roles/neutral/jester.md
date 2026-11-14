@@ -1,5 +1,5 @@
 ---
-{"id":"role-jester","kind":"role","category":"neutral","title":{"en":"Jester","zh-CN":"小丑"},"summary":{"zh-CN":"满足会议数要求后被投票放逐即可获胜；可与某些目标相关职业同时获胜。","en":"Win when voted out after the required meetings; can share the result with certain target-related roles."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Jester.cs"}
+{"id":"role-jester","kind":"role","category":"neutral","title":{"en":"Jester","zh-CN":"小丑"},"summary":{"zh-CN":"满足会议数要求后被投票放逐即可获胜；可与某些目标相关职业同时获胜。","en":"Win when voted out after the required meetings; can share the result with certain target-related roles."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Jester.cs"}
 ---
 <!-- zh-CN -->
 ## 小丑

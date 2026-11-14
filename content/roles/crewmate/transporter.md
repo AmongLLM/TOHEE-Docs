@@ -1,5 +1,5 @@
 ---
-{"id":"role-transporter","kind":"role","category":"crewmate","title":{"zh-CN":"传送师","en":"Transporter"},"summary":{"zh-CN":"传送师完成任务时会从可传送的存活玩家中随机交换两人的位置；通风口中的玩家会被排除。","en":"When the Transporter completes a task, two eligible living players swap positions; players in vents are excluded."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Transporter.cs"}
+{"id":"role-transporter","kind":"role","category":"crewmate","title":{"zh-CN":"传送师","en":"Transporter"},"summary":{"zh-CN":"传送师完成任务时会从可传送的存活玩家中随机交换两人的位置；通风口中的玩家会被排除。","en":"When the Transporter completes a task, two eligible living players swap positions; players in vents are excluded."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Transporter.cs"}
 ---
 
 <!-- zh-CN -->

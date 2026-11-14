@@ -1,5 +1,5 @@
 ---
-{"id":"role-lurker","kind":"role","category":"impostor","title":{"zh-CN":"潜伏者","en":"Lurker"},"summary":{"zh-CN":"进入通风口可缩短击杀冷却；击杀后冷却恢复到初始值。","en":"Entering a vent reduces kill cooldown; after a kill, it resets to its starting value."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Lurker.cs"}
+{"id":"role-lurker","kind":"role","category":"impostor","title":{"zh-CN":"潜伏者","en":"Lurker"},"summary":{"zh-CN":"进入通风口可缩短击杀冷却；击杀后冷却恢复到初始值。","en":"Entering a vent reduces kill cooldown; after a kill, it resets to its starting value."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Lurker.cs"}
 ---
 
 <!-- zh-CN -->

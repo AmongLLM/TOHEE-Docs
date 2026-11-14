@@ -1,5 +1,5 @@
 ---
-{"id":"role-poisoner","kind":"role","category":"neutral","title":{"en":"Poisoner","zh-CN":"投毒者"},"summary":{"zh-CN":"对目标下毒，目标在延迟结束或会议开始时死亡；内鬼阵营消灭后按中立平衡条件获胜。","en":"Poison a target so they die after a delay or when a meeting starts; win under the neutral parity rule after the Impostors are gone."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Poisoner.cs"}
+{"id":"role-poisoner","kind":"role","category":"neutral","title":{"en":"Poisoner","zh-CN":"投毒者"},"summary":{"zh-CN":"对目标下毒，目标在延迟结束或会议开始时死亡；内鬼阵营消灭后按中立平衡条件获胜。","en":"Poison a target so they die after a delay or when a meeting starts; win under the neutral parity rule after the Impostors are gone."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Neutral/Poisoner.cs"}
 ---
 <!-- zh-CN -->
 ## 投毒者

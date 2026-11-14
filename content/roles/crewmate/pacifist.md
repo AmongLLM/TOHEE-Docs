@@ -1,5 +1,5 @@
 ---
-{"id":"role-pacifist","kind":"role","category":"crewmate","title":{"zh-CN":"和平之鸽","en":"Pacifist"},"summary":{"zh-CN":"和平之鸽钻通风口后会重置所有拥有击杀按钮玩家的击杀冷却，成为叛徒时仅影响船员。","en":"The Pacifist can vent to reset kill cooldowns for everyone with a kill button; as a Mad Pacifist, the effect applies only to Crew."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Pacifist.cs"}
+{"id":"role-pacifist","kind":"role","category":"crewmate","title":{"zh-CN":"和平之鸽","en":"Pacifist"},"summary":{"zh-CN":"和平之鸽钻通风口后会重置所有拥有击杀按钮玩家的击杀冷却，成为叛徒时仅影响船员。","en":"The Pacifist can vent to reset kill cooldowns for everyone with a kill button; as a Mad Pacifist, the effect applies only to Crew."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Crewmate/Pacifist.cs"}
 ---
 
 <!-- zh-CN -->

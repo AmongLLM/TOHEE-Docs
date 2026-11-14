@@ -11,7 +11,7 @@
     "zh-CN": "投票平票时优先淘汰其投票指向的目标；多个破平者指向不同目标时能力不生效。",
     "en": "In a tie, gives priority to its chosen target; the effect fails if multiple Tiebreakers choose different targets."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Tiebreaker.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Tiebreaker.cs"
 }
 ---
 <!-- zh-CN -->

@@ -1,5 +1,5 @@
 ---
-{"id":"role-saboteur","kind":"role","category":"impostor","title":{"zh-CN":"破坏者","en":"Saboteur"},"summary":{"zh-CN":"只有重大破坏进行期间才能击杀。","en":"Can kill only while a critical sabotage is active."},"source":"https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Saboteur.cs"}
+{"id":"role-saboteur","kind":"role","category":"impostor","title":{"zh-CN":"破坏者","en":"Saboteur"},"summary":{"zh-CN":"只有重大破坏进行期间才能击杀。","en":"Can kill only while a critical sabotage is active."},"source":"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/Impostor/Saboteur.cs"}
 ---
 
 <!-- zh-CN -->

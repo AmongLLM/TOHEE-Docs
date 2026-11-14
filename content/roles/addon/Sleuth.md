@@ -11,7 +11,7 @@
     "zh-CN": "可从尸体获得信息，并可按设置查明击杀者角色；与胆小鬼、侦探、入殓师、清理工、美杜莎、秃鹫和验尸官不兼容。",
     "en": "Can obtain information from bodies and may learn the killer's role; incompatible with several investigation and reporting roles."
   },
-  "source": "https://github.com/Niko-s-Impostor-Server/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Sleuth.cs"
+  "source": "https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/1dcecb4481a07eeeb61df99415318ed5355339c7/Roles/AddOns/Common/Sleuth.cs"
 }
 ---
 <!-- zh-CN -->
