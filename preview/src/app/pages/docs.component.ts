@@ -109,7 +109,7 @@ interface DocsIndex {
         } @else {
           <div class="docs-layout" [class.docs-reading]="docId()">
             @if (docId() && page(); as article) {
-              <nav class="docs-toc" [attr.aria-label]="i18n.t('本页目录', 'On this page')"><span class="docs-kicker docs-toc-label">{{ i18n.t('本页目录', 'ON THIS PAGE') }}</span><button type="button" class="docs-toc-toggle" [attr.aria-expanded]="tocOpen()" aria-controls="docs-toc-links" (click)="tocOpen.update(v => !v)">{{ i18n.t('本页目录', 'On this page') }} <span>{{ tocOpen() ? '−' : '+' }}</span></button><ul class="docs-toc-links" id="docs-toc-links" [class.expanded]="tocOpen()">@for (heading of article.headings; track heading.id) { <li><a [class.docs-toc-nested]="heading.level > 2" [href]="'/docs/' + docId() + '#' + heading.id" (click)="jumpTo(heading.id, $event)">{{ heading.text }}</a></li> }<li><a class="docs-toc-top" [href]="'/docs/' + docId()" (click)="backToTop($event)">{{ i18n.t('回到顶部', 'Back to top') }} ↑</a></li></ul></nav>
+              <nav class="docs-toc" [attr.aria-label]="i18n.t('本页目录', 'On this page')"><span class="docs-kicker docs-toc-label">{{ i18n.t('本页目录', 'ON THIS PAGE') }}</span><button type="button" class="docs-toc-toggle" [attr.aria-expanded]="tocOpen()" aria-controls="docs-toc-links" (click)="tocOpen.update(v => !v)">{{ i18n.t('本页目录', 'On this page') }} <span>{{ tocOpen() ? '−' : '+' }}</span></button><ul class="docs-toc-links" id="docs-toc-links" [class.expanded]="tocOpen()">@for (heading of article.headings; track heading.id) { <li><a [class.docs-toc-nested]="heading.level > 2" [routerLink]="['/docs', docId()]" [fragment]="heading.id" queryParamsHandling="preserve" [replaceUrl]="true" (click)="jumpTo(heading.id, $event)">{{ heading.text }}</a></li> }<li><a class="docs-toc-top" [routerLink]="['/docs', docId()]" queryParamsHandling="preserve" [replaceUrl]="true" (click)="backToTop($event)">{{ i18n.t('回到顶部', 'Back to top') }} ↑</a></li></ul></nav>
             }
             <section class="docs-body" id="docs-reading-content" aria-labelledby="docs-page-heading">
               @if (docId()) {
@@ -292,7 +292,7 @@ export class DocsComponent {
       if (!id || !version) return;
       const controller = new AbortController();
       onCleanup(() => controller.abort());
-      void fetch(`/docs/releases/${encodeURIComponent(version)}/pages/${encodeURIComponent(id)}.${locale}.json`, { signal: controller.signal })
+      void fetch(new URL(`docs/releases/${encodeURIComponent(version)}/pages/${encodeURIComponent(id)}.${locale}.json`, document.baseURI), { signal: controller.signal })
         .then(response => { if (!response.ok) throw new Error('Article unavailable'); return response.json() as Promise<DocPage>; })
         .then(article => {
           if (controller.signal.aborted) return;
@@ -370,7 +370,8 @@ export class DocsComponent {
     const url = new URL(link.href);
     if (url.origin !== location.origin) return;
 
-    const path = url.pathname.replace(/\/+$/, "");
+    const routePath = url.hash.startsWith("#/docs") ? url.hash.slice(1).split(/[?#]/u, 1)[0] : url.pathname;
+    const path = routePath.replace(/\/+$/, "");
     if (path !== "/docs" && !path.startsWith("/docs/")) return;
     const pageId = path === "/docs" ? null : decodeURIComponent(path.slice("/docs/".length).split("/")[0]);
     const fromResults = !!link.closest("#docs-search-results");
@@ -401,13 +402,13 @@ export class DocsComponent {
     this.catalogError.set(false);
     this.catalogLoading.set(true);
     try {
-      const manifestResponse = await fetch("/docs/manifest.json", { cache: "no-cache" });
+      const manifestResponse = await fetch(new URL("docs/manifest.json", document.baseURI), { cache: "no-cache" });
       if (!manifestResponse.ok) throw new Error("Documentation manifest unavailable");
       const manifest = await manifestResponse.json() as DocsManifest;
       if (typeof manifest.version !== "string" || typeof manifest.repositoryUrl !== "string" || typeof manifest.branch !== "string") {
         throw new Error("Invalid documentation manifest");
       }
-      const indexResponse = await fetch(`/docs/releases/${encodeURIComponent(manifest.version)}/index.json`);
+      const indexResponse = await fetch(new URL(`docs/releases/${encodeURIComponent(manifest.version)}/index.json`, document.baseURI));
       if (!indexResponse.ok) throw new Error("Catalog unavailable");
       const result = await indexResponse.json() as DocsIndex;
       if (!Array.isArray(result.documents) || !Array.isArray(result.navigation) || !Array.isArray(result.factions) ||
@@ -487,29 +488,31 @@ export class DocsComponent {
   }
   setCategory(category: string): void { void this.router.navigate([], { relativeTo: this.route, queryParams: { category: category === "all" ? null : category }, queryParamsHandling: "merge" }); }
   clearFilters(): void { void this.router.navigate(["/docs"]); }
-  jumpTo(id: string, event: Event): void {
-    event.preventDefault();
+  jumpTo(id: string, event: MouseEvent): void {
+    if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
     const heading = this.articleElement()?.nativeElement.querySelector<HTMLElement>('#' + CSS.escape(id));
     heading?.focus({ preventScroll: true });
     heading?.scrollIntoView();
-    void this.router.navigate([], { relativeTo: this.route, fragment: id, queryParamsHandling: "preserve", replaceUrl: true });
   }
-  backToTop(event: Event): void {
-    event.preventDefault();
+  backToTop(event: MouseEvent): void {
+    if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
     this.docsPageHeading()?.nativeElement.focus({ preventScroll: true });
     window.scrollTo({ top: 0, behavior: "instant" });
-    void this.router.navigate([], { relativeTo: this.route, fragment: undefined, queryParamsHandling: "preserve", replaceUrl: true });
   }
   followArticleLink(event: MouseEvent): void {
     if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button !== 0) return;
-    const anchor = (event.target as HTMLElement).closest("a");
+    const anchor = (event.target as HTMLElement).closest<HTMLAnchorElement>(".docs-prose a[href]");
     if (!anchor) return;
     const url = new URL(anchor.href);
     if (url.origin !== location.origin) return;
-    if (url.pathname.startsWith("/docs/") || url.pathname === "/docs") {
-      event.preventDefault();
-      if (url.pathname === location.pathname && url.hash) this.jumpTo(decodeURIComponent(url.hash.slice(1)), event);
-      else void this.router.navigateByUrl(url.pathname + url.search + url.hash).then(() => { if (!url.hash) window.scrollTo({ top: 0 }); });
-    }
+    const targetRoute = url.hash.startsWith("#/docs") ? url.hash.slice(1) : url.pathname + url.search + url.hash;
+    const targetTree = this.router.parseUrl(targetRoute);
+    const path = "/" + (targetTree.root.children["primary"]?.segments.map(segment => segment.path).join("/") ?? "");
+    if (path !== "/docs" && !path.startsWith("/docs/")) return;
+    event.preventDefault();
+    const currentTree = this.router.parseUrl(this.router.url);
+    const currentPath = "/" + (currentTree.root.children["primary"]?.segments.map(segment => segment.path).join("/") ?? "");
+    if (path === currentPath && targetTree.fragment) this.jumpTo(targetTree.fragment, event);
+    void this.router.navigateByUrl(targetRoute).then(() => { if (!targetTree.fragment) window.scrollTo({ top: 0 }); });
   }
 }

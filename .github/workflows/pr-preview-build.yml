@@ -1,0 +1,72 @@
+name: Build PR Preview
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, closed]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pr-preview-build-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout PR head without stored credentials
+        if: github.event.action != 'closed'
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+
+      - name: Set up Node.js
+        if: github.event.action != 'closed'
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies and test
+        if: github.event.action != 'closed'
+        run: |
+          npm ci
+          npm test
+
+      - name: Build the documentation frontend
+        if: github.event.action != 'closed'
+        env:
+          DOCS_PREVIEW_BASE_PATH: /${{ github.event.repository.name }}/pr-preview/pr-${{ github.event.pull_request.number }}/
+          DOCS_PREVIEW_VERSION: ${{ github.event.pull_request.head.sha }}
+          DOCS_SITE_URL: ${{ vars.DOCS_SITE_URL }}
+        run: |
+          npm run preview:build -- --base-href "$DOCS_PREVIEW_BASE_PATH"
+          mkdir -p "$RUNNER_TEMP/pr-preview/site"
+          cp -a dist/preview/. "$RUNNER_TEMP/pr-preview/site/"
+          touch "$RUNNER_TEMP/pr-preview/site/.nojekyll"
+
+      # Write metadata after checkout and the unprivileged build. The deploy
+      # workflow still verifies it against GitHub's run and pull request data.
+      - name: Record PR metadata
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          PR_ACTION: ${{ github.event.action }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/pr-preview"
+          printf '{"number":%s,"head_sha":"%s","event_action":"%s"}\n' \
+            "$PR_NUMBER" "$PR_HEAD_SHA" "$PR_ACTION" \
+            > "$RUNNER_TEMP/pr-preview/preview-meta.json"
+
+      - name: Upload preview artifact
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: pr-preview-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/pr-preview/
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 3

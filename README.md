@@ -38,6 +38,34 @@ To create a Vercel preview, import `AmongLLM/TOHEE-Docs` from GitHub and keep th
 
 `DOCS_SITE_URL` optionally changes where non-documentation links in generated articles lead. Set it to an HTTP(S) origin, without a path, query, or fragment. The default is `https://tohee.niko233.top`. The generated manifest points to the `main` source branch, so source links in pull request previews still open `main`.
 
+For a GitHub Pages preview published below a repository path, set `DOCS_PREVIEW_BASE_PATH` to the site's absolute base path with a trailing slash, pass the same value to Angular's `--base-href`, and publish `dist/preview/` contents under that path. For example:
+
+```sh
+export DOCS_PREVIEW_BASE_PATH=/TOHEE-Docs/pr-preview/pr-42/
+export DOCS_PREVIEW_VERSION="$(git rev-parse HEAD)"
+npm run preview:build -- --base-href "$DOCS_PREVIEW_BASE_PATH"
+```
+
+The standalone reader uses hash URLs only when the base path is not `/`, so GitHub Pages can open and refresh article links without an SPA rewrite. `DOCS_PREVIEW_VERSION` selects the generated docs version and takes precedence over `VERCEL_GIT_COMMIT_SHA`.
+
+## Pull request previews on GitHub Pages
+
+[`pr-preview-build.yml`](.github/workflows/pr-preview-build.yml) tests and builds the full reader without deployment secrets. [`pr-preview-deploy.yml`](.github/workflows/pr-preview-deploy.yml) runs from the default branch, checks the triggering run and PR through GitHub's API, and publishes only the static artifact. It does not run code from the PR artifact. Fork PRs use the same two-stage flow; GitHub may require a maintainer to approve a new contributor's build first.
+
+The deployment stage rejects any PR that adds, modifies, removes, or renames a path into or out of `.github/workflows/`. It checks both current and previous filenames, requires a complete paginated file list, and checks that the PR did not change during verification. Artifacts must match the build's head SHA and source repository/branch; stale builds are skipped. These checks also apply to preview removal. If the fork repository has already been deleted, verification fails and an existing preview may need manual removal. A PR introducing these workflows cannot preview itself: merge the trusted workflows first, then use a documentation-only PR.
+
+Before enabling previews:
+
+1. Create an independent `gh-pages` branch with an `index.html` and an empty `.nojekyll` file. This branch stores published files, not the application source.
+2. In [Settings → Pages](https://github.com/AmongLLM/TOHEE-Docs/settings/pages), choose **Deploy from a branch**, **gh-pages**, **/(root)**.
+3. Create a [fine-grained personal access token](https://github.com/settings/personal-access-tokens/new) with resource owner **AmongLLM**, repository access limited to **TOHEE-Docs**, **Contents: Read and write**, and **Pages: Read-only**. Metadata read access is included automatically. Complete organization approval if required. The Pages permission is used to wait for the branch deployment; no Workflows permission is needed.
+4. Save it as the repository Actions secret **`PAGES_PREVIEW_TOKEN`** in [Settings → Secrets and variables → Actions](https://github.com/AmongLLM/TOHEE-Docs/settings/secrets/actions). Only the publish step receives it. PR comments and artifact downloads use the automatically supplied `GITHUB_TOKEN` with the permissions declared in the deployment workflow.
+5. Merge both workflow files into `main`, and ensure the repository's Actions policy allows the pinned actions used by these files. Do not require PR approval for every write to `gh-pages`, unless the token's actor is allowed to perform those deployment writes.
+
+Optionally set the repository Actions **variable** `DOCS_SITE_URL` to the public Cloud origin; the existing default is used when it is absent. No deployment credential goes into a variable, the PR build, or the repository files.
+
+Preview URLs use `https://amongllm.github.io/TOHEE-Docs/pr-preview/pr-<number>/#/docs`. New commits replace that PR's preview; closing an eligible PR removes it and updates the same bot comment. Publishing is serialized with GitHub's `concurrency.queue: max`, so different PRs do not replace each other's pending deployments. Preview HTML and JavaScript remain untrusted PR content; do not use this Pages origin for privileged browser state.
+
 ## Content layout
 
 ```text

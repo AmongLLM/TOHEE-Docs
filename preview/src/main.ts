@@ -1,7 +1,9 @@
 import { Component } from "@angular/core";
 import { bootstrapApplication } from "@angular/platform-browser";
-import { provideRouter, RouterOutlet } from "@angular/router";
+import { provideRouter, RouterOutlet, withHashLocation } from "@angular/router";
 import { DocsComponent } from "./app/pages/docs.component";
+
+const routerFeatures = new URL(document.baseURI).pathname === "/" ? [] : [withHashLocation()];
 
 @Component({
   selector: "tohee-root",
@@ -20,5 +22,5 @@ bootstrapApplication(PreviewApp, {
     { path: "", pathMatch: "full", redirectTo: "docs" },
     { path: "docs", component: DocsComponent },
     { path: "docs/:id", component: DocsComponent },
-  ])],
+  ], ...routerFeatures)],
 }).catch((error: unknown) => console.error("TOHEE Docs failed to start", error));

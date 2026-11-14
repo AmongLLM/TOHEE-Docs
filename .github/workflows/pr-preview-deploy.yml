@@ -1,0 +1,176 @@
+name: Deploy PR Preview
+
+on:
+  workflow_run:
+    workflows: [Build PR Preview]
+    types: [completed]
+
+permissions:
+  actions: read
+  contents: read
+  issues: write
+  pull-requests: read
+
+concurrency:
+  group: tohee-docs-pages-publish
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  deploy:
+    if: >-
+      github.event.workflow_run.event == 'pull_request'
+      && github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      # The deployment action needs a Git checkout. GITHUB_SHA on workflow_run
+      # belongs to the default branch; never check out the PR in this job.
+      - name: Checkout trusted default-branch commit
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+
+      - name: Download the triggering run's artifact outside the checkout
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: pr-preview-${{ github.event.workflow_run.id }}-${{ github.event.workflow_run.run_attempt }}
+          run-id: ${{ github.event.workflow_run.id }}
+          repository: ${{ github.repository }}
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/pr-preview
+
+      - name: Validate PR identity and reject workflow changes
+        id: validate
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
+        env:
+          PREVIEW_ARTIFACT: ${{ runner.temp }}/pr-preview
+        with:
+          script: |
+            const fs = require('node:fs');
+            const path = require('node:path');
+            const meta = JSON.parse(fs.readFileSync(path.join(process.env.PREVIEW_ARTIFACT, 'preview-meta.json'), 'utf8'));
+            const run = context.payload.workflow_run;
+            const { owner, repo } = context.repo;
+            const repository = `${owner}/${repo}`;
+            core.setOutput('decision', 'skip');
+
+            if (run.repository.full_name !== repository || run.path !== '.github/workflows/pr-preview-build.yml') {
+              throw new Error('Unexpected build workflow or repository');
+            }
+            if (!Number.isSafeInteger(meta.number) || meta.number <= 0
+                || typeof meta.head_sha !== 'string' || !/^[0-9a-f]{40}$/.test(meta.head_sha)
+                || !['opened', 'reopened', 'synchronize', 'closed'].includes(meta.event_action)) {
+              throw new Error('Invalid preview metadata');
+            }
+            if (meta.head_sha !== run.head_sha) {
+              throw new Error('Artifact SHA does not match the triggering workflow run');
+            }
+            if (run.pull_requests.length && !run.pull_requests.some(pr => pr.number === meta.number)) {
+              throw new Error('Artifact PR does not match the triggering workflow run');
+            }
+
+            const { data: pr } = await github.rest.pulls.get({ owner, repo, pull_number: meta.number });
+            if (pr.base.repo.full_name !== repository
+                || pr.head.repo?.id !== run.head_repository.id || pr.head.ref !== run.head_branch) {
+              throw new Error('PR repository or branch does not match the build');
+            }
+            if (pr.head.sha !== run.head_sha) {
+              core.info('Skipping an outdated PR build');
+              return;
+            }
+
+            // GitHub caps this endpoint at 3,000 files. A partial list must
+            // never count as proof that .github/workflows was untouched.
+            const files = await github.paginate(github.rest.pulls.listFiles, {
+              owner, repo, pull_number: meta.number, per_page: 100
+            });
+            if (files.length !== pr.changed_files) {
+              throw new Error('Cannot verify the complete PR file list');
+            }
+            const workflowChanges = files.filter(file =>
+              [file.filename, file.previous_filename].some(filePath =>
+                filePath === '.github/workflows' || filePath?.startsWith('.github/workflows/')));
+            if (workflowChanges.length) {
+              throw new Error('Preview rejected: PR changes .github/workflows: '
+                + workflowChanges.map(file => file.filename).join(', '));
+            }
+            const { data: checkedPr } = await github.rest.pulls.get({ owner, repo, pull_number: meta.number });
+            if (checkedPr.head.sha !== pr.head.sha || checkedPr.base.sha !== pr.base.sha
+                || checkedPr.state !== pr.state || checkedPr.changed_files !== pr.changed_files) {
+              throw new Error('PR changed while its files were being verified; rerun the latest build');
+            }
+
+            const decision = meta.event_action === 'closed'
+              ? (pr.state === 'closed' ? 'remove' : 'skip')
+              : (pr.state === 'open' ? 'deploy' : 'skip');
+            core.info(`PR #${pr.number}: ${decision}`);
+            core.setOutput('number', String(pr.number));
+            core.setOutput('decision', decision);
+
+      - name: Validate static frontend files without executing them
+        if: steps.validate.outputs.decision == 'deploy'
+        env:
+          PREVIEW_ARTIFACT: ${{ runner.temp }}/pr-preview
+        run: |
+          python3 - <<'PY'
+          import os
+          from pathlib import Path
+
+          root = Path(os.environ['PREVIEW_ARTIFACT']) / 'site'
+          if root.is_symlink() or not root.is_dir():
+              raise SystemExit('Missing static frontend directory')
+          for item in root.rglob('*'):
+              relative = item.relative_to(root)
+              if item.is_symlink() or any(part in ('.git', '.github', '.ssh') for part in relative.parts):
+                  raise SystemExit(f'Forbidden artifact path: {relative}')
+          for name in ('index.html', 'docs/manifest.json'):
+              if not (root / name).is_file():
+                  raise SystemExit(f'Missing {name}')
+          print('Static frontend artifact verified')
+          PY
+
+      - name: Publish or remove PR preview
+        id: publish
+        if: steps.validate.outputs.decision != 'skip'
+        uses: rossjrw/pr-preview-action@873417d2df72380da1f3978378fb58560bcde976 # v1
+        with:
+          token: ${{ secrets.PAGES_PREVIEW_TOKEN }}
+          source-dir: ${{ runner.temp }}/pr-preview/site
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
+          pr-number: ${{ steps.validate.outputs.number }}
+          action: ${{ steps.validate.outputs.decision }}
+          deploy-commit-message: Deploy preview for PR ${{ steps.validate.outputs.number }}
+          remove-commit-message: Remove preview for PR ${{ steps.validate.outputs.number }}
+          comment: false
+          qr-code: false
+          wait-for-pages-deployment: true
+
+      - name: Post or update the preview comment
+        if: steps.validate.outputs.decision != 'skip'
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
+        env:
+          PR_NUMBER: ${{ steps.validate.outputs.number }}
+          PREVIEW_DECISION: ${{ steps.validate.outputs.decision }}
+          PREVIEW_URL: ${{ steps.publish.outputs.preview-url }}
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const issue_number = Number(process.env.PR_NUMBER);
+            const marker = '<!-- tohee-docs-pr-preview -->';
+            const body = process.env.PREVIEW_DECISION === 'deploy'
+              ? `${marker}\n**PR Preview**\n\n[Open documentation preview](${process.env.PREVIEW_URL})\n\nAutomatically updated when this PR changes.`
+              : `${marker}\n**PR Preview**\n\nPreview removed because the PR was closed.`;
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner, repo, issue_number, per_page: 100
+            });
+            const existing = comments.find(comment =>
+              comment.user?.login === 'github-actions[bot]' && comment.body?.includes(marker));
+            if (existing) {
+              await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
+            } else {
+              await github.rest.issues.createComment({ owner, repo, issue_number, body });
+            }
