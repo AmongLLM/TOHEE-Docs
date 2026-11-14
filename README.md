@@ -21,6 +21,23 @@ node scripts/build-docs.mjs --source . --output dist --version 1.2.3 --check
 
 `--source` is the repository root. The compiler reads `content/`, `docs.config.json`, `role-roster.json`, and `roleColor.json` from that root. Its single-file implementation is also vendored by TOHEE Cloud; keep changes in sync with that copy.
 
+## Standalone web preview
+
+The repository also builds a standalone Angular documentation reader using the TOHEE Cloud frontend styling. It compiles the current Markdown content before serving or building:
+
+```sh
+npm run preview:dev
+npm run preview:build
+```
+
+The documentation component, search helper, and global styles are shared copies of the Cloud frontend. Keep changes to those files synchronized between the two repositories.
+
+`preview:dev` starts the local reader at `http://127.0.0.1:4200`. `preview:build` writes a production site to `dist/preview/`; the generated `index.html` is at `dist/preview/index.html`. Generated pages and the deployment manifest live in the ignored `preview/.generated/` directory.
+
+To create a Vercel preview, import `AmongLLM/TOHEE-Docs` from GitHub and keep the project root at the repository root. The checked-in `vercel.json` selects the Other framework preset, runs `npm run preview:build`, and serves `dist/preview/`. Pull requests receive Vercel preview deployments; commits to the configured production branch (normally `main`) deploy the main site. This project serves documentation only and does not need Cloud backend services, credentials, or required environment variables.
+
+`DOCS_SITE_URL` optionally changes where non-documentation links in generated articles lead. Set it to an HTTP(S) origin, without a path, query, or fragment. The default is `https://tohee.niko233.top`. The generated manifest points to the `main` source branch, so source links in pull request previews still open `main`.
+
 ## Content layout
 
 ```text
@@ -67,6 +84,6 @@ Place publishable images in the repository-root [`assets/`](assets/) folder. See
 
 ## Contributing
 
-Open a pull request for documentation changes. GitHub Actions checks the compiler and tests on pull requests and pushes. Add a category by adding its directory metadata and updating the relevant faction or search-scope entry when needed; no per-article navigation list is required.
+Open a pull request for documentation changes. Add a category by adding its directory metadata and updating the relevant faction or search-scope entry when needed; no per-article navigation list is required.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the article template and review steps. See [SOURCE.md](SOURCE.md) for source revisions and attribution.

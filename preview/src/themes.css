@@ -1,0 +1,130 @@
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f7f7fa;
+  --bg-2: #f0eff4;
+  --sidebar: #f0f0f5;
+  --surface: #ffffff;
+  --surface-2: #f3f2f7;
+  --surface-raised: #e9e7ef;
+  --line: #d8d6e0;
+  --line-soft: #e6e4eb;
+  --text: #282532;
+  --muted: #5f5b6c;
+  --subtle: #726d7d;
+  --accent: #7551a5;
+  --accent-strong: #8055bd;
+  --accent-wash: #e9e2f2;
+  --accent-line: #b8a4cf;
+  --success: #447555;
+  --success-wash: #e8f2e9;
+  --warning: #88652f;
+  --warning-wash: #f7f0e2;
+  --danger: #a54b58;
+  --danger-wash: #faecef;
+}
+
+:root[data-theme="light"] body {
+  background:
+    radial-gradient(ellipse at 72% 0%, color-mix(in srgb, var(--accent) 6%, transparent), transparent 33rem),
+    linear-gradient(180deg, var(--bg), #f3f2f7);
+}
+:root[data-theme="light"] .topbar { background: #fffffff0; }
+:root[data-theme="light"] .button.primary { color: #fff; }
+:root[data-theme="light"] .button.primary:hover:not(:disabled) { color: #fff; background: #7046ac; }
+:root[data-theme="light"] .sidebar-bottom { border-color: var(--line); }
+:root[data-theme="light"] .nav-label { color: var(--subtle); }
+:root[data-theme="light"] .nav-item:hover { background: #e7e5ec; color: #342e3e; }
+:root[data-theme="light"] .nav-item.active { color: #67428f; background: #e6ddf1; }
+:root[data-theme="light"] .hero-grid { background: linear-gradient(115deg, #fff 0%, #f4f0f9 65%, #fff 100%); }
+:root[data-theme="light"] .hero-grid::before { opacity: .28; }
+:root[data-theme="light"] .hero-art::before { opacity: .45; }
+:root[data-theme="light"] .art-core { background: #ffffffd9; }
+:root[data-theme="light"] .art-node { background: #fffffff0; box-shadow: 0 8px 30px #2b203008; }
+:root[data-theme="light"] .feature-card::after { border-color: #e7e4ed; box-shadow: 0 0 0 18px #f0eff433, 0 0 0 38px #f0eff422; }
+:root[data-theme="light"] .home-note { background: #fbfaff; }
+:root[data-theme="light"] .auth-card { box-shadow: 0 28px 80px #30223c0d; }
+:root[data-theme="light"] .auth-divider span { background: var(--surface); }
+:root[data-theme="light"] .feature-card,
+:root[data-theme="light"] .account-card,
+:root[data-theme="light"] .bind-aside,
+:root[data-theme="light"] .preview-sticky { box-shadow: 0 8px 25px #2a223907; }
+:root[data-theme="light"] .empty-state { background: #ffffffb8; }
+:root[data-theme="light"] .dialog-backdrop { background: #1d192b75; }
+:root[data-theme="light"] .dialog-card { box-shadow: 0 30px 100px #261a3470; }
+:root[data-theme="light"] .discord-button { color: #fff; background: #5865f2; }
+:root[data-theme="light"] .status-chip { background: #e8f2e9; }
+:root[data-theme="light"] .status-chip.status-warning { background: #f7f0e2; }
+:root[data-theme="light"] .room-state { background: #e8f2e9; }
+:root[data-theme="light"] .room-state.state-started { background: #f7f0e2; }
+:root[data-theme="light"] .one-time-key { background: #e8f2e9; }
+:root[data-theme="light"] .danger-button { background: #faecef; }
+
+@media (prefers-contrast: more) {
+  :root {
+    --line: #777783;
+    --line-soft: #777783;
+  }
+
+  :root[data-theme="light"] {
+    --line: #7c7886;
+    --line-soft: #7c7886;
+  }
+}
+
+@media (forced-colors: active) {
+  :root,
+  :root[data-theme] {
+    --bg: Canvas;
+    --bg-2: Canvas;
+    --sidebar: Canvas;
+    --surface: Canvas;
+    --surface-2: Canvas;
+    --surface-raised: Canvas;
+    --line: CanvasText;
+    --line-soft: CanvasText;
+    --text: CanvasText;
+    --muted: CanvasText;
+    --subtle: CanvasText;
+    --accent: LinkText;
+    --accent-strong: LinkText;
+    --accent-wash: Canvas;
+    --accent-line: CanvasText;
+    --success: CanvasText;
+    --success-wash: Canvas;
+    --warning: CanvasText;
+    --warning-wash: Canvas;
+    --danger: CanvasText;
+    --danger-wash: Canvas;
+  }
+
+  :root :focus-visible {
+    outline-color: Highlight;
+  }
+
+  :root .skip-link {
+    color: HighlightText;
+    background: Highlight;
+  }
+
+  :root .field input:focus-visible,
+  :root .field select:focus-visible,
+  :root .field textarea:focus-visible,
+  :root .compact-input:focus-visible,
+  :root .cooldown-reset input:focus-visible {
+    outline: 2px solid Highlight;
+    outline-offset: 2px;
+  }
+
+  :root .button.primary,
+  :root[data-theme] .button.primary {
+    color: HighlightText;
+    background: Highlight;
+    border-color: Highlight;
+  }
+
+  :root .nav-item.active,
+  :root[data-theme] .nav-item.active {
+    color: HighlightText;
+    background: Highlight;
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "cli": { "analytics": false },
+  "projects": {
+    "tohee-docs-preview": {
+      "projectType": "application",
+      "root": "",
+      "sourceRoot": "preview/src",
+      "architect": {
+        "build": {
+          "builder": "@angular/build:application",
+          "options": {
+            "browser": "preview/src/main.ts",
+            "index": "preview/src/index.html",
+            "tsConfig": "preview/tsconfig.json",
+            "outputPath": { "base": "dist/preview", "browser": "" },
+            "assets": [
+              { "glob": "**/*", "input": "preview/public" },
+              { "glob": "**/*", "input": "preview/.generated" }
+            ],
+            "styles": ["preview/src/styles.css", "preview/src/themes.css"]
+          },
+          "configurations": {
+            "production": {
+              "outputHashing": "all",
+              "budgets": [
+                { "type": "initial", "maximumWarning": "450kB", "maximumError": "650kB" }
+              ]
+            },
+            "development": { "optimization": false, "sourceMap": true, "extractLicenses": false }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular/build:dev-server",
+          "configurations": {
+            "production": { "buildTarget": "tohee-docs-preview:build:production" },
+            "development": { "buildTarget": "tohee-docs-preview:build:development" }
+          },
+          "defaultConfiguration": "development"
+        }
+      }
+    }
+  }
+}
