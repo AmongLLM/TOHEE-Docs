@@ -63,7 +63,7 @@ Role articles must match `role-roster.json` one-to-one. The roster pins the TOHE
 
 ### Images
 
-Place publishable images in the repository-root `assets/` folder. Markdown can use `/assets/example.webp` or a relative path that resolves from the article into `assets/`, such as `../../assets/example.webp`. The compiler accepts PNG, JPEG, WebP, and GIF files, copies referenced files into the bundle, and writes image URLs under `/docs/releases/<version>/assets/`. It rejects missing files, paths outside `assets/`, symbolic links, and other image formats. Existing HTTPS image links remain external.
+Place publishable images in the repository-root [`assets/`](assets/) folder. See the [upload and Markdown examples](assets/README.md). Markdown can use `/assets/example.webp` or a relative path that resolves from the article into `assets/`, such as `../../assets/example.webp`. The compiler accepts PNG, JPEG, WebP, and GIF files, copies referenced files into the bundle, and writes image URLs under `/docs/releases/<version>/assets/`. It rejects missing files, paths outside `assets/`, symbolic links, and other image formats. Existing HTTPS image links remain external.
 
 ## Contributing
 

@@ -32,6 +32,10 @@ Keep the lowercase article ID stable when changing a title or moving a file. Pla
 
 For a role article, set `kind` to `role`, set `category` to its faction ID, and update `role-roster.json` when TOHEE has added or removed an implemented role. Keep the page's `source` URL pinned to the roster's exact commit and source path.
 
+## Add an image
+
+Upload images to the repository-root [`assets/`](assets/) folder and reference them using a path such as `![Cloud room list](/assets/room-list.webp)`. Include the image and article changes in the same PR. See the [image guide](assets/README.md) for supported formats and bilingual examples.
+
 ## Add a navigation category
 
 Create a directory beneath `content/`, add `_category_.json` with a globally unique ID, bilingual title, and numeric `order`, then place articles or further category directories inside it. Every directory, including `content/`, requires the metadata file. Articles must be placed in a child category directory.
