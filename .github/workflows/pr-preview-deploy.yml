@@ -132,6 +132,21 @@ jobs:
           print('Static frontend artifact verified')
           PY
 
+      - name: Record the verified preview build time
+        if: steps.validate.outputs.decision == 'deploy'
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
+        env:
+          PREVIEW_ARTIFACT: ${{ runner.temp }}/pr-preview
+        with:
+          script: |
+            const fs = require('node:fs');
+            const path = require('node:path');
+            const run = context.payload.workflow_run;
+            fs.writeFileSync(path.join(process.env.PREVIEW_ARTIFACT, 'site', 'preview-info.json'), JSON.stringify({
+              builtAt: run.updated_at,
+              revision: run.head_sha,
+            }, null, 2) + '\n');
+
       - name: Publish or remove PR preview
         id: publish
         if: steps.validate.outputs.decision != 'skip'
@@ -148,6 +163,35 @@ jobs:
           comment: false
           qr-code: false
           wait-for-pages-deployment: true
+
+      - name: Read the deployed previews as static files
+        if: steps.validate.outputs.decision != 'skip'
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: gh-pages
+          path: .pages-preview-tree
+          persist-credentials: false
+
+      - name: Set up Node.js for the trusted directory generator
+        if: steps.validate.outputs.decision != 'skip'
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 24
+
+      - name: Generate the Pages build directory
+        if: steps.validate.outputs.decision != 'skip'
+        run: node scripts/build-preview-directory.mjs .pages-preview-tree "$RUNNER_TEMP/pages-preview-directory"
+
+      - name: Update the Pages root directory
+        if: steps.validate.outputs.decision != 'skip'
+        uses: JamesIves/github-pages-deploy-action@4a3abc783e1a24aeb44c16e869ad83caf6b4cc23 # v4.7.4
+        with:
+          token: ${{ secrets.PAGES_PREVIEW_TOKEN }}
+          branch: gh-pages
+          folder: ${{ runner.temp }}/pages-preview-directory
+          clean: false
+          force: false
+          commit-message: Update docs preview directory
 
       - name: Post or update the preview comment
         if: steps.validate.outputs.decision != 'skip'

@@ -48,7 +48,11 @@ npm run preview:build -- --base-href "$DOCS_PREVIEW_BASE_PATH"
 
 The standalone reader uses hash URLs only when the base path is not `/`, so GitHub Pages can open and refresh article links without an SPA rewrite. `DOCS_PREVIEW_VERSION` selects the generated docs version and takes precedence over `VERCEL_GIT_COMMIT_SHA`.
 
-## Pull request previews on GitHub Pages
+## Build directory and previews on GitHub Pages
+
+The [Pages root](https://amongllm.github.io/TOHEE-Docs/) is a build directory. It shows when the directory was generated, all deployed preview directories, and each preview's build time and source revision. Timestamps retain their ISO values and are converted to the visitor's local time using the browser's time zone, which is displayed on the page. Without JavaScript, the original UTC timestamp remains readable.
+
+[`pages-main.yml`](.github/workflows/pages-main.yml) builds the latest trusted `main` on every push to `main`, or when manually dispatched on `main`. It publishes the documentation reader at [`main/`](https://amongllm.github.io/TOHEE-Docs/main/#/docs). Only that directory is cleaned when main is rebuilt; PR previews are preserved. The preview's recorded revision is the commit actually checked out, including when an earlier run waits in the shared publishing queue.
 
 [`pr-preview-build.yml`](.github/workflows/pr-preview-build.yml) tests and builds the full reader without deployment secrets. [`pr-preview-deploy.yml`](.github/workflows/pr-preview-deploy.yml) runs from the default branch, checks the triggering run and PR through GitHub's API, and publishes only the static artifact. It does not run code from the PR artifact. Fork PRs use the same two-stage flow; GitHub may require a maintainer to approve a new contributor's build first.
 
@@ -60,11 +64,13 @@ Before enabling previews:
 2. In [Settings → Pages](https://github.com/AmongLLM/TOHEE-Docs/settings/pages), choose **Deploy from a branch**, **gh-pages**, **/(root)**.
 3. Create a [fine-grained personal access token](https://github.com/settings/personal-access-tokens/new) with resource owner **AmongLLM**, repository access limited to **TOHEE-Docs**, **Contents: Read and write**, and **Pages: Read-only**. Metadata read access is included automatically. Complete organization approval if required. The Pages permission is used to wait for the branch deployment; no Workflows permission is needed.
 4. Save it as the repository Actions secret **`PAGES_PREVIEW_TOKEN`** in [Settings → Secrets and variables → Actions](https://github.com/AmongLLM/TOHEE-Docs/settings/secrets/actions). Only the publish step receives it. PR comments and artifact downloads use the automatically supplied `GITHUB_TOKEN` with the permissions declared in the deployment workflow.
-5. Merge both workflow files into `main`, and ensure the repository's Actions policy allows the pinned actions used by these files. Do not require PR approval for every write to `gh-pages`, unless the token's actor is allowed to perform those deployment writes.
+5. Merge the workflows into `main`, and ensure the repository's Actions policy allows the pinned actions used by these files. Do not require PR approval for every write to `gh-pages`, unless the token's actor is allowed to perform those deployment writes.
 
 Optionally set the repository Actions **variable** `DOCS_SITE_URL` to the public Cloud origin; the existing default is used when it is absent. No deployment credential goes into a variable, the PR build, or the repository files.
 
-Preview URLs use `https://amongllm.github.io/TOHEE-Docs/pr-preview/pr-<number>/#/docs`. New commits replace that PR's preview; closing an eligible PR removes it and updates the same bot comment. Publishing is serialized with GitHub's `concurrency.queue: max`, so different PRs do not replace each other's pending deployments. Preview HTML and JavaScript remain untrusted PR content; do not use this Pages origin for privileged browser state.
+PR preview URLs use `https://amongllm.github.io/TOHEE-Docs/pr-preview/pr-<number>/#/docs`. New commits replace that PR's preview; closing an eligible PR removes it and updates the same bot comment. Both main and PR publishing refresh the root directory, including after removal. Build timestamps for main are recorded immediately after building, and PR timestamps come from GitHub's completed build run. The publishing job writes this metadata after validation; it does not trust a PR-provided timestamp.
+
+Publishing is serialized with GitHub's `concurrency.queue: max`, so different PRs and main builds share the same publishing queue. Preview HTML and JavaScript remain untrusted PR content; do not use this Pages origin for privileged browser state.
 
 ## Content layout
 
