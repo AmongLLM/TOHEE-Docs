@@ -8,8 +8,7 @@ on:
 permissions:
   actions: read
   contents: read
-  issues: write
-  pull-requests: read
+  pull-requests: write
 
 concurrency:
   group: tohee-docs-pages-publish
@@ -25,8 +24,7 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      # The deployment action needs a Git checkout. GITHUB_SHA on workflow_run
-      # belongs to the default branch; never check out the PR in this job.
+      # GITHUB_SHA on workflow_run belongs to the default branch.
       - name: Checkout trusted default-branch commit
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
@@ -147,32 +145,14 @@ jobs:
               revision: run.head_sha,
             }, null, 2) + '\n');
 
-      - name: Publish or remove PR preview
-        id: publish
-        if: steps.validate.outputs.decision != 'skip'
-        uses: rossjrw/pr-preview-action@873417d2df72380da1f3978378fb58560bcde976 # v1
-        with:
-          token: ${{ secrets.PAGES_PREVIEW_TOKEN }}
-          source-dir: ${{ runner.temp }}/pr-preview/site
-          preview-branch: gh-pages
-          umbrella-dir: pr-preview
-          pr-number: ${{ steps.validate.outputs.number }}
-          action: ${{ steps.validate.outputs.decision }}
-          deploy-commit-message: Deploy preview for PR ${{ steps.validate.outputs.number }}
-          remove-commit-message: Remove preview for PR ${{ steps.validate.outputs.number }}
-          git-config-name: 'github-actions[bot]'
-          git-config-email: '41898282+github-actions[bot]@users.noreply.github.com'
-          comment: false
-          qr-code: false
-          wait-for-pages-deployment: true
-
-      - name: Read the deployed previews as static files
+      - name: Check out Pages previews
         if: steps.validate.outputs.decision != 'skip'
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           ref: gh-pages
           path: .pages-preview-tree
-          persist-credentials: false
+          token: ${{ secrets.PAGES_PREVIEW_TOKEN }}
+          persist-credentials: true
 
       - name: Set up Node.js for the trusted directory generator
         if: steps.validate.outputs.decision != 'skip'
@@ -180,22 +160,57 @@ jobs:
         with:
           node-version: 24
 
-      - name: Generate the Pages build directory
+      - name: Publish PR preview and Pages directory together
+        id: publish
         if: steps.validate.outputs.decision != 'skip'
-        run: node scripts/build-preview-directory.mjs .pages-preview-tree "$RUNNER_TEMP/pages-preview-directory"
+        env:
+          PR_NUMBER: ${{ steps.validate.outputs.number }}
+          PREVIEW_DECISION: ${{ steps.validate.outputs.decision }}
+        run: |
+          pages_tree=.pages-preview-tree
+          preview_path="pr-preview/pr-$PR_NUMBER"
+          if [[ "$PREVIEW_DECISION" == 'deploy' ]]; then
+            mkdir -p "$pages_tree/$preview_path"
+            rsync -a --delete "$RUNNER_TEMP/pr-preview/site/" "$pages_tree/$preview_path/"
+            message="Deploy PR $PR_NUMBER preview and update directory"
+          else
+            if [[ ! -d "$pages_tree/$preview_path" ]]; then
+              exit 0
+            fi
+            rm -rf -- "$pages_tree/$preview_path"
+            message="Remove PR $PR_NUMBER preview and update directory"
+          fi
 
-      - name: Update the Pages root directory
-        if: steps.validate.outputs.decision != 'skip'
-        uses: JamesIves/github-pages-deploy-action@4a3abc783e1a24aeb44c16e869ad83caf6b4cc23 # v4.7.4
-        with:
-          token: ${{ secrets.PAGES_PREVIEW_TOKEN }}
-          branch: gh-pages
-          folder: ${{ runner.temp }}/pages-preview-directory
-          clean: false
-          force: false
-          commit-message: Update docs preview directory
-          git-config-name: 'github-actions[bot]'
-          git-config-email: '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C "$pages_tree" add -A -- "$preview_path"
+          if git -C "$pages_tree" diff --cached --quiet; then
+            echo 'No Pages changes to publish.'
+            exit 0
+          fi
+          node scripts/build-preview-directory.mjs "$pages_tree" "$RUNNER_TEMP/pages-preview-directory"
+          cp -a "$RUNNER_TEMP/pages-preview-directory/." "$pages_tree/"
+          git -C "$pages_tree" add -A -- index.html fonts
+          git -C "$pages_tree" \
+            -c user.name='github-actions[bot]' \
+            -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+            commit -m "$message"
+          git -C "$pages_tree" push origin HEAD:gh-pages
+          echo "sha=$(git -C "$pages_tree" rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Wait for the combined GitHub Pages deployment
+        if: steps.publish.outputs.sha != ''
+        timeout-minutes: 5
+        env:
+          GH_TOKEN: ${{ secrets.PAGES_PREVIEW_TOKEN }}
+          PAGES_SHA: ${{ steps.publish.outputs.sha }}
+        run: |
+          while true; do
+            status=$(gh api "repos/$GITHUB_REPOSITORY/pages/builds/latest" --jq ". | select(.commit == \"$PAGES_SHA\") | .status")
+            case "$status" in
+              built) break ;;
+              errored) echo "Pages build failed for $PAGES_SHA" >&2; exit 1 ;;
+            esac
+            sleep 5
+          done
 
       - name: Post or update the preview comment
         if: steps.validate.outputs.decision != 'skip'
@@ -203,14 +218,14 @@ jobs:
         env:
           PR_NUMBER: ${{ steps.validate.outputs.number }}
           PREVIEW_DECISION: ${{ steps.validate.outputs.decision }}
-          PREVIEW_URL: ${{ steps.publish.outputs.preview-url }}
         with:
           script: |
             const { owner, repo } = context.repo;
             const issue_number = Number(process.env.PR_NUMBER);
+            const previewUrl = `https://${owner.toLowerCase()}.github.io/${repo}/pr-preview/pr-${issue_number}/#/docs`;
             const marker = '<!-- tohee-docs-pr-preview -->';
             const body = process.env.PREVIEW_DECISION === 'deploy'
-              ? `${marker}\n**PR Preview**\n\n[Open documentation preview](${process.env.PREVIEW_URL})\n\nAutomatically updated when this PR changes.`
+              ? `${marker}\n**PR Preview**\n\n[Open documentation preview](${previewUrl})\n\nAutomatically updated when this PR changes.`
               : `${marker}\n**PR Preview**\n\nPreview removed because the PR was closed.`;
             const comments = await github.paginate(github.rest.issues.listComments, {
               owner, repo, issue_number, per_page: 100
