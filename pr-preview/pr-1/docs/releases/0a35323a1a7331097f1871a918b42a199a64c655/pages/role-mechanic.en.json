@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The Mechanic can use vents at any time and can fix selected sabotages alone, depending on settings.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Mechanics in a match.</li>\n<li><strong>Initial repair use limit</strong>: Sets the Mechanic&#39;s starting number of repair uses.</li>\n<li><strong>Can open a door group at once</strong>: ON lets one interaction open all doors in the same group during door sabotages on Polus and Airship; it does not open every door on the map. OFF disables this.</li>\n<li><strong>Can fix both reactors alone</strong>: ON lets the Mechanic complete the two-point reactor repair alone; OFF does not.</li>\n<li><strong>Can fix both O2 points alone</strong>: ON lets the Mechanic complete the two-point O2 repair alone; OFF does not.</li>\n<li><strong>Can fix Communications alone</strong>: ON lets the Mechanic fix communications sabotage alone; the current implementation supports MIRA HQ and Fungle. OFF does not.</li>\n<li><strong>Can fix lights with one switch</strong>: ON lets the Mechanic fix the lights sabotage with one switch; OFF does not.</li>\n<li><strong>Ability uses gained per task</strong>: Sets additional repair uses per completed task, in 0.1 increments.</li>\n<li><strong>Uses required for Reactor/O2</strong>: Sets the repair uses consumed for Reactor or O2, in 0.1 increments.</li>\n<li><strong>Uses required for Lights/Comms</strong>: Sets the repair uses consumed for Lights or Comms, in 0.1 increments.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

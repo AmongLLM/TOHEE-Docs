@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"effect\">Effect</h2>\n<p>Lazy is assigned only to Crewmates and receives no tasks. Warlock and Puppeteer cannot use their control abilities on Lazy. Separate settings control whether taskless Crewmate roles and task-based Crewmate roles can receive it.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number that can appear in one match.</li>\n<li><strong>Spawn Chance</strong>: Chance for a player to receive this add-on.</li>\n<li><strong>TasklessCrewCanBeLazy</strong>: Whether taskless Crewmate roles can receive Lazy.</li>\n<li><strong>TaskBasedCrewCanBeLazy</strong>: Whether task-based Crewmate roles can receive Lazy.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "effect",
+      "text": "Effect",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

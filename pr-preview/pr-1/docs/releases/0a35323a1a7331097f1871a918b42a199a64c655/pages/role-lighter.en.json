@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The Lighter can vent to temporarily increase their vision. The increased vision applies both when lights are on and when lights are out.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Light cooldown</strong>: Sets how long the Lighter must wait before using the ability again.</li>\n<li><strong>Light duration</strong>: Sets how long the vision increase lasts.</li>\n<li><strong>Increased vision</strong>: Sets the vision increase under normal lighting.</li>\n<li><strong>Increased vision during lights out</strong>: Sets the vision increase during a lights sabotage.</li>\n<li><strong>Initial ability uses</strong>: Sets how many uses the Lighter starts with.</li>\n<li><strong>Ability uses gained per task</strong>: Sets the uses gained for each completed task, in 0.1 increments.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

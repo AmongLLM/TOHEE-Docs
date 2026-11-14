@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"wraith\">Wraith</h2>\n<p>The Wraith uses vents to become temporarily invisible. Using a vent again ends invisibility. The Wraith can still kill while invisible. Whether they can use vents normally while invisibility is on cooldown depends on a setting. The Wraith is a separate Neutral team; after the Impostors are gone, it can win when the living Crew count is no greater than the remaining counted Neutral players and those Neutrals all belong to the same team. The Wraith does not have to be the last player alive.</p>\n<h3 id=\"settings\">Settings</h3>\n<ul>\n<li><strong>Vanish cooldown:</strong> Time before becoming invisible again.</li>\n<li><strong>Vanish duration:</strong> How long each vanish lasts.</li>\n<li><strong>Vent normally while invisibility is on cooldown:</strong> When enabled, normal vent use is allowed during the invisibility cooldown; otherwise, vent entry is blocked.</li>\n<li><strong>Impostor vision:</strong> Whether the Wraith has Impostor vision.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "wraith",
+      "text": "Wraith",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 3
+    }
+  ]
+}

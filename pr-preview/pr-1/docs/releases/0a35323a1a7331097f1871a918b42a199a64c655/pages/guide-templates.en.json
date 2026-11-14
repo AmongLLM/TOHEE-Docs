@@ -1,0 +1,20 @@
+{
+  "html": "<h2 id=\"template-file\">Template file</h2>\n<p>TOHEE stores chat templates in <code>TOHEE-DATA/template.txt</code> in the game directory. On first run it creates a default file for the game language; an old <code>template.txt</code> in the previous location may be copied into the new directory. Back up the file before editing, use a plain-text editor, and save it as UTF-8.</p>\n<p>Each line uses <code>name:message</code>, with a colon as the separator. For example:</p>\n<pre><code class=\"language-text\">welcome:Welcome to the room, {{PlayerName}}! Your host is {{HostName}}.\nonMeeting:Discuss and vote. Room code: {{RoomCode}}\nexample:First line\\nSecond line\n</code></pre>\n<p>Enter <code>/t welcome</code> or <code>/t example</code> in chat to send a matching message. <code>\\n</code> creates a line break; extra colons in the message body are preserved. Names are case-insensitive. Duplicate names send each matching message separately. An unknown name produces no template content; use <code>/help</code> for current command help.</p>\n<p>The default file commonly includes names such as <code>welcome</code> and <code>onMeeting</code>. Use the names in your own <code>template.txt</code> when editing or updating it; do not assume every release has the same default templates.</p>\n<h2 id=\"replacement-variables\">Replacement variables</h2>\n<p>Templates can include <code>{{...}}</code> variables that TOHEE replaces when it sends the message:</p>\n<table>\n<thead>\n<tr>\n<th>Variable</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><code>{{PlayerName}}</code></td>\n<td>Name of the player receiving the template; it may be empty in a lobby broadcast.</td>\n</tr>\n<tr>\n<td><code>{{HostName}}</code></td>\n<td>Host&#39;s in-game name.</td>\n</tr>\n<tr>\n<td><code>{{RoomCode}}</code></td>\n<td>Room code.</td>\n</tr>\n<tr>\n<td><code>{{AmongUsVersion}}</code></td>\n<td>Current game version.</td>\n</tr>\n<tr>\n<td><code>{{ModVersion}}</code></td>\n<td>TOHEE display version.</td>\n</tr>\n<tr>\n<td><code>{{Map}}</code></td>\n<td>Current map name.</td>\n</tr>\n<tr>\n<td><code>{{LobbyTimer}}</code></td>\n<td>Lobby start countdown; empty outside the lobby.</td>\n</tr>\n</tbody></table>\n<p>Standard mode also supports variables for game time, discussion and voting time, speed, vision, and task counts. Hide &amp; Seek exposes fewer option variables. Variable names must match exactly, including braces.</p>\n<h2 id=\"formatting-tips\">Formatting tips</h2>\n<p>Chat messages support the Among Us rich-text markup used by the mod. After editing, save the file and send the template again. If it sends nothing or appears incorrectly, check for a missing colon, a misspelled variable, or unclosed formatting. <code>TOHE-DATA</code> is the old directory name; the current default directory is <code>TOHEE-DATA</code>.</p>\n",
+  "headings": [
+    {
+      "id": "template-file",
+      "text": "Template file",
+      "level": 2
+    },
+    {
+      "id": "replacement-variables",
+      "text": "Replacement variables",
+      "level": 2
+    },
+    {
+      "id": "formatting-tips",
+      "text": "Formatting tips",
+      "level": 2
+    }
+  ]
+}

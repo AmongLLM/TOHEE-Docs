@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"spiritcaller\">Spiritcaller</h2>\n<p>The Spiritcaller can kill players. A target becomes an Evil Spirit if they are not an Impostor, are eligible for conversion, and the Spiritcaller has not reached the spirit limit; otherwise, the kill proceeds normally. Evil Spirits can briefly freeze other players, block their vision, or give the Spiritcaller a shield that blocks an attempted kill. The Spiritcaller wins under its counted Neutral team condition, and Evil Spirits win with the Spiritcaller.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Kill cooldown:</strong> Time before the Spiritcaller can use their ability again.</li>\n<li><strong>Can vent:</strong> Whether the Spiritcaller can use vents.</li>\n<li><strong>Impostor vision:</strong> When enabled, the Spiritcaller has Impostor vision; otherwise, they have default vision.</li>\n<li><strong>Maximum number of Evil Spirits:</strong> Maximum number of spirits the Spiritcaller can create.</li>\n<li><strong>Evil Spirit ability cooldown:</strong> Time before a spirit can use its ability again.</li>\n<li><strong>Freeze duration:</strong> How long an Evil Spirit can freeze a player.</li>\n<li><strong>Protection duration:</strong> How long an Evil Spirit&#39;s shield protects the Spiritcaller.</li>\n<li><strong>Blinding strength:</strong> How much an Evil Spirit can reduce a player&#39;s vision.</li>\n<li><strong>Blinding duration:</strong> How long the vision effect lasts.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "spiritcaller",
+      "text": "Spiritcaller",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

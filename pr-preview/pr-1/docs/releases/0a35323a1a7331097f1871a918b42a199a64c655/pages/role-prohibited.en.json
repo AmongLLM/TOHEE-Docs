@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"effect\">Effect</h2>\n<p>Some vents are blocked from use for a player with Prohibited.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number that can appear in one match.</li>\n<li><strong>Spawn Chance</strong>: Chance for a player to receive this add-on.</li>\n<li><strong>Eligibility</strong>: Separate settings control whether Impostors, Crewmates, Neutrals can receive this add-on.</li>\n<li><strong>Override Blocked Vents After Meeting</strong>: Whether blocked vents are overridden after a meeting.</li>\n<li><strong>Count Blocked Vents in The Skeld</strong>: Number of vents blocked on The Skeld.</li>\n<li><strong>Count Blocked Vents in MIRA HQ</strong>: Number of vents blocked on MIRA HQ.</li>\n<li><strong>Count Blocked Vents in Polus</strong>: Number of vents blocked on Polus.</li>\n<li><strong>Count Blocked Vents in Dleks</strong>: Number of vents blocked on Dleks.</li>\n<li><strong>Count Blocked Vents in Airship</strong>: Number of vents blocked on Airship.</li>\n<li><strong>Count Blocked Vents in The Fungle</strong>: Number of vents blocked on The Fungle.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "effect",
+      "text": "Effect",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"效果\">效果</h2>\n<p>只有内鬼可以成为宝箱怪。宝箱怪死亡后，在下一次会议中，内鬼队伍会收到它所击杀且目前仍存活的玩家角色信息。存活的宝箱怪还可按设置查看已死亡玩家的角色。</p>\n<h2 id=\"设置\">设置</h2>\n<ul>\n<li><strong>Max（最大数量）</strong>：本局中该附加身份可出现的数量上限。</li>\n<li><strong>Spawn Chance（生成概率）</strong>：玩家获得此附加身份的概率。</li>\n<li><strong>Mimic can see the roles of dead players（Mimic 可查看死者角色）</strong>：控制存活的宝箱怪能否在角色可见后查看死者身份。</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "效果",
+      "text": "效果",
+      "level": 2
+    },
+    {
+      "id": "设置",
+      "text": "设置",
+      "level": 2
+    }
+  ]
+}

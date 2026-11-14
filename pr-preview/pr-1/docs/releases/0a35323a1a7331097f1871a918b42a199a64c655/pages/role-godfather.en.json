@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>Vote for a target during a meeting. In the next round, if a player outside the Impostor and Madmate teams kills the target, that killer changes into the role selected by the host. An Impostor or Madmate who kills the target does not change roles. Another meeting clears an unresolved target.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Godfathers in a match.</li>\n<li><strong>Killer Turns Into</strong>: Choose whether the eligible killer becomes a Refugee or Madmate.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

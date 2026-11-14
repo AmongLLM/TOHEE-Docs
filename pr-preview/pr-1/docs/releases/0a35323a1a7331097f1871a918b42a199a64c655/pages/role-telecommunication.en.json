@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The Telecommunication sees a warning when a living player enters the usable range of cameras, Vitals, door logs, or Admin devices. The current implementation checks player distance to each device, not whether the player opened its UI.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Telecommunication roles in a match.</li>\n<li><strong>Can track camera usage</strong>: ON allows tracking camera use; OFF disables it.</li>\n<li><strong>Can vent</strong>: ON allows venting; OFF does not.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

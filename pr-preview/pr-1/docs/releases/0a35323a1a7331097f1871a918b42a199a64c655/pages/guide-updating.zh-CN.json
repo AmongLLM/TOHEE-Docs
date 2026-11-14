@@ -1,0 +1,20 @@
+{
+  "html": "<h2 id=\"更新前\">更新前</h2>\n<p>先关闭 Among Us 和启动器中正在运行的游戏进程。备份游戏目录里的 <code>TOHEE-DATA</code> 文件夹；它保存预设、模板和本地标签。不要把旧版模组 DLL 与新版本加载器或其他商店的 interop 文件混在一起。</p>\n<h2 id=\"安装新版本\">安装新版本</h2>\n<ol>\n<li>打开 <a href=\"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/releases\" rel=\"noopener noreferrer\">TOHEE GitHub Releases</a>，查看最新版本的发行说明和支持的 Among Us 版本。</li>\n<li>下载与当前商店及架构相符的发行包。Steam、Epic Games、Microsoft Store / Xbox App 通常使用 x64；Windows itch.io 客户端使用 x86。若游戏本体升级了，优先使用该游戏版本对应的完整发行包。</li>\n<li>在游戏关闭时将发行包中的文件解压到 <code>Among Us.exe</code> 所在目录，并按提示覆盖模组文件。保留 <code>TOHEE-DATA</code>，不要用旧备份整个覆盖新安装目录。</li>\n<li>从较早的整合包升级时，请查看随当前发行包提供的说明，确认是否还需替换 patcher 或其他加载器文件。若首次初始化要求重启，按发行说明重新启动游戏。</li>\n<li>启动游戏并确认主菜单显示当前 TOHEE 版本。若加载失败，检查 <code>BepInEx/LogOutput.log</code> 并查看<a href=\"/TOHEE-Docs/pr-preview/pr-1/#/docs/guide-troubleshooting\" rel=\"noopener noreferrer\">故障排查</a>。</li>\n</ol>\n<p>对于相同 Among Us 版本、相同架构和相同 BepInEx 6 <code>be.755</code> 环境的常规小版本更新，发行包说明允许只替换 <code>BepInEx/plugins/TOHE.dll</code>。若发行说明要求更新加载器或 patcher，或你不确定当前环境，则使用完整发行包更新。</p>\n<h2 id=\"设置文件\">设置文件</h2>\n<p>TOHEE 当前把游戏选项保存为 <code>TOHEE-DATA/SaveData/GlobalOptions.jsonc</code> 和 <code>Preset1.jsonc</code> 至 <code>Preset8.jsonc</code>。这些本地文件和 <code>TOHEE-DATA/Presets/</code> 中用于分享的 JSON 文件用途不同。更新后不要把旧版网站下载流程中的 <code>Options.json</code> 当成当前预设格式；旧 <code>Options.json</code> 只在程序迁移旧数据时使用。更多信息见<a href=\"/TOHEE-Docs/pr-preview/pr-1/#/docs/guide-presets\" rel=\"noopener noreferrer\">预设指南</a>。</p>\n<p>上游旧教程曾介绍内置更新器和 Discord 测试版下载。当前建议通过 GitHub Releases 获取 TOHEE 发行包；不要依赖旧版频道名称或旧下载地址。</p>\n",
+  "headings": [
+    {
+      "id": "更新前",
+      "text": "更新前",
+      "level": 2
+    },
+    {
+      "id": "安装新版本",
+      "text": "安装新版本",
+      "level": 2
+    },
+    {
+      "id": "设置文件",
+      "text": "设置文件",
+      "level": 2
+    }
+  ]
+}

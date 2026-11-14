@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>Each shapeshift marks your location. After a kill, the victim’s body is teleported to that location. The mark resets after each kill and after every meeting. The Undertaker is frozen for the configured time after a kill that teleports a body.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Undertakers in a match.</li>\n<li><strong>Kill Cooldown</strong>: Time before the Undertaker can kill again.</li>\n<li><strong>Shapeshift Cooldown</strong>: Time before the Undertaker can shapeshift again.</li>\n<li><strong>Freeze Duration</strong>: How long the Undertaker is unable to move after teleporting a body.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>After reporting a body, the Detective receives a clue identifying the dead player&#39;s role and may learn the killer&#39;s role, depending on settings. The Detective cannot become Oblivious.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Detectives in a match.</li>\n<li><strong>Can find the killer&#39;s role</strong>: ON lets the Detective learn the role of the killer associated with a reported body; OFF withholds the killer&#39;s exact role.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

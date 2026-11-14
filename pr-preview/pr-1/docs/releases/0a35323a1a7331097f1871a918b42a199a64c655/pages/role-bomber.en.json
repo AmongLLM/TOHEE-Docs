@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>Shapeshifting detonates a bomb around the Bomber. Players receive a kill flash when the Bomber self-destructs. Settings determine whether the Bomber and other Impostors survive the explosion.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Bombers in a match.</li>\n<li><strong>Bomb Radius</strong>: Blast radius; the source notes that a value of about 5x covers roughly half of Cafeteria.</li>\n<li><strong>Can Kill</strong>: When enabled, the Bomber can also make normal kills, with a configurable kill cooldown; when disabled, it can kill only by bombing.</li>\n<li><strong>Bomb Cooldown</strong>: Time before the Bomber can use another bomb.</li>\n<li><strong>Impostors Survive Bombs</strong>: When enabled, other Impostors survive; when disabled, they die in the blast.</li>\n<li><strong>Bomber Dies in Their Explosion</strong>: When enabled, the Bomber survives; when disabled, the Bomber dies.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

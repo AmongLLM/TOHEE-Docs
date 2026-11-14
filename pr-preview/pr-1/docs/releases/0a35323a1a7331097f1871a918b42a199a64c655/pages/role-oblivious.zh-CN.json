@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"效果\">效果</h2>\n<p>胆小鬼无法报告尸体。它与侦探（Detective）、秃鹫（Vulture）、侦察员（Sleuth）、清理工（Cleaner）、失忆者（Amnesiac）、验尸官（Coroner）、美杜莎（Medusa）、入殓师（Mortician）、灵媒（Medium）、击杀机器（KillingMachine）、GuardianAngelTOHE 和利他者（Altruist）不兼容。启用诱饵免疫后，击杀诱饵不会触发强制自动报告，但胆小鬼也不能手动报告该尸体；关闭时按诱饵的正常报告机制处理。</p>\n<h2 id=\"设置\">设置</h2>\n<ul>\n<li><strong>Max（最大数量）</strong>：本局中该附加身份可出现的数量上限。</li>\n<li><strong>Spawn Chance（生成概率）</strong>：玩家获得此附加身份的概率。</li>\n<li><strong>Eligibility（可分配阵营）</strong>：主持人可分别设置内鬼、船员和中立者是否可以获得此附加身份。</li>\n<li><strong>ObliviousBaitImmune（免疫诱饵自动报告）</strong>：控制是否对胆小鬼击杀诱饵后的强制报告免疫；开启后，胆小鬼也不能手动报告该诱饵尸体。</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "效果",
+      "text": "效果",
+      "level": 2
+    },
+    {
+      "id": "设置",
+      "text": "设置",
+      "level": 2
+    }
+  ]
+}

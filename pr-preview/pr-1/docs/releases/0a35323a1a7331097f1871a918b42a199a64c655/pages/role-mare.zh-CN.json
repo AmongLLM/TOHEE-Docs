@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"效果\">效果</h2>\n<p>梦魇只分配给内鬼。灯光破坏生效时，梦魇获得额外移动速度和更短的击杀冷却，并会以阵营颜色显示名字；灯光恢复后，击杀按钮不可用。梦魇不会在 The Fungle 地图随机分配。</p>\n<h2 id=\"设置\">设置</h2>\n<ul>\n<li><strong>Max（最大数量）</strong>：本局中该附加身份可出现的数量上限。</li>\n<li><strong>Spawn Chance（生成概率）</strong>：玩家获得此附加身份的概率。</li>\n<li><strong>MareAddSpeedInLightsOut（灯光破坏期间额外速度）</strong>：灯光破坏期间增加的移动速度。</li>\n<li><strong>MareKillCooldownInLightsOut（灯光破坏期间击杀冷却）</strong>：灯光破坏期间的击杀冷却。</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "效果",
+      "text": "效果",
+      "level": 2
+    },
+    {
+      "id": "设置",
+      "text": "设置",
+      "level": 2
+    }
+  ]
+}

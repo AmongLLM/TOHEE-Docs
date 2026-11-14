@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"效果\">效果</h2>\n<p>当玩家完成全部现有任务时，若满足条件且加班狂数量未达到上限，系统会将其转为加班狂并增加任务。默认只允许船员；关闭对应选项后，也可由完成任务且拥有可扩展任务集的其他角色成为加班狂。摆烂人、懒人不能成为目标；告密者是否允许成为加班狂单独设置。</p>\n<h2 id=\"设置\">设置</h2>\n<ul>\n<li><strong>Workhorse enabled（启用 Workhorse）</strong>：控制是否启用加班狂分配；没有百分比生成概率。</li>\n<li><strong>Maximum（人数上限）</strong>：单局中最多可成为加班狂的玩家数量。</li>\n<li><strong>AssignOnlyToCrewmate（仅分配给 Crewmates）</strong>：控制是否只允许船员成为加班狂。</li>\n<li><strong>WorkhorseNumLongTasks（额外长任务）</strong>：成为加班狂时增加的长任务数量。</li>\n<li><strong>WorkhorseNumShortTasks（额外短任务）</strong>：成为加班狂时增加的短任务数量。</li>\n<li><strong>SnitchCanBeWorkhorse（Snitch 可成为 Workhorse）</strong>：控制告密者能否成为加班狂。</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "效果",
+      "text": "效果",
+      "level": 2
+    },
+    {
+      "id": "设置",
+      "text": "设置",
+      "level": 2
+    }
+  ]
+}

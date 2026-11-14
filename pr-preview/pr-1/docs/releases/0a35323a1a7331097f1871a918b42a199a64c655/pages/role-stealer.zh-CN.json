@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"效果\">效果</h2>\n<p>窃票者只分配给内鬼。每次击杀都会按设定值增加额外投票数；计算投票时小数部分向下取整。额外投票是否在会议界面显示由设置控制。</p>\n<h2 id=\"设置\">设置</h2>\n<ul>\n<li><strong>Max（最大数量）</strong>：本局中该附加身份可出现的数量上限。</li>\n<li><strong>Spawn Chance（生成概率）</strong>：玩家获得此附加身份的概率。</li>\n<li><strong>TicketsPerKill（每次击杀增加票数）</strong>：每次击杀增加的额外票数；应用时向下取整。</li>\n<li><strong>HideAdditionalVotes（隐藏额外票数）</strong>：控制会议期间是否隐藏额外票数。</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "效果",
+      "text": "效果",
+      "level": 2
+    },
+    {
+      "id": "设置",
+      "text": "设置",
+      "level": 2
+    }
+  ]
+}

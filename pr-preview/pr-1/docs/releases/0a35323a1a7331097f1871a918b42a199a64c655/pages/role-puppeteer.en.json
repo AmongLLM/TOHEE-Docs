@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>Single-click the kill button to puppeteer a target; double-click to make a normal kill. The puppet automatically attacks the nearest non-Impostor within kill range and is released after a successful attack. A meeting ends any active puppeteering. Lazy players and a Mini who has not grown up will not obey. Depending on the setting, the puppet also dies after its victim is killed; Pestilence is exempt from that death.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Puppeteers in a match.</li>\n<li><strong>Puppet Dies Alongside Victim</strong>: When enabled, the puppet also dies after killing its victim; otherwise the puppet survives.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

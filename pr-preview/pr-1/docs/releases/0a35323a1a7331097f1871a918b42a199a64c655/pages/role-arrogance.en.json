@@ -1,0 +1,20 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>Each successful kill reduces the cooldown before the next kill by the configured amount.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Arrogance roles in a match.</li>\n<li><strong>Starting Kill Cooldown</strong>: Initial kill cooldown.</li>\n<li><strong>Reduce Kill Cooldown By</strong>: Cooldown reduction after each successful kill.</li>\n<li><strong>Minimum Kill Cooldown</strong>: Lowest possible kill cooldown.</li>\n</ul>\n<h2 id=\"hidden-role\">Hidden Role</h2>\n<p>When hidden roles are enabled, Bard has a chance to appear in place of Arrogance. The chance is controlled by the hidden-role settings.</p>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    },
+    {
+      "id": "hidden-role",
+      "text": "Hidden Role",
+      "level": 2
+    }
+  ]
+}

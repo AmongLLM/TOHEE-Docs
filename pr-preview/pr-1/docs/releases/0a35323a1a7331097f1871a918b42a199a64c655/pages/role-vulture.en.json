@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"vulture\">Vulture</h2>\n<p>The Vulture wins by eating enough bodies. When reporting a body, the Vulture eats it if the eat cooldown has ended and they have not reached the per-round limit; the body then cannot be reported again. Otherwise, the body is reported normally. The eat limit and cooldown reset after each meeting.</p>\n<h3 id=\"settings\">Settings</h3>\n<ul>\n<li><strong>Maximum number:</strong> Maximum number of Vultures in a match.</li>\n<li><strong>Arrows to dead bodies:</strong> Whether the Vulture receives arrows pointing to bodies.</li>\n<li><strong>Bodies needed to win:</strong> Number of bodies the Vulture must eat.</li>\n<li><strong>Can vent:</strong> Whether the Vulture can use vents.</li>\n<li><strong>Eat cooldown:</strong> Time before eating another body.</li>\n<li><strong>Maximum eaten bodies per round:</strong> Per-meeting limit on eaten bodies.</li>\n<li><strong>Impostor vision:</strong> Whether the Vulture has Impostor vision.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "vulture",
+      "text": "Vulture",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 3
+    }
+  ]
+}

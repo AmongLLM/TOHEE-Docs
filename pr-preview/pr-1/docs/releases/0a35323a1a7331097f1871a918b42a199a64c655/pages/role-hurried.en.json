@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"effect\">Effect</h2>\n<p>A player with Hurried must finish all tasks to win with their team; otherwise they lose. Hurried also tries to ensure the player is not converted to a Madmate, Charmed, or similar role first.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number that can appear in one match.</li>\n<li><strong>Spawn Chance</strong>: Chance for a player to receive this add-on.</li>\n<li><strong>Madmate can be Hurried on game start</strong>: Whether Madmates can receive Hurried at game start.</li>\n<li><strong>Task based Crewmates can be Hurried</strong>: Whether Crewmate roles whose abilities activate through doing or completing tasks can receive Hurried.</li>\n<li><strong>Hurried can be recruited in game (excludes madmate)</strong>: Whether Hurried Crewmates can be recruited by Cultist, Jackal, and other recruiting roles; this excludes Madmates.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "effect",
+      "text": "Effect",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

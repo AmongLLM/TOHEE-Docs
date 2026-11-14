@@ -1,0 +1,10 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The Nice Mini cannot be killed until they grow up. If they die or are ejected from a meeting before growing up, the game ends with the Nice Mini as the winner.</p>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    }
+  ]
+}

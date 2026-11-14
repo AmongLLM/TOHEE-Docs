@@ -1,0 +1,25 @@
+{
+  "html": "<h2 id=\"what-cloud-offers\">What Cloud offers</h2>\n<p>TOHEE Cloud is the mod&#39;s companion player service. Link several Among Us accounts to one Cloud account and manage each account&#39;s tag and room-sharing preference separately. Reading mod documentation does not require signing in.</p>\n<table>\n<thead>\n<tr>\n<th>Feature</th>\n<th>Purpose</th>\n<th>Start here</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Game accounts</td>\n<td>Verify and manage Among Us accounts you own</td>\n<td><a href=\"/TOHEE-Docs/pr-preview/pr-1/#/docs/cloud-accounts\" rel=\"noopener noreferrer\">Linking guide</a></td>\n</tr>\n<tr>\n<td>Free player tags</td>\n<td>Set the text and colour displayed in game</td>\n<td><a href=\"/TOHEE-Docs/pr-preview/pr-1/#/docs/cloud-tags\" rel=\"noopener noreferrer\">Tag guide</a></td>\n</tr>\n<tr>\n<td>Room sharing</td>\n<td>Help eligible users discover your room</td>\n<td><a href=\"/TOHEE-Docs/pr-preview/pr-1/#/docs/cloud-sharing\" rel=\"noopener noreferrer\">Sharing guide</a></td>\n</tr>\n<tr>\n<td>Find a room</td>\n<td>Filter rooms and copy a room code</td>\n<td><a href=\"/TOHEE-Docs/pr-preview/pr-1/#/docs/cloud-rooms\" rel=\"noopener noreferrer\">Matchmaking guide</a></td>\n</tr>\n</tbody></table>\n<h2 id=\"first-time-setup\">First-time setup</h2>\n<p>The full Cloud policy is not included in the mod. Read and accept it on the website when registering or signing in to Cloud; the mod panel&#39;s notice does not replace the agreement. See <a href=\"/TOHEE-Docs/pr-preview/pr-1/#/docs/cloud-client-menu\" rel=\"noopener noreferrer\">the in-mod Cloud interface</a> for panel instructions.</p>\n<ol>\n<li><a href=\"https://tohee.niko233.top/register\" rel=\"noopener noreferrer\">Register with email</a>, or use Discord on the <a href=\"https://tohee.niko233.top/login\" rel=\"noopener noreferrer\">sign-in page</a>. Read and accept the information collection policy first.</li>\n<li>Email registration requires a one-time code and a password of at least 10 characters. The code can be used once and expires after 10 minutes.</li>\n<li>If your first Discord sign-in asks you to set a Cloud password, complete that step in Account settings. If an administrator reset your password, change the temporary password first.</li>\n<li>Under Link an Among Us account, choose linking from the mod or friend request verification.</li>\n<li>After linking, set your text and colour under Player tags. To share a room, enable sharing on both the website and the mod.</li>\n</ol>\n<h2 id=\"cloud-accounts-and-game-accounts\">Cloud accounts and game accounts</h2>\n<p>Cloud sign-in and Among Us sign-in are separate. Signing in to Cloud does not automatically prove ownership of a game account; linking requires verification in the mod or game. You do not need to enter your Among Us password into Cloud.</p>\n<p>Email and Discord are Cloud sign-in methods. Linked Among Us accounts are the game identities you manage. Unlinking a game account does not unlink your Cloud email or Discord sign-in method.</p>\n<h2 id=\"when-something-goes-wrong\">When something goes wrong</h2>\n<p>If security checks, email, Discord sign-in or friend verification are unavailable, follow the page&#39;s guidance and try again later. A temporarily unavailable service is different from rejected account verification; repeated submissions cannot solve every problem. See <a href=\"/TOHEE-Docs/pr-preview/pr-1/#/docs/cloud-help\" rel=\"noopener noreferrer\">Cloud troubleshooting</a>.</p>\n",
+  "headings": [
+    {
+      "id": "what-cloud-offers",
+      "text": "What Cloud offers",
+      "level": 2
+    },
+    {
+      "id": "first-time-setup",
+      "text": "First-time setup",
+      "level": 2
+    },
+    {
+      "id": "cloud-accounts-and-game-accounts",
+      "text": "Cloud accounts and game accounts",
+      "level": 2
+    },
+    {
+      "id": "when-something-goes-wrong",
+      "text": "When something goes wrong",
+      "level": 2
+    }
+  ]
+}

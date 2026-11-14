@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>A kill-button attack bites the target, who dies after the configured delay. Calling a meeting immediately kills any bitten target who is still alive. Attacking a Bait instead makes a normal kill and reports the body.</p>\n<p>The action mode can be set to bite-only, or to a double-click mode: single-click to bite and double-click to make a normal kill.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Vampires in a match.</li>\n<li><strong>Bite Kill Delay</strong>: Delay before a bitten target dies.</li>\n<li><strong>Can Vent</strong>: When enabled, the Vampire can use vents; otherwise it cannot.</li>\n<li><strong>Action Mode</strong>: Choose bite-only or single-click bite / double-click normal kill.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

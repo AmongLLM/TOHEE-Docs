@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"agitator\">Agitator</h2>\n<p>The Agitator passes a bomb to another player. When the holder gets close to another player, the game checks the nearest player first; each pass has a cooldown, and the previous holder cannot immediately receive the bomb again. If the nearest player cannot receive it, the bomb does not skip to someone farther away. If the bomb is not passed before its timer expires, the holder dies. The holder also dies if a meeting is called or a body is reported. Trying to pass the bomb to Pestilence kills the current holder. When Auto Report Bait is enabled, the Agitator can kill a Bait normally instead of passing them the bomb.</p>\n<p>With no Impostors left, the Agitater team wins at parity when it is the only surviving counted Neutral team.</p>\n<h3 id=\"settings\">Settings</h3>\n<ul>\n<li><strong>Maximum number:</strong> Maximum number of Agitators in a match.</li>\n<li><strong>Agitator bomb cooldown:</strong> Time before the Agitator can send out another bomb.</li>\n<li><strong>Bomb pass cooldown:</strong> Time before the current holder can pass the bomb again.</li>\n<li><strong>Bomb explode cooldown:</strong> Time before the bomb kills its holder.</li>\n<li><strong>Agitator can get bomb:</strong> Whether the Agitator can receive a bomb.</li>\n<li><strong>Agitator Auto Report Bait:</strong> Whether the Agitator can kill Bait normally instead of passing them the bomb.</li>\n<li><strong>Impostor vision:</strong> Whether the Agitator has Impostor vision.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "agitator",
+      "text": "Agitator",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 3
+    }
+  ]
+}

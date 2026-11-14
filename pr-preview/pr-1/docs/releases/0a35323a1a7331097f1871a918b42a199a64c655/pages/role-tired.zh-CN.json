@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"效果\">效果</h2>\n<p>疲劳者尝试使用击杀按钮（包括击杀类能力）或完成任务后，会暂时降低视野和移动速度。</p>\n<h2 id=\"设置\">设置</h2>\n<ul>\n<li><strong>Max（最大数量）</strong>：本局中该附加身份可出现的数量上限。</li>\n<li><strong>Spawn Chance（生成概率）</strong>：玩家获得此附加身份的概率。</li>\n<li><strong>Eligibility（可分配阵营）</strong>：主持人可分别设置内鬼、船员、中立者是否可以获得此附加身份。</li>\n<li><strong>Vision when Tired（疲劳时视野）</strong>：疲劳效果生效时的视野倍率。</li>\n<li><strong>Speed when Tired（疲劳时速度）</strong>：疲劳效果生效时的移动速度倍率。</li>\n<li><strong>Tired Duration（疲劳持续时间）</strong>：视野和速度降低的持续时间。</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "效果",
+      "text": "效果",
+      "level": 2
+    },
+    {
+      "id": "设置",
+      "text": "设置",
+      "level": 2
+    }
+  ]
+}

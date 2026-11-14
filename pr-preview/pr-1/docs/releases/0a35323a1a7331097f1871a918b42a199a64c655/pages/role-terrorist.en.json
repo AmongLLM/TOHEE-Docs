@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"terrorist\">Terrorist</h2>\n<p>The Terrorist wins alone by completing all tasks and then dying by a kill or vote. Suicide counts only when the option is enabled, which is off by default. An Armageddon death does not trigger the Terrorist win. A converted addon can redirect the win to its team.</p>\n<h3 id=\"settings\">Settings</h3>\n<ul>\n<li><strong>Maximum number:</strong> Maximum number of Terrorists in a match.</li>\n<li><strong>Can win by suicide:</strong> When enabled, the Terrorist can win by suiciding after finishing all tasks.</li>\n<li><strong>Can guess:</strong> Whether the Terrorist can guess in Guesser Mode or as a Guesser addon.</li>\n<li><strong>Override tasks:</strong> When enabled, configure common, long, and short tasks; otherwise, use the normal task setup.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "terrorist",
+      "text": "Terrorist",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 3
+    }
+  ]
+}

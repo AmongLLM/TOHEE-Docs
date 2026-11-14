@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>Player positions are randomly swapped when the Twister begins shapeshifting and again when it unshifts. The Twister does not swap with anyone, and players in vents are not teleported.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Twisters in a match.</li>\n<li><strong>Twist Cooldown</strong>: Time before the Twister can swap positions again.</li>\n<li><strong>Shapeshift Duration</strong>: How long the Twister stays shifted between the two swaps.</li>\n<li><strong>Hide Who the Players Swap Places With</strong>: When enabled, players cannot see who they swapped with; otherwise the swap partner is visible.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

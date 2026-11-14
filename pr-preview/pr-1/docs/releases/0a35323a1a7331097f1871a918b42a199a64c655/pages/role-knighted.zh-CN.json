@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"效果\">效果</h2>\n<p>君主可将符合条件的玩家授勋为骑士。骑士保留原主角色和阵营，在会议中额外增加一票。此身份不会随机分配；君主可设置授勋次数、能力冷却，以及是否隐藏骑士的额外票数。</p>\n<h2 id=\"相关设置\">相关设置</h2>\n<ul>\n<li><strong>MonarchKnightMax（骑士数量上限）</strong>：设置君主可授勋的骑士数量上限。</li>\n<li><strong>MonarchKnightCooldown（骑士冷却）</strong>：设置君主授勋能力的冷却时间。</li>\n<li><strong>HideAdditionalVotesForKnighted（隐藏 Knighted 额外票数）</strong>：君主设置，控制是否隐藏骑士的额外投票。</li>\n<li><strong>随机分配</strong>：不会开局随机分配；由上述赋予者能力转化获得。</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "效果",
+      "text": "效果",
+      "level": 2
+    },
+    {
+      "id": "相关设置",
+      "text": "相关设置",
+      "level": 2
+    }
+  ]
+}

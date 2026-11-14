@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The Knight has no tasks and can kill any player only once for the entire game.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Knights in a match.</li>\n<li><strong>Kill cooldown</strong>: Sets how long the Knight must wait to kill.</li>\n<li><strong>Can vent</strong>: ON lets the Knight use vents; OFF prevents venting.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

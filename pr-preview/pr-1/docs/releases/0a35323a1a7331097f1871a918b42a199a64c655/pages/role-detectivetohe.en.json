@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The native Detective uses the game&#39;s Detective ability to investigate clues. It is separate from the mod&#39;s custom Detective role.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Count and spawn chance</strong>: Controlled by the TOHE role-spawn options.</li>\n<li><strong>Suspect limit</strong>: Sets the maximum number of suspects for the native Detective ability.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

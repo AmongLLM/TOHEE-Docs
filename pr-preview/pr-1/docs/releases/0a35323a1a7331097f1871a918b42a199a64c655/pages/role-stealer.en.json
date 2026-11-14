@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"effect\">Effect</h2>\n<p>Stealer is assigned only to Impostors. Each kill adds extra votes based on a configurable amount; fractional votes are rounded down. A setting controls whether the extra votes appear in the meeting display.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number that can appear in one match.</li>\n<li><strong>Spawn Chance</strong>: Chance for a player to receive this add-on.</li>\n<li><strong>TicketsPerKill</strong>: Extra votes granted per kill; fractional votes are rounded down when applied.</li>\n<li><strong>HideAdditionalVotes</strong>: Whether extra votes are hidden during meetings.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "effect",
+      "text": "Effect",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

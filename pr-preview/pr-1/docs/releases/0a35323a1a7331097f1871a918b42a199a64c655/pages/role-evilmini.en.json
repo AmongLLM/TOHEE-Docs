@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>Evil Mini is the Impostor variant of Mini. Before age 18, it cannot be killed or recruited. Once grown up, it can be killed and recruited. Its kill cooldown decreases as it ages, from a longer cooldown while young to a shorter cooldown at adulthood.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Time Required to Grow</strong>: Time for a Mini to reach adulthood.</li>\n<li><strong>Everyone Can See the Mini</strong>: When enabled, all players can identify Mini.</li>\n<li><strong>Mini Can Be an Impostor</strong>: When enabled, Mini can be assigned as Evil Mini.<ul>\n<li><strong>Probability of Mini Being an Impostor</strong>: Chance that Mini becomes Evil Mini.</li>\n<li><strong>Kill Cooldown When Under 18</strong>: Evil Mini kill cooldown while young.</li>\n<li><strong>Kill Cooldown When Over 18</strong>: Evil Mini kill cooldown after growing up.</li>\n</ul>\n</li>\n<li><strong>Display Age Change in Real Time</strong>: When enabled, age changes are shown as they happen.</li>\n<li><strong>Meeting Time Can Continue to Grow</strong>: When enabled, meeting time counts toward growing up.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

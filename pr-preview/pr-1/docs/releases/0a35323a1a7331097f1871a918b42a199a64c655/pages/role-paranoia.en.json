@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"effect\">Effect</h2>\n<p>Madmates and Neutrals cannot receive Paranoia. It counts as one additional player for parity checks. When DualVotes is enabled, it also contributes an extra vote during meetings; the ability and visibility of that extra vote are configurable.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number that can appear in one match.</li>\n<li><strong>Spawn Chance</strong>: Chance for a player to receive this add-on.</li>\n<li><strong>Eligibility</strong>: Separate settings control whether Impostors, Crewmates can receive this add-on.</li>\n<li><strong>DualVotes</strong>: Whether Paranoia contributes an extra vote during meetings.</li>\n<li><strong>HideAdditionalVotes</strong>: Whether the additional vote is hidden in the meeting display.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "effect",
+      "text": "Effect",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

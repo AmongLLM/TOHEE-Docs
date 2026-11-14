@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>During meetings, the Psychic sees several players&#39; names in red, including one drawn from an Evil candidate pool; the remaining red names are drawn from other living players. As a Madmate, the Psychic sees Neutral Killing, Neutral Evil, and Killing Crewmates as red.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Psychics in a match.</li>\n<li><strong>Maximum red names</strong>: Sets how many red names can appear each meeting; at least one red-named player is Bad.</li>\n<li><strong>New red names every meeting</strong>: ON triggers another red-name draw each meeting; OFF reuses the current selection and draws again only when the list is empty.</li>\n</ul>\n<p>The following team switches affect only the pool for the guaranteed Evil red name. The remaining red names are still drawn from other living players, so OFF does not guarantee a category will never appear red.</p>\n<ul>\n<li><strong>Killing Crewmates can fill the Evil slot</strong>: ON adds them to the guaranteed Evil candidate pool; OFF removes them from that pool.</li>\n<li><strong>Neutral Benign can fill the Evil slot</strong>: ON adds them to the guaranteed Evil candidate pool; OFF removes them from that pool.</li>\n<li><strong>Neutral Evil can fill the Evil slot</strong>: ON adds them to the guaranteed Evil candidate pool; OFF removes them from that pool.</li>\n<li><strong>Neutral Chaos can fill the Evil slot</strong>: ON adds them to the guaranteed Evil candidate pool; OFF removes them from that pool.</li>\n<li><strong>Neutral Apocalypse can fill the Evil slot</strong>: ON adds them to the guaranteed Evil candidate pool; OFF removes them from that pool.</li>\n<li><strong>Neutral Killing can fill the Evil slot</strong>: ON adds them to the guaranteed Evil candidate pool; OFF removes them from that pool.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

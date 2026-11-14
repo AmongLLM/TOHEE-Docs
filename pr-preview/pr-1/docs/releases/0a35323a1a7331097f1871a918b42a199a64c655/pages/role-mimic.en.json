@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"effect\">Effect</h2>\n<p>Only Impostors can become Mimic. At the next meeting after Mimic dies, the Impostor team receives the roles of players it killed who are still alive. While alive, Mimic can also see dead players&#39; roles if the setting allows it.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number that can appear in one match.</li>\n<li><strong>Spawn Chance</strong>: Chance for a player to receive this add-on.</li>\n<li><strong>Mimic can see the roles of dead players</strong>: Whether a living Mimic can see dead players&#39; roles when roles are visible.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "effect",
+      "text": "Effect",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

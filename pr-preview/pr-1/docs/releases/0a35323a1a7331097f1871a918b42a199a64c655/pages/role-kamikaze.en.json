@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>Single-click the kill button to mark a target and double-click to make a normal kill. When the Kamikaze dies, every marked target also dies with the death reason “Targeted.”</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Kamikaze roles in a match.</li>\n<li><strong>Kill Cooldown</strong>: Cooldown for normal kills.</li>\n<li><strong>Max Marked</strong>: Maximum number of targets the Kamikaze can mark.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

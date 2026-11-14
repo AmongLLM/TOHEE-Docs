@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The Time Master uses vents to mark everyone&#39;s position. When they use the ability again, every living player is rewound to the marked position. During the ability duration, the Time Master gains a time shield that protects them from death.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Time Masters in a match.</li>\n<li><strong>Time shield cooldown</strong>: Sets how long the Time Master must wait before using the ability.</li>\n<li><strong>Time shield duration</strong>: Sets how long the shield lasts.</li>\n<li><strong>Initial maximum ability uses</strong>: Sets how many uses the Time Master starts with.</li>\n<li><strong>Ability uses gained per task</strong>: Sets the uses gained for each completed task, in 0.1 increments.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

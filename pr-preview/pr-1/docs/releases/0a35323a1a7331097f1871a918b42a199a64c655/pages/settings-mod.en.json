@@ -1,0 +1,20 @@
+{
+  "html": "<h2 id=\"choose-a-mode\">Choose a mode</h2>\n<p>The mode selector in <strong>Mod Settings</strong> changes both round rules and the menu contents. Current TOHEE provides Standard, FFA, and Hide &amp; Seek TOHE. Choose the mode first, then configure the options shown for it. See <a href=\"/TOHEE-Docs/pr-preview/pr-1/#/docs/guide-game-modes\" rel=\"noopener noreferrer\">game modes</a>. Speedrun from the old upstream page is not in the current mode list.</p>\n<h2 id=\"standard-gameplay-options\">Standard gameplay options</h2>\n<p>Standard lets you configure Impostor, Crewmate, and Neutral roles and Add-ons in their respective pages. Common tasks include:</p>\n<ul>\n<li>Set each role&#39;s maximum count and spawn chance to control whether it can enter a round.</li>\n<li>Expand role options to configure cooldowns, ability uses, win conditions, and special limits.</li>\n<li>Set ejection information, remaining faction counts, and map, sabotage, or task changes.</li>\n<li>Review Add-on counts and eligible players so one player does not receive too many conflicting effects.</li>\n</ul>\n<p>The role pages show roles available in the current build. The Coven faction and its general controls from the old upstream TOHE pages are not in the current TOHEE role menu.</p>\n<h2 id=\"ffa-and-hide-seek\">FFA and Hide &amp; Seek</h2>\n<p>FFA options cover match duration, kill cooldown, and optional random abilities or twists. Hide &amp; Seek TOHE has its own hunter count and base settings; Standard roles and some general options are hidden. After switching modes, review the active preset so you do not assume settings from another mode are still in effect.</p>\n<p>Map, base speed, meeting, and task settings from Game Settings are covered in <a href=\"/TOHEE-Docs/pr-preview/pr-1/#/docs/settings-game\" rel=\"noopener noreferrer\">game settings</a>. Room protection and access controls from System Settings are covered in <a href=\"/TOHEE-Docs/pr-preview/pr-1/#/docs/settings-system\" rel=\"noopener noreferrer\">system settings</a>.</p>\n",
+  "headings": [
+    {
+      "id": "choose-a-mode",
+      "text": "Choose a mode",
+      "level": 2
+    },
+    {
+      "id": "standard-gameplay-options",
+      "text": "Standard gameplay options",
+      "level": 2
+    },
+    {
+      "id": "ffa-and-hide-seek",
+      "text": "FFA and Hide & Seek",
+      "level": 2
+    }
+  ]
+}

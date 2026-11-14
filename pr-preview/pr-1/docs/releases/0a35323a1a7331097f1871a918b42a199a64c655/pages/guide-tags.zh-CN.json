@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"tohee-cloud-网页标签\">TOHEE Cloud 网页标签</h2>\n<p>TOHEE Cloud 玩家标签与旧版上游模组标签文件是两种不同功能。Cloud 标签通过网站为已绑定的 Among Us 游戏账号设置纯文本标签和颜色；是否能自行编辑、冷却时间和账号状态由 Cloud 页面显示。标签不是模组管理权限，也不会因为文字看起来像管理员就授予模组权限。</p>\n<p>登录并绑定游戏账号后，前往 Cloud 的账号或标签页面编辑标签。玩家标签设置、绑定和其他 Cloud 功能见<a href=\"/TOHEE-Docs/pr-preview/pr-1/#/docs/cloud-overview\" rel=\"noopener noreferrer\">TOHEE Cloud 指南</a>。</p>\n<h2 id=\"房主本地标签\">房主本地标签</h2>\n<p>TOHEE 模组本身还支持房主本地标签、权限配置和 GM 身份。这些设置保存在房主电脑的 <code>TOHEE-DATA/Tags</code>，不会与 Cloud 网页标签自动同步。房主可以输入 <code>/tags reload</code> 让模组重新读取本地标签。关于当前本地 TXT 格式、权限级别和旧配置变化，请查阅 <a href=\"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/blob/main/docs/player-tags.md\" rel=\"noopener noreferrer\">TOHEE 本地玩家标签说明</a>。</p>\n<p>旧版上游教程提到的 <code>MOD_TAGS</code>、<code>VIP_TAGS</code> 目录和旧 MOD/VIP 名单不再代表当前 TOHEE 权限系统；不要按旧教程复制标签文件或授予权限。Cloud 标签和模组本地标签各自维护，使用场景不同。</p>\n",
+  "headings": [
+    {
+      "id": "tohee-cloud-网页标签",
+      "text": "TOHEE Cloud 网页标签",
+      "level": 2
+    },
+    {
+      "id": "房主本地标签",
+      "text": "房主本地标签",
+      "level": 2
+    }
+  ]
+}

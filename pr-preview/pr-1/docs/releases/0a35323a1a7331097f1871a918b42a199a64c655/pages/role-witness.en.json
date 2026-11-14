@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>When the Witness uses the kill button on someone, they learn whether that player killed within the recent time window set by the host. A check mark indicates the target has not killed; a warning mark indicates they have.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Ability cooldown</strong>: Sets how long the Witness must wait before using the ability again.</li>\n<li><strong>Maximum time after killing where killer appears red</strong>: Sets how long after a kill the player is still identified as a recent killer.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

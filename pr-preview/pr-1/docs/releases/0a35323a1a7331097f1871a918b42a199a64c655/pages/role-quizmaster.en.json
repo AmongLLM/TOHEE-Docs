@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"quizmaster\">Quizmaster</h2>\n<p>The Quizmaster uses the kill button to mark one player. At the next meeting, “?!” appears beside the marked player&#39;s name, and they must answer the question correctly. A wrong or missing answer kills them. If the Quizmaster is voted out during the meeting, the mark is cleared and the target survives. If the Quizmaster is killed during the meeting, the mark remains and the target may still die after the meeting. If the marked player is killed before the meeting starts, the mark resets. The Quizmaster can mark only one player per round. Its neutral win uses the standard neutral end check: no Impostors remain, all living counted neutrals share one count type, and their total is at least the Crew count.</p>\n<p>The marked player can answer with <code>/answer [letter]</code> and review the question and answers with <code>/qmquiz</code>.</p>\n<h3 id=\"settings\">Settings</h3>\n<ul>\n<li><strong>Question difficulty:</strong> Set question difficulty from 1 (easiest) to 4 (hardest).</li>\n<li><strong>Can vent after marking:</strong> Whether the Quizmaster can use vents after marking a player.</li>\n<li><strong>Can kill after marking:</strong> When enabled, the Quizmaster can still use the kill button after marking. When disabled, they cannot use it normally after marking. The displayed kills-per-round option is not read by the current code and does not limit the number of kills.</li>\n<li><strong>Can ask about past games:</strong> When enabled, questions may refer to earlier rounds; otherwise, questions refer only to the current game.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "quizmaster",
+      "text": "Quizmaster",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 3
+    }
+  ]
+}

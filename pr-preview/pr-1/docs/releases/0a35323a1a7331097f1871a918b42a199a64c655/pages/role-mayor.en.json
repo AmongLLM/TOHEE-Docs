@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The Mayor receives extra votes. Depending on settings, the Mayor may also have a portable emergency button that can be used through vents.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Mayors in a match.</li>\n<li><strong>Additional votes count</strong>: Sets how many extra votes the Mayor receives.</li>\n<li><strong>Mayor has a mobile emergency button</strong>: ON lets the Mayor call a meeting by venting; OFF requires the normal meeting button.</li>\n<li><strong>Maximum mobile emergency buttons</strong>: Sets how many emergency meetings the Mayor can call by venting.</li>\n<li><strong>Hide additional votes</strong>: ON makes the Mayor&#39;s extra votes appear as nothing; OFF displays them as normal votes.</li>\n<li><strong>Mayor is revealed to everyone on task completion</strong>: ON reveals the Mayor after task completion, and the revealed Mayor cannot be guessed; OFF does not reveal them.</li>\n<li><strong>Override Mayor tasks</strong>: ON allows a separate task setup; OFF gives the Mayor the same task count as everyone else. The custom setup includes common-task availability and the number of long and short tasks.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

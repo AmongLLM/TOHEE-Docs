@@ -1,0 +1,10 @@
+{
+  "html": "<h2 id=\"sunnyboy\">Sunnyboy</h2>\n<p>The Sunnyboy can check other players&#39; life status through vitals. While the role exists and at least two players remain alive, the living-player count check cannot end the game; the Sunnyboy does not have to be alive for this to happen. Task and sabotage endings can still occur. If the Sunnyboy is dead when the game ends, they win with the winning team.</p>\n<p>The Sunnyboy is a hidden role that can replace the Jester. “Disable Hidden Roles” must be turned off, and the Jester&#39;s Sunnyboy replacement chance must allow it.</p>\n",
+  "headings": [
+    {
+      "id": "sunnyboy",
+      "text": "Sunnyboy",
+      "level": 2
+    }
+  ]
+}

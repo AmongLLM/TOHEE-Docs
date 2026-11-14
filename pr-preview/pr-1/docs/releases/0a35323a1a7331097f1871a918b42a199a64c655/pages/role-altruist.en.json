@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The Altruist can switch between revival mode and normal reporting. In revival mode, reporting a body sacrifices the Altruist to revive that dead player. If the dead player has left the game, the report proceeds normally. A revived player cannot report their own dead body.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Altruists in a match.</li>\n<li><strong>Revived dead body cannot be reported</strong>: ON prevents the revived player&#39;s body from being reported again; OFF allows it to be reported.</li>\n<li><strong>Impostors know a player was revived</strong>: ON sends Impostors an alert; OFF does not.</li>\n<li><strong>Impostors get an arrow to the revived player</strong>: ON shows them an arrow; OFF hides it.</li>\n<li><strong>Neutral Killers know a player was revived</strong>: ON sends Neutral Killers an alert; OFF does not.</li>\n<li><strong>Neutral Killers get an arrow to the revived player</strong>: ON shows them an arrow; OFF hides it.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

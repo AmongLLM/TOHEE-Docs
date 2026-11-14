@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>When the Pacifist vents, they reset the kill cooldown for everyone with a kill button, even if that player cannot actually kill, such as the Medic. As a Mad Pacifist, the ability affects only Crewmates.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Pacifists in a match.</li>\n<li><strong>Ability cooldown</strong>: Sets how long the Pacifist must wait before resetting cooldowns again.</li>\n<li><strong>Maximum ability uses</strong>: Sets how many times the Pacifist can reset cooldowns.</li>\n<li><strong>Ability uses gained per task</strong>: Sets the uses gained for each completed task, in 0.1 increments.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

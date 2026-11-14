@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>The Saboteur can use the kill button only while a critical sabotage is active, such as Reactor, Laboratory, Life Support, or Helicopter sabotage.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Saboteurs in a match.</li>\n<li><strong>Kill Cooldown</strong>: Time before the Saboteur can kill again.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

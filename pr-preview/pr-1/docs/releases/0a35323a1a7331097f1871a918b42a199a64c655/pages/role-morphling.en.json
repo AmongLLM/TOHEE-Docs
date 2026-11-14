@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>The Morphling can use the kill button only while shapeshifted.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Morphlings in a match.</li>\n<li><strong>Kill Cooldown</strong>: Time before the Morphling can kill again.</li>\n<li><strong>Shapeshift Cooldown</strong>: Time before the Morphling can shapeshift again.</li>\n<li><strong>Shapeshift Duration</strong>: How long each shapeshift lasts.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

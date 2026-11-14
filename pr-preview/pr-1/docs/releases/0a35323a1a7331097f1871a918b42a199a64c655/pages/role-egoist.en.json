@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"effect\">Effect</h2>\n<p>Egoist can only be assigned to Crewmates or Impostors; Neutrals, Madmates, and converted players are ineligible. If a living Egoist&#39;s Crewmate or Impostor team wins, the win is changed to an Egoist victory.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number that can appear in one match.</li>\n<li><strong>Spawn Chance</strong>: Chance for a player to receive this add-on.</li>\n<li><strong>Eligibility</strong>: Separate settings control whether Crewmates, Impostors can receive this add-on.</li>\n<li><strong>ImpEgoistVisibalToAllies</strong>: Whether Impostors can see an Egoist Impostor as an ally, and vice versa.</li>\n<li><strong>EgoistCountAsConverted</strong>: Whether Egoist is treated as a converted role for conversion-related rules.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "effect",
+      "text": "Effect",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The Coroner cannot report bodies normally. When attempting to report, they instead see an arrow pointing toward the killer; the arrow disappears when a meeting is called.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Coroners in a match.</li>\n<li><strong>Arrows pointing to dead bodies</strong>: ON gives the Coroner arrows toward dead bodies, like the Mortician; OFF hides those arrows.</li>\n<li><strong>Bodies used by the Coroner cannot be reported</strong>: ON prevents a body the Coroner has interacted with from being reported; OFF leaves it reportable.</li>\n<li><strong>Initial ability uses</strong>: Sets the Coroner&#39;s starting uses.</li>\n<li><strong>Ability uses gained per task</strong>: Sets the uses gained for each completed task, in 0.1 increments.</li>\n<li><strong>Inform the killer they are tracked</strong>: ON alerts the killer associated with a body the Coroner tracks; OFF sends no alert.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

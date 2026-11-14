@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"medusa\">Medusa</h2>\n<p>The Medusa can stone a body with the report button. A stoned body cannot be reported. The Medusa does not need to be the last player alive: after all Impostors are gone, the standard neutral end check awards the win when all living counted neutrals share one count type and their total is at least the Crew count.</p>\n<h3 id=\"settings\">Settings</h3>\n<ul>\n<li><strong>Kill cooldown:</strong> Time before killing again.</li>\n<li><strong>Kill cooldown after stone gaze:</strong> Cooldown applied after stoning a body.</li>\n<li><strong>Can vent:</strong> Whether Medusa can use vents.</li>\n<li><strong>Impostor vision:</strong> Whether Medusa has Impostor vision.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "medusa",
+      "text": "Medusa",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 3
+    }
+  ]
+}

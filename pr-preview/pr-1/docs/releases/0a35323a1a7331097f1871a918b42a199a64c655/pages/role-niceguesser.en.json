@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>During a meeting, the Nice Guesser can guess a player&#39;s role. A correct guess kills the target; a wrong guess kills the Nice Guesser. As a Madmate, the Nice Guesser can guess Crewmate roles. Use /bt [player ID] [role]. IDs appear next to player names or can be listed with /id.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Nice Guessers in a match.</li>\n<li><strong>Maximum guesses</strong>: Sets how many guesses the Nice Guesser can make.</li>\n<li><strong>Can guess Crewmate roles</strong>: ON allows guesses of Crewmate roles; OFF disables them.</li>\n<li><strong>Can guess add-ons</strong>: ON allows guessing a player&#39;s add-ons; OFF disables add-on guesses.</li>\n<li><strong>Try to hide Guesser command</strong>: ON makes the mod attempt to hide the Nice Guesser&#39;s commands; OFF does not.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

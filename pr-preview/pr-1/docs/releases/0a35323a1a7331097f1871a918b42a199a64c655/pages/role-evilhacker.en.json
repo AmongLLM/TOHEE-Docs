@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>At the beginning of each meeting, the Evil Hacker receives the most recent Admin information. Unoccupied rooms are omitted. A 「★」 marks a room with an Impostor; the number after a room indicates its body count, for example, 「★Cafeteria: 3 (DEAD×1)」.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Can See the Location of Dead Bodies</strong>: When enabled, shows where bodies are located.</li>\n<li><strong>Can See the Location of Other Impostors</strong>: When enabled, shows where other Impostors are located.</li>\n<li><strong>Can See Kill-Flash</strong>: When enabled, shows kill flashes like Seer; a nested option controls whether the murder location is also shown.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

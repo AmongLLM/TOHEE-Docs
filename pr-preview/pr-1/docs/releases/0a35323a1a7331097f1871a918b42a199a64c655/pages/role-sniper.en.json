@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>The line from the Sniper’s shapeshift location to its unshift location sets the shot direction. A player along the path who satisfies the hit check is killed. Each completed shot consumes one bullet. A meeting ends an active aim without firing or consuming a bullet. By default, normal kills become available only after ammunition runs out; a setting can allow normal kills while bullets remain.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Ammo</strong>: Number of bullets available.</li>\n<li><strong>Precise Shooting</strong>: When enabled, the hit corridor is narrower and more precise; when disabled, it is wider.</li>\n<li><strong>Aim Assist</strong>: When enabled, holding aim in place for about half a second shows an indicator if a valid target is in the shot path; otherwise no indicator is shown.<ul>\n<li><strong>One Shot Assist</strong>: When enabled, the indicator flashes briefly; otherwise it remains visible while the aim condition is met.</li>\n</ul>\n</li>\n<li><strong>Sniper Can Kill with Bullets Remaining</strong>: When enabled, normal kills are allowed even with bullets left; otherwise the Sniper must use all bullets first.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

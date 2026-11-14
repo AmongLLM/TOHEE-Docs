@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"pelican\">Pelican</h2>\n<p>The Pelican uses the kill button to swallow a player alive. The swallowed player is teleported off the map and cannot interact with the game. An emergency meeting or a body report immediately kills swallowed players. If the Pelican dies or disconnects, swallowed players return to the Pelican&#39;s death location. Swallowing is not a normal kill, so abilities such as Bodyguard and Veteran do not trigger.</p>\n<p>The Pelican team wins after all Impostors are gone when all living counted neutrals share one count type and Pelicans are at least as numerous as Crewmates.</p>\n<h3 id=\"settings\">Settings</h3>\n<ul>\n<li><strong>Eat cooldown:</strong> Time before the Pelican can swallow another player.</li>\n<li><strong>Can vent:</strong> Whether the Pelican can use vents.</li>\n<li><strong>Impostor vision:</strong> Whether the Pelican has Impostor vision.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "pelican",
+      "text": "Pelican",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 3
+    }
+  ]
+}
