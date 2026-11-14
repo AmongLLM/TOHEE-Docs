@@ -160,6 +160,8 @@ jobs:
           action: ${{ steps.validate.outputs.decision }}
           deploy-commit-message: Deploy preview for PR ${{ steps.validate.outputs.number }}
           remove-commit-message: Remove preview for PR ${{ steps.validate.outputs.number }}
+          git-config-name: 'github-actions[bot]'
+          git-config-email: '41898282+github-actions[bot]@users.noreply.github.com'
           comment: false
           qr-code: false
           wait-for-pages-deployment: true
@@ -192,6 +194,8 @@ jobs:
           clean: false
           force: false
           commit-message: Update docs preview directory
+          git-config-name: 'github-actions[bot]'
+          git-config-email: '41898282+github-actions[bot]@users.noreply.github.com'
 
       - name: Post or update the preview comment
         if: steps.validate.outputs.decision != 'skip'

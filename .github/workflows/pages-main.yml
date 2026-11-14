@@ -57,33 +57,27 @@ jobs:
           }, null, 2) + '\n');
           JS
 
-      - name: Publish main preview without changing PR previews
-        uses: JamesIves/github-pages-deploy-action@4a3abc783e1a24aeb44c16e869ad83caf6b4cc23 # v4.7.4
-        with:
-          token: ${{ secrets.PAGES_PREVIEW_TOKEN }}
-          branch: gh-pages
-          folder: dist/preview
-          target-folder: main
-          clean: true
-          force: false
-          commit-message: Deploy main docs preview ${{ steps.revision.outputs.sha }}
-
-      - name: Read the deployed previews as static files
+      - name: Check out Pages previews
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           ref: gh-pages
           path: .pages-preview-tree
-          persist-credentials: false
-
-      - name: Generate the Pages build directory
-        run: node scripts/build-preview-directory.mjs .pages-preview-tree "$RUNNER_TEMP/pages-preview-directory"
-
-      - name: Update the Pages root directory
-        uses: JamesIves/github-pages-deploy-action@4a3abc783e1a24aeb44c16e869ad83caf6b4cc23 # v4.7.4
-        with:
           token: ${{ secrets.PAGES_PREVIEW_TOKEN }}
-          branch: gh-pages
-          folder: ${{ runner.temp }}/pages-preview-directory
-          clean: false
-          force: false
-          commit-message: Update docs preview directory
+          persist-credentials: true
+
+      - name: Update main preview and Pages directory
+        run: |
+          mkdir -p .pages-preview-tree/main
+          rsync -a --delete dist/preview/ .pages-preview-tree/main/
+          node scripts/build-preview-directory.mjs .pages-preview-tree "$RUNNER_TEMP/pages-preview-directory"
+          cp -a "$RUNNER_TEMP/pages-preview-directory/." .pages-preview-tree/
+          git -C .pages-preview-tree add -A -- main index.html fonts
+          if ! git -C .pages-preview-tree diff --cached --quiet; then
+            git -C .pages-preview-tree \
+              -c user.name='github-actions[bot]' \
+              -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+              commit -m 'Update main docs preview and directory'
+            git -C .pages-preview-tree push origin HEAD:gh-pages
+          else
+            echo "No Pages changes to publish."
+          fi
