@@ -115,7 +115,7 @@ node scripts/build-docs.mjs --source . --output dist --version 1.2.3 --check
 
 [`scripts/build-preview-docs.mjs`](scripts/build-preview-docs.mjs) compiles the local Markdown into `preview/.generated/docs/`. The Angular reader loads `docs/manifest.json` to find the versioned index, pages, and assets under `docs/releases/<version>/`. [`angular.json`](angular.json) bundles that data with the reader in [`preview/src/`](preview/src/) and the static files in [`preview/public/`](preview/public/). The production entry point is `dist/preview/index.html`. The default local routes are `/docs` and `/docs/<id>`.
 
-The standalone reader picks Chinese or English from the browser's language preferences unless a locale was saved. To check both variants in one browser, change the `tohee-locale` local storage value to `zh-CN` or `en` and reload.
+Use the top bar to switch between Chinese, English, and the browser's language preference, or to change the light/dark theme. The reader saves these choices in the browser and applies language changes immediately.
 
 ### TOHEE Cloud integration
 
