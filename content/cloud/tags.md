@@ -29,7 +29,7 @@
 
 编辑器中的游戏管理字段是只读信息，普通玩家无法通过自助标签修改开发者、管理员等权限。标签文字本身不会授予管理权限。
 
-Cloud 标签与房主本地维护的 `tags.txt` 是不同来源。`/tags reload` 重载本地标签；`/cloud tags refresh` 刷新云端标签。检查来源时不要混用这两个命令。
+Cloud 标签在网页上编辑；房主本地标签与权限通过 `TOHEE-DATA/Tags/` 中的玩家文件编辑，步骤见[本地标签与权限](/docs/guide-local-tags)。`/tags reload` 重载本地标签，`/cloud tags refresh` 刷新云端标签。
 
 <!-- en -->
 ## Set a tag
@@ -59,4 +59,4 @@ The website preview helps check text and colour; the game determines the actual 
 
 Game management fields in the editor are read-only information. Self-service tags cannot change developer, administrator or similar permissions. Tag text itself grants no management permission.
 
-Cloud tags and the host's local `tags.txt` are separate sources. `/tags reload` reloads local tags; `/cloud tags refresh` refreshes cloud tags. Use the command for the source you are checking.
+Edit Cloud tags on the website. Hosts edit local tags and permissions in the player files under `TOHEE-DATA/Tags/`; see [Local tags and permissions](/docs/guide-local-tags) for the steps. `/tags reload` reloads local tags, and `/cloud tags refresh` refreshes Cloud tags.

@@ -30,7 +30,7 @@
 | `TOHEE-DATA/Tags/` 与 `TOHEE-DATA/tags.txt` | 房主本地玩家标签与外观后备标签；不等于 Cloud 网页标签。 |
 | `TOHEE-DATA/BanList.txt`、`DenyName.txt`、`WhiteList.txt` | 房间使用的封禁、名称过滤与允许列表数据。 |
 
-不要把 `GlobalOptions.jsonc` 或 `PresetN.jsonc` 改成旧版 `Options.json` 格式；使用游戏菜单修改设置。分享预设的命令和版本校验见[预设指南](/docs/guide-presets)，模板格式见[聊天模板](/docs/guide-templates)，本地标签见[玩家标签](/docs/guide-tags)。
+不要把 `GlobalOptions.jsonc` 或 `PresetN.jsonc` 改成旧版 `Options.json` 格式；使用游戏菜单修改设置。分享预设的命令和版本校验见[预设指南](/docs/guide-presets)，模板格式见[聊天模板](/docs/guide-templates)，标签文件的编辑方法见[本地标签与权限](/docs/guide-local-tags)。
 
 ## 备份和迁移
 
@@ -51,7 +51,7 @@ Current TOHEE stores local data in the `TOHEE-DATA` folder beside the game. The 
 | `TOHEE-DATA/Tags/` and `TOHEE-DATA/tags.txt` | Host-local player tags and cosmetic fallback tags; these are not Cloud web tags. |
 | `TOHEE-DATA/BanList.txt`, `DenyName.txt`, `WhiteList.txt` | Ban, name-filter, and allow-list data used by the room. |
 
-Do not convert `GlobalOptions.jsonc` or `PresetN.jsonc` to the old `Options.json` format; change settings in the game menu. See the [preset guide](/docs/guide-presets) for sharing commands and version checks, [chat templates](/docs/guide-templates) for template syntax, and [player tags](/docs/guide-tags) for the local tag system.
+Do not convert `GlobalOptions.jsonc` or `PresetN.jsonc` to the old `Options.json` format; change settings in the game menu. See the [preset guide](/docs/guide-presets) for sharing commands and version checks, [chat templates](/docs/guide-templates) for template syntax, and [Local tags and permissions](/docs/guide-local-tags) for editing tag files.
 
 ## Back up and migrate
 

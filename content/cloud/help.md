@@ -18,7 +18,7 @@
 
 ## 标签保存成功却没有显示
 
-核对编辑的好友代码是否正确；在房主的 TOHEE Cloud 菜单启用云端标签并刷新。确认正在排查的是云端标签而非本地 `tags.txt`。游戏显示受到房主设置、缓存和当前场景影响，网页预览不是实时游戏画面。
+核对编辑的好友代码是否正确；在房主的 TOHEE Cloud 菜单启用云端标签并刷新。本地标签的编辑与刷新步骤见[本地标签与权限](/docs/guide-local-tags)。游戏显示受到房主设置、缓存和当前场景影响，网页预览不是实时游戏画面。
 
 若不能编辑，查看下次可修改时间、本人编辑是否关闭，以及账号是否被冻结或封禁。
 
@@ -57,7 +57,7 @@ If linking from the mod or sharing reports an expired game login, finish signing
 
 ## A saved tag does not appear
 
-Check that you edited the right friend code. Enable and refresh cloud tags in the host's TOHEE Cloud menu. Make sure you are checking cloud tags rather than local `tags.txt` entries. Display depends on host settings, cached data and the current scene; the website preview is not a live game view.
+Check that you edited the right friend code. Enable and refresh cloud tags in the host's TOHEE Cloud menu. For local tag editing and reloading, see [Local tags and permissions](/docs/guide-local-tags). Display depends on host settings, cached data and the current scene; the website preview is not a live game view.
 
 If editing is unavailable, check the next edit time, whether owner editing is disabled and whether the account is frozen or banned.
 

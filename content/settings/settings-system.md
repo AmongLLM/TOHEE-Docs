@@ -34,7 +34,7 @@
 
 当前代码包含“禁止正常结束游戏”（`No Game End`）、控制台显示、防黑屏缓冲模式（Anti-Blackout buffer）和角色分配算法一类全局选项。`No Game End` 会改变正常胜利流程；关闭保护或改变调试行为可能导致对局状态异常。仅在你清楚结果时修改，并在普通房间中恢复合适的值。
 
-玩家标签权限、名单和 Cloud 玩家标签是不同功能。Cloud 网页标签不会自动授予系统设置中的模组权限；查看[玩家标签](/docs/guide-tags)。
+玩家标签权限、名单和 Cloud 玩家标签是不同功能。Cloud 网页标签不会自动授予系统设置中的模组权限；查看[本地标签与权限](/docs/guide-local-tags)。
 
 <!-- en -->
 ## Purpose
@@ -55,4 +55,4 @@ Some releases may include management or debug options. Do not disable current pr
 
 Current source includes global options such as `No Game End`, console display, Anti-Blackout buffer mode, and role-assignment algorithm. `No Game End` changes normal victory flow; disabling protections or changing debug behavior can leave a round in an unexpected state. Change these only when you understand the effect, and restore suitable values for normal rooms.
 
-Player-tag permissions, local lists, and Cloud player tags are separate features. A Cloud web tag does not automatically grant mod permissions in System Settings; see [player tags](/docs/guide-tags).
+Player-tag permissions, local lists, and Cloud player tags are separate features. A Cloud web tag does not automatically grant mod permissions in System Settings; see [Local tags and permissions](/docs/guide-local-tags).

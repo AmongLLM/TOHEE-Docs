@@ -34,7 +34,7 @@
 
 ## Game Master（GM）是什么？
 
-旧上游 FAQ 将 GM 描述为自动分配给房主的旁观者角色。当前 TOHEE 的 GM 身份通过房主本地玩家配置中的 `AssignGameMaster` 字段设置；它只设置 GM 身份，不会自动授予管理命令权限。详见[玩家标签说明](/docs/guide-tags)。
+房主可以在玩家的本地标签文件中设置 `AssignGameMaster: true`，让该玩家在开局时获得 GM 身份。命令权限通过 `PermissionLevel` 和各项命令开关设置，详见[本地标签与权限](/docs/guide-local-tags)。
 
 ## 如何获取日志？
 
@@ -71,7 +71,7 @@ No. A Cloud web tag is a text and colour setting for a linked account; mod-local
 
 ## What is Game Master (GM)?
 
-The old upstream FAQ described GM as an observer role automatically assigned to the host. Current TOHEE configures GM status with the `AssignGameMaster` field in a host-local player file; it sets GM status only and does not grant management commands. See [player tags](/docs/guide-tags).
+The host can set `AssignGameMaster: true` in a player's local tag file to assign GM status when a round starts. Set command access with `PermissionLevel` and the individual command switches. See [Local tags and permissions](/docs/guide-local-tags).
 
 ## How do I get a log?
 
