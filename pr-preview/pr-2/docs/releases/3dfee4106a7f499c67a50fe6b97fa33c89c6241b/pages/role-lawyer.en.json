@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"lawyer\">Lawyer</h2>\n<p>The Lawyer receives a target marked with a diamond (♦) at the start. The Lawyer wins if the target wins and loses if the target loses. The Lawyer can still win after death. If the target dies, the Lawyer can change into a role selected in the settings. If no eligible target exists at the start, the Lawyer becomes the selected role, or an Opportunist when role changing is disabled.</p>\n<h3 id=\"settings\">Settings</h3>\n<ul>\n<li><strong>Maximum number:</strong> Maximum number of Lawyers in a match.</li>\n<li><strong>Eligible targets:</strong> Separately allow targets from the Impostor, Neutral Killing, Apocalypse, Crewmate, and Jester roles.</li>\n<li><strong>Knows target&#39;s role:</strong> Whether the Lawyer sees the target&#39;s role.</li>\n<li><strong>Target knows their Lawyer:</strong> Whether the target is told who their Lawyer is.</li>\n<li><strong>Change role after target dies:</strong> Whether the Lawyer changes role; choose Crewmate, Jester, Opportunist, Celebrity, Bodyguard, Dictator, Mayor, or Doctor. When disabled, the Lawyer remains a Lawyer after the target dies. If no eligible target exists at the start, they become an Opportunist.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "lawyer",
+      "text": "Lawyer",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 3
+    }
+  ]
+}

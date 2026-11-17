@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"executioner\">Executioner</h2>\n<p>At the start of the game, the Executioner receives a target marked with a diamond (♦) beside their name. The Executioner wins if the target is voted out. If the target dies before being voted out, the Executioner changes into the role selected in the settings. Jester, Executioner, and Innocent can win together.</p>\n<h3 id=\"settings\">Settings</h3>\n<ul>\n<li><strong>Maximum number:</strong> Maximum number of Executioners in a match.</li>\n<li><strong>Eligible target teams:</strong> Separately allow targets from the Impostor, Neutral Killing, Neutral Benign, Neutral Evil, Neutral Chaos, and Apocalypse teams. Crewmates can also be selected.</li>\n<li><strong>Knows target&#39;s role:</strong> Whether the Executioner sees the target&#39;s role.</li>\n<li><strong>Role after target dies:</strong> Choose Crewmate, Celebrity, Bodyguard, Dictator, Mayor, Doctor, Jester, or Opportunist.</li>\n<li><strong>Reveal target upon ejection:</strong> Whether the target&#39;s role is revealed when they are voted out.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "executioner",
+      "text": "Executioner",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 3
+    }
+  ]
+}

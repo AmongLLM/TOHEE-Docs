@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"maverick\">Maverick</h2>\n<p>The Maverick can kill like a Serial Killer and wins with the winning team. To receive the Maverick win, they must survive until the end and meet the minimum kill count. They cannot win if they die.</p>\n<h3 id=\"settings\">Settings</h3>\n<ul>\n<li><strong>Kill cooldown:</strong> Time before the Maverick can kill again.</li>\n<li><strong>Can vent:</strong> Whether the Maverick can use vents.</li>\n<li><strong>Impostor vision:</strong> When enabled, the Maverick has Impostor vision; otherwise, they have default vision.</li>\n<li><strong>Minimum kills to win:</strong> Number of kills needed for the Maverick win; zero disables the requirement.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "maverick",
+      "text": "Maverick",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 3
+    }
+  ]
+}

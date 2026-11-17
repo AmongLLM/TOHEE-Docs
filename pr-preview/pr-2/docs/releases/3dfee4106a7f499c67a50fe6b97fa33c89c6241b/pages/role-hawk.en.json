@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The Hawk can kill a limited number of players, but each attempt may miss. Repeatedly attacking the same player increases the chance of success.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Kill cooldown</strong>: Sets how long the Hawk must wait before trying to kill again.</li>\n<li><strong>Maximum slices</strong>: Sets the maximum number of slices (kill attempts) the Hawk can make.</li>\n<li><strong>Chance to miss</strong>: Sets the chance that a kill attempt misses.</li>\n<li><strong>Minimum players alive to kill</strong>: Sets how many players must be alive for the Hawk to attempt a kill.</li>\n<li><strong>Increase kill count when a Crewmate is converted</strong>: ON attempts to raise the maximum slices when a body is reported and the converted-player count has increased. The current source updates its counter before calculating the bonus, so it can undercount and does not reliably add one use per newly converted Crewmate; OFF does not add uses.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>Shapeshifting places a trap in the surrounding area. Players who enter it are immobilized briefly and have their vision affected.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Pitfalls in a match.</li>\n<li><strong>Trap Cooldown</strong>: Time before the Pitfall can place another trap.</li>\n<li><strong>Number of Traps</strong>: Maximum number of traps that can be placed.</li>\n<li><strong>Players Caught per Trap</strong>: Maximum number of players a single trap can catch.</li>\n<li><strong>Trap Active Time</strong>: How long a trap remains active.</li>\n<li><strong>Trap Radius</strong>: Size of the trap area.</li>\n<li><strong>Trap Freeze Time</strong>: How long caught players are immobilized.</li>\n<li><strong>Trap Vision Effect</strong>: Amount of vision impairment caused by the trap.</li>\n<li><strong>Trap Vision Duration</strong>: How long the vision effect lasts.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"effect\">Effect</h2>\n<p>When Burst is killed outside a meeting by a method other than suicide, a living killer other than KillingMachine or an Apocalypse-transformed player is notified and explodes after a configured delay. The explosion does not kill them if they are in a vent, already dead, or a meeting has started when the delay ends.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number that can appear in one match.</li>\n<li><strong>Spawn Chance</strong>: Chance for a player to receive this add-on.</li>\n<li><strong>Eligibility</strong>: Separate settings control whether Impostors, Crewmates, Neutrals can receive this add-on.</li>\n<li><strong>Burst Kill Delay</strong>: Time between killing Burst and the killer exploding.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "effect",
+      "text": "Effect",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

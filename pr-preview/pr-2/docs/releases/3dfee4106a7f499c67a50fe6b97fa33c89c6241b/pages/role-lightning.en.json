@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>Lightning cannot make ordinary kills. A successful kill-button attack turns its target into a quantum ghost after the configured delay; a 「■」 appears beside the ghost&#39;s name. The ghost dies immediately if touched by a player who is neither Lightning nor a quantum ghost. If it survives until a meeting, it dies when the meeting ends. Using the kill button on a quantum ghost has no effect. Depending on the setting, a player who kills Lightning may also become a quantum ghost.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Lightnings in a match.</li>\n<li><strong>Lightning Cooldown</strong>: Wait between uses of the quantizing ability.</li>\n<li><strong>Duration of the Transformation to Quantum Ghost</strong>: Delay before the target becomes a quantum ghost.</li>\n<li><strong>Killer Can Transform into Quantum Ghost</strong>: When enabled, the player who kills Lightning also becomes a quantum ghost; otherwise they do not.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>Shapeshift into a player to blackmail them, preventing them from speaking during meetings. Only one player can be blackmailed at a time; blackmailing another target releases the previous one, and the blackmail ends after the meeting. The blackmailed player is marked during meetings.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Blackmailers in a match.</li>\n<li><strong>Blackmail Cooldown</strong>: Time before the Blackmailer can blackmail again.</li>\n<li><strong>Show Shapeshift Animations</strong>: When enabled, shapeshift animations are shown; otherwise they are hidden.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

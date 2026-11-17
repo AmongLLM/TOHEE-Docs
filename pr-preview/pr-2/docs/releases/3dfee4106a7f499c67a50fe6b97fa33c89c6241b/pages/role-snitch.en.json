@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>When the Snitch&#39;s remaining task count reaches the configured threshold, eligible killers see a warning mark and an arrow pointing to the Snitch. After the Snitch completes all tasks, they mark eligible killers and can track them with arrows if that option is enabled.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>See arrow toward target</strong>: ON shows a small arrow pointing toward killers; OFF hides killer locations from the Snitch.</li>\n<li><strong>Colored arrows by target</strong>: ON colors each arrow using the target&#39;s role color; OFF gives all arrows the same color.</li>\n<li><strong>Can find Neutral Killers</strong>: ON lets the Snitch find Neutral Killers after completing tasks; OFF limits the result to Impostors.</li>\n<li><strong>Can find Neutral Apocalypse</strong>: ON also lets the Snitch find Neutral Apocalypse roles; OFF does not.</li>\n<li><strong>Can find Madmates</strong>: ON also lets the Snitch find Madmates and Rascals; OFF limits the result to regular Impostors.</li>\n<li><strong>Remaining tasks before being revealed</strong>: Sets how many tasks the Snitch can have left before eligible killers see a warning mark and an arrow pointing to them.</li>\n<li><strong>Override Snitch tasks</strong>: ON allows a separate task setup; OFF gives the Snitch the same task count as everyone else. The custom setup includes common-task availability and the number of long and short tasks.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

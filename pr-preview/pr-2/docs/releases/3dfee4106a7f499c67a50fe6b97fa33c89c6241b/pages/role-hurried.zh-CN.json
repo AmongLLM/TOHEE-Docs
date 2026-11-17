@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"效果\">效果</h2>\n<p>焦急者必须完成全部任务才能随所属队伍获胜；如果没有完成任务则会输掉游戏。该附加身份会尽可能避免玩家先被转化为叛徒、魅魔小弟等身份。</p>\n<h2 id=\"设置\">设置</h2>\n<ul>\n<li><strong>Max（最大数量）</strong>：本局中该附加身份可出现的数量上限。</li>\n<li><strong>Spawn Chance（生成概率）</strong>：玩家获得此附加身份的概率。</li>\n<li><strong>Madmate can be Hurried on game start（Madmate 可在开局获得 Hurried）</strong>：控制叛徒能否在游戏开始时获得焦急者。</li>\n<li><strong>Task based Crewmates can be Hurried（任务型 Crewmate 可获得 Hurried）</strong>：控制能力通过执行或完成任务触发的船员角色能否获得焦急者。</li>\n<li><strong>Hurried can be recruited in game (excludes madmate)（游戏中可招募 Hurried（不含 Madmate））</strong>：控制焦急者船员能否被魅魔、豺狼等招募型角色在游戏中招募；不包括叛徒。</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "效果",
+      "text": "效果",
+      "level": 2
+    },
+    {
+      "id": "设置",
+      "text": "设置",
+      "level": 2
+    }
+  ]
+}

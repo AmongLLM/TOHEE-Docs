@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"effect\">Effect</h2>\n<p>Rascal is assigned only to Crewmates. Sheriff can kill a Rascal, and Snitch can find one if its setting allows it to find Madmates. A setting controls whether Rascal appears as a Madmate when ejected. Merchant can also sell this harmful add-on to an eligible Crewmate.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number that can appear in one match.</li>\n<li><strong>Spawn Chance</strong>: Chance for a player to receive this add-on.</li>\n<li><strong>RascalAppearAsMadmate</strong>: Whether Rascal appears the same way as a Madmate when ejected.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "effect",
+      "text": "Effect",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"效果\">效果</h2>\n<p>静止时，冲刺者的速度会逐渐回升至上限；移动时，速度会逐渐下降至下限。速度调节倍率控制回升和下降的速度。</p>\n<h2 id=\"设置\">设置</h2>\n<ul>\n<li><strong>Max（最大数量）</strong>：本局中该附加身份可出现的数量上限。</li>\n<li><strong>Spawn Chance（生成概率）</strong>：玩家获得此附加身份的概率。</li>\n<li><strong>Eligibility（可分配阵营）</strong>：主持人可分别设置内鬼、船员、中立者是否可以获得此附加身份。</li>\n<li><strong>Min Speed（最低速度）</strong>：冲刺者可达到的最低速度。</li>\n<li><strong>Max Speed（最高速度）</strong>：冲刺者可达到的最高速度。</li>\n<li><strong>Speed Modulator（速度调节倍率）</strong>：数值越高，速度恢复和衰减都越快；数值越低，两者都越慢。</li>\n<li><strong>Display the Charge（显示充能状态）</strong>：控制是否显示冲刺者的速度充能状态。</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "效果",
+      "text": "效果",
+      "level": 2
+    },
+    {
+      "id": "设置",
+      "text": "设置",
+      "level": 2
+    }
+  ]
+}

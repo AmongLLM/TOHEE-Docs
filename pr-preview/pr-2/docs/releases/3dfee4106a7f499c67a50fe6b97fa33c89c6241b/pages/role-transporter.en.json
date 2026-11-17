@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>Whenever the Transporter completes a task, two eligible living players are chosen at random and swap positions. Players in vents are excluded, and other eligible players can still be swapped if at least two remain.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Transporters in a match.</li>\n<li><strong>Maximum teleports</strong>: Sets how many swaps the Transporter can trigger.</li>\n<li><strong>Override Transporter tasks</strong>: ON allows a separate task setup; OFF gives the Transporter the same task count as everyone else. The custom setup includes common-task availability and the number of long and short tasks.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

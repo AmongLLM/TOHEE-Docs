@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>Use the kill button once to choose a player as Yin and a second time to choose a player as Yang. When the two meet, they kill each other. Once both are selected, the YinYanger can make normal kills; a meeting clears the selected Yin and Yang.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of YinYangers in a match.</li>\n<li><strong>Kill Cooldown</strong>: Time before the YinYanger can select or kill again.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

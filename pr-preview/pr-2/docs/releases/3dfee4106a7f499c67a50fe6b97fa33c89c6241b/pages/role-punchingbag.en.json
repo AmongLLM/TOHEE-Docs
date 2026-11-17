@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"punching-bag\">Punching Bag</h2>\n<p>An ordinary kill attempt against the Punching Bag is canceled and adds one attack to its count. Guessing the role is also blocked, but each guesser&#39;s first attempt adds one attack; later attempts from the same guesser do not count again. The Punching Bag cannot guess its own role.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum number:</strong> Maximum number of Punching Bags in a match.</li>\n<li><strong>Attacks required to win:</strong> Number of attacks the Punching Bag must receive.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "punching-bag",
+      "text": "Punching Bag",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

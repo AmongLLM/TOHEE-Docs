@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"demon\">Demon</h2>\n<p>After Impostors are gone, the Demon wins when it is the only surviving counted Neutral team and is at least as numerous as Crew. The Demon sees current/max health beside each player&#39;s name. Each attack drains the target&#39;s health; a target dies only when their health reaches zero. Attacks against a Demon drain the Demon&#39;s own health. If an attack does not deplete that health, the attacker sees a shield animation.</p>\n<h3 id=\"settings\">Settings</h3>\n<ul>\n<li><strong>Attack cooldown:</strong> Time between attacks.</li>\n<li><strong>Can vent:</strong> Whether the Demon can use vents.</li>\n<li><strong>Impostor vision:</strong> Whether the Demon has Impostor vision.</li>\n<li><strong>Player maximum health:</strong> Maximum health of other players.</li>\n<li><strong>Damage:</strong> Damage dealt per attack.</li>\n<li><strong>Demon maximum health:</strong> Fixed at 100 health.</li>\n<li><strong>Demon damage received:</strong> Health the Demon loses when someone tries to kill them.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "demon",
+      "text": "Demon",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 3
+    }
+  ]
+}

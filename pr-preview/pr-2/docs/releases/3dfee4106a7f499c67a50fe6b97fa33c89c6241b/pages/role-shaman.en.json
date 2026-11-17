@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"shaman\">Shaman</h2>\n<p>Once per round, the Shaman can use the kill button to choose a player as a voodoo doll. While a doll is selected, kill-button attacks on the Shaman are redirected to it; before a doll is chosen, an attack can kill the Shaman directly. If the attacker cannot kill the chosen target, the attack is canceled; trying again can still kill the Shaman.</p>\n<p>The Shaman wins with the winning team if they survive until the end.</p>\n<h3 id=\"settings\">Settings</h3>\n<ul>\n<li><strong>Maximum number:</strong> Maximum number of Shamans in a match.</li>\n<li><strong>Voodoo cooldown:</strong> Time before choosing a voodoo doll again.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "shaman",
+      "text": "Shaman",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 3
+    }
+  ]
+}

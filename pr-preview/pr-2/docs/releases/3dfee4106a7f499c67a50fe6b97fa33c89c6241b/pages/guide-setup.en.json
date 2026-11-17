@@ -1,0 +1,20 @@
+{
+  "html": "<h2 id=\"create-a-room\">Create a room</h2>\n<p>Confirm that the TOHEE version appears on the main menu, then create or join a room. The host&#39;s mod controls custom roles, rules, and modes; other players can join with unmodified clients. Before starting, tell players which mode the room uses and how to check role descriptions and chat commands.</p>\n<h2 id=\"a-good-first-setup\">A good first setup</h2>\n<ol>\n<li>In <strong>Game Settings</strong>, set the basic rules such as map, player count, meeting timers, movement speed, vision, kill distance, and task counts. These settings affect every mode.</li>\n<li>Choose a mode in <strong>Mod Settings</strong>. Standard is a good place to start; the available settings change when you switch modes.</li>\n<li>Review <strong>System Settings</strong> for room access, player joining, information display, and anti-blackout protection. Keep the defaults for a first room, then change one setting at a time and observe the result.</li>\n<li>In Standard, configure Crewmate, Impostor, and Neutral roles plus Add-ons. Start with a small set of familiar roles, and check each role&#39;s maximum count and spawn chance so random assignment stays predictable.</li>\n<li>Play a short test round to check player count, role count, kill cooldown, and win conditions. Save a suitable setup to a <a href=\"/TOHEE-Docs/pr-preview/pr-2/#/docs/guide-presets\" rel=\"noopener noreferrer\">preset slot</a>.</li>\n</ol>\n<p>See <a href=\"/TOHEE-Docs/pr-preview/pr-2/#/docs/settings-game\" rel=\"noopener noreferrer\">game settings</a>, <a href=\"/TOHEE-Docs/pr-preview/pr-2/#/docs/settings-system\" rel=\"noopener noreferrer\">system settings</a>, <a href=\"/TOHEE-Docs/pr-preview/pr-2/#/docs/settings-mod\" rel=\"noopener noreferrer\">mod settings</a>, and the <a href=\"/TOHEE-Docs/pr-preview/pr-2/#/docs/settings-index\" rel=\"noopener noreferrer\">settings index</a> for the menu groups. Option names in older upstream guides may differ from the current client; use the labels and choices shown in your in-game menu.</p>\n<h2 id=\"optional-cloud-features\">Optional Cloud features</h2>\n<p>TOHEE Cloud accounts, linked game accounts, player tags, and room browsing are web features separate from local room settings. Follow the Cloud pages to sign in and link an account; a Cloud account is not required to host a regular game. See the <a href=\"/TOHEE-Docs/pr-preview/pr-2/#/docs/cloud-overview\" rel=\"noopener noreferrer\">TOHEE Cloud guide</a>.</p>\n",
+  "headings": [
+    {
+      "id": "create-a-room",
+      "text": "Create a room",
+      "level": 2
+    },
+    {
+      "id": "a-good-first-setup",
+      "text": "A good first setup",
+      "level": 2
+    },
+    {
+      "id": "optional-cloud-features",
+      "text": "Optional Cloud features",
+      "level": 2
+    }
+  ]
+}

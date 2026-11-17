@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>Butcher kills, including passive kills, create multiple dead bodies at the target, making it difficult to identify the actual victim when reporting. The victim repeatedly plays the kill animation; it cannot be skipped, and the victim cannot participate in a meeting normally during this period. A meeting stops the remaining animations. If the Butcher kills an Avenger, the Avenger takes revenge on everyone.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Butchers in a match.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

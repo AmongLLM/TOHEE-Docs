@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"effect\">Effect</h2>\n<p>Cyber cannot be killed if another living player is within 2 game units, excluding the attacker and Cyber. When Cyber dies, the host can separately notify Impostors, Crewmates, and Neutrals. A separate setting controls whether a star publicly identifies Cyber by name.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number that can appear in one match.</li>\n<li><strong>Spawn Chance</strong>: Chance for a player to receive this add-on.</li>\n<li><strong>Eligibility</strong>: Separate settings control whether Impostors, Crewmates, Neutrals can receive this add-on.</li>\n<li><strong>ImpKnowCyberDead</strong>: Whether Impostors receive a death alert when Cyber dies.</li>\n<li><strong>CrewKnowCyberDead</strong>: Whether Crewmates receive a death alert when Cyber dies.</li>\n<li><strong>NeutralKnowCyberDead</strong>: Whether Neutrals receive a death alert when Cyber dies.</li>\n<li><strong>CyberKnown</strong>: Whether a star appears next to Cyber&#39;s name for everyone.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "effect",
+      "text": "Effect",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

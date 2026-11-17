@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>The Evil Tracker follows a target; an arrow below the tracker’s name points toward them. Shapeshifting into another player immediately unshifts and changes the tracking target to that player. Depending on settings, the tracker also sees a kill flash when a teammate kills.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Evil Trackers in a match.</li>\n<li><strong>Can See Kill-Flash</strong>: When enabled, a teammate’s kill produces a notification; otherwise no flash is shown.</li>\n<li><strong>Can Set Target</strong>: Choose how often the target can be changed: never, once per game, every meeting, or at any time.</li>\n<li><strong>Can See Target’s Last Room in Meeting</strong>: When enabled, shows the room the target was in immediately before the meeting; otherwise this information is hidden.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>When the Mole vents, they stay in the vent for one second. When they come out, they appear near a random vent on the map other than the one they just used.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Moles in a match.</li>\n<li><strong>Dig cooldown</strong>: Sets how long the Mole must wait before using the ability again.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>Shapeshifting places a rift at the current location. Up to two rifts can remain; placing a third removes the oldest. Rifts placed too close together are rejected. Entering the configured radius around one rift teleports the player to the other when the teleport cooldown is ready. Trying to enter a vent ejects the Rift Maker and destroys all rifts. Meetings reset the teleport cooldown.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Rift Makers in a match.</li>\n<li><strong>Kill Cooldown</strong>: The Rift Maker kill cooldown.</li>\n<li><strong>Shapeshift Cooldown</strong>: Time before the Rift Maker can place another rift.</li>\n<li><strong>Teleport Cooldown</strong>: Time between rift teleports.</li>\n<li><strong>Rift Radius</strong>: Distance from a rift required to trigger teleportation.</li>\n<li><strong>Show Shapeshift Animations</strong>: When enabled, shapeshift animations are visible; otherwise they are hidden.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

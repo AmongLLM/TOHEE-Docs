@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"vengeful-romantic\">Vengeful Romantic</h2>\n<p>The Romantic becomes a Vengeful Romantic if their Crewmate or non-killing Neutral partner dies and the killer can be identified. If no killer is recorded, the Romantic becomes a Ruthless Romantic instead. The Vengeful Romantic must kill their partner&#39;s killer. After succeeding, the kill button is disabled, and both partners win at the end of the game. Killing anyone else causes a misfire that kills the Vengeful Romantic.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Kill cooldown:</strong> Time before killing again.</li>\n<li><strong>Can vent:</strong> Whether the Vengeful Romantic can use vents.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "vengeful-romantic",
+      "text": "Vengeful Romantic",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

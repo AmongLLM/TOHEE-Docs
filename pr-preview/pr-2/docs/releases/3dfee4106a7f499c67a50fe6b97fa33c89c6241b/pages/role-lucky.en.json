@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"effect\">Effect</h2>\n<p>Lucky has a configurable chance to evade a kill. When it works, the killer sees a shield animation, but Lucky is not notified.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number that can appear in one match.</li>\n<li><strong>Spawn Chance</strong>: Chance for a player to receive this add-on.</li>\n<li><strong>Eligibility</strong>: Separate settings control whether Impostors, Crewmates, Neutrals can receive this add-on.</li>\n<li><strong>Probability of surviving a kill</strong>: Chance for Lucky to escape a kill.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "effect",
+      "text": "Effect",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

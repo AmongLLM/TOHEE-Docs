@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"glitch\">Glitch</h2>\n<p>The Glitch can hack a player, temporarily preventing them from killing, venting, or reporting bodies. Single-click to hack and double-click to kill.</p>\n<p>The Glitch can also use the sabotage button to mimic a random player for a limited time. The button press triggers the mimic and the sabotage itself does not happen.</p>\n<p>After Impostors are gone, Glitch wins when it is the only surviving counted Neutral team and at least as numerous as Crew.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Kill cooldown:</strong> Time before the Glitch can kill again.</li>\n<li><strong>Hack cooldown:</strong> Time before hacking another player.</li>\n<li><strong>Hack duration:</strong> How long the target remains hacked.</li>\n<li><strong>Mimic cooldown:</strong> Time before mimicking a player again.</li>\n<li><strong>Mimic duration:</strong> How long the mimic lasts.</li>\n<li><strong>Can vent:</strong> Whether the Glitch can use vents.</li>\n<li><strong>Impostor vision:</strong> When enabled, the Glitch has Impostor vision.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "glitch",
+      "text": "Glitch",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

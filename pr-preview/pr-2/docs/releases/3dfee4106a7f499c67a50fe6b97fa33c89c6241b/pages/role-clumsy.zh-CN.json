@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"效果\">效果</h2>\n<p>笨蛋有概率无法成功击杀目标。击杀落空时，目标不受影响，且笨蛋的击杀冷却会重置。它只分配给内鬼阵营角色。</p>\n<h2 id=\"设置\">设置</h2>\n<ul>\n<li><strong>Max（最大数量）</strong>：本局中该附加身份可出现的数量上限。</li>\n<li><strong>Spawn Chance（生成概率）</strong>：玩家获得此附加身份的概率。</li>\n<li><strong>Chance to miss a kill（击杀落空概率）</strong>：笨蛋击杀落空的概率。</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "效果",
+      "text": "效果",
+      "level": 2
+    },
+    {
+      "id": "设置",
+      "text": "设置",
+      "level": 2
+    }
+  ]
+}

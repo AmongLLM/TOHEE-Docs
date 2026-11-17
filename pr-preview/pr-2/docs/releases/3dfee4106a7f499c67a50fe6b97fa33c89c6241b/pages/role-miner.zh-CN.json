@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"技能\">技能</h2>\n<p>变形时传送到自己最近一次进入的通风口。</p>\n<h2 id=\"选项\">选项</h2>\n<ul>\n<li><strong>数量上限（Max）</strong>：设置本局最多可有多少名矿工。</li>\n<li><strong>变形持续时间</strong>：设置变形可持续多久。</li>\n<li><strong>变形冷却</strong>：设置再次变形前的等待时间。</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "技能",
+      "text": "技能",
+      "level": 2
+    },
+    {
+      "id": "选项",
+      "text": "选项",
+      "level": 2
+    }
+  ]
+}

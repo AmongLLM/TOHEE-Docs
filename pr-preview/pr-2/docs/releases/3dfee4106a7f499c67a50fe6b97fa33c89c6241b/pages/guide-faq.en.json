@@ -1,0 +1,50 @@
+{
+  "html": "<h2 id=\"what-is-a-host-only-mod\">What is a host-only mod?</h2>\n<p>A host-only mod runs on the host&#39;s client; other players can usually join without installing the same mod. The host still needs an Among Us game version that is compatible with the room. Check current TOHEE release notes for the supported range.</p>\n<h2 id=\"does-everyone-need-to-install-tohee\">Does everyone need to install TOHEE?</h2>\n<p>No. Only the host installs TOHEE on a supported Windows PC version of the game. Players on phones, tablets, and consoles cannot install this Windows mod, but may join when their game version is compatible.</p>\n<h2 id=\"why-does-a-vanilla-client-show-a-different-base-role-from-a-tohee-role\">Why does a vanilla client show a different base role from a TOHEE role?</h2>\n<p>To work with unmodified clients, a host-only mod may use an Among Us base role for its abilities. The base role is not necessarily the same as the TOHEE faction or custom role. TOHEE clients can show more mod information through role descriptions and the game interface. Players can type <code>/m</code> to read their role description or press <code>F1</code> in Standard mode. The exact display depends on the client and role.</p>\n<h2 id=\"do-cloud-tags-grant-host-permissions\">Do Cloud tags grant host permissions?</h2>\n<p>No. A Cloud web tag is a text and colour setting for a linked account; mod-local permission files are a separate system. See <a href=\"/TOHEE-Docs/pr-preview/pr-2/#/docs/guide-tags\" rel=\"noopener noreferrer\">player tags</a> and the <a href=\"/TOHEE-Docs/pr-preview/pr-2/#/docs/cloud-overview\" rel=\"noopener noreferrer\">Cloud guide</a>.</p>\n<h2 id=\"what-is-game-master-gm\">What is Game Master (GM)?</h2>\n<p>The old upstream FAQ described GM as an observer role automatically assigned to the host. Current TOHEE configures GM status with the <code>AssignGameMaster</code> field in a host-local player file; it sets GM status only and does not grant management commands. See <a href=\"/TOHEE-Docs/pr-preview/pr-2/#/docs/guide-tags\" rel=\"noopener noreferrer\">player tags</a>.</p>\n<h2 id=\"how-do-i-get-a-log\">How do I get a log?</h2>\n<p>Enter <code>/dump</code> in game or press <code>Ctrl</code> + <code>F1</code> to export a mod log. If the export does not work, check <code>BepInEx/LogOutput.log</code> in the Among Us directory. Include reproduction steps and game/mod versions when reporting an issue; do not share account passwords or tokens publicly.</p>\n<h2 id=\"why-did-the-same-role-appear-more-than-once\">Why did the same role appear more than once?</h2>\n<p>Check the role&#39;s maximum count and spawn chance. If the maximum is greater than one or several players meet the assignment rules, duplicates can be the result of the configured options rather than a bug.</p>\n<h2 id=\"why-does-the-room-say-that-our-versions-are-incompatible\">Why does the room say that our versions are incompatible?</h2>\n<p>The host and joining players need compatible Among Us versions, and the host needs a TOHEE release that supports that game version. After a game update, check the <a href=\"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/releases\" rel=\"noopener noreferrer\">release page</a> for a compatible build.</p>\n<h2 id=\"where-can-i-get-more-help\">Where can I get more help?</h2>\n<p>Start with <a href=\"/TOHEE-Docs/pr-preview/pr-2/#/docs/guide-troubleshooting\" rel=\"noopener noreferrer\">troubleshooting</a>. If the problem persists, report it to the TOHEE community with relevant logs. Old upstream Discord channels or invite links may no longer work; use the current TOHEE project page to find community links.</p>\n",
+  "headings": [
+    {
+      "id": "what-is-a-host-only-mod",
+      "text": "What is a host-only mod?",
+      "level": 2
+    },
+    {
+      "id": "does-everyone-need-to-install-tohee",
+      "text": "Does everyone need to install TOHEE?",
+      "level": 2
+    },
+    {
+      "id": "why-does-a-vanilla-client-show-a-different-base-role-from-a-tohee-role",
+      "text": "Why does a vanilla client show a different base role from a TOHEE role?",
+      "level": 2
+    },
+    {
+      "id": "do-cloud-tags-grant-host-permissions",
+      "text": "Do Cloud tags grant host permissions?",
+      "level": 2
+    },
+    {
+      "id": "what-is-game-master-gm",
+      "text": "What is Game Master (GM)?",
+      "level": 2
+    },
+    {
+      "id": "how-do-i-get-a-log",
+      "text": "How do I get a log?",
+      "level": 2
+    },
+    {
+      "id": "why-did-the-same-role-appear-more-than-once",
+      "text": "Why did the same role appear more than once?",
+      "level": 2
+    },
+    {
+      "id": "why-does-the-room-say-that-our-versions-are-incompatible",
+      "text": "Why does the room say that our versions are incompatible?",
+      "level": 2
+    },
+    {
+      "id": "where-can-i-get-more-help",
+      "text": "Where can I get more help?",
+      "level": 2
+    }
+  ]
+}

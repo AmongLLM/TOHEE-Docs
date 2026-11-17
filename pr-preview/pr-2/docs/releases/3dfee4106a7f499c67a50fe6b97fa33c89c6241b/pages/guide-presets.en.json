@@ -1,0 +1,20 @@
+{
+  "html": "<h2 id=\"preset-slots\">Preset slots</h2>\n<p>Room settings are stored in preset slots. Choose a slot in the game settings menu to keep separate rule sets for different group sizes or play styles. After switching, confirm the game shows the settings you intend to use before starting.</p>\n<p>TOHEE stores settings in <code>TOHEE-DATA/SaveData/</code>: <code>GlobalOptions.jsonc</code> contains global settings and <code>Preset1.jsonc</code> through <code>Preset8.jsonc</code> contain slot options. JSONC permits comments and trailing commas. The numeric IDs in the files map to internal option indexes, not the values shown in the menu. Edit settings through the game menu instead of changing these files by hand.</p>\n<h2 id=\"export-and-load-a-shareable-preset\">Export and load a shareable preset</h2>\n<p>The host can use these commands in the lobby:</p>\n<pre><code class=\"language-text\">/save Casual Standard\n/load Casual Standard\n</code></pre>\n<p><code>/save</code> writes the current options to <code>TOHEE-DATA/Presets/&lt;name&gt;.json</code>. After sending that file to a friend, they put it in the same directory and run <code>/load &lt;name&gt;</code> in their own lobby to import the options into the <strong>current preset slot</strong>. Only the host can use these commands in the lobby. File names may contain letters, digits, spaces, hyphens, and underscores.</p>\n<p>Share files include game, mod, and option-format versions. Loading checks version and option compatibility; incompatible versions or invalid content are not applied. Review the resulting menu settings before starting. Do not use or edit preset files from sources you do not trust.</p>\n<p>The <strong>Copy</strong> button in the game settings menu can also copy between local slots or copy the previous host&#39;s preset shared with the room. Only the host can use this button in the lobby. Copying overwrites the target slot, so review the confirmation before proceeding.</p>\n<h2 id=\"legacy-data\">Legacy data</h2>\n<p>Old upstream instructions told players to download <code>Options.json</code>, place it in <code>TOHE-DATA/SaveData</code>, and select it. Current TOHEE uses <code>GlobalOptions.jsonc</code> and one <code>PresetN.jsonc</code> per slot; <code>/save</code> and <code>/load</code> manage local share files. The old <code>Options.json</code> is read only to migrate legacy settings and is not the recommended sharing format.</p>\n<p>Back up the entire <code>TOHEE-DATA</code> folder before updating. See <a href=\"/TOHEE-Docs/pr-preview/pr-2/#/docs/guide-updating\" rel=\"noopener noreferrer\">updating TOHEE</a>.</p>\n",
+  "headings": [
+    {
+      "id": "preset-slots",
+      "text": "Preset slots",
+      "level": 2
+    },
+    {
+      "id": "export-and-load-a-shareable-preset",
+      "text": "Export and load a shareable preset",
+      "level": 2
+    },
+    {
+      "id": "legacy-data",
+      "text": "Legacy data",
+      "level": 2
+    }
+  ]
+}

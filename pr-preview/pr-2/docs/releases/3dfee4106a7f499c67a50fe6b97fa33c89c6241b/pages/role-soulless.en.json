@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"effect\">Effect</h2>\n<p>Cursed Soul can convert eligible Crewmates or Impostors into Soulless, with a setting to allow Neutral targets. Soulless does not count toward team parity. At endgame it can win with its original Crewmate, Impostor, or Apocalypse team; it is also included when Cursed Soul wins. This identity is not independently assigned at random.</p>\n<h2 id=\"related-settings\">Related settings</h2>\n<ul>\n<li><strong>CursedSoulCanCurseNeutral</strong>: Cursed Soul setting that controls whether Neutral players can become Soulless.</li>\n<li><strong>Random assignment</strong>: Not assigned at random at game start; granted by the Cursed Soul role conversion ability.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "effect",
+      "text": "Effect",
+      "level": 2
+    },
+    {
+      "id": "related-settings",
+      "text": "Related settings",
+      "level": 2
+    }
+  ]
+}

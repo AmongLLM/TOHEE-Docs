@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>After completing all tasks, the Marshall is revealed to the Crew, including special Crewmates such as Madmates. Non-Crew teams cannot see the Marshall.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Marshalls in a match.</li>\n<li><strong>Override Marshall tasks</strong>: ON allows a separate task setup; OFF gives the Marshall the same tasks as everyone else. The custom setup includes common-task availability and the number of long and short tasks.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

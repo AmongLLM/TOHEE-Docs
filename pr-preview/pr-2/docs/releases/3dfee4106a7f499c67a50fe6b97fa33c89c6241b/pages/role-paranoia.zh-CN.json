@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"效果\">效果</h2>\n<p>叛徒和中立者不能获得双重人格。胜负人数判定时，双重人格会额外计作一人；开启 DualVotes 后，它在会议中也会产生一张额外投票。该能力可单独关闭，额外投票是否显示也可设置。</p>\n<h2 id=\"设置\">设置</h2>\n<ul>\n<li><strong>Max（最大数量）</strong>：本局中该附加身份可出现的数量上限。</li>\n<li><strong>Spawn Chance（生成概率）</strong>：玩家获得此附加身份的概率。</li>\n<li><strong>Eligibility（可分配阵营）</strong>：主持人可分别设置内鬼、船员是否可以获得此附加身份。</li>\n<li><strong>DualVotes（追加投票）</strong>：控制双重人格是否在会议中追加一票。</li>\n<li><strong>HideAdditionalVotes（隐藏追加投票）</strong>：控制会议界面是否隐藏追加投票。</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "效果",
+      "text": "效果",
+      "level": 2
+    },
+    {
+      "id": "设置",
+      "text": "设置",
+      "level": 2
+    }
+  ]
+}

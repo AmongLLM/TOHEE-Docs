@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"effect\">Effect</h2>\n<p>Admirer can use a limited number of abilities to grant the Admired add-on to an eligible target. The target keeps their main role, but counts as a Crewmate for win checks and wins with the Crewmates. This identity is not independently assigned at random. If the Admirer has become a Madmate, Recruit, Charmed, Infected, or Contagious, the ability grants that matching converted identity instead.</p>\n<h2 id=\"related-settings\">Related settings</h2>\n<ul>\n<li><strong>AdmirerSkillLimit</strong>: Number of times the Admirer can grant this add-on.</li>\n<li><strong>AdmireCooldown</strong>: Cooldown between the Admirer&#39;s ability uses.</li>\n<li><strong>AdmirerKnowTargetRole</strong>: Whether the Admirer and the Admired target learn each other&#39;s identity.</li>\n<li><strong>Random assignment</strong>: Not assigned at random at game start; it is granted by the conversion ability described above.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "effect",
+      "text": "Effect",
+      "level": 2
+    },
+    {
+      "id": "related-settings",
+      "text": "Related settings",
+      "level": 2
+    }
+  ]
+}

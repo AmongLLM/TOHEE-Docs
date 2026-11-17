@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>Shapeshifting marks a target for a death pact. Once the configured number of players are marked, they must meet within the time limit. All pact members die if they fail to meet before it expires. If any member dies or disconnects before the pact is completed, it is cancelled. A meeting clears active pacts and can kill their members depending on the setting. Pact members can receive arrows to each other and have reduced vision according to the settings.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Deathpact roles in a match.</li>\n<li><strong>Kill Cooldown</strong>: Kill cooldown.</li>\n<li><strong>Death Pact Assign Cooldown</strong>: Time before another target can be marked.</li>\n<li><strong>Death Pact Duration</strong>: Time allowed for pact members to meet.</li>\n<li><strong>Number of Players in Death Pact</strong>: Number of players required to form a pact.</li>\n<li><strong>Show Arrows to Other Players in Death Pact</strong>: When enabled, arrows point to other pact members.</li>\n<li><strong>Reduce Vision for Players in Death Pact</strong>: When enabled, pact members have reduced vision, with a configurable multiplier.</li>\n<li><strong>Kill Players in Death Pact on Meeting</strong>: When enabled, starting a meeting kills members of an active pact; otherwise the pact is only cleared.</li>\n<li><strong>Players in Active Death Pact Can Call Meeting</strong>: When enabled, pact members can report or call a meeting; otherwise they cannot.</li>\n<li><strong>Show Shapeshift Animations</strong>: When enabled, shapeshift animations are shown; otherwise they are hidden.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>For each task completed, the Merchant sells a random add-on to a random player and earns money. Once the required amount is available, an attack against the Merchant bribes that attacker; their later kill attempts against the Merchant are also blocked for the rest of the game. The Merchant can spend more earned money to bribe other attackers but does not learn their identities.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Merchants in a match.</li>\n<li><strong>Maximum add-ons to sell</strong>: Sets how many add-ons the Merchant can sell.</li>\n<li><strong>Money earned per sale</strong>: Sets how much money the Merchant receives for each add-on sold.</li>\n<li><strong>Money required to bribe a killer</strong>: Sets how much money the Merchant must have to bribe a killer.</li>\n<li><strong>Inform Merchant when a killer is bribed</strong>: ON notifies the Merchant when their bribe takes effect; OFF suppresses that notice.</li>\n<li><strong>Can sell to Crewmates, Impostors, and Neutrals</strong>: Each setting controls whether the Merchant may sell add-ons to that team.</li>\n<li><strong>Can sell Helpful, Harmful, and Mixed add-ons</strong>: Each setting controls whether add-ons of that type may be sold.</li>\n<li><strong>Sell Harmful add-ons only to Evil</strong>: In the current implementation, ON restricts Helpful add-ons to Crewmates, opposite to the option label.</li>\n<li><strong>Sell Helpful add-ons only to Crew</strong>: In the current implementation, ON restricts Harmful add-ons to Impostors or Neutrals, opposite to the option label.</li>\n<li><strong>Sell only enabled add-ons</strong>: ON restricts sales to enabled add-ons; OFF does not.</li>\n<li><strong>Override Merchant tasks</strong>: ON allows a separate task setup; OFF gives the Merchant the same task count as everyone else. The custom setup includes common-task availability and the number of long and short tasks.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

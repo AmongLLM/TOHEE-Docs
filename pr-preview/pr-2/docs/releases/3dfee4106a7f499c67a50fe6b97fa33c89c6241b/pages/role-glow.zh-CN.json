@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"效果\">效果</h2>\n<p>停电期间，光辉自身及其附近玩家都会获得视野加成。光辉不会在 The Fungle 地图随机分配。</p>\n<h2 id=\"设置\">设置</h2>\n<ul>\n<li><strong>Max（最大数量）</strong>：本局中该附加身份可出现的数量上限。</li>\n<li><strong>Spawn Chance（生成概率）</strong>：玩家获得此附加身份的概率。</li>\n<li><strong>Eligibility（可分配阵营）</strong>：主持人可分别设置内鬼、船员、中立者是否可以获得此附加身份。</li>\n<li><strong>Glow Radius（光辉范围）</strong>：光辉对附近玩家生效的距离。</li>\n<li><strong>Vision Boost for nearby players（附近玩家视野加成）</strong>：附近玩家获得的视野加成幅度。</li>\n<li><strong>Vision Boost for Glow（Glow 自身视野加成）</strong>：光辉自身获得的视野加成幅度。</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "效果",
+      "text": "效果",
+      "level": 2
+    },
+    {
+      "id": "设置",
+      "text": "设置",
+      "level": 2
+    }
+  ]
+}

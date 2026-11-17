@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>Only one Spy can spawn in a match. When someone uses their kill button on the Spy, including an ability activated through that button, the Spy sees that player&#39;s name in orange for a few seconds. Crewmate abilities can trigger the same effect. The Spy sees no orange names when they have no ability uses left. If the kill-button interaction is blocked, the attacker&#39;s cooldown resets to 10 seconds.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Initial ability uses</strong>: Sets how many uses the Spy starts with.</li>\n<li><strong>Colored name duration</strong>: Sets how long the target&#39;s name stays colored.</li>\n<li><strong>Ability uses gained per task</strong>: Sets the uses gained for each completed task, in 0.1 increments.</li>\n<li><strong>Block kill-button interaction</strong>: ON stops the interaction between the killer and the Spy; OFF allows it.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

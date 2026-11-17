@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"effect\">Effect</h2>\n<p>Madmates normally come from eligible Crewmates. They win with the Impostors if that team wins; when <code>MadmateCountMode</code> keeps their original team, they may also win with that team. The same setting controls whether Madmates contribute to parity, so an endgame after the regular Impostors die depends on the selected mode. The host chooses how Madmates are created: random assignment, converting a Crewmate when an Impostor first tries to kill them, or converting Crewmates who vote for themselves in a meeting. Settings control which roles may convert; Lazy Guy, Lazy, Loyal, SuperStar, Celebrity, Task Manager, Egoist, Paranoia, Vigilante, and adult Mini cannot become Madmates. Hurried players who cannot be converted are also excluded.</p>\n<p>Settings control whether Madmates count toward player totals, whether Impostors and Madmates know each other, whether Impostors can kill Madmates, whether Madmates can kill Impostors, and whether Madmates have Impostor vision.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number that can appear in one match.</li>\n<li><strong>Madmate spawning mode</strong>: Choose Assign, First Kill, or Self Vote. First Kill converts an eligible target instead of killing them; Self Vote converts self-voting Crewmates.</li>\n<li><strong>Madmates count as</strong>: Choose whether Madmates count as nobody, Impostors, or their original team.</li>\n<li><strong>SheriffCanBeMadmate / MayorCanBeMadmate / NGuesserCanBeMadmate / MarshallCanBeMadmate / OverseerCanBeMadmate / RetributionistCanBeMadmate / SnitchCanBeMadmate / JudgeCanBeMadmate</strong>: Separate toggles control whether these roles can become Madmates; Mad Snitch task count is set with <code>MadSnitchTasks</code>.</li>\n<li><strong>Impostor/Madmate visibility, friendly fire, and vision options</strong>: Host options control whether the two groups identify each other, whether either side can kill the other, and whether Madmates have Impostor vision.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "effect",
+      "text": "Effect",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

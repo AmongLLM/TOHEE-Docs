@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The Task Manager sees the total number of tasks completed by everyone together beside their role name. The count updates in real time.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Task Managers in a match.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

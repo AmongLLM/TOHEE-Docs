@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>Shapeshifting returns the Miner to the last vent they entered.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Miners in a match.</li>\n<li><strong>Shapeshift Duration</strong>: How long a shapeshift can last.</li>\n<li><strong>Shapeshift Cooldown</strong>: How long you must wait before shapeshifting again.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "html": "<h2 id=\"before-updating\">Before updating</h2>\n<p>Close Among Us and any running game process from the launcher. Back up the <code>TOHEE-DATA</code> folder in the game directory; it holds presets, templates, and local tags. Do not mix an old mod DLL with a new loader or interop files from another store installation.</p>\n<h2 id=\"install-the-new-version\">Install the new version</h2>\n<ol>\n<li>Open <a href=\"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/releases\" rel=\"noopener noreferrer\">TOHEE GitHub Releases</a> and read the newest release notes and supported Among Us version.</li>\n<li>Download the package for your store and architecture. Steam, Epic Games, and Microsoft Store / Xbox App normally use x64; the Windows itch.io client uses x86. If the game itself was updated, prefer the full release package for that game version.</li>\n<li>With the game closed, extract the package into the directory containing <code>Among Us.exe</code> and allow it to replace mod files as prompted. Keep <code>TOHEE-DATA</code>; do not replace the entire new installation directory with an old backup.</li>\n<li>When upgrading an older bundled release, check the current package instructions for any patcher or loader files that must also be replaced. If first initialization requires a restart, follow the release notes and relaunch the game.</li>\n<li>Launch the game and confirm the main menu shows the current TOHEE version. If loading fails, inspect <code>BepInEx/LogOutput.log</code> and see <a href=\"/TOHEE-Docs/pr-preview/pr-2/#/docs/guide-troubleshooting\" rel=\"noopener noreferrer\">troubleshooting</a>.</li>\n</ol>\n<p>For a routine mod-only update on the same Among Us version, architecture, and BepInEx 6 <code>be.755</code> environment, the release instructions allow replacing only <code>BepInEx/plugins/TOHE.dll</code>. Use the full release package if the notes require a loader or patcher update, or if you are unsure about the current setup.</p>\n<h2 id=\"settings-files\">Settings files</h2>\n<p>Current TOHEE saves game options in <code>TOHEE-DATA/SaveData/GlobalOptions.jsonc</code> and <code>Preset1.jsonc</code> through <code>Preset8.jsonc</code>. These local files differ from the JSON files used for sharing presets in <code>TOHEE-DATA/Presets/</code>. Do not treat <code>Options.json</code> from an old website download flow as the current preset format; the old <code>Options.json</code> is read only when the program migrates legacy data. See the <a href=\"/TOHEE-Docs/pr-preview/pr-2/#/docs/guide-presets\" rel=\"noopener noreferrer\">preset guide</a>.</p>\n<p>Older upstream instructions described a built-in updater and Discord beta downloads. The current recommendation is to get TOHEE release packages from GitHub Releases; do not rely on old channel names or download links.</p>\n",
+  "headings": [
+    {
+      "id": "before-updating",
+      "text": "Before updating",
+      "level": 2
+    },
+    {
+      "id": "install-the-new-version",
+      "text": "Install the new version",
+      "level": 2
+    },
+    {
+      "id": "settings-files",
+      "text": "Settings files",
+      "level": 2
+    }
+  ]
+}

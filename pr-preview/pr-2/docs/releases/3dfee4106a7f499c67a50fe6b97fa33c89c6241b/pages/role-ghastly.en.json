@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The Ghastly can possess an unsuspecting player and then choose a target for them. While possessed, that player can use their kill or kill ability only on the chosen target. The restriction ends when the Ghastly possesses someone else, the effect expires, or either the possessed player or chosen target dies.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Possess cooldown</strong>: Sets how long the Ghastly must wait before possessing again.</li>\n<li><strong>Maximum possessions</strong>: Sets how many times the Ghastly can possess players.</li>\n<li><strong>Possession duration</strong>: Sets how long each possession lasts.</li>\n<li><strong>Ghastly speed</strong>: Sets how fast the Ghastly can move.</li>\n<li><strong>Cannot possess allies</strong>: ON prevents possessing allies; OFF allows it.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

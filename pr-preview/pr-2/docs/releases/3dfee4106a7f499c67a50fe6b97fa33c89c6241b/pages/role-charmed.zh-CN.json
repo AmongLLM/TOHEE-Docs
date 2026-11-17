@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"效果\">效果</h2>\n<p>魅魔可将符合条件的船员或内鬼转化为魅魔小弟；主持人可允许中立者被转化。魅魔小弟会随魅魔一同获胜。胜负人数可设置为不计人数、计入魅魔阵营或保持原阵营。魅魔小弟始终能识别魅魔；<code>CultistKnowTargetRole</code> 控制魅魔是否能识别魅魔小弟，而魅魔小弟之间互相识别需要同时启用 <code>CultistKnowTargetRole</code> 和 <code>CultistTargetKnowOtherTarget</code>。此身份不会开局随机分配。</p>\n<h2 id=\"相关设置\">相关设置</h2>\n<ul>\n<li><strong>Cultist_CharmedCountMode（Charmed 计入阵营）</strong>：设置魅魔小弟玩家不计人数、计入魅魔阵营，或保留原阵营。</li>\n<li><strong>CultistCanCharmNeutral（中立者可被魅惑）</strong>：控制魅魔能否转化中立者。</li>\n<li><strong>CultistKnowTargetRole / CultistTargetKnowOtherTarget（魅魔与 Charmed 互相识别）</strong>：前者控制魅魔是否能识别魅魔小弟；后者控制魅魔小弟之间能否互相识别，且只有启用前者后才生效。</li>\n<li><strong>随机分配</strong>：不会开局随机分配；由上述赋予者能力转化获得。</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "效果",
+      "text": "效果",
+      "level": 2
+    },
+    {
+      "id": "相关设置",
+      "text": "相关设置",
+      "level": 2
+    }
+  ]
+}

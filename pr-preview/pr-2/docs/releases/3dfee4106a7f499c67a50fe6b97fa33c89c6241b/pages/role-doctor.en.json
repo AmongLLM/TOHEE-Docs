@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The Doctor can see the cause of death for all players and use portable Vitals like a Scientist.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Doctors in a match.</li>\n<li><strong>Battery duration</strong>: Sets how long the Doctor can keep Vitals open.</li>\n<li><strong>Everyone knows who the Doctor is</strong>: ON reveals the Doctor; OFF keeps their role secret.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

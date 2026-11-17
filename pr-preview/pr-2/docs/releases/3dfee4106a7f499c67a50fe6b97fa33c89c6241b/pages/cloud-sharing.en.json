@@ -1,0 +1,30 @@
+{
+  "html": "<h2 id=\"requirements\">Requirements</h2>\n<p>You need a linked Among Us account eligible to share, a valid online game login and host authority in the current online room. Offline local games, non-host players and unsupported mod versions cannot report a shared room normally.</p>\n<p>Sharing makes your room code visible to eligible Cloud users and authorised API clients. Enable it when you want those players to discover and join your room.</p>\n<h2 id=\"enable-sharing\">Enable sharing</h2>\n<ol>\n<li>Under <a href=\"https://tohee.niko233.top/accounts\" rel=\"noopener noreferrer\">Game accounts</a>, find the friend code currently used by the host and enable room sharing.</li>\n<li>Enable local sharing in the TOHEE Cloud menu, or use <code>/cloud share on</code>.</li>\n<li>Host an online room. Check account eligibility, room-sharing status and messages in the Cloud menu.</li>\n<li>If you manually stopped sharing this room earlier, choose to share the current room again.</li>\n</ol>\n<p>The website switch permits sharing for the account. The mod switch controls whether this client sends room information. Both must be enabled. After changing website settings, refresh account status in the mod or use <code>/cloud account refresh</code>.</p>\n<h2 id=\"private-rooms\">Private rooms</h2>\n<p>A private room requires explicit confirmation for the current room. Choose to share the current private room in the mod&#39;s Cloud menu, or use <code>/cloud private confirm</code>. This confirms the current room, not all future private rooms.</p>\n<p>The game&#39;s Private status does not mean Cloud has stopped showing its code. Check Cloud&#39;s sharing status. Explicitly stop sharing the current room or disable sharing when you no longer want the code displayed.</p>\n<h2 id=\"stop-sharing\">Stop sharing</h2>\n<p>Stopping the current room in the Cloud menu preserves the local sharing preference. <code>/cloud share off</code> disables local sharing and requests room removal. Turning off account sharing on the website also prevents continued sharing.</p>\n<p>The room list has a refresh interval. Stopping sharing cannot recall codes that viewers have already copied. After host departure, disconnection or a service outage, listed status may briefly lag behind. A listing does not guarantee a host is online now.</p>\n<h2 id=\"if-your-room-is-missing\">If your room is missing</h2>\n<p>Check that you are the host, have finished signing in to the game, linked the right account, enabled both switches and confirmed any private room. Account eligibility, server information and mod version also affect reporting. Follow the specific Cloud menu message; see <a href=\"/TOHEE-Docs/pr-preview/pr-2/#/docs/cloud-help\" rel=\"noopener noreferrer\">troubleshooting</a>.</p>\n",
+  "headings": [
+    {
+      "id": "requirements",
+      "text": "Requirements",
+      "level": 2
+    },
+    {
+      "id": "enable-sharing",
+      "text": "Enable sharing",
+      "level": 2
+    },
+    {
+      "id": "private-rooms",
+      "text": "Private rooms",
+      "level": 2
+    },
+    {
+      "id": "stop-sharing",
+      "text": "Stop sharing",
+      "level": 2
+    },
+    {
+      "id": "if-your-room-is-missing",
+      "text": "If your room is missing",
+      "level": 2
+    }
+  ]
+}

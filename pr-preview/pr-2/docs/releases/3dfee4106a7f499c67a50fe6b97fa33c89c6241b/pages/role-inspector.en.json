@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"role\">Role</h2>\n<p>The Inspector checks whether two players are on the same team and receives an affirmative or negative result. All Neutrals and converted players count as the same team. Trickster counts as Crew, and Rascal counts as Impostor.</p>\n<p>Check command: /cmp [player ID 1] [player ID 2]</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum count</strong>: Sets the maximum number of Inspectors in a match.</li>\n<li><strong>Hide Inspector commands</strong>: ON makes the mod attempt to hide the Inspector&#39;s check commands; OFF leaves them visible to other players.</li>\n<li><strong>Maximum inspections per game</strong>: Sets the total number of checks allowed per game.</li>\n<li><strong>Maximum inspections per meeting</strong>: Sets how many checks are allowed in each meeting.</li>\n<li><strong>Bait reveal on first meeting counts as revealed role</strong>: ON counts Bait&#39;s first-meeting reveal as a role reveal; OFF does not.</li>\n<li><strong>Targets know they were checked</strong>: ON notifies both checked targets; OFF keeps the check hidden from them.</li>\n<li><strong>Targets know who they were checked with</strong>: ON reveals the other checked target; OFF does not.</li>\n<li><strong>Reveal the other target&#39;s team after tasks</strong>: ON reveals the other target&#39;s team after task completion; OFF does not.</li>\n<li><strong>Ability uses gained per task</strong>: Sets additional checks per completed task, in 0.1 increments.</li>\n<li><strong>Override Inspector tasks</strong>: ON allows a separate task setup, including common-task availability and long and short task counts; OFF gives the Inspector the same task count as everyone else.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "role",
+      "text": "Role",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}

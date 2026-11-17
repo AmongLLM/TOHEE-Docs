@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>The Crewpostor cannot use the kill button directly. Every configured number of completed tasks causes it to kill the nearest eligible target. Settings control whether Impostor-team players are eligible. Nice Mini, Evil Mini, and Solsticer are excluded. A transformed Apocalypse target is immune; attacking Pestilence can reflect the kill back onto the Crewpostor. The role can lunge when a kill occurs.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Crewpostors in a match.</li>\n<li><strong>Can Kill Impostors</strong>: When enabled, Impostor-team players can be targeted; otherwise they are excluded.</li>\n<li><strong>Knows Impostors</strong>: When enabled, the Crewpostor knows who the Impostors are; otherwise it does not.</li>\n<li><strong>Known to Impostors</strong>: When enabled, the Impostors know who the Crewpostor is; otherwise they do not.</li>\n<li><strong>Crewpostor Lunges on Kill</strong>: When enabled, the kill triggers a lunge; otherwise it does not.</li>\n<li><strong>Number of Tasks Completed to Make One Kill</strong>: Number of completed tasks required for a kill.</li>\n<li><strong>Override Crewpostor Tasks</strong>: When enabled, the Crewpostor can receive separate task settings; otherwise it has the same assignment as other players.<ul>\n<li><strong>Crewpostor Has Common Tasks</strong>: When enabled, the Crewpostor receives Common Tasks; otherwise it does not.</li>\n<li><strong>Amount of Long Tasks</strong>: Number of Long Tasks assigned to the Crewpostor.</li>\n<li><strong>Amount of Short Tasks</strong>: Number of Short Tasks assigned to the Crewpostor.</li>\n</ul>\n</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

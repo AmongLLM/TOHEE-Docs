@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"ability\">Ability</h2>\n<p>Each kill reduces meeting voting time. The reduction accumulates with the kill count, down to the configured minimum voting time. Whether the stolen time is restored when the Time Thief dies is controlled by a setting.</p>\n<h2 id=\"options\">Options</h2>\n<ul>\n<li><strong>Max</strong>: Maximum number of Time Thieves in a match.</li>\n<li><strong>Kill Cooldown</strong>: Time before the Time Thief can kill again.</li>\n<li><strong>Lower Meeting Time By</strong>: Voting time removed for each kill.</li>\n<li><strong>Minimum Voting Time</strong>: Lowest voting time can be reduced to.</li>\n<li><strong>Return Stolen Time Upon Death</strong>: When enabled, voting time is restored when the Time Thief dies; otherwise the reduction remains.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "ability",
+      "text": "Ability",
+      "level": 2
+    },
+    {
+      "id": "options",
+      "text": "Options",
+      "level": 2
+    }
+  ]
+}

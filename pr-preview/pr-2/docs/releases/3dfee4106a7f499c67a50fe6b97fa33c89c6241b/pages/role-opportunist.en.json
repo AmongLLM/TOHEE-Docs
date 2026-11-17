@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"opportunist\">Opportunist</h2>\n<p>The Opportunist wins with the winning team if they survive until the end of the game. They lose if they die.</p>\n<h2 id=\"settings\">Settings</h2>\n<ul>\n<li><strong>Maximum number:</strong> Maximum number of Opportunists in a match.</li>\n<li><strong>Immune to attacks on task completion:</strong> When enabled, an Opportunist who completes their tasks is immune to attacks.</li>\n<li><strong>Override tasks:</strong> When enabled, configure the Opportunist&#39;s tasks separately, including whether they have common tasks and the number of long and short tasks. When disabled, they have the same task count as other players.</li>\n</ul>\n",
+  "headings": [
+    {
+      "id": "opportunist",
+      "text": "Opportunist",
+      "level": 2
+    },
+    {
+      "id": "settings",
+      "text": "Settings",
+      "level": 2
+    }
+  ]
+}
