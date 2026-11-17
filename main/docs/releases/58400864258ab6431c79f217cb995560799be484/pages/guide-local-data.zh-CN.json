@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"tohee-data\">TOHEE-DATA</h2>\n<p>当前 TOHEE 将本地数据保存在游戏目录的 <code>TOHEE-DATA</code> 文件夹。首次启动可能会创建缺少的文件。旧版数据目录名为 <code>TOHE-DATA</code>；模组会在适用时迁移已有文件，但更新前仍建议先备份。</p>\n<table>\n<thead>\n<tr>\n<th>路径</th>\n<th>内容</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><code>TOHEE-DATA/SaveData/GlobalOptions.jsonc</code></td>\n<td>全局选项及当前预设选择。</td>\n</tr>\n<tr>\n<td><code>TOHEE-DATA/SaveData/Preset1.jsonc</code> 至 <code>Preset8.jsonc</code></td>\n<td>本地预设槽的选项。</td>\n</tr>\n<tr>\n<td><code>TOHEE-DATA/Presets/</code></td>\n<td><code>/save</code> 导出的、可分享的 JSON 预设文件。</td>\n</tr>\n<tr>\n<td><code>TOHEE-DATA/template.txt</code></td>\n<td>欢迎消息和自定义聊天模板。</td>\n</tr>\n<tr>\n<td><code>TOHEE-DATA/CustomSoundsVolumeConfig.json</code></td>\n<td>自定义音效的总音量、单项音量和开关，由<a href=\"/TOHEE-Docs/main/#/docs/guide-custom-sounds\" rel=\"noopener noreferrer\">音效管理界面</a>自动保存。</td>\n</tr>\n<tr>\n<td><code>TOHEE-DATA/Tags/</code> 与 <code>TOHEE-DATA/tags.txt</code></td>\n<td>房主本地玩家标签与外观后备标签；不等于 Cloud 网页标签。</td>\n</tr>\n<tr>\n<td><code>TOHEE-DATA/BanList.txt</code>、<code>DenyName.txt</code>、<code>WhiteList.txt</code></td>\n<td>房间使用的封禁、名称过滤与允许列表数据。</td>\n</tr>\n</tbody></table>\n<p>不要把 <code>GlobalOptions.jsonc</code> 或 <code>PresetN.jsonc</code> 改成旧版 <code>Options.json</code> 格式；使用游戏菜单修改设置。分享预设的命令和版本校验见<a href=\"/TOHEE-Docs/main/#/docs/guide-presets\" rel=\"noopener noreferrer\">预设指南</a>，模板格式见<a href=\"/TOHEE-Docs/main/#/docs/guide-templates\" rel=\"noopener noreferrer\">聊天模板</a>，标签文件的编辑方法见<a href=\"/TOHEE-Docs/main/#/docs/guide-local-tags\" rel=\"noopener noreferrer\">本地标签与权限</a>。</p>\n<h2 id=\"备份和迁移\">备份和迁移</h2>\n<p>关闭游戏后，复制整个 <code>TOHEE-DATA</code> 文件夹到安全位置。若从旧安装恢复设置，只恢复需要的配置文件，不要把旧的加载器、插件或 interop 文件复制到新游戏目录。遇到文件丢失或格式错误时，保留副本并检查日志；不要删除原始数据后再尝试恢复。</p>\n",
+  "headings": [
+    {
+      "id": "tohee-data",
+      "text": "TOHEE-DATA",
+      "level": 2
+    },
+    {
+      "id": "备份和迁移",
+      "text": "备份和迁移",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"cloud-web-tags\">Cloud web tags</h2>\n<p>Sign in to TOHEE Cloud and link your game account to set your own tag text and colour on the website.</p>\n<p>See <a href=\"/TOHEE-Docs/main/#/docs/cloud-tags\" rel=\"noopener noreferrer\">Cloud tags</a> to learn how to set and refresh your tag.</p>\n<h2 id=\"host-local-tags\">Host-local tags</h2>\n<p>Hosts can configure player tags, command access and GM status in <code>TOHEE-DATA/Tags/</code> for the rooms they host.</p>\n<p>See <a href=\"/TOHEE-Docs/main/#/docs/guide-local-tags\" rel=\"noopener noreferrer\">Local tags and permissions</a> to create a file with the generator or edit one using the example.</p>\n",
+  "headings": [
+    {
+      "id": "cloud-web-tags",
+      "text": "Cloud web tags",
+      "level": 2
+    },
+    {
+      "id": "host-local-tags",
+      "text": "Host-local tags",
+      "level": 2
+    }
+  ]
+}

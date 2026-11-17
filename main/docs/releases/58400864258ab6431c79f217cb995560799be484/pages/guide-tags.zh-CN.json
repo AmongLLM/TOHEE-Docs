@@ -1,0 +1,15 @@
+{
+  "html": "<h2 id=\"cloud-网页标签\">Cloud 网页标签</h2>\n<p>登录 TOHEE Cloud 并绑定游戏账号后，可以在网页上设置自己的标签文字和颜色。</p>\n<p>查看<a href=\"/TOHEE-Docs/main/#/docs/cloud-tags\" rel=\"noopener noreferrer\">Cloud 标签教程</a>，了解如何设置和刷新标签。</p>\n<h2 id=\"房主本地标签\">房主本地标签</h2>\n<p>房主可以在 <code>TOHEE-DATA/Tags/</code> 中为玩家配置标签、命令权限和 GM 身份，用于自己开设的房间。</p>\n<p>查看<a href=\"/TOHEE-Docs/main/#/docs/guide-local-tags\" rel=\"noopener noreferrer\">本地标签与权限</a>，使用生成器制作文件，或按示例手动编辑。</p>\n",
+  "headings": [
+    {
+      "id": "cloud-网页标签",
+      "text": "Cloud 网页标签",
+      "level": 2
+    },
+    {
+      "id": "房主本地标签",
+      "text": "房主本地标签",
+      "level": 2
+    }
+  ]
+}

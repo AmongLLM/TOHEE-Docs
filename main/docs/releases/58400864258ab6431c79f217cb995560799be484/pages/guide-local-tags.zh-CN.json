@@ -1,0 +1,30 @@
+{
+  "html": "<p>房主可以用本地 Tags 文件，为房间里的玩家设置标签、命令权限和 GM 身份。每位玩家对应一个以完整好友代码命名的 <code>.txt</code> 文件，保存在游戏目录的 <code>TOHEE-DATA/Tags/</code> 中。</p>\n<h2 id=\"用生成器制作标签\">用生成器制作标签</h2>\n<ol>\n<li>打开 <a href=\"https://moddedamong.us/tags.html\" rel=\"noopener noreferrer\">MAUL 标签生成器</a>，选择 <code>TONE/TOHE:E</code>。</li>\n<li>填入玩家的完整好友代码，编辑标签文字、颜色和样式，再设置权限等级与各项开关。</li>\n<li>点击 <code>Download .txt</code> 下载完整配置，将文件放入 <code>TOHEE-DATA/Tags/</code>。例如，好友代码为 <code>sampleuser#1234</code>，文件名就是 <code>sampleuser#1234.txt</code>。</li>\n<li>在大厅中由房主输入 <code>/tags reload</code>，刷新标签和权限。</li>\n</ol>\n<p>使用 <code>Download .txt</code> 可以一次保存标签和权限；<code>Copy generated tag</code> 复制的是标签样式文字，适合粘贴到 <code>TagName</code> 字段。</p>\n<h2 id=\"手动创建和编辑\">手动创建和编辑</h2>\n<p>首次启动模组后，<code>TOHEE-DATA/Tags/</code> 中会生成模板。复制 <code>Tag_Template.txt</code>，将副本改名为玩家的完整好友代码加 <code>.txt</code>，用纯文本编辑器以 UTF-8 保存。也可以直接新建文件，填入以下内容：</p>\n<pre><code class=\"language-text\">TagName: 房间伙伴\nTagColor: 33CCFF\nPermissionLevel: 0\nSayCommandAccess: false\nEndCommandAccess: false\nExecuteCommandAccess: false\nAssignGameMaster: false\n</code></pre>\n<ul>\n<li><code>TagName</code>：显示在玩家名字前的标签文字。用 <code>\\n</code> 换行；需要与昵称空一格时，在文字末尾加一个空格。</li>\n<li><code>TagColor</code>：标签颜色，填写不带 <code>#</code> 的六位十六进制颜色，例如 <code>33CCFF</code>。</li>\n<li><code>PermissionLevel</code>：玩家的命令权限等级，见下表。</li>\n<li>其余四项填写 <code>true</code> 开启、<code>false</code> 关闭。</li>\n</ul>\n<p>生成器输出的 <code>y</code> / <code>n</code> 也分别表示开启 / 关闭。</p>\n<p><code>VIP_Template.txt</code> 的初始权限为 1 级，<code>Moderator_Template.txt</code> 为 5 级，也可以复制后按需修改。</p>\n<p>文件可以直接放在 <code>Tags</code> 中，也可以放在一层子文件夹中，例如 <code>Tags/friends/sampleuser#1234.txt</code>。文件夹名用于分类，权限由文件内容决定。</p>\n<h2 id=\"配置命令权限\">配置命令权限</h2>\n<p><code>PermissionLevel</code> 填写 <code>0</code> 至 <code>5</code>。高等级包含低等级的命令权限。</p>\n<table>\n<thead>\n<tr>\n<th>等级</th>\n<th>额外开放的命令</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>0</td>\n<td>保持普通玩家权限。</td>\n</tr>\n<tr>\n<td>1</td>\n<td><code>/rn</code> 修改自己的名字；<code>/color</code> 修改自己的颜色，均在大厅使用。</td>\n</tr>\n<tr>\n<td>2</td>\n<td><code>/warn</code> 警告玩家；<code>/mid</code> 查看玩家列表；<code>/me &lt;ID&gt;</code> 查看其他玩家信息；<code>/fix &lt;ID&gt;</code> 为其他玩家请求修复。</td>\n</tr>\n<tr>\n<td>3</td>\n<td><code>/start</code> 开始游戏。</td>\n</tr>\n<tr>\n<td>4</td>\n<td><code>/kick &lt;ID&gt;</code> 踢出玩家。</td>\n</tr>\n<tr>\n<td>5</td>\n<td><code>/ban &lt;ID&gt; &lt;原因&gt;</code> 封禁玩家。</td>\n</tr>\n</tbody></table>\n<p>例如，将 <code>PermissionLevel: 0</code> 改为 <code>PermissionLevel: 4</code>，该玩家就能使用 1 至 4 级的命令。</p>\n<p>以下开关单独设置，与权限等级分开生效：</p>\n<table>\n<thead>\n<tr>\n<th>字段</th>\n<th>设为 <code>true</code> 的效果</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><code>SayCommandAccess</code></td>\n<td>使用 <code>/say</code> 发送公告。</td>\n</tr>\n<tr>\n<td><code>EndCommandAccess</code></td>\n<td>使用 <code>/end</code> 结束游戏。</td>\n</tr>\n<tr>\n<td><code>ExecuteCommandAccess</code></td>\n<td>使用 <code>/exe</code> 处决玩家。</td>\n</tr>\n<tr>\n<td><code>AssignGameMaster</code></td>\n<td>开局时分配 GM 身份。管理命令由权限等级和上面的开关设置。</td>\n</tr>\n</tbody></table>\n<p>只配置权限时，将 <code>TagName</code> 留空即可。</p>\n<h2 id=\"颜色与样式\">颜色与样式</h2>\n<p>要显示渐变、字号或字体等富文本样式，在系统设置中开启“启用渐变标记”。生成器会把渐变样式写入 <code>TagName</code> 并将 <code>TagColor</code> 留空；保留这种写法即可。</p>\n<p>手动设置双色渐变时，可填写 <code>TagColor: 33CCFF FF99CC</code>。纯色标签直接填写一种颜色。</p>\n<h2 id=\"保存后生效\">保存后生效</h2>\n<p>修改文件并保存后，房主在大厅输入 <code>/tags reload</code>，即可重新读取标签和权限并刷新玩家名字；GM 身份在下次开局时分配。“自动重载标签”默认开启，每 5 秒检查文件变化；也可以在 Client Options 中切换此选项。</p>\n<p>删除某位玩家的 <code>.txt</code> 文件并重载，即可移除该文件提供的标签、权限和 GM 配置。</p>\n<p>聊天命令 <code>/addtag</code> 使用的 <code>TOHEE-DATA/tags.txt</code> 用来保存外观标签。需要设置权限或 GM 身份时，编辑上面的单玩家 TXT 文件；两处都设置了标签时，单玩家文件中的标签优先显示。</p>\n",
+  "headings": [
+    {
+      "id": "用生成器制作标签",
+      "text": "用生成器制作标签",
+      "level": 2
+    },
+    {
+      "id": "手动创建和编辑",
+      "text": "手动创建和编辑",
+      "level": 2
+    },
+    {
+      "id": "配置命令权限",
+      "text": "配置命令权限",
+      "level": 2
+    },
+    {
+      "id": "颜色与样式",
+      "text": "颜色与样式",
+      "level": 2
+    },
+    {
+      "id": "保存后生效",
+      "text": "保存后生效",
+      "level": 2
+    }
+  ]
+}

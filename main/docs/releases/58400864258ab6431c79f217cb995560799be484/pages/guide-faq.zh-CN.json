@@ -1,0 +1,50 @@
+{
+  "html": "<h2 id=\"什么是房主专属模组\">什么是房主专属模组？</h2>\n<p>房主专属（host-only）模组由房主运行，其他玩家通常无需安装同一模组即可加入。房主仍需使用兼容的 Among Us 游戏版本；TOHEE 的实际兼容范围以当前发行说明为准。</p>\n<h2 id=\"所有人都需要安装-tohee-吗\">所有人都需要安装 TOHEE 吗？</h2>\n<p>不需要。只有房主需要在支持的 Windows PC 游戏版本上安装 TOHEE。手机、平板、主机玩家不能安装此 Windows 模组，但可在游戏版本兼容时加入房间。</p>\n<h2 id=\"为什么普通玩家看到的基础角色和模组角色不一样\">为什么普通玩家看到的基础角色和模组角色不一样？</h2>\n<p>为兼容原版客户端，房主专属模组可能借用 Among Us 的基础角色能力；基础角色不一定等于 TOHEE 阵营或自定义角色。TOHEE 客户端可通过角色介绍和游戏界面显示更多模组信息。玩家可用 <code>/m</code> 查看自己的角色说明，或按 <code>F1</code>（标准模式）查看信息。具体显示会依客户端和角色而不同。</p>\n<h2 id=\"cloud-标签会授予房主权限吗\">Cloud 标签会授予房主权限吗？</h2>\n<p>不会。Cloud 网页标签是绑定账号的文字和颜色设置；模组本地权限配置是另一套功能。请见<a href=\"/TOHEE-Docs/main/#/docs/guide-tags\" rel=\"noopener noreferrer\">玩家标签说明</a>和<a href=\"/TOHEE-Docs/main/#/docs/cloud-overview\" rel=\"noopener noreferrer\">Cloud 指南</a>。</p>\n<h2 id=\"game-master-gm-是什么\">Game Master（GM）是什么？</h2>\n<p>房主可以在玩家的本地标签文件中设置 <code>AssignGameMaster: true</code>，让该玩家在开局时获得 GM 身份。命令权限通过 <code>PermissionLevel</code> 和各项命令开关设置，详见<a href=\"/TOHEE-Docs/main/#/docs/guide-local-tags\" rel=\"noopener noreferrer\">本地标签与权限</a>。</p>\n<h2 id=\"如何获取日志\">如何获取日志？</h2>\n<p>在游戏中输入 <code>/dump</code>，或按 <code>Ctrl</code> + <code>F1</code> 导出模组日志。如果游戏未能导出，请在 Among Us 目录中查看 <code>BepInEx/LogOutput.log</code>。提交问题时描述复现步骤和游戏/模组版本；不要公开分享账号密码或令牌。</p>\n<h2 id=\"为什么会出现重复角色\">为什么会出现重复角色？</h2>\n<p>检查该角色的最大数量和出现几率。若最大数量高于 1，或多个玩家都满足分配条件，重复分配可能是选项结果而非错误。</p>\n<h2 id=\"为什么加入房间后提示版本不兼容\">为什么加入房间后提示版本不兼容？</h2>\n<p>房主与加入者必须使用兼容的 Among Us 版本；房主还要使用支持该游戏版本的 TOHEE 发行包。更新游戏后，请从<a href=\"https://github.com/AmongLLM/TownofHost-Enhanced-Enhanced/releases\" rel=\"noopener noreferrer\">发行页</a>查看适配版本。</p>\n<h2 id=\"哪里可以找到更具体的帮助\">哪里可以找到更具体的帮助？</h2>\n<p>先查看<a href=\"/TOHEE-Docs/main/#/docs/guide-troubleshooting\" rel=\"noopener noreferrer\">故障排查</a>。若问题仍存在，请在 TOHEE 社区反馈并附上相关日志；旧上游 Discord 频道或邀请链接不一定仍有效，请从当前 TOHEE 项目页面查找社区入口。</p>\n",
+  "headings": [
+    {
+      "id": "什么是房主专属模组",
+      "text": "什么是房主专属模组？",
+      "level": 2
+    },
+    {
+      "id": "所有人都需要安装-tohee-吗",
+      "text": "所有人都需要安装 TOHEE 吗？",
+      "level": 2
+    },
+    {
+      "id": "为什么普通玩家看到的基础角色和模组角色不一样",
+      "text": "为什么普通玩家看到的基础角色和模组角色不一样？",
+      "level": 2
+    },
+    {
+      "id": "cloud-标签会授予房主权限吗",
+      "text": "Cloud 标签会授予房主权限吗？",
+      "level": 2
+    },
+    {
+      "id": "game-master-gm-是什么",
+      "text": "Game Master（GM）是什么？",
+      "level": 2
+    },
+    {
+      "id": "如何获取日志",
+      "text": "如何获取日志？",
+      "level": 2
+    },
+    {
+      "id": "为什么会出现重复角色",
+      "text": "为什么会出现重复角色？",
+      "level": 2
+    },
+    {
+      "id": "为什么加入房间后提示版本不兼容",
+      "text": "为什么加入房间后提示版本不兼容？",
+      "level": 2
+    },
+    {
+      "id": "哪里可以找到更具体的帮助",
+      "text": "哪里可以找到更具体的帮助？",
+      "level": 2
+    }
+  ]
+}
